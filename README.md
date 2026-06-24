@@ -9,7 +9,7 @@
 
 [丹阳市蓝星防腐清洗有限公司](https://www.lanxingqingxi.com)成立于 **2001 年**，是中国工业清洗协会成员单位，集工业设备清洗、防腐处理、技术咨询与产品研发于一体的专业化清洗服务企业。
 
-公司拥有化学清洗、高压水射流清洗（500-2800 bar）、PIG 管道清洗、导热油系统除焦、溴化锂溶液再生等 9 大核心技术，服务覆盖化工、电力、钢铁、制药、食品、商业建筑等行业。已完成 **500+ 企业客户** 和 **1000+ 工程项目**。
+公司拥有化学清洗、高压水射流清洗（500-2800 bar）、PIG 管道清洗、导热油系统除焦、溴化锂溶液再生、蒸发式冷凝器除垢等 10 大核心技术，服务覆盖化工、电力、钢铁、制药、食品、商业建筑等行业。已完成 **500+ 企业客户** 和 **1000+ 工程项目**。
 
 📞 **24 小时热线**: +86 18952832843  
 📧 **邮箱**: luohuiyong@126.com  
@@ -39,7 +39,7 @@
 
 ## 核心技术 | Core Technologies
 
-公司拥有 **9 大专业清洗技术**，覆盖工业设备清洗全场景：
+公司拥有 **10 大专业清洗技术**，覆盖工业设备清洗全场景：
 
 1. **[常温带压不停车化学清洗](https://www.lanxingqingxi.com/tech/normal-temp-nonstop-cleaning.html)** — 设备运行中完成除垢，零停工零产能损失
 2. **[循环冷却水不停车清洗](https://www.lanxingqingxi.com/tech/cooling-water-nonstop-cleaning.html)** — 在线清洗+预膜+水质稳定，不停产全系统覆盖
@@ -50,6 +50,7 @@
 7. **[煤气初冷器装置清洗](https://www.lanxingqingxi.com/tech/gas-primary-cooler-tech.html)** — 焦油垢萘垢专业清洗
 8. **[溴化锂溶液再生](https://www.lanxingqingxi.com/tech/lithium-bromide-solution-regeneration.html)** — 离子交换净化+缓蚀剂补充
 9. **[溴化锂机组内腔清洗](https://www.lanxingqingxi.com/tech/lithium-bromide-cavity-cleaning.html)** — 各腔体中性清洗
+10. **[蒸发式冷凝器除垢清洗](https://www.lanxingqingxi.com/tech/evaporative-condenser-descaling.html)** — 化学软化+高压水射流组合，镀锌层保护工艺
 
 🔬 **[全部核心技术](https://www.lanxingqingxi.com/tech.html)** | **[English Tech](https://www.lanxingqingxi.com/en/tech.html)**
 
@@ -82,13 +83,20 @@
 
 ## 清洗资讯 | Industry Insights
 
-定期发布工业设备清洗专业知识与技术动态：
+定期发布工业设备清洗专业知识与技术动态（**35 篇**技术文章）：
 
-- [列管式换热器化学清洗完整指南](https://www.lanxingqingxi.com/blog/shell-and-tube-heat-exchanger-cleaning.html)
-- [反应釜清洗方案与操作规程](https://www.lanxingqingxi.com/blog/reactor-cleaning.html)
-- [中央空调清洗维保技术指南](https://www.lanxingqingxi.com/blog/central-air-conditioning-cleaning.html)
+- [化工行业设备清洗方案：反应釜与换热器](https://www.lanxingqingxi.com/blog/chemical-industry-reactor-heat-exchanger-cleaning.html)
+- [化学清洗技术全解析：原理、药剂体系与工程应用](https://www.lanxingqingxi.com/blog/chemical-cleaning-technology.html)
+- [高压水射流清洗技术全解析：原理、参数与应用](https://www.lanxingqingxi.com/blog/high-pressure-waterjet.html)
+- [工业清洗缓蚀剂作用机理与选型指南](https://www.lanxingqingxi.com/blog/corrosion-inhibitor-selection-guide.html)
+- [套管式换热器在线化学清洗技术](https://www.lanxingqingxi.com/blog/double-pipe-heat-exchanger-online-cleaning.html)
+- [工业设备清洗费用参考指南](https://www.lanxingqingxi.com/blog/cleaning-cost-guide.html)
+- [螺旋板式换热器清洗难点与对策](https://www.lanxingqingxi.com/blog/spiral-plate-cleaning.html)
+- [板式换热器拆洗与化学清洗方案](https://www.lanxingqingxi.com/blog/plate-heat-exchanger-cleaning.html)
+- [氟化物在溴化锂机组腔体清洗的应用](https://www.lanxingqingxi.com/blog/fluoride-lithium-bromide.html)
+- [电厂凝汽器化学清洗与高压水射流清洗技术](https://www.lanxingqingxi.com/blog/power-plant-condenser-cleaning.html)
 
-📰 **[清洗资讯专栏](https://www.lanxingqingxi.com/blog/blog-list.html)**
+📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
 ---
 
@@ -99,7 +107,7 @@
 - Sitemap: [sitemap.xml](https://www.lanxingqingxi.com/sitemap.xml)
 - AI 可读: [llms.txt](https://www.lanxingqingxi.com/llms.txt) | [llms-full.txt](https://www.lanxingqingxi.com/llms-full.txt)
 - RSS: [rss.xml](https://www.lanxingqingxi.com/rss.xml)
-- Robots: [robots.txt](https://www.lanxingqingxi.com/robots.txt) (76 AI crawlers whitelisted)
+- Robots: [robots.txt](https://www.lanxingqingxi.com/robots.txt) (148 AI crawlers whitelisted — auto-synced weekly)
 
 ---
 
