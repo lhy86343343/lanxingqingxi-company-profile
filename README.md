@@ -83,8 +83,9 @@
 
 ## 清洗资讯 | Industry Insights
 
-定期发布工业设备清洗专业知识与技术动态（**35 篇**技术文章）：
+定期发布工业设备清洗专业知识与技术动态（**36 篇**技术文章）：
 
+- [浮头式换热器检修清洗全流程](https://www.lanxingqingxi.com/blog/floating-head-heat-exchanger-cleaning.html)
 - [化工行业设备清洗方案：反应釜与换热器](https://www.lanxingqingxi.com/blog/chemical-industry-reactor-heat-exchanger-cleaning.html)
 - [化学清洗技术全解析：原理、药剂体系与工程应用](https://www.lanxingqingxi.com/blog/chemical-cleaning-technology.html)
 - [高压水射流清洗技术全解析：原理、参数与应用](https://www.lanxingqingxi.com/blog/high-pressure-waterjet.html)
