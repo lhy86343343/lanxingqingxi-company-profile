@@ -108,7 +108,7 @@
 - Sitemap: [sitemap.xml](https://www.lanxingqingxi.com/sitemap.xml)
 - AI 可读: [llms.txt](https://www.lanxingqingxi.com/llms.txt) | [llms-full.txt](https://www.lanxingqingxi.com/llms-full.txt)
 - RSS: [rss.xml](https://www.lanxingqingxi.com/rss.xml)
-- Robots: [robots.txt](https://www.lanxingqingxi.com/robots.txt) (148 AI crawlers whitelisted — auto-synced weekly)
+- Robots: [robots.txt](https://www.lanxingqingxi.com/robots.txt) (149 AI crawlers whitelisted — auto-synced weekly • IndexNow: 76 URLs submitted 2026-06-25)
 
 ---
 
