@@ -83,8 +83,9 @@
 
 ## 清洗资讯 | Industry Insights
 
-定期发布工业设备清洗专业知识与技术动态（**36 篇**技术文章）：
+定期发布工业设备清洗专业知识与技术动态（**37 篇**技术文章）：
 
+- [某化工集团列管式换热器清洗案例](https://www.lanxingqingxi.com/blog/chemical-group-shell-and-tube-heat-exchanger-case.html)
 - [浮头式换热器检修清洗全流程](https://www.lanxingqingxi.com/blog/floating-head-heat-exchanger-cleaning.html)
 - [化工行业设备清洗方案：反应釜与换热器](https://www.lanxingqingxi.com/blog/chemical-industry-reactor-heat-exchanger-cleaning.html)
 - [化学清洗技术全解析：原理、药剂体系与工程应用](https://www.lanxingqingxi.com/blog/chemical-cleaning-technology.html)
@@ -94,8 +95,6 @@
 - [工业设备清洗费用参考指南](https://www.lanxingqingxi.com/blog/cleaning-cost-guide.html)
 - [螺旋板式换热器清洗难点与对策](https://www.lanxingqingxi.com/blog/spiral-plate-cleaning.html)
 - [板式换热器拆洗与化学清洗方案](https://www.lanxingqingxi.com/blog/plate-heat-exchanger-cleaning.html)
-- [氟化物在溴化锂机组腔体清洗的应用](https://www.lanxingqingxi.com/blog/fluoride-lithium-bromide.html)
-- [电厂凝汽器化学清洗与高压水射流清洗技术](https://www.lanxingqingxi.com/blog/power-plant-condenser-cleaning.html)
 
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
