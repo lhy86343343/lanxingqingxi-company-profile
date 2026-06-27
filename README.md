@@ -83,8 +83,9 @@
 
 ## 清洗资讯 | Industry Insights
 
-定期发布工业设备清洗专业知识与技术动态（**38 篇**技术文章）：
+定期发布工业设备清洗专业知识与技术动态（**34 篇**技术文章）：
 
+- [工业蒸汽锅炉化学除垢技术](https://www.lanxingqingxi.com/blog/industrial-steam-boiler-chemical-descaling.html)
 - [南京中央空调清洗维保服务](https://www.lanxingqingxi.com/blog/nanjing-central-ac-cleaning.html)
 - [某化工集团列管式换热器清洗案例](https://www.lanxingqingxi.com/blog/chemical-group-shell-and-tube-heat-exchanger-case.html)
 - [浮头式换热器检修清洗全流程](https://www.lanxingqingxi.com/blog/floating-head-heat-exchanger-cleaning.html)
@@ -94,7 +95,6 @@
 - [工业清洗缓蚀剂作用机理与选型指南](https://www.lanxingqingxi.com/blog/corrosion-inhibitor-selection-guide.html)
 - [套管式换热器在线化学清洗技术](https://www.lanxingqingxi.com/blog/double-pipe-heat-exchanger-online-cleaning.html)
 - [工业设备清洗费用参考指南](https://www.lanxingqingxi.com/blog/cleaning-cost-guide.html)
-- [螺旋板式换热器清洗难点与对策](https://www.lanxingqingxi.com/blog/spiral-plate-cleaning.html)
 
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
