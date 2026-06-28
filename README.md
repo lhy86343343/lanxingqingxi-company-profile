@@ -82,6 +82,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [南京工业锅炉清洗除垢服务](https://www.lanxingqingxi.com/blog/nanjing-boiler-cleaning.html)
 
 定期发布工业设备清洗专业知识与技术动态（**34 篇**技术文章）：
 
