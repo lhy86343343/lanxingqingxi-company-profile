@@ -1,7 +1,7 @@
 # 丹阳蓝星清洗 — 工业设备清洗专家
 
 > **Danyang Blue Star Anti-corrosion Cleaning Co., Ltd.**  
-> Founded 2001 | China Industrial Cleaning Association Member | 20+ Years of Expertise
+> Founded 2001 | China Industrial Cleaning Association Member | 25+ Years of Expertise
 
 ---
 
