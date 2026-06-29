@@ -82,10 +82,12 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [铜管凝汽器专用清洗与缓蚀保护技术](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning.html)
+- [Copper Tube Condenser Cleaning & Corrosion Inhibition](https://www.lanxingqingxi.com/en/blog/copper-tube-condenser-cleaning.html)
 - [苏州蒸发式冷凝器化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/suzhou-evaporative-condenser-cleaning.html)
 - [南京工业锅炉清洗除垢服务](https://www.lanxingqingxi.com/blog/nanjing-boiler-cleaning.html)
 
-定期发布工业设备清洗专业知识与技术动态（**36 篇**技术文章）：
+定期发布工业设备清洗专业知识与技术动态（**37 篇**技术文章）：
 
 - [工业蒸汽锅炉化学除垢技术](https://www.lanxingqingxi.com/blog/industrial-steam-boiler-chemical-descaling.html)
 - [南京中央空调清洗维保服务](https://www.lanxingqingxi.com/blog/nanjing-central-ac-cleaning.html)
