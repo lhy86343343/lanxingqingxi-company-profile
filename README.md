@@ -82,12 +82,14 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [电力行业设备清洗方案：凝汽器与锅炉](https://www.lanxingqingxi.com/blog/power-plant-cleaning.html)
+- [Power Plant Equipment Cleaning: Condensers & Boilers](https://www.lanxingqingxi.com/en/blog/power-plant-cleaning.html)
 - [铜管凝汽器专用清洗与缓蚀保护技术](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning.html)
 - [Copper Tube Condenser Cleaning & Corrosion Inhibition](https://www.lanxingqingxi.com/en/blog/copper-tube-condenser-cleaning.html)
 - [苏州蒸发式冷凝器化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/suzhou-evaporative-condenser-cleaning.html)
 - [南京工业锅炉清洗除垢服务](https://www.lanxingqingxi.com/blog/nanjing-boiler-cleaning.html)
 
-定期发布工业设备清洗专业知识与技术动态（**37 篇**技术文章）：
+定期发布工业设备清洗专业知识与技术动态（**39 篇**技术文章）：
 
 - [工业蒸汽锅炉化学除垢技术](https://www.lanxingqingxi.com/blog/industrial-steam-boiler-chemical-descaling.html)
 - [南京中央空调清洗维保服务](https://www.lanxingqingxi.com/blog/nanjing-central-ac-cleaning.html)
@@ -97,8 +99,6 @@
 - [浮头式换热器检修清洗全流程](https://www.lanxingqingxi.com/blog/floating-head-heat-exchanger-cleaning.html)
 - [苏州工业设备清洗服务方案](https://www.lanxingqingxi.com/blog/suzhou-industrial-equipment-cleaning.html)
 - [化工行业设备清洗方案：反应釜与换热器](https://www.lanxingqingxi.com/blog/chemical-industry-reactor-heat-exchanger-cleaning.html)
-- [工业设备清洗的必要性](https://www.lanxingqingxi.com/blog/equipment.html)
-- [化学清洗技术全解析：原理、药剂体系与工程应用](https://www.lanxingqingxi.com/blog/chemical-cleaning-technology.html)
 
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
