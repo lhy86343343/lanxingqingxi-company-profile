@@ -92,13 +92,13 @@
 - [工业蒸汽锅炉化学除垢技术](https://www.lanxingqingxi.com/blog/industrial-steam-boiler-chemical-descaling.html)
 - [南京中央空调清洗维保服务](https://www.lanxingqingxi.com/blog/nanjing-central-ac-cleaning.html)
 - [某化工集团列管式换热器清洗案例](https://www.lanxingqingxi.com/blog/chemical-group-shell-and-tube-heat-exchanger-case.html)
+- [徐州换热器清洗与凝汽器清洗服务](https://www.lanxingqingxi.com/blog/xuzhou-heat-exchanger-condenser-cleaning.html)
+- [无锡换热器清洗与凝汽器清洗服务](https://www.lanxingqingxi.com/blog/wuxi-heat-exchanger-condenser-cleaning.html)
 - [浮头式换热器检修清洗全流程](https://www.lanxingqingxi.com/blog/floating-head-heat-exchanger-cleaning.html)
+- [苏州工业设备清洗服务方案](https://www.lanxingqingxi.com/blog/suzhou-industrial-equipment-cleaning.html)
 - [化工行业设备清洗方案：反应釜与换热器](https://www.lanxingqingxi.com/blog/chemical-industry-reactor-heat-exchanger-cleaning.html)
+- [工业设备清洗的必要性](https://www.lanxingqingxi.com/blog/equipment.html)
 - [化学清洗技术全解析：原理、药剂体系与工程应用](https://www.lanxingqingxi.com/blog/chemical-cleaning-technology.html)
-- [高压水射流清洗技术全解析：原理、参数与应用](https://www.lanxingqingxi.com/blog/high-pressure-waterjet.html)
-- [工业清洗缓蚀剂作用机理与选型指南](https://www.lanxingqingxi.com/blog/corrosion-inhibitor-selection-guide.html)
-- [套管式换热器在线化学清洗技术](https://www.lanxingqingxi.com/blog/double-pipe-heat-exchanger-online-cleaning.html)
-- [工业设备清洗费用参考指南](https://www.lanxingqingxi.com/blog/cleaning-cost-guide.html)
 
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
@@ -111,7 +111,7 @@
 - Sitemap: [sitemap.xml](https://www.lanxingqingxi.com/sitemap.xml)
 - AI 可读: [llms.txt](https://www.lanxingqingxi.com/llms.txt) | [llms-full.txt](https://www.lanxingqingxi.com/llms-full.txt)
 - RSS: [rss.xml](https://www.lanxingqingxi.com/rss.xml)
-- Robots: [robots.txt](https://www.lanxingqingxi.com/robots.txt) (149 AI crawlers whitelisted — auto-synced weekly • IndexNow: 76 URLs submitted 2026-06-25)
+- Robots: [robots.txt](https://www.lanxingqingxi.com/robots.txt) (150 AI crawlers whitelisted — auto-synced weekly • IndexNow: 76 URLs submitted 2026-06-25)
 
 ---
 
@@ -128,5 +128,5 @@
 
 ---
 
-> *丹阳蓝星清洗 — 20 年专注，值得信赖的工业设备清洗合作伙伴*  
+> *丹阳蓝星清洗 — 25 年专注，值得信赖的工业设备清洗合作伙伴*  
 > *Danyang Blue Star Cleaning — Your Trusted Industrial Equipment Cleaning Partner Since 2001*
