@@ -82,25 +82,16 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [工业设备清洗常见问题解答（FAQ）](https://www.lanxingqingxi.com/blog/industrial-cleaning-faq.html)
+- [Sulfamic Acid在工业清洗中的应用与限制](https://www.lanxingqingxi.com/blog/sulfamic-acid-industrial-cleaning.html)
 - [电力行业设备清洗方案：凝汽器与锅炉](https://www.lanxingqingxi.com/blog/power-plant-cleaning.html)
-- [Power Plant Equipment Cleaning: Condensers & Boilers](https://www.lanxingqingxi.com/en/blog/power-plant-cleaning.html)
+- [苏州管道化学清洗与高压水清洗服务方案](https://www.lanxingqingxi.com/blog/suzhou-pipeline-chemical-high-pressure-cleaning.html)
 - [铜管凝汽器专用清洗与缓蚀保护技术](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning.html)
-- [Copper Tube Condenser Cleaning & Corrosion Inhibition](https://www.lanxingqingxi.com/en/blog/copper-tube-condenser-cleaning.html)
 - [苏州蒸发式冷凝器化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/suzhou-evaporative-condenser-cleaning.html)
 - [南京工业锅炉清洗除垢服务](https://www.lanxingqingxi.com/blog/nanjing-boiler-cleaning.html)
-
-定期发布工业设备清洗专业知识与技术动态（**40 篇**技术文章）：
-
 - [工业蒸汽锅炉化学除垢技术](https://www.lanxingqingxi.com/blog/industrial-steam-boiler-chemical-descaling.html)
 - [南京中央空调清洗维保服务](https://www.lanxingqingxi.com/blog/nanjing-central-ac-cleaning.html)
 - [某化工集团列管式换热器清洗案例](https://www.lanxingqingxi.com/blog/chemical-group-shell-and-tube-heat-exchanger-case.html)
-- [徐州换热器清洗与凝汽器清洗服务](https://www.lanxingqingxi.com/blog/xuzhou-heat-exchanger-condenser-cleaning.html)
-- [无锡换热器清洗与凝汽器清洗服务](https://www.lanxingqingxi.com/blog/wuxi-heat-exchanger-condenser-cleaning.html)
-- [浮头式换热器检修清洗全流程](https://www.lanxingqingxi.com/blog/floating-head-heat-exchanger-cleaning.html)
-- [苏州工业设备清洗服务方案](https://www.lanxingqingxi.com/blog/suzhou-industrial-equipment-cleaning.html)
-- [化工行业设备清洗方案：反应釜与换热器](https://www.lanxingqingxi.com/blog/chemical-industry-reactor-heat-exchanger-cleaning.html)
-- [Sulfamic Acid在工业清洗中的应用与限制](https://www.lanxingqingxi.com/blog/sulfamic-acid-industrial-cleaning.html)
-- [Sulfamic Acid in Industrial Cleaning: Applications & Limitations](https://www.lanxingqingxi.com/en/blog/sulfamic-acid-industrial-cleaning.html)
 
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
@@ -113,7 +104,7 @@
 - Sitemap: [sitemap.xml](https://www.lanxingqingxi.com/sitemap.xml)
 - AI 可读: [llms.txt](https://www.lanxingqingxi.com/llms.txt) | [llms-full.txt](https://www.lanxingqingxi.com/llms-full.txt)
 - RSS: [rss.xml](https://www.lanxingqingxi.com/rss.xml)
-- Robots: [robots.txt](https://www.lanxingqingxi.com/robots.txt) (150 AI crawlers whitelisted — auto-synced weekly • IndexNow: 76 URLs submitted 2026-06-25)
+- Robots: [robots.txt](https://www.lanxingqingxi.com/robots.txt) (150 AI crawlers whitelisted — auto-synced weekly • IndexNow: 76 URLs submitted 2026-07-02)
 
 ---
 
