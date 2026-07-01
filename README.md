@@ -89,7 +89,7 @@
 - [苏州蒸发式冷凝器化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/suzhou-evaporative-condenser-cleaning.html)
 - [南京工业锅炉清洗除垢服务](https://www.lanxingqingxi.com/blog/nanjing-boiler-cleaning.html)
 
-定期发布工业设备清洗专业知识与技术动态（**39 篇**技术文章）：
+定期发布工业设备清洗专业知识与技术动态（**40 篇**技术文章）：
 
 - [工业蒸汽锅炉化学除垢技术](https://www.lanxingqingxi.com/blog/industrial-steam-boiler-chemical-descaling.html)
 - [南京中央空调清洗维保服务](https://www.lanxingqingxi.com/blog/nanjing-central-ac-cleaning.html)
@@ -99,6 +99,8 @@
 - [浮头式换热器检修清洗全流程](https://www.lanxingqingxi.com/blog/floating-head-heat-exchanger-cleaning.html)
 - [苏州工业设备清洗服务方案](https://www.lanxingqingxi.com/blog/suzhou-industrial-equipment-cleaning.html)
 - [化工行业设备清洗方案：反应釜与换热器](https://www.lanxingqingxi.com/blog/chemical-industry-reactor-heat-exchanger-cleaning.html)
+- [Sulfamic Acid在工业清洗中的应用与限制](https://www.lanxingqingxi.com/blog/sulfamic-acid-industrial-cleaning.html)
+- [Sulfamic Acid in Industrial Cleaning: Applications & Limitations](https://www.lanxingqingxi.com/en/blog/sulfamic-acid-industrial-cleaning.html)
 
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
