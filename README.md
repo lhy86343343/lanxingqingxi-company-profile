@@ -82,6 +82,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [空冷器高压水射流清洗方案](https://www.lanxingqingxi.com/blog/air-cooler-cleaning.html)
 - [常州反应釜清洗与钝化处理服务](https://www.lanxingqingxi.com/blog/changzhou-reactor-cleaning-passivation.html)
 - [工业设备清洗常见问题解答（FAQ）](https://www.lanxingqingxi.com/blog/industrial-cleaning-faq.html)
 - [Sulfamic Acid在工业清洗中的应用与限制](https://www.lanxingqingxi.com/blog/sulfamic-acid-industrial-cleaning.html)
