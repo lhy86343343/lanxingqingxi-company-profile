@@ -82,6 +82,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [常州反应釜清洗与钝化处理服务](https://www.lanxingqingxi.com/blog/changzhou-reactor-cleaning-passivation.html)
 - [工业设备清洗常见问题解答（FAQ）](https://www.lanxingqingxi.com/blog/industrial-cleaning-faq.html)
 - [Sulfamic Acid在工业清洗中的应用与限制](https://www.lanxingqingxi.com/blog/sulfamic-acid-industrial-cleaning.html)
 - [电力行业设备清洗方案：凝汽器与锅炉](https://www.lanxingqingxi.com/blog/power-plant-cleaning.html)
