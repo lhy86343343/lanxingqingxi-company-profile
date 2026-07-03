@@ -82,9 +82,9 @@
 ---
 
 ## 清洗资讯 | Industry Insights
-- [空冷器高压水射流清洗方案](https://www.lanxingqingxi.com/blog/air-cooler-cleaning.html)
+- [返修零件重油污清洗案例](https://www.lanxingqingxi.com/blog/return-parts-heavy-oil-cleaning.html)
+- [空冷器高压水射流清洗方案 — 翅片管束除垢与效率恢复技术](https://www.lanxingqingxi.com/blog/air-cooler-cleaning.html)
 - [常州反应釜清洗与钝化处理服务](https://www.lanxingqingxi.com/blog/changzhou-reactor-cleaning-passivation.html)
-- [工业设备清洗常见问题解答（FAQ）](https://www.lanxingqingxi.com/blog/industrial-cleaning-faq.html)
 - [Sulfamic Acid在工业清洗中的应用与限制](https://www.lanxingqingxi.com/blog/sulfamic-acid-industrial-cleaning.html)
 - [电力行业设备清洗方案：凝汽器与锅炉](https://www.lanxingqingxi.com/blog/power-plant-cleaning.html)
 - [苏州管道化学清洗与高压水清洗服务方案](https://www.lanxingqingxi.com/blog/suzhou-pipeline-chemical-high-pressure-cleaning.html)
@@ -92,13 +92,8 @@
 - [苏州蒸发式冷凝器化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/suzhou-evaporative-condenser-cleaning.html)
 - [南京工业锅炉清洗除垢服务](https://www.lanxingqingxi.com/blog/nanjing-boiler-cleaning.html)
 - [工业蒸汽锅炉化学除垢技术](https://www.lanxingqingxi.com/blog/industrial-steam-boiler-chemical-descaling.html)
-- [南京中央空调清洗维保服务](https://www.lanxingqingxi.com/blog/nanjing-central-ac-cleaning.html)
-- [某化工集团列管式换热器清洗案例](https://www.lanxingqingxi.com/blog/chemical-group-shell-and-tube-heat-exchanger-case.html)
 
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
-
----
-
 ## 网站技术信息 | Technical Info
 
 - 官网: [www.lanxingqingxi.com](https://www.lanxingqingxi.com)
