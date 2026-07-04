@@ -10,8 +10,6 @@
 
 ---
 
-
-
 ## 公司简介 | About Us
 
 
@@ -35,8 +33,6 @@
 
 
 ---
-
-
 
 ## 核心服务 | Core Services
 
@@ -74,8 +70,6 @@
 
 ---
 
-
-
 ## 核心技术 | Core Technologies
 
 
@@ -112,8 +106,6 @@
 
 ---
 
-
-
 ## 服务区域 | Service Areas
 
 
@@ -123,8 +115,6 @@
 
 
 ---
-
-
 
 ## 典型客户 | Client Portfolio
 
@@ -139,8 +129,6 @@
 
 
 ---
-
-
 
 ## 公司资质 | Credentials
 
@@ -162,9 +150,8 @@
 
 ---
 
-
-
 ## 清洗资讯 | Industry Insights
+- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html)
 - [无锡中央空调系统清洗维护](https://www.lanxingqingxi.com/blog/wuxi-central-ac-cleaning.html)
 - [返修零件重油污清洗案例](https://www.lanxingqingxi.com/blog/return-parts-heavy-oil-cleaning.html)
 - [空冷器高压水射流清洗方案 — 翅片管束除垢与效率恢复技术](https://www.lanxingqingxi.com/blog/air-cooler-cleaning.html)
@@ -174,8 +161,6 @@
 - [电力行业设备清洗方案：凝汽器与锅炉](https://www.lanxingqingxi.com/blog/power-plant-cleaning.html)
 - [苏州管道化学清洗与高压水清洗服务方案](https://www.lanxingqingxi.com/blog/suzhou-pipeline-chemical-high-pressure-cleaning.html)
 - [铜管凝汽器专用清洗与缓蚀保护技术](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning.html)
-- [苏州蒸发式冷凝器化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/suzhou-evaporative-condenser-cleaning.html)
-- [南京工业锅炉清洗除垢服务](https://www.lanxingqingxi.com/blog/nanjing-boiler-cleaning.html)
 
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 ## 网站技术信息 | Technical Info
@@ -192,13 +177,11 @@
 
 - RSS: [rss.xml](https://www.lanxingqingxi.com/rss.xml)
 
-- Robots: [robots.txt](https://www.lanxingqingxi.com/robots.txt) (171 AI crawlers whitelisted — auto-synced weekly • IndexNow: 76 URLs submitted 2026-07-03)
+- Robots: [robots.txt](https://www.lanxingqingxi.com/robots.txt) (171 AI crawlers whitelisted — auto-synced weekly • IndexNow: 76 URLs submitted 2026-07-05)
 
 
 
 ---
-
-
 
 ## 联系我们 | Contact
 
@@ -224,9 +207,6 @@
 
 ---
 
-
-
 > *丹阳蓝星清洗 — 25 年专注，值得信赖的工业设备清洗合作伙伴*  
 
 > *Danyang Blue Star Cleaning — Your Trusted Industrial Equipment Cleaning Partner Since 2001*
-
