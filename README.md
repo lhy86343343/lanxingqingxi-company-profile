@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [余热锅炉换热管束清洗工艺](https://www.lanxingqingxi.com/blog/waste-heat-boiler-tube-bundle-cleaning.html)
 - [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html)
 - [无锡中央空调系统清洗维护](https://www.lanxingqingxi.com/blog/wuxi-central-ac-cleaning.html)
 - [返修零件重油污清洗案例](https://www.lanxingqingxi.com/blog/return-parts-heavy-oil-cleaning.html)
