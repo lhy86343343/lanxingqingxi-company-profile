@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [设备清洗周期选择与预防性维护](https://www.lanxingqingxi.com/blog/equipment-cleaning-cycle-maintenance.html)
 - [化学清洗 vs 高压水射流清洗：如何选择？](https://www.lanxingqingxi.com/blog/chemical-vs-water-jet-cleaning.html)
 - [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html)
 - [余热锅炉换热管束清洗工艺](https://www.lanxingqingxi.com/blog/waste-heat-boiler-tube-bundle-cleaning.html)
@@ -161,7 +162,6 @@
 - [工业设备清洗常见问题解答（FAQ）](https://www.lanxingqingxi.com/blog/industrial-cleaning-faq.html)
 - [Sulfamic Acid在工业清洗中的应用与限制](https://www.lanxingqingxi.com/blog/sulfamic-acid-industrial-cleaning.html)
 - [电力行业设备清洗方案：凝汽器与锅炉](https://www.lanxingqingxi.com/blog/power-plant-cleaning.html)
-- [铜管凝汽器专用清洗与缓蚀保护技术](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning.html)
 
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 ## 网站技术信息 | Technical Info
