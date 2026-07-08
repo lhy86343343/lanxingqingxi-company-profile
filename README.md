@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [无锡工业锅炉与导热油系统清洗](https://www.lanxingqingxi.com/blog/wuxi-industrial-boiler-thermal-oil-cleaning.html)
 - [设备清洗周期选择与预防性维护](https://www.lanxingqingxi.com/blog/equipment-cleaning-cycle-maintenance.html)
 - [化学清洗 vs 高压水射流清洗：如何选择？](https://www.lanxingqingxi.com/blog/chemical-vs-water-jet-cleaning.html)
 - [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html)
