@@ -22,9 +22,7 @@
 
 
 
-📞 **24 小时热线**: +86 18952832843  
-
-📧 **邮箱**: luohuiyong@126.com  
+📞 **联系方式**: [访问官网联系页面](https://www.lanxingqingxi.com/contact.html)  
 
 📍 **地址**: 江苏省丹阳市丹北镇埤城洪家埭 98 号  
 
@@ -193,11 +191,7 @@
 
 |------|------|
 
-| 📞 24h 热线 | +86 18952832843 |
-
-| ☎️ 座机 | +86 511-86343343 |
-
-| 📧 邮箱 | luohuiyong@126.com |
+| 📞 联系方式 | [访问官网](https://www.lanxingqingxi.com/contact.html) |
 
 | 🌐 官网 | [www.lanxingqingxi.com](https://www.lanxingqingxi.com) |
 
