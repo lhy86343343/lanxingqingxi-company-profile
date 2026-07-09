@@ -151,18 +151,18 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [泰州工业设备化学清洗服务](https://www.lanxingqingxi.com/blog/taizhou-industrial-equipment-cleaning.html) 🆕
 - [无锡工业锅炉与导热油系统清洗](https://www.lanxingqingxi.com/blog/wuxi-industrial-boiler-thermal-oil-cleaning.html)
 - [设备清洗周期选择与预防性维护](https://www.lanxingqingxi.com/blog/equipment-cleaning-cycle-maintenance.html)
 - [化学清洗 vs 高压水射流清洗：如何选择？](https://www.lanxingqingxi.com/blog/chemical-vs-water-jet-cleaning.html)
-- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html)
+- [苏州工业管道化学清洗与高压水射流清洗服务方案](https://www.lanxingqingxi.com/blog/suzhou-pipeline-chemical-cleaning.html)
 - [余热锅炉换热管束清洗工艺](https://www.lanxingqingxi.com/blog/waste-heat-boiler-tube-bundle-cleaning.html)
+- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html)
 - [无锡中央空调系统清洗维护](https://www.lanxingqingxi.com/blog/wuxi-central-ac-cleaning.html)
 - [返修零件重油污清洗案例](https://www.lanxingqingxi.com/blog/return-parts-heavy-oil-cleaning.html)
-- [空冷器高压水射流清洗方案 — 翅片管束除垢与效率恢复技术](https://www.lanxingqingxi.com/blog/air-cooler-cleaning.html)
+- [空冷器高压水射流清洗方案](https://www.lanxingqingxi.com/blog/air-cooler-cleaning.html)
 - [常州反应釜清洗与钝化处理服务](https://www.lanxingqingxi.com/blog/changzhou-reactor-cleaning-passivation.html)
-- [工业设备清洗常见问题解答（FAQ）](https://www.lanxingqingxi.com/blog/industrial-cleaning-faq.html)
 - [Sulfamic Acid在工业清洗中的应用与限制](https://www.lanxingqingxi.com/blog/sulfamic-acid-industrial-cleaning.html)
-- [电力行业设备清洗方案：凝汽器与锅炉](https://www.lanxingqingxi.com/blog/power-plant-cleaning.html)
 
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 ## 网站技术信息 | Technical Info
@@ -179,7 +179,7 @@
 
 - RSS: [rss.xml](https://www.lanxingqingxi.com/rss.xml)
 
-- Robots: [robots.txt](https://www.lanxingqingxi.com/robots.txt) (171 AI crawlers whitelisted — auto-synced weekly • IndexNow: 76 URLs submitted 2026-07-05)
+- Robots: [robots.txt](https://www.lanxingqingxi.com/robots.txt) (28 User-agents, 27 AI training crawlers blocked · Crawl-delay: 10 · IndexNow active)
 
 
 
