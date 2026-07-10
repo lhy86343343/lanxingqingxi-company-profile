@@ -149,14 +149,14 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) 🆕
 - [铜管凝汽器专用清洗与缓蚀保护](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning.html) — Sulfamic Acid+BTA体系铜管凝汽器清洗技术
-- [泰州工业设备化学清洗服务](https://www.lanxingqingxi.com/blog/taizhou-industrial-equipment-cleaning.html) 🆕
+- [泰州工业设备化学清洗服务](https://www.lanxingqingxi.com/blog/taizhou-industrial-equipment-cleaning.html)
 - [无锡工业锅炉与导热油系统清洗](https://www.lanxingqingxi.com/blog/wuxi-industrial-boiler-thermal-oil-cleaning.html)
 - [设备清洗周期选择与预防性维护](https://www.lanxingqingxi.com/blog/equipment-cleaning-cycle-maintenance.html)
 - [化学清洗 vs 高压水射流清洗：如何选择？](https://www.lanxingqingxi.com/blog/chemical-vs-water-jet-cleaning.html)
 - [苏州工业管道化学清洗与高压水射流清洗服务方案](https://www.lanxingqingxi.com/blog/suzhou-pipeline-chemical-cleaning.html)
 - [余热锅炉换热管束清洗工艺](https://www.lanxingqingxi.com/blog/waste-heat-boiler-tube-bundle-cleaning.html)
-- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html)
 - [无锡中央空调系统清洗维护](https://www.lanxingqingxi.com/blog/wuxi-central-ac-cleaning.html)
 - [返修零件重油污清洗案例](https://www.lanxingqingxi.com/blog/return-parts-heavy-oil-cleaning.html)
 - [空冷器高压水射流清洗方案](https://www.lanxingqingxi.com/blog/air-cooler-cleaning.html)
