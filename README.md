@@ -149,7 +149,8 @@
 ---
 
 ## 清洗资讯 | Industry Insights
-- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) 🆕
+- [扬州工业设备清洗解决方案](https://www.lanxingqingxi.com/blog/yangzhou-industrial-equipment-cleaning.html) 🆕
+- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html)
 - [铜管凝汽器专用清洗与缓蚀保护](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning.html) — Sulfamic Acid+BTA体系铜管凝汽器清洗技术
 - [泰州工业设备化学清洗服务](https://www.lanxingqingxi.com/blog/taizhou-industrial-equipment-cleaning.html)
 - [无锡工业锅炉与导热油系统清洗](https://www.lanxingqingxi.com/blog/wuxi-industrial-boiler-thermal-oil-cleaning.html)
