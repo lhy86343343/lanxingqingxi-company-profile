@@ -1,0 +1,96 @@
+# ══════════════════════════════════════════
+# robots.txt — lanxingqingxi.com
+# ══════════════════════════════════════════
+
+# Allow all search engines (fast crawl)
+User-agent: *
+Allow: /
+Crawl-delay: 3
+
+Sitemap: https://www.lanxingqingxi.com/sitemap.xml
+
+# ══════════════════════════════════════════
+# Block AI Training Data Crawlers
+# ══════════════════════════════════════════
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+User-agent: Crawl4AI
+Disallow: /
+
+User-agent: img2dataset
+Disallow: /
+
+User-agent: LAIONDownloader
+Disallow: /
+
+User-agent: Ai2Bot-Dolma
+Disallow: /
+
+User-agent: SBIntuitionsBot
+Disallow: /
+
+User-agent: FriendlyCrawler
+Disallow: /
+
+User-agent: laion-huggingface-processor
+Disallow: /
+
+User-agent: Panscient
+Disallow: /
+
+User-agent: panscient.com
+Disallow: /
+
+User-agent: chatgpt-crawler
+Disallow: /
+
+# ══════════════════════════════════════════
+# Block AI Coding Agents (no use on this site)
+# ══════════════════════════════════════════
+
+User-agent: Devin
+Disallow: /
+
+User-agent: Manus-User
+Disallow: /
+
+User-agent: opencode
+Disallow: /
+
+User-agent: TwinAgent
+Disallow: /
+
+User-agent: FirecrawlAgent
+Disallow: /
+
+User-agent: CursorBot
+Disallow: /
+
+User-agent: CodeiumBot
+Disallow: /
+
+User-agent: WindsurfBot
+Disallow: /
+
+User-agent: SourcegraphCrawler
+Disallow: /
+
+User-agent: ReplitBot
+Disallow: /
+
+User-agent: TabnineBot
+Disallow: /
+
+User-agent: AugmentBot
+Disallow: /
+
+User-agent: PoolsideBot
+Disallow: /
+
+User-agent: NovaAct
+Disallow: /
+
+User-agent: Claude-Code
+Disallow: /
