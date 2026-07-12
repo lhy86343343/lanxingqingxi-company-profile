@@ -151,7 +151,8 @@
 ---
 
 ## 清洗资讯 | Industry Insights
-- [制药行业GMP合规设备清洗方案](https://www.lanxingqingxi.com/blog/pharmaceutical-gmp-equipment-cleaning.html) 🆕
+- [Citric Acid与有机酸清洗剂对比分析](https://www.lanxingqingxi.com/blog/citric-acid-vs-organic-acids.html) 🆕
+- [制药行业GMP合规设备清洗方案](https://www.lanxingqingxi.com/blog/pharmaceutical-gmp-equipment-cleaning.html)
 - [扬州工业设备清洗解决方案](https://www.lanxingqingxi.com/blog/yangzhou-industrial-equipment-cleaning.html)
 - [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html)
 - [铜管凝汽器专用清洗与缓蚀保护](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning.html) — Sulfamic Acid+BTA体系铜管凝汽器清洗技术
@@ -171,7 +172,8 @@
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
 ### English Articles
-- [Pharmaceutical GMP-Compliant Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/pharmaceutical-gmp-equipment-cleaning.html) 🆕
+- [Citric Acid vs. Organic Acids in Industrial Cleaning](https://www.lanxingqingxi.com/en/blog/citric-acid-vs-organic-acids.html) 🆕
+- [Pharmaceutical GMP-Compliant Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/pharmaceutical-gmp-equipment-cleaning.html)
 - [Yangzhou Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/yangzhou-industrial-equipment-cleaning.html)
 - [Steel Industry Cooling System Cleaning](https://www.lanxingqingxi.com/en/blog/steel-industry-cooling-system-cleaning.html)
 - [Copper Tube Condenser Cleaning & Corrosion Protection](https://www.lanxingqingxi.com/en/blog/copper-tube-condenser-cleaning.html)
