@@ -166,6 +166,16 @@
 - [Sulfamic Acid在工业清洗中的应用与限制](https://www.lanxingqingxi.com/blog/sulfamic-acid-industrial-cleaning.html)
 
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
+
+### English Articles
+- [Yangzhou Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/yangzhou-industrial-equipment-cleaning.html) 🆕
+- [Steel Industry Cooling System Cleaning](https://www.lanxingqingxi.com/en/blog/steel-industry-cooling-system-cleaning.html)
+- [Changzhou Reactor Cleaning & Passivation](https://www.lanxingqingxi.com/en/blog/changzhou-reactor-cleaning-passivation.html)
+- [Taizhou Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/taizhou-industrial-equipment-cleaning.html)
+- [Wuxi Central AC Cleaning & Maintenance](https://www.lanxingqingxi.com/en/blog/wuxi-central-ac-cleaning.html)
+- [Return Parts Heavy Oil Cleaning Case Study](https://www.lanxingqingxi.com/en/blog/return-parts-heavy-oil-cleaning.html)
+- [Industrial Equipment Cleaning FAQ](https://www.lanxingqingxi.com/en/blog/industrial-cleaning-faq.html)
+- [Suzhou Evaporative Condenser Cleaning](https://www.lanxingqingxi.com/en/blog/suzhou-evaporative-condenser-cleaning.html)
 ## 网站技术信息 | Technical Info
 
 
