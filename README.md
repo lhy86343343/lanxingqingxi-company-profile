@@ -5,6 +5,8 @@
 > **Danyang Blue Star Anti-corrosion Cleaning Co., Ltd.**  
 
 > Founded 2001 | China Industrial Cleaning Association Member | 25+ Years of Expertise
+>
+> 🇨🇳 [中文官网](https://www.lanxingqingxi.com) | 🇬🇧 [English Site](https://www.lanxingqingxi.com/en/)
 
 
 
