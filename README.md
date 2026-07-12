@@ -170,12 +170,19 @@
 ### English Articles
 - [Yangzhou Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/yangzhou-industrial-equipment-cleaning.html) 🆕
 - [Steel Industry Cooling System Cleaning](https://www.lanxingqingxi.com/en/blog/steel-industry-cooling-system-cleaning.html)
-- [Changzhou Reactor Cleaning & Passivation](https://www.lanxingqingxi.com/en/blog/changzhou-reactor-cleaning-passivation.html)
+- [Copper Tube Condenser Cleaning & Corrosion Protection](https://www.lanxingqingxi.com/en/blog/copper-tube-condenser-cleaning.html)
 - [Taizhou Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/taizhou-industrial-equipment-cleaning.html)
+- [Wuxi Industrial Boiler & Thermal Oil System Cleaning](https://www.lanxingqingxi.com/en/blog/wuxi-industrial-boiler-thermal-oil-cleaning-en.html)
+- [Equipment Cleaning Cycle & Preventive Maintenance](https://www.lanxingqingxi.com/en/blog/equipment-cleaning-cycle-maintenance.html)
+- [Chemical Cleaning vs High-Pressure Water Jetting](https://www.lanxingqingxi.com/en/blog/chemical-vs-water-jet-cleaning.html)
+- [Suzhou Industrial Pipeline Chemical Cleaning](https://www.lanxingqingxi.com/en/blog/suzhou-pipeline-chemical-cleaning.html)
+- [Waste Heat Boiler Tube Bundle Cleaning](https://www.lanxingqingxi.com/en/blog/waste-heat-boiler-tube-bundle-cleaning.html)
 - [Wuxi Central AC Cleaning & Maintenance](https://www.lanxingqingxi.com/en/blog/wuxi-central-ac-cleaning.html)
 - [Return Parts Heavy Oil Cleaning Case Study](https://www.lanxingqingxi.com/en/blog/return-parts-heavy-oil-cleaning.html)
-- [Industrial Equipment Cleaning FAQ](https://www.lanxingqingxi.com/en/blog/industrial-cleaning-faq.html)
-- [Suzhou Evaporative Condenser Cleaning](https://www.lanxingqingxi.com/en/blog/suzhou-evaporative-condenser-cleaning.html)
+- [Air Cooler High-Pressure Water Jetting](https://www.lanxingqingxi.com/en/blog/air-cooler-cleaning.html)
+- [Changzhou Reactor Cleaning & Passivation](https://www.lanxingqingxi.com/en/blog/changzhou-reactor-cleaning-passivation.html)
+- [Choosing an Industrial Cleaning Service Provider](https://www.lanxingqingxi.com/en/blog/choosing-industrial-cleaning-provider.html)
+- [Sulfamic Acid in Industrial Cleaning](https://www.lanxingqingxi.com/en/blog/sulfamic-acid-industrial-cleaning.html)
 ## 网站技术信息 | Technical Info
 
 
