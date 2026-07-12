@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>页面未找到 - 丹阳蓝星清洗</title>
+    <link rel="stylesheet" href="css/style.css?v=2">
+    <style>
+        .error-section {
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 6rem 2rem;
+        }
+        .error-code {
+            font-size: 6rem;
+            font-weight: 900;
+            color: var(--primary);
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+        .error-section h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+        .error-section p { color: var(--gray-500); margin-bottom: 2rem; }
+    </style>
+</head>
+<body>
+<header class="topbar"><div class="topbar-inner">
+<a href="index.html" class="logo"><div style="font-size:1.3rem"><img src="images/logo.webp" alt="丹阳蓝星清洗" style="height:40px"></div></a>
+<nav><ul class="main-nav">
+<li><a href="index.html">首页</a></li>
+<li><a href="about.html">公司简介</a></li>
+<li><a href="services.html">服务项目</a></li>
+<li><a href="tech.html">核心技术</a></li>
+<li><a href="cases.html">成功案例</a></li>
+<li><a href="certificates.html">执行标准</a></li>
+<li><a href="#contact">联系我们</a></li>
+</ul></nav>
+<div class="lang-switch"><a href="index.html" class="active">🇨🇳 中文</a><a href="en/index.html">🇬🇧 EN</a></div>
+</div></header>
+
+<section class="error-section">
+<div>
+<div class="error-code">404</div>
+<h1>页面未找到</h1>
+<p>您访问的页面不存在或已被移动。<br>请检查网址是否正确，或返回首页浏览。</p>
+<a href="index.html" class="btn btn-primary">🏠 返回首页</a>
+<a href="services.html" class="btn btn-outline" style="color:var(--primary);border-color:var(--primary)">🔧 查看服务</a>
+</div>
+</section>
+
+<footer class="footer"><div class="footer-bottom">
+<span>© 2026 丹阳市蓝星防腐清洗有限公司</span><span>电话：18952832843</span><span> | </span><span>苏ICP备14029881号</span>
+</div></footer>
+</body>
+</html>
