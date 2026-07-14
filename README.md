@@ -151,7 +151,8 @@
 ---
 
 ## 清洗资讯 | Industry Insights
-- [某发电厂凝汽器在线化学清洗案例](https://www.lanxingqingxi.com/blog/power-plant-condenser-online-cleaning-case.html) 🆕 — Sulfamic Acid+BTA在线清洗36h除垢率97%
+- [某发电厂凝汽器在线化学清洗案例](https://www.lanxingqingxi.com/blog/power-plant-condenser-online-cleaning-case.html) — Sulfamic Acid+BTA在线清洗36h除垢率97%
+- [Sulfamic Acid vs HCl：工业清洗酸剂对比](https://www.lanxingqingxi.com/blog/sulfamic-acid-vs-hcl-comparison.html) 🆕 — 从除垢机理、腐蚀速率、材料兼容到成本效益的系统对比指南
 - [Citric Acid与有机酸清洗剂对比分析](https://www.lanxingqingxi.com/blog/citric-acid-vs-organic-acids.html)
 - [制药行业GMP合规设备清洗方案](https://www.lanxingqingxi.com/blog/pharmaceutical-gmp-equipment-cleaning.html)
 - [扬州工业设备清洗解决方案](https://www.lanxingqingxi.com/blog/yangzhou-industrial-equipment-cleaning.html)
@@ -173,7 +174,8 @@
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
 ### English Articles
-- [Power Plant Condenser Online Chemical Cleaning Case Study](https://www.lanxingqingxi.com/en/blog/power-plant-condenser-online-cleaning-case.html) 🆕 — 97% descaling rate, vacuum restored
+- [Power Plant Condenser Online Chemical Cleaning Case Study](https://www.lanxingqingxi.com/en/blog/power-plant-condenser-online-cleaning-case.html) — 97% descaling rate, vacuum restored
+- [Sulfamic Acid vs HCl: Industrial Cleaning Acid Comparison](https://www.lanxingqingxi.com/en/blog/sulfamic-acid-vs-hcl-comparison.html) 🆕 — Descaling mechanisms, corrosion rates, material compatibility & cost analysis
 - [Citric Acid vs. Organic Acids in Industrial Cleaning](https://www.lanxingqingxi.com/en/blog/citric-acid-vs-organic-acids.html)
 - [Pharmaceutical GMP-Compliant Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/pharmaceutical-gmp-equipment-cleaning.html)
 - [Yangzhou Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/yangzhou-industrial-equipment-cleaning.html)
