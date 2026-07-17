@@ -151,7 +151,8 @@
 ---
 
 ## 清洗资讯 | Industry Insights
-- [工业清洗行业技术发展趋势与创新前沿](https://www.lanxingqingxi.com/blog/industry-cleaning-technology-trends.html) 🆕 — 在线不停车清洗·高压水机器人·绿色清洗剂·AI智能监测·双碳节能五大趋势
+- [淮安管道化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/huai-an-pipeline-cleaning.html) 🆕 — 盐化工卤水管除盐垢·淮钢冷却水管除钙垢铁锈·凹土矿浆管清堵·食品酿酒CIP管道清洗
+- [工业清洗行业技术发展趋势与创新前沿](https://www.lanxingqingxi.com/blog/industry-cleaning-technology-trends.html) — 在线不停车清洗·高压水机器人·绿色清洗剂·AI智能监测·双碳节能五大趋势
 - [某发电厂凝汽器在线化学清洗案例](https://www.lanxingqingxi.com/blog/power-plant-condenser-online-cleaning-case.html) — Sulfamic Acid+BTA在线清洗36h除垢率97%
 - [Sulfamic Acid vs HCl：工业清洗酸剂对比](https://www.lanxingqingxi.com/blog/sulfamic-acid-vs-hcl-comparison.html) — 从除垢机理、腐蚀速率、材料兼容到成本效益的系统对比指南
 - [Citric Acid与有机酸清洗剂对比分析](https://www.lanxingqingxi.com/blog/citric-acid-vs-organic-acids.html)
@@ -170,7 +171,6 @@
 - [空冷器高压水射流清洗方案](https://www.lanxingqingxi.com/blog/air-cooler-cleaning.html)
 - [常州反应釜清洗与钝化处理服务](https://www.lanxingqingxi.com/blog/changzhou-reactor-cleaning-passivation.html)
 - [选择工业清洗服务商的5个关键标准](https://www.lanxingqingxi.com/blog/choosing-industrial-cleaning-provider.html)
-- [Sulfamic Acid在工业清洗中的应用与限制](https://www.lanxingqingxi.com/blog/sulfamic-acid-industrial-cleaning.html)
 
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
