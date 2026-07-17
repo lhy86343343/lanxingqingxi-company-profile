@@ -151,15 +151,14 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html)
 - [淮安管道化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/huai-an-pipeline-cleaning.html) 🆕 — 盐化工卤水管除盐垢·特钢冷却管除锈·凹土矿浆管清堵·白酒CIP管道食品级清洗
-- [淮安管道化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/huai-an-pipeline-cleaning.html) 🆕 — 盐化工卤水管除盐垢·淮钢冷却水管除钙垢铁锈·凹土矿浆管清堵·食品酿酒CIP管道清洗
 - [工业清洗行业技术发展趋势与创新前沿](https://www.lanxingqingxi.com/blog/industry-cleaning-technology-trends.html) — 在线不停车清洗·高压水机器人·绿色清洗剂·AI智能监测·双碳节能五大趋势
 - [某发电厂凝汽器在线化学清洗案例](https://www.lanxingqingxi.com/blog/power-plant-condenser-online-cleaning-case.html) — Sulfamic Acid+BTA在线清洗36h除垢率97%
 - [Sulfamic Acid vs HCl：工业清洗酸剂对比](https://www.lanxingqingxi.com/blog/sulfamic-acid-vs-hcl-comparison.html) — 从除垢机理、腐蚀速率、材料兼容到成本效益的系统对比指南
 - [Citric Acid与有机酸清洗剂对比分析](https://www.lanxingqingxi.com/blog/citric-acid-vs-organic-acids.html)
 - [制药行业GMP合规设备清洗方案](https://www.lanxingqingxi.com/blog/pharmaceutical-gmp-equipment-cleaning.html)
 - [扬州工业设备清洗解决方案](https://www.lanxingqingxi.com/blog/yangzhou-industrial-equipment-cleaning.html)
-- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html)
 - [铜管凝汽器专用清洗与缓蚀保护](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning.html) — Sulfamic Acid+BTA体系铜管凝汽器清洗技术
 - [泰州工业设备化学清洗服务](https://www.lanxingqingxi.com/blog/taizhou-industrial-equipment-cleaning.html)
 - [无锡工业锅炉与导热油系统清洗](https://www.lanxingqingxi.com/blog/wuxi-industrial-boiler-thermal-oil-cleaning.html)
@@ -175,13 +174,13 @@
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
 ### English Articles
+- [Steel Industry Cooling System Cleaning](https://www.lanxingqingxi.com/en/blog/steel-industry-cooling-system-cleaning.html)
 - [Industrial Cleaning Technology Trends & Innovations](https://www.lanxingqingxi.com/en/blog/industry-cleaning-technology-trends.html) 🆕 — Online cleaning, robotics, green agents, AI monitoring & dual-carbon energy savings
 - [Power Plant Condenser Online Chemical Cleaning Case Study](https://www.lanxingqingxi.com/en/blog/power-plant-condenser-online-cleaning-case.html) — 97% descaling rate, vacuum restored
 - [Sulfamic Acid vs HCl: Industrial Cleaning Acid Comparison](https://www.lanxingqingxi.com/en/blog/sulfamic-acid-vs-hcl-comparison.html) — Descaling mechanisms, corrosion rates, material compatibility & cost analysis
 - [Citric Acid vs. Organic Acids in Industrial Cleaning](https://www.lanxingqingxi.com/en/blog/citric-acid-vs-organic-acids.html)
 - [Pharmaceutical GMP-Compliant Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/pharmaceutical-gmp-equipment-cleaning.html)
 - [Yangzhou Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/yangzhou-industrial-equipment-cleaning.html)
-- [Steel Industry Cooling System Cleaning](https://www.lanxingqingxi.com/en/blog/steel-industry-cooling-system-cleaning.html)
 - [Copper Tube Condenser Cleaning & Corrosion Protection](https://www.lanxingqingxi.com/en/blog/copper-tube-condenser-cleaning.html)
 - [Taizhou Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/taizhou-industrial-equipment-cleaning.html)
 - [Wuxi Industrial Boiler & Thermal Oil System Cleaning](https://www.lanxingqingxi.com/en/blog/wuxi-industrial-boiler-thermal-oil-cleaning-en.html)
