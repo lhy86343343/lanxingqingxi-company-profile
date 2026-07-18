@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [无锡中央空调系统清洗维护服务](https://www.lanxingqingxi.com/blog/wuxi-central-ac-cleaning.html) 🆕 — 冷水机组化学除垢·冷却塔杀菌消毒·风机盘管清洗·风管检测
 - [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html)
 - [淮安管道化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/huai-an-pipeline-cleaning.html) 🆕 — 盐化工卤水管除盐垢·特钢冷却管除锈·凹土矿浆管清堵·白酒CIP管道食品级清洗
 - [工业清洗行业技术发展趋势与创新前沿](https://www.lanxingqingxi.com/blog/industry-cleaning-technology-trends.html) — 在线不停车清洗·高压水机器人·绿色清洗剂·AI智能监测·双碳节能五大趋势
