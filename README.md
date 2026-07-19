@@ -153,6 +153,7 @@
 ## 清洗资讯 | Industry Insights
 - [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) 🆕 — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
 - [无锡中央空调系统清洗维护服务](https://www.lanxingqingxi.com/blog/wuxi-central-ac-cleaning.html) 🆕 — 冷水机组化学除垢·冷却塔杀菌消毒·风机盘管清洗·风管检测
+- [凝汽器真空度恢复与清洗效果评估](https://www.lanxingqingxi.com/blog/condenser-vacuum-recovery-cleaning.html) 🆕 — Sulfamic Acid化学清洗+高压水射流,真空度从-88.5kPa恢复至-94.2kPa,端差改善66.4%
 - [淮安管道化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/huai-an-pipeline-cleaning.html) 🆕 — 盐化工卤水管除盐垢·特钢冷却管除锈·凹土矿浆管清堵·白酒CIP管道食品级清洗
 - [工业清洗行业技术发展趋势与创新前沿](https://www.lanxingqingxi.com/blog/industry-cleaning-technology-trends.html) — 在线不停车清洗·高压水机器人·绿色清洗剂·AI智能监测·双碳节能五大趋势
 - [某发电厂凝汽器在线化学清洗案例](https://www.lanxingqingxi.com/blog/power-plant-condenser-online-cleaning-case.html) — Sulfamic Acid+BTA在线清洗36h除垢率97%
@@ -176,6 +177,7 @@
 
 ### English Articles
 - [Steel Industry Cooling System Cleaning](https://www.lanxingqingxi.com/en/blog/steel-industry-cooling-system-cleaning.html)
+- [Condenser Vacuum Recovery & Cleaning Effectiveness Evaluation](https://www.lanxingqingxi.com/en/blog/condenser-vacuum-recovery-cleaning.html) 🆕 — Vacuum restored -88.5→-94.2 kPa, terminal difference improved 66.4%, K-value +41.6%
 - [Industrial Cleaning Technology Trends & Innovations](https://www.lanxingqingxi.com/en/blog/industry-cleaning-technology-trends.html) 🆕 — Online cleaning, robotics, green agents, AI monitoring & dual-carbon energy savings
 - [Power Plant Condenser Online Chemical Cleaning Case Study](https://www.lanxingqingxi.com/en/blog/power-plant-condenser-online-cleaning-case.html) — 97% descaling rate, vacuum restored
 - [Sulfamic Acid vs HCl: Industrial Cleaning Acid Comparison](https://www.lanxingqingxi.com/en/blog/sulfamic-acid-vs-hcl-comparison.html) — Descaling mechanisms, corrosion rates, material compatibility & cost analysis
