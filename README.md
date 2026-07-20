@@ -151,8 +151,9 @@
 ---
 
 ## 清洗资讯 | Industry Insights
-- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) 🆕 — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
-- [无锡中央空调系统清洗维护服务](https://www.lanxingqingxi.com/blog/wuxi-central-ac-cleaning.html) 🆕 — 冷水机组化学除垢·冷却塔杀菌消毒·风机盘管清洗·风管检测
+- [南通工业设备清洗和中央空调清洗服务](https://www.lanxingqingxi.com/blog/nantong-industrial-equipment-central-ac-cleaning.html) 🆕 — 船舶海工管路清洗钝化·化工制药反应釜换热器清洗·中央空调冷水机组除垢冷却塔消毒
+- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
+- [无锡中央空调系统清洗维护服务](https://www.lanxingqingxi.com/blog/wuxi-central-ac-cleaning.html) — 冷水机组化学除垢·冷却塔杀菌消毒·风机盘管清洗·风管检测
 - [凝汽器真空度恢复与清洗效果评估](https://www.lanxingqingxi.com/blog/condenser-vacuum-recovery-cleaning.html) 🆕 — Sulfamic Acid化学清洗+高压水射流,真空度从-88.5kPa恢复至-94.2kPa,端差改善66.4%
 - [淮安管道化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/huai-an-pipeline-cleaning.html) 🆕 — 盐化工卤水管除盐垢·特钢冷却管除锈·凹土矿浆管清堵·白酒CIP管道食品级清洗
 - [工业清洗行业技术发展趋势与创新前沿](https://www.lanxingqingxi.com/blog/industry-cleaning-technology-trends.html) — 在线不停车清洗·高压水机器人·绿色清洗剂·AI智能监测·双碳节能五大趋势
