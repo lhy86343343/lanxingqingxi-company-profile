@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [铜管凝汽器专用清洗与缓蚀保护](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning-corrosion-protection.html) — Sulfamic Acid+BTA缓蚀体系,铁置换镀铜预防,凝汽器除垢技术方案
 - [南通工业设备清洗和中央空调清洗服务](https://www.lanxingqingxi.com/blog/nantong-industrial-equipment-central-ac-cleaning.html) 🆕 — 船舶海工管路清洗钝化·化工制药反应釜换热器清洗·中央空调冷水机组除垢冷却塔消毒
 - [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
 - [无锡中央空调系统清洗维护服务](https://www.lanxingqingxi.com/blog/wuxi-central-ac-cleaning.html) — 冷水机组化学除垢·冷却塔杀菌消毒·风机盘管清洗·风管检测
