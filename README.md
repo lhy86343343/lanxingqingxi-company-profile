@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [连云港工业设备化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/lianyungang-industrial-cleaning-services.html) 🆕 — 石化设备换热器塔器管道锅炉清洗，服务徐圩新区石化基地及港口工业区
 - [铜管凝汽器专用清洗与缓蚀保护](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning-corrosion-protection.html) — Sulfamic Acid+BTA缓蚀体系,铁置换镀铜预防,凝汽器除垢技术方案
 - [南通工业设备清洗和中央空调清洗服务](https://www.lanxingqingxi.com/blog/nantong-industrial-equipment-central-ac-cleaning.html) 🆕 — 船舶海工管路清洗钝化·化工制药反应釜换热器清洗·中央空调冷水机组除垢冷却塔消毒
 - [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
@@ -178,6 +179,7 @@
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
 ### English Articles
+- [Lianyungang Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/lianyungang-industrial-cleaning-services.html) 🆕 — Petrochemical heat exchangers, columns, pipelines & boilers in Xuwei New District
 - [Steel Industry Cooling System Cleaning](https://www.lanxingqingxi.com/en/blog/steel-industry-cooling-system-cleaning.html)
 - [Condenser Vacuum Recovery & Cleaning Effectiveness Evaluation](https://www.lanxingqingxi.com/en/blog/condenser-vacuum-recovery-cleaning.html) 🆕 — Vacuum restored -88.5→-94.2 kPa, terminal difference improved 66.4%, K-value +41.6%
 - [Industrial Cleaning Technology Trends & Innovations](https://www.lanxingqingxi.com/en/blog/industry-cleaning-technology-trends.html) 🆕 — Online cleaning, robotics, green agents, AI monitoring & dual-carbon energy savings
