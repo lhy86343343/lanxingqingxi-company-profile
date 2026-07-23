@@ -151,7 +151,8 @@
 ---
 
 ## 清洗资讯 | Industry Insights
-- [食品饮料行业CIP清洗系统与卫生标准技术方案](https://www.lanxingqingxi.com/blog/food-beverage-cip-cleaning-sanitation.html) 🆕 — NaOH+HNO₃双段清洗、Sinner Circle四参数控制、五步CIP流程、GB 14881+HACCP卫生验收
+- - [商业建筑中央空调系统维保方案](https://www.lanxingqingxi.com/blog/commercial-building-central-ac-maintenance.html) — 溴化锂机组与冷水机组清洗维护、冷却塔除垢、风管消毒、水质管理
+[食品饮料行业CIP清洗系统与卫生标准技术方案](https://www.lanxingqingxi.com/blog/food-beverage-cip-cleaning-sanitation.html) 🆕 — NaOH+HNO₃双段清洗、Sinner Circle四参数控制、五步CIP流程、GB 14881+HACCP卫生验收
 - [连云港工业设备化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/lianyungang-industrial-cleaning-services.html) — 石化设备换热器塔器管道锅炉清洗，服务徐圩新区石化基地及港口工业区
 - [铜管凝汽器专用清洗与缓蚀保护](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning-corrosion-protection.html) — Sulfamic Acid+BTA缓蚀体系,铁置换镀铜预防,凝汽器除垢技术方案
 - [南通工业设备清洗和中央空调清洗服务](https://www.lanxingqingxi.com/blog/nantong-industrial-equipment-central-ac-cleaning.html) — 船舶海工管路清洗钝化·化工制药反应釜换热器清洗·中央空调冷水机组除垢冷却塔消毒
