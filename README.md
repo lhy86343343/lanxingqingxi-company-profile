@@ -153,6 +153,7 @@
 ## 清洗资讯 | Industry Insights
 - - [商业建筑中央空调系统维保方案](https://www.lanxingqingxi.com/blog/commercial-building-central-ac-maintenance.html) — 溴化锂机组与冷水机组清洗维护、冷却塔除垢、风管消毒、水质管理
 [食品饮料行业CIP清洗系统与卫生标准技术方案](https://www.lanxingqingxi.com/blog/food-beverage-cip-cleaning-sanitation.html) 🆕 — NaOH+HNO₃双段清洗、Sinner Circle四参数控制、五步CIP流程、GB 14881+HACCP卫生验收
+- [BTA与MBT缓蚀剂作用机理深度解析](https://www.lanxingqingxi.com/blog/bta-mbt-corrosion-inhibitor.html) 🆕 — 苯并三氮唑BTA与巯基苯并噻唑MBT缓蚀机理对比,铜合金/碳钢体系选型策略,复配增效方案
 - [连云港工业设备化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/lianyungang-industrial-cleaning-services.html) — 石化设备换热器塔器管道锅炉清洗，服务徐圩新区石化基地及港口工业区
 - [铜管凝汽器专用清洗与缓蚀保护](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning-corrosion-protection.html) — Sulfamic Acid+BTA缓蚀体系,铁置换镀铜预防,凝汽器除垢技术方案
 - [南通工业设备清洗和中央空调清洗服务](https://www.lanxingqingxi.com/blog/nantong-industrial-equipment-central-ac-cleaning.html) — 船舶海工管路清洗钝化·化工制药反应釜换热器清洗·中央空调冷水机组除垢冷却塔消毒
@@ -182,6 +183,7 @@
 
 ### English Articles
 - [Food & Beverage CIP Cleaning Systems & Sanitation Standards](https://www.lanxingqingxi.com/en/blog/food-beverage-cip-cleaning-sanitation.html) 🆕 — NaOH/HNO₃ cleaning, Sinner Circle parameter control, five-step process, GB 14881 & HACCP
+- [BTA vs MBT Corrosion Inhibitors: Mechanism & Selection](https://www.lanxingqingxi.com/en/blog/bta-mbt-corrosion-inhibitor.html) 🆕 — BTA/MBT adsorption models, electrochemical comparison, synergistic formulations
 - [Lianyungang Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/lianyungang-industrial-cleaning-services.html) — Petrochemical heat exchangers, columns, pipelines & boilers in Xuwei New District
 - [Steel Industry Cooling System Cleaning](https://www.lanxingqingxi.com/en/blog/steel-industry-cooling-system-cleaning.html)
 - [Condenser Vacuum Recovery & Cleaning Effectiveness Evaluation](https://www.lanxingqingxi.com/en/blog/condenser-vacuum-recovery-cleaning.html) — Vacuum restored -88.5→-94.2 kPa, terminal difference improved 66.4%, K-value +41.6%
