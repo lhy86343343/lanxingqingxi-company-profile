@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [有机酸 vs 无机酸：工业清洗剂选型对比](https://www.lanxingqingxi.com/blog/organic-vs-inorganic-acid-cleaning.html): 六大酸洗剂性能表+材质兼容+全寿命成本+选型决策树
 - [某碳素厂余热锅炉除垢案例](https://www.lanxingqingxi.com/blog/carbon-plant-waste-heat-boiler-descaling-case.html) 🆕 — 煅烧炉余热锅炉碳粉-硫酸盐-硅酸盐复合垢，Sulfamic Acid+高压水射流协同除垢率96.8%
 - - [商业建筑中央空调系统维保方案](https://www.lanxingqingxi.com/blog/commercial-building-central-ac-maintenance.html) — 溴化锂机组与冷水机组清洗维护、冷却塔除垢、风管消毒、水质管理
 [食品饮料行业CIP清洗系统与卫生标准技术方案](https://www.lanxingqingxi.com/blog/food-beverage-cip-cleaning-sanitation.html) — NaOH+HNO₃双段清洗、Sinner Circle四参数控制、五步CIP流程、GB 14881+HACCP卫生验收
