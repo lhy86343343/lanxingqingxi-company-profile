@@ -7,6 +7,17 @@ Allow: /
 Disallow: /.private/
 Disallow: /cgi-bin/
 
+# --- Baidu Crawlers ---
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider-render
+Allow: /
+
+User-agent: Baiduspider-image
+Allow: /
+
 # --- Crawl Rate ---
 Crawl-delay: 1
 
