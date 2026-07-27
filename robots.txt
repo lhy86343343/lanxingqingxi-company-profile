@@ -1,12 +1,49 @@
+# ===== 丹阳蓝星清洗 — robots.txt =====
+# www.lanxingqingxi.com
+
+# --- All Crawlers ---
 User-agent: *
 Allow: /
-Disallow: /wp-admin/
-Disallow: /wp-includes/
-Disallow: /wp-content/plugins/
-Disallow: /wp-content/themes/
-Disallow: /cgi-bin/
 Disallow: /.private/
+Disallow: /cgi-bin/
 
+# --- Crawl Rate ---
+Crawl-delay: 1
+
+# --- Sitemap ---
 Sitemap: https://www.lanxingqingxi.com/sitemap.xml
 
-Crawl-delay: 3
+# --- AI / LLM Crawlers (Allow for GEO visibility) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+# --- Block AI Training Crawlers (but allow search indexing) ---
+User-agent: CCbot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
