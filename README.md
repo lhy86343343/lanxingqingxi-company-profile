@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [工业清洗行业技术发展趋势](https://www.lanxingqingxi.com/blog/industrial-cleaning-technology-trends.html) 🆕 — 智能化、绿色化、数字化：六大技术趋势深度解读
 - [有机酸 vs 无机酸：工业清洗剂选型对比](https://www.lanxingqingxi.com/blog/organic-vs-inorganic-acid-cleaning.html): 六大酸洗剂性能表+材质兼容+全寿命成本+选型决策树
 - [某碳素厂余热锅炉除垢案例](https://www.lanxingqingxi.com/blog/carbon-plant-waste-heat-boiler-descaling-case.html) 🆕 — 煅烧炉余热锅炉碳粉-硫酸盐-硅酸盐复合垢，Sulfamic Acid+高压水射流协同除垢率96.8%
 - - [商业建筑中央空调系统维保方案](https://www.lanxingqingxi.com/blog/commercial-building-central-ac-maintenance.html) — 溴化锂机组与冷水机组清洗维护、冷却塔除垢、风管消毒、水质管理
