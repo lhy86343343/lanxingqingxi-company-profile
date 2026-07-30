@@ -155,6 +155,7 @@
 - [常州工业设备高压水射流清洗服务 — 高效除垢方案](https://www.lanxingqingxi.com/blog/changzhou-industrial-high-pressure-water-jetting-cleaning.html) 🆕 — 500-2800bar高压水射流清洗换热器管道反应釜冷凝器
 - [热水锅炉水垢预防与清洗技术](https://www.lanxingqingxi.com/blog/hot-water-boiler-scale-prevention-cleaning.html) — 热水锅炉水垢成因、预防措施与化学清洗方案
 - [工业清洗行业技术发展趋势](https://www.lanxingqingxi.com/blog/industrial-cleaning-technology-trends.html) 🆕 — 智能化、绿色化、数字化：六大技术趋势深度解读
+- [绿色清洗：可生物降解清洗剂在工业设备清洗中的应用](https://www.lanxingqingxi.com/blog/green-cleaning-biodegradable-agents.html) 🆕 — Citric Acid、酶清洗剂、植物基表面活性剂等可生物降解清洗剂在工业设备清洗中的选型与应用
 - [有机酸 vs 无机酸：工业清洗剂选型对比](https://www.lanxingqingxi.com/blog/organic-vs-inorganic-acid-cleaning.html): 六大酸洗剂性能表+材质兼容+全寿命成本+选型决策树
 - [某碳素厂余热锅炉除垢案例](https://www.lanxingqingxi.com/blog/carbon-plant-waste-heat-boiler-descaling-case.html) 🆕 — 煅烧炉余热锅炉碳粉-硫酸盐-硅酸盐复合垢，Sulfamic Acid+高压水射流协同除垢率96.8%
 - - [商业建筑中央空调系统维保方案](https://www.lanxingqingxi.com/blog/commercial-building-central-ac-maintenance.html) — 溴化锂机组与冷水机组清洗维护、冷却塔除垢、风管消毒、水质管理
@@ -191,6 +192,7 @@
 - [Hot Water Boiler Scale Prevention & Chemical Cleaning](https://www.lanxingqingxi.com/en/blog/hot-water-boiler-scale-prevention-cleaning.html) — Comprehensive guide to hot water boiler scale prevention and chemical cleaning
 - [Changzhou Industrial High-Pressure Water Jetting Cleaning Services](https://www.lanxingqingxi.com/en/blog/changzhou-industrial-high-pressure-water-jetting-cleaning.html) 🆕 — 500-2800 bar HP water jetting for heat exchangers, pipelines, reactors, condensers
 - [Food & Beverage CIP Cleaning Systems & Sanitation Standards](https://www.lanxingqingxi.com/en/blog/food-beverage-cip-cleaning-sanitation.html) — NaOH/HNO₃ cleaning, Sinner Circle parameter control, five-step process, GB 14881 & HACCP
+- [Green Cleaning: Biodegradable Agents in Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/green-cleaning-biodegradable-agents.html) 🆕 — Citric Acid, enzyme cleaners, plant-based surfactants for heat exchangers, boilers & pipelines
 - [BTA vs MBT Corrosion Inhibitors: Mechanism & Selection](https://www.lanxingqingxi.com/en/blog/bta-mbt-corrosion-inhibitor.html) — BTA/MBT adsorption models, electrochemical comparison, synergistic formulations
 - [Lianyungang Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/lianyungang-industrial-cleaning-services.html) — Petrochemical heat exchangers, columns, pipelines & boilers in Xuwei New District
 - [Steel Industry Cooling System Cleaning](https://www.lanxingqingxi.com/en/blog/steel-industry-cooling-system-cleaning.html)
