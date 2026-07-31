@@ -151,8 +151,10 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [常州中央空调与风管清洗服务](https://www.lanxingqingxi.com/blog/changzhou-central-ac-duct-cleaning.html) 🆕 — 溴化锂机组、冷水机组、冷却塔、风管四大系统化学清洗+高压水冲洗+消毒三位一体
+
 - [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
-- [常州工业设备高压水射流清洗服务 — 高效除垢方案](https://www.lanxingqingxi.com/blog/changzhou-industrial-high-pressure-water-jetting-cleaning.html) 🆕 — 500-2800bar高压水射流清洗换热器管道反应釜冷凝器
+- [常州工业设备高压水射流清洗服务 — 高效除垢方案](https://www.lanxingqingxi.com/blog/changzhou-industrial-high-pressure-water-jetting-cleaning.html) — 500-2800bar高压水射流清洗换热器管道反应釜冷凝器
 - [热水锅炉水垢预防与清洗技术](https://www.lanxingqingxi.com/blog/hot-water-boiler-scale-prevention-cleaning.html) — 热水锅炉水垢成因、预防措施与化学清洗方案
 - [工业清洗行业技术发展趋势](https://www.lanxingqingxi.com/blog/industrial-cleaning-technology-trends.html) 🆕 — 智能化、绿色化、数字化：六大技术趋势深度解读
 - [绿色清洗：可生物降解清洗剂在工业设备清洗中的应用](https://www.lanxingqingxi.com/blog/green-cleaning-biodegradable-agents.html) 🆕 — Citric Acid、酶清洗剂、植物基表面活性剂等可生物降解清洗剂在工业设备清洗中的选型与应用
@@ -188,9 +190,11 @@
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
 ### English Articles
+- [Changzhou Central AC & Duct Cleaning Services](https://www.lanxingqingxi.com/en/blog/changzhou-central-ac-duct-cleaning.html) 🆕 — Absorption chillers, water-cooled chillers, cooling towers, air ducts: chemical cleaning + HP flushing + sterilization
+
 - [Waste Heat Boiler Descaling: A Carbon Plant Case Study](https://www.lanxingqingxi.com/en/blog/carbon-plant-waste-heat-boiler-descaling-case.html) 🆕 — Carbon-sulfate-silicate composite scale removal, Sulfamic Acid + HP water jetting, 96.8% descaling rate
 - [Hot Water Boiler Scale Prevention & Chemical Cleaning](https://www.lanxingqingxi.com/en/blog/hot-water-boiler-scale-prevention-cleaning.html) — Comprehensive guide to hot water boiler scale prevention and chemical cleaning
-- [Changzhou Industrial High-Pressure Water Jetting Cleaning Services](https://www.lanxingqingxi.com/en/blog/changzhou-industrial-high-pressure-water-jetting-cleaning.html) 🆕 — 500-2800 bar HP water jetting for heat exchangers, pipelines, reactors, condensers
+- [Changzhou Industrial High-Pressure Water Jetting Cleaning Services](https://www.lanxingqingxi.com/en/blog/changzhou-industrial-high-pressure-water-jetting-cleaning.html) — 500-2800 bar HP water jetting for heat exchangers, pipelines, reactors, condensers
 - [Food & Beverage CIP Cleaning Systems & Sanitation Standards](https://www.lanxingqingxi.com/en/blog/food-beverage-cip-cleaning-sanitation.html) — NaOH/HNO₃ cleaning, Sinner Circle parameter control, five-step process, GB 14881 & HACCP
 - [Green Cleaning: Biodegradable Agents in Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/green-cleaning-biodegradable-agents.html) 🆕 — Citric Acid, enzyme cleaners, plant-based surfactants for heat exchangers, boilers & pipelines
 - [BTA vs MBT Corrosion Inhibitors: Mechanism & Selection](https://www.lanxingqingxi.com/en/blog/bta-mbt-corrosion-inhibitor.html) — BTA/MBT adsorption models, electrochemical comparison, synergistic formulations
