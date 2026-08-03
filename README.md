@@ -152,9 +152,10 @@
 
 ## 清洗资讯 | Industry Insights
 - [钼酸钠阳极钝化技术详解：缓蚀机理、应用方案与常见问题](https://www.lanxingqingxi.com/blog/sodium-molybdate-anodic-passivation.html)
+- [镇江电厂凝汽器清洗技术 | 谏壁电厂化学清洗服务方案](https://www.lanxingqingxi.com/blog/zhenjiang-power-plant-condenser-cleaning.html) 🆕 — Sulfamic Acid+BTA化学清洗+高压水射流,钛管/不锈钢管/铜管凝汽器全类型覆盖,除垢率≥97%,服务镇江全境2小时响应
 - [焦化行业煤气初冷器清洗：横管式初冷器不停车在线化学清洗方案](https://www.lanxingqingxi.com/blog/coking-gas-primary-cooler-cleaning.html) — 煤焦油+萘结晶+碳酸盐复合垢层三段式在线清洗，72h恢复换热效率
 
-- [常州中央空调与风管清洗服务](https://www.lanxingqingxi.com/blog/changzhou-central-ac-duct-cleaning.html) 🆕 — 溴化锂机组、冷水机组、冷却塔、风管四大系统化学清洗+高压水冲洗+消毒三位一体
+- [常州中央空调与风管清洗服务](https://www.lanxingqingxi.com/blog/changzhou-central-ac-duct-cleaning.html) — 溴化锂机组、冷水机组、冷却塔、风管四大系统化学清洗+高压水冲洗+消毒三位一体
 
 - [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
 - [常州工业设备高压水射流清洗服务 — 高效除垢方案](https://www.lanxingqingxi.com/blog/changzhou-industrial-high-pressure-water-jetting-cleaning.html) — 500-2800bar高压水射流清洗换热器管道反应釜冷凝器
@@ -193,7 +194,8 @@
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
 ### English Articles
-- [Changzhou Central AC & Duct Cleaning Services](https://www.lanxingqingxi.com/en/blog/changzhou-central-ac-duct-cleaning.html) 🆕 — Absorption chillers, water-cooled chillers, cooling towers, air ducts: chemical cleaning + HP flushing + sterilization
+- [Zhenjiang Power Plant Condenser Cleaning & Chemical Descaling](https://www.lanxingqingxi.com/en/blog/zhenjiang-power-plant-condenser-cleaning.html) 🆕 — Sulfamic Acid descaling for titanium, stainless steel & copper tube condensers, ≥97% scale removal, 2-hour response
+- [Changzhou Central AC & Duct Cleaning Services](https://www.lanxingqingxi.com/en/blog/changzhou-central-ac-duct-cleaning.html) — Absorption chillers, water-cooled chillers, cooling towers, air ducts: chemical cleaning + HP flushing + sterilization
 
 - [Waste Heat Boiler Descaling: A Carbon Plant Case Study](https://www.lanxingqingxi.com/en/blog/carbon-plant-waste-heat-boiler-descaling-case.html) 🆕 — Carbon-sulfate-silicate composite scale removal, Sulfamic Acid + HP water jetting, 96.8% descaling rate
 - [Hot Water Boiler Scale Prevention & Chemical Cleaning](https://www.lanxingqingxi.com/en/blog/hot-water-boiler-scale-prevention-cleaning.html) — Comprehensive guide to hot water boiler scale prevention and chemical cleaning
