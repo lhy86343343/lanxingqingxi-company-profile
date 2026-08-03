@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [钼酸钠阳极钝化技术详解：缓蚀机理、应用方案与常见问题](https://www.lanxingqingxi.com/blog/sodium-molybdate-anodic-passivation.html)
 - [焦化行业煤气初冷器清洗：横管式初冷器不停车在线化学清洗方案](https://www.lanxingqingxi.com/blog/coking-gas-primary-cooler-cleaning.html) — 煤焦油+萘结晶+碳酸盐复合垢层三段式在线清洗，72h恢复换热效率
 
 - [常州中央空调与风管清洗服务](https://www.lanxingqingxi.com/blog/changzhou-central-ac-duct-cleaning.html) 🆕 — 溴化锂机组、冷水机组、冷却塔、风管四大系统化学清洗+高压水冲洗+消毒三位一体
