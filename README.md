@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [镇江锅炉与换热器清洗服务](https://www.lanxingqingxi.com/blog/zhenjiang-boiler-heat-exchanger-cleaning.html) — 工业锅炉除垢与换热器化学清洗方案 · 2026-08-05
 - [导热油锅炉积碳清除与系统除焦](https://www.lanxingqingxi.com/blog/thermal-oil-boiler-decoking-cleaning.html) 🆕 — 导热油劣化机理、化学清洗+高压水射流联合除焦工艺、钝化保护、FAQ常见问题及化纤企业1200万大卡导热油炉清洗案例
 - [钼酸钠阳极钝化技术详解：缓蚀机理、应用方案与常见问题](https://www.lanxingqingxi.com/blog/sodium-molybdate-anodic-passivation.html)
 - [镇江电厂凝汽器清洗技术 | 谏壁电厂化学清洗服务方案](https://www.lanxingqingxi.com/blog/zhenjiang-power-plant-condenser-cleaning.html) 🆕 — Sulfamic Acid+BTA化学清洗+高压水射流,钛管/不锈钢管/铜管凝汽器全类型覆盖,除垢率≥97%,服务镇江全境2小时响应
