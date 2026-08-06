@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [清洗作业人员防护与应急处理：命是自己的，马虎不得](https://www.lanxingqingxi.com/blog/chemical-cleaning-safety-ppe-emergency-response.html) — 安全标准
 - [镇江锅炉与换热器清洗服务](https://www.lanxingqingxi.com/blog/zhenjiang-boiler-heat-exchanger-cleaning.html) — 工业锅炉除垢与换热器化学清洗方案 · 2026-08-05
 - [双碳目标下的工业清洗节能实践](https://www.lanxingqingxi.com/blog/dual-carbon-industrial-cleaning-energy-saving.html) 🆕 — 低温清洗、在线清洗、废液资源化、数字化监测：工业清洗助力双碳目标的五大节能路径与行业数据
 - [导热油锅炉积碳清除与系统除焦](https://www.lanxingqingxi.com/blog/thermal-oil-boiler-decoking-cleaning.html) 🆕 — 导热油劣化机理、化学清洗+高压水射流联合除焦工艺、钝化保护、FAQ常见问题及化纤企业1200万大卡导热油炉清洗案例
