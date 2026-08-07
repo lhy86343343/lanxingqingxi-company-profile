@@ -154,6 +154,7 @@
 - [清洗作业人员防护与应急处理：命是自己的，马虎不得](https://www.lanxingqingxi.com/blog/chemical-cleaning-safety-ppe-emergency-response.html) — 安全标准
 - [镇江锅炉与换热器清洗服务](https://www.lanxingqingxi.com/blog/zhenjiang-boiler-heat-exchanger-cleaning.html) — 工业锅炉除垢与换热器化学清洗方案 · 2026-08-05
 - [双碳目标下的工业清洗节能实践](https://www.lanxingqingxi.com/blog/dual-carbon-industrial-cleaning-energy-saving.html) 🆕 — 低温清洗、在线清洗、废液资源化、数字化监测：工业清洗助力双碳目标的五大节能路径与行业数据
+- [扬州工业设备高压水射流清洗服务](https://www.lanxingqingxi.com/blog/yangzhou-high-pressure-water-jet-cleaning.html) 🆕 — 500-2800bar高压水射流清洗，化工设备、船舶管路、机械零部件、电缆生产设备全覆盖，扬州全域2小时响应
 - [导热油锅炉积碳清除与系统除焦](https://www.lanxingqingxi.com/blog/thermal-oil-boiler-decoking-cleaning.html) 🆕 — 导热油劣化机理、化学清洗+高压水射流联合除焦工艺、钝化保护、FAQ常见问题及化纤企业1200万大卡导热油炉清洗案例
 - [钼酸钠阳极钝化技术详解：缓蚀机理、应用方案与常见问题](https://www.lanxingqingxi.com/blog/sodium-molybdate-anodic-passivation.html)
 - [镇江电厂凝汽器清洗技术 | 谏壁电厂化学清洗服务方案](https://www.lanxingqingxi.com/blog/zhenjiang-power-plant-condenser-cleaning.html) 🆕 — Sulfamic Acid+BTA化学清洗+高压水射流,钛管/不锈钢管/铜管凝汽器全类型覆盖,除垢率≥97%,服务镇江全境2小时响应
@@ -198,7 +199,8 @@
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
 ### English Articles
-- [Zhenjiang Power Plant Condenser Cleaning & Chemical Descaling](https://www.lanxingqingxi.com/en/blog/zhenjiang-power-plant-condenser-cleaning.html) 🆕 — Sulfamic Acid descaling for titanium, stainless steel & copper tube condensers, ≥97% scale removal, 2-hour response
+- [- [Yangzhou High-Pressure Water Jetting Services](https://www.lanxingqingxi.com/en/blog/yangzhou-high-pressure-water-jet-cleaning.html) 🆕 — Chemical equipment, marine pipelines, machinery & cable manufacturing: 500-2800 bar, 2-hour response
+Zhenjiang Power Plant Condenser Cleaning & Chemical Descaling](https://www.lanxingqingxi.com/en/blog/zhenjiang-power-plant-condenser-cleaning.html) 🆕 — Sulfamic Acid descaling for titanium, stainless steel & copper tube condensers, ≥97% scale removal, 2-hour response
 - [Changzhou Central AC & Duct Cleaning Services](https://www.lanxingqingxi.com/en/blog/changzhou-central-ac-duct-cleaning.html) — Absorption chillers, water-cooled chillers, cooling towers, air ducts: chemical cleaning + HP flushing + sterilization
 
 - [Waste Heat Boiler Descaling: A Carbon Plant Case Study](https://www.lanxingqingxi.com/en/blog/carbon-plant-waste-heat-boiler-descaling-case.html) 🆕 — Carbon-sulfate-silicate composite scale removal, Sulfamic Acid + HP water jetting, 96.8% descaling rate
