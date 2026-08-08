@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [搪瓷反应釜安全清洗与防护](https://www.lanxingqingxi.com/blog/enamel-reactor-safe-cleaning.html) — 设备清洗专文
 - [清洗作业人员防护与应急处理：命是自己的，马虎不得](https://www.lanxingqingxi.com/blog/chemical-cleaning-safety-ppe-emergency-response.html) — 安全标准
 - [镇江锅炉与换热器清洗服务](https://www.lanxingqingxi.com/blog/zhenjiang-boiler-heat-exchanger-cleaning.html) — 工业锅炉除垢与换热器化学清洗方案 · 2026-08-05
 - [双碳目标下的工业清洗节能实践](https://www.lanxingqingxi.com/blog/dual-carbon-industrial-cleaning-energy-saving.html) 🆕 — 低温清洗、在线清洗、废液资源化、数字化监测：工业清洗助力双碳目标的五大节能路径与行业数据
