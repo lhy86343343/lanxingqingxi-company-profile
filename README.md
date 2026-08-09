@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [扬州中央空调系统清洗维保](https://www.lanxingqingxi.com/blog/yangzhou-central-ac-cleaning-maintenance.html) 🆕 — 溴化锂机组、冷水机组、冷却塔、风机盘管、风管全覆盖清洗维保，扬州全域4小时应急响应
 - [搪瓷反应釜安全清洗与防护](https://www.lanxingqingxi.com/blog/enamel-reactor-safe-cleaning.html) — 设备清洗专文
 - [清洗作业人员防护与应急处理：命是自己的，马虎不得](https://www.lanxingqingxi.com/blog/chemical-cleaning-safety-ppe-emergency-response.html) — 安全标准
 - [镇江锅炉与换热器清洗服务](https://www.lanxingqingxi.com/blog/zhenjiang-boiler-heat-exchanger-cleaning.html) — 工业锅炉除垢与换热器化学清洗方案 · 2026-08-05
