@@ -152,6 +152,7 @@
 
 ## 清洗资讯 | Industry Insights
 - [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
+| 管式空气预热器高压水射流清洗：堵塞治理与逐管疏通技术 | [阅读](https://www.lanxingqingxi.com/blog/air-preheater-high-pressure-water-jet-cleaning.html) | 2026-08-12 |
 - [商业建筑中央空调系统维保方案](https://www.lanxingqingxi.com/blog/commercial-building-central-ac-maintenance.html) — 商场写字楼中央空调维保：冷水机组清洗、冷却塔除垢、风管消毒、水质管理
 - [扬州中央空调系统清洗维保](https://www.lanxingqingxi.com/blog/yangzhou-central-ac-cleaning-maintenance.html) 🆕 — 溴化锂机组、冷水机组、冷却塔、风机盘管、风管全覆盖清洗维保，扬州全域4小时应急响应
 - [搪瓷反应釜安全清洗与防护](https://www.lanxingqingxi.com/blog/enamel-reactor-safe-cleaning.html) — 设备清洗专文
