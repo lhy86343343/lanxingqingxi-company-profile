@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
 - [商业建筑中央空调系统维保方案](https://www.lanxingqingxi.com/blog/commercial-building-central-ac-maintenance.html) — 商场写字楼中央空调维保：冷水机组清洗、冷却塔除垢、风管消毒、水质管理
 - [扬州中央空调系统清洗维保](https://www.lanxingqingxi.com/blog/yangzhou-central-ac-cleaning-maintenance.html) 🆕 — 溴化锂机组、冷水机组、冷却塔、风机盘管、风管全覆盖清洗维保，扬州全域4小时应急响应
 - [搪瓷反应釜安全清洗与防护](https://www.lanxingqingxi.com/blog/enamel-reactor-safe-cleaning.html) — 设备清洗专文
@@ -164,8 +165,6 @@
 - [焦化行业煤气初冷器清洗：横管式初冷器不停车在线化学清洗方案](https://www.lanxingqingxi.com/blog/coking-gas-primary-cooler-cleaning.html) — 煤焦油+萘结晶+碳酸盐复合垢层三段式在线清洗，72h恢复换热效率
 
 - [常州中央空调与风管清洗服务](https://www.lanxingqingxi.com/blog/changzhou-central-ac-duct-cleaning.html) — 溴化锂机组、冷水机组、冷却塔、风管四大系统化学清洗+高压水冲洗+消毒三位一体
-
-- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
 - [常州工业设备高压水射流清洗服务 — 高效除垢方案](https://www.lanxingqingxi.com/blog/changzhou-industrial-high-pressure-water-jetting-cleaning.html) — 500-2800bar高压水射流清洗换热器管道反应釜冷凝器
 - [热水锅炉水垢预防与清洗技术](https://www.lanxingqingxi.com/blog/hot-water-boiler-scale-prevention-cleaning.html) — 热水锅炉水垢成因、预防措施与化学清洗方案
 - [工业清洗行业技术发展趋势](https://www.lanxingqingxi.com/blog/industrial-cleaning-technology-trends.html) 🆕 — 智能化、绿色化、数字化：六大技术趋势深度解读
