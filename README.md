@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [化纤行业导热油系统清洗维护](https://www.lanxingqingxi.com/blog/chemical-fiber-thermal-oil-cleaning.html) 🆕 — 聚酯涤纶生产线导热油炉除焦除碳，停机化学清洗+在线清洗方案，GB/T 25146-2010验收（2026-08-14）
 - [工业清洗质量验收标准解读](https://www.lanxingqingxi.com/blog/industrial-cleaning-acceptance-standards.html) — 除垢率、腐蚀率、钝化膜质量与表面清洁度四大验收指标，依据GB/T 25146-2010（2026-08-13）
 - [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
 - [管式空气预热器高压水射流清洗：堵塞治理与逐管疏通技术](https://www.lanxingqingxi.com/blog/air-preheater-high-pressure-water-jet-cleaning.html) — 2026-08-12
