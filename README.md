@@ -151,7 +151,8 @@
 ---
 
 ## 清洗资讯 | Industry Insights
-- [宁波化工设备清洗与防腐服务](https://www.lanxingqingxi.com/blog/ningbo-chemical-equipment-cleaning.html) 🆕 — 石化（镇海炼化、宁波石化经开区、大榭开发区）、港口机械、模具三大产业化工设备化学清洗+高压水射流清洗+酸洗钝化+防腐预膜，覆盖海曙江北北仑镇海鄞州奉化余姚慈溪象山宁海（2026-08-18）
+- [不锈钢反应釜酸洗钝化一体工艺](https://www.lanxingqingxi.com/blog/stainless-steel-reactor-pickling-passivation.html) 🆕 — 脱脂、酸洗、中和、钝化、蓝点检验五步工艺，去除焊接氧化皮与游离铁，恢复耐蚀性能（2026-08-19）
+- [宁波化工设备清洗与防腐服务](https://www.lanxingqingxi.com/blog/ningbo-chemical-equipment-cleaning.html) — 石化（镇海炼化、宁波石化经开区、大榭开发区）、港口机械、模具三大产业化工设备化学清洗+高压水射流清洗+酸洗钝化+防腐预膜，覆盖海曙江北北仑镇海鄞州奉化余姚慈溪象山宁海（2026-08-18）
 - [杭州换热器与凝汽器清洗服务](https://www.lanxingqingxi.com/blog/hangzhou-heat-exchanger-condenser-cleaning.html) — 生物医药、汽车制造、数据中心三大产业换热器与凝汽器化学清洗+高压水射流清洗，覆盖上城拱墅西湖滨江萧山余杭临平钱塘富阳临安桐庐建德淳安（2026-08-17）
 - [氟利昂冷水机组清洗与水质管理](https://www.lanxingqingxi.com/blog/freon-chiller-cleaning-water-treatment.html) — 离心式螺杆式冷水机组冷凝器蒸发器除垢、循环冷却水缓蚀阻垢杀菌灭藻处理，恢复制冷效率（2026-08-16）
 - [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
@@ -210,7 +211,8 @@
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
 ### English Articles
-- [Ningbo Chemical Equipment Cleaning & Anti-Corrosion Services](https://www.lanxingqingxi.com/en/blog/ningbo-chemical-equipment-cleaning.html) 🆕 — Chemical cleaning, HP water jetting, acid pickling passivation & anti-corrosion pre-filming for petrochemical, port machinery & mold-making equipment (2026-08-18)
+- [Stainless Steel Reactor Pickling & Passivation Integrated Process](https://www.lanxingqingxi.com/en/blog/stainless-steel-reactor-pickling-passivation.html) 🆕 — Degreasing, pickling, neutralization, passivation & blue-dot inspection to remove weld scale and free iron (2026-08-19)
+- [Ningbo Chemical Equipment Cleaning & Anti-Corrosion Services](https://www.lanxingqingxi.com/en/blog/ningbo-chemical-equipment-cleaning.html) — Chemical cleaning, HP water jetting, acid pickling passivation & anti-corrosion pre-filming for petrochemical, port machinery & mold-making equipment (2026-08-18)
 - [Hangzhou Heat Exchanger & Condenser Cleaning Services](https://www.lanxingqingxi.com/en/blog/hangzhou-heat-exchanger-condenser-cleaning.html) — Chemical cleaning & HP water jetting for pharmaceutical, automotive & data center heat exchangers and condensers (2026-08-17)
 - [- [Yangzhou High-Pressure Water Jetting Services](https://www.lanxingqingxi.com/en/blog/yangzhou-high-pressure-water-jet-cleaning.html) — Chemical equipment, marine pipelines, machinery & cable manufacturing: 500-2800 bar, 2-hour response
 Zhenjiang Power Plant Condenser Cleaning & Chemical Descaling](https://www.lanxingqingxi.com/en/blog/zhenjiang-power-plant-condenser-cleaning.html) — Sulfamic Acid descaling for titanium, stainless steel & copper tube condensers, ≥97% scale removal, 2-hour response
