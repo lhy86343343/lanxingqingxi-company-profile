@@ -151,7 +151,8 @@
 ---
 
 ## 清洗资讯 | Industry Insights
-- [不锈钢反应釜酸洗钝化一体工艺](https://www.lanxingqingxi.com/blog/stainless-steel-reactor-pickling-passivation.html) 🆕 — 脱脂、酸洗、中和、钝化、蓝点检验五步工艺，去除焊接氧化皮与游离铁，恢复耐蚀性能（2026-08-19）
+- [上海高压水射流清洗服务](https://www.lanxingqingxi.com/blog/shanghai-high-pressure-water-jet-cleaning.html) 🆕 — 商业楼宇、高端制造、船舶与化工四大产业工业管道、中央空调管路、换热器、船舶管路、市政排水高压水射流清洗（200-1000bar），纯物理除垢不损基材，覆盖黄浦徐汇长宁静安普陀虹口杨浦闵行宝山嘉定浦东金山松江青浦奉贤崇明（2026-08-20）
+- [不锈钢反应釜酸洗钝化一体工艺](https://www.lanxingqingxi.com/blog/stainless-steel-reactor-pickling-passivation.html) — 脱脂、酸洗、中和、钝化、蓝点检验五步工艺，去除焊接氧化皮与游离铁，恢复耐蚀性能（2026-08-19）
 - [宁波化工设备清洗与防腐服务](https://www.lanxingqingxi.com/blog/ningbo-chemical-equipment-cleaning.html) — 石化（镇海炼化、宁波石化经开区、大榭开发区）、港口机械、模具三大产业化工设备化学清洗+高压水射流清洗+酸洗钝化+防腐预膜，覆盖海曙江北北仑镇海鄞州奉化余姚慈溪象山宁海（2026-08-18）
 - [杭州换热器与凝汽器清洗服务](https://www.lanxingqingxi.com/blog/hangzhou-heat-exchanger-condenser-cleaning.html) — 生物医药、汽车制造、数据中心三大产业换热器与凝汽器化学清洗+高压水射流清洗，覆盖上城拱墅西湖滨江萧山余杭临平钱塘富阳临安桐庐建德淳安（2026-08-17）
 - [氟利昂冷水机组清洗与水质管理](https://www.lanxingqingxi.com/blog/freon-chiller-cleaning-water-treatment.html) — 离心式螺杆式冷水机组冷凝器蒸发器除垢、循环冷却水缓蚀阻垢杀菌灭藻处理，恢复制冷效率（2026-08-16）
