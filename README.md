@@ -151,7 +151,8 @@
 ---
 
 ## 清洗资讯 | Industry Insights
-- [上海高压水射流清洗服务](https://www.lanxingqingxi.com/blog/shanghai-high-pressure-water-jet-cleaning.html) 🆕 — 商业楼宇、高端制造、船舶与化工四大产业工业管道、中央空调管路、换热器、船舶管路、市政排水高压水射流清洗（200-1000bar），纯物理除垢不损基材，覆盖黄浦徐汇长宁静安普陀虹口杨浦闵行宝山嘉定浦东金山松江青浦奉贤崇明（2026-08-20）
+- [工业工艺管道化学清洗技术](https://www.lanxingqingxi.com/blog/industrial-process-pipeline-chemical-cleaning.html) 🆕 — 蒸汽管道、循环水管道、油管道、工艺物料管道酸洗除垢、碱洗脱脂、中和钝化、预膜全流程，除垢率95%以上，符合GB/T 25146-2010（2026-08-21）
+- [上海高压水射流清洗服务](https://www.lanxingqingxi.com/blog/shanghai-high-pressure-water-jet-cleaning.html) — 商业楼宇、高端制造、船舶与化工四大产业工业管道、中央空调管路、换热器、船舶管路、市政排水高压水射流清洗（200-1000bar），纯物理除垢不损基材，覆盖黄浦徐汇长宁静安普陀虹口杨浦闵行宝山嘉定浦东金山松江青浦奉贤崇明（2026-08-20）
 - [不锈钢反应釜酸洗钝化一体工艺](https://www.lanxingqingxi.com/blog/stainless-steel-reactor-pickling-passivation.html) — 脱脂、酸洗、中和、钝化、蓝点检验五步工艺，去除焊接氧化皮与游离铁，恢复耐蚀性能（2026-08-19）
 - [宁波化工设备清洗与防腐服务](https://www.lanxingqingxi.com/blog/ningbo-chemical-equipment-cleaning.html) — 石化（镇海炼化、宁波石化经开区、大榭开发区）、港口机械、模具三大产业化工设备化学清洗+高压水射流清洗+酸洗钝化+防腐预膜，覆盖海曙江北北仑镇海鄞州奉化余姚慈溪象山宁海（2026-08-18）
 - [杭州换热器与凝汽器清洗服务](https://www.lanxingqingxi.com/blog/hangzhou-heat-exchanger-condenser-cleaning.html) — 生物医药、汽车制造、数据中心三大产业换热器与凝汽器化学清洗+高压水射流清洗，覆盖上城拱墅西湖滨江萧山余杭临平钱塘富阳临安桐庐建德淳安（2026-08-17）
@@ -164,13 +165,13 @@
 - [某钢铁企业余热锅炉除垢案例](https://www.lanxingqingxi.com/blog/steel-waste-heat-boiler-descaling-case.html) — Sulfamic Acid+高压水射流协同除垢率96.8%（2026-08-12）
 - [化学清洗废液处理与环保合规](https://www.lanxingqingxi.com/blog/chemical-cleaning-waste-treatment.html) — 工业清洗废液分类与环保处理技术（2026-08-11）
 - [商业建筑中央空调系统维保方案](https://www.lanxingqingxi.com/blog/commercial-building-central-ac-maintenance.html) — 商场写字楼中央空调维保：冷水机组清洗、冷却塔除垢、风管消毒、水质管理
-- [扬州中央空调系统清洗维保](https://www.lanxingqingxi.com/blog/yangzhou-central-ac-cleaning-maintenance.html) 🆕 — 溴化锂机组、冷水机组、冷却塔、风机盘管、风管全覆盖清洗维保，扬州全域4小时应急响应
+- [扬州中央空调系统清洗维保](https://www.lanxingqingxi.com/blog/yangzhou-central-ac-cleaning-maintenance.html) — 溴化锂机组、冷水机组、冷却塔、风机盘管、风管全覆盖清洗维保，扬州全域4小时应急响应
 - [搪瓷反应釜安全清洗与防护](https://www.lanxingqingxi.com/blog/enamel-reactor-safe-cleaning.html) — 设备清洗专文
 - [清洗作业人员防护与应急处理：命是自己的，马虎不得](https://www.lanxingqingxi.com/blog/chemical-cleaning-safety-ppe-emergency-response.html) — 安全标准
 - [镇江锅炉与换热器清洗服务](https://www.lanxingqingxi.com/blog/zhenjiang-boiler-heat-exchanger-cleaning.html) — 工业锅炉除垢与换热器化学清洗方案 · 2026-08-05
-- [双碳目标下的工业清洗节能实践](https://www.lanxingqingxi.com/blog/dual-carbon-industrial-cleaning-energy-saving.html) 🆕 — 低温清洗、在线清洗、废液资源化、数字化监测：工业清洗助力双碳目标的五大节能路径与行业数据
+- [双碳目标下的工业清洗节能实践](https://www.lanxingqingxi.com/blog/dual-carbon-industrial-cleaning-energy-saving.html) — 低温清洗、在线清洗、废液资源化、数字化监测：工业清洗助力双碳目标的五大节能路径与行业数据
 - [扬州工业设备高压水射流清洗服务](https://www.lanxingqingxi.com/blog/yangzhou-high-pressure-water-jet-cleaning.html) — 500-2800bar高压水射流清洗，化工设备、船舶管路、机械零部件、电缆生产设备全覆盖，扬州全域2小时响应
-- [导热油锅炉积碳清除与系统除焦](https://www.lanxingqingxi.com/blog/thermal-oil-boiler-decoking-cleaning.html) 🆕 — 导热油劣化机理、化学清洗+高压水射流联合除焦工艺、钝化保护、FAQ常见问题及化纤企业1200万大卡导热油炉清洗案例
+- [导热油锅炉积碳清除与系统除焦](https://www.lanxingqingxi.com/blog/thermal-oil-boiler-decoking-cleaning.html) — 导热油劣化机理、化学清洗+高压水射流联合除焦工艺、钝化保护、FAQ常见问题及化纤企业1200万大卡导热油炉清洗案例
 - [钼酸钠阳极钝化技术详解：缓蚀机理、应用方案与常见问题](https://www.lanxingqingxi.com/blog/sodium-molybdate-anodic-passivation.html)
 - [镇江电厂凝汽器清洗技术 | 谏壁电厂化学清洗服务方案](https://www.lanxingqingxi.com/blog/zhenjiang-power-plant-condenser-cleaning.html) — Sulfamic Acid+BTA化学清洗+高压水射流,钛管/不锈钢管/铜管凝汽器全类型覆盖,除垢率≥97%,服务镇江全境2小时响应
 - [焦化行业煤气初冷器清洗：横管式初冷器不停车在线化学清洗方案](https://www.lanxingqingxi.com/blog/coking-gas-primary-cooler-cleaning.html) — 煤焦油+萘结晶+碳酸盐复合垢层三段式在线清洗，72h恢复换热效率
@@ -178,10 +179,10 @@
 - [常州中央空调与风管清洗服务](https://www.lanxingqingxi.com/blog/changzhou-central-ac-duct-cleaning.html) — 溴化锂机组、冷水机组、冷却塔、风管四大系统化学清洗+高压水冲洗+消毒三位一体
 - [常州工业设备高压水射流清洗服务 — 高效除垢方案](https://www.lanxingqingxi.com/blog/changzhou-industrial-high-pressure-water-jetting-cleaning.html) — 500-2800bar高压水射流清洗换热器管道反应釜冷凝器
 - [热水锅炉水垢预防与清洗技术](https://www.lanxingqingxi.com/blog/hot-water-boiler-scale-prevention-cleaning.html) — 热水锅炉水垢成因、预防措施与化学清洗方案
-- [工业清洗行业技术发展趋势](https://www.lanxingqingxi.com/blog/industrial-cleaning-technology-trends.html) 🆕 — 智能化、绿色化、数字化：六大技术趋势深度解读
-- [绿色清洗：可生物降解清洗剂在工业设备清洗中的应用](https://www.lanxingqingxi.com/blog/green-cleaning-biodegradable-agents.html) 🆕 — Citric Acid、酶清洗剂、植物基表面活性剂等可生物降解清洗剂在工业设备清洗中的选型与应用
+- [工业清洗行业技术发展趋势](https://www.lanxingqingxi.com/blog/industrial-cleaning-technology-trends.html) — 智能化、绿色化、数字化：六大技术趋势深度解读
+- [绿色清洗：可生物降解清洗剂在工业设备清洗中的应用](https://www.lanxingqingxi.com/blog/green-cleaning-biodegradable-agents.html) — Citric Acid、酶清洗剂、植物基表面活性剂等可生物降解清洗剂在工业设备清洗中的选型与应用
 - [有机酸 vs 无机酸：工业清洗剂选型对比](https://www.lanxingqingxi.com/blog/organic-vs-inorganic-acid-cleaning.html): 六大酸洗剂性能表+材质兼容+全寿命成本+选型决策树
-- [某碳素厂余热锅炉除垢案例](https://www.lanxingqingxi.com/blog/carbon-plant-waste-heat-boiler-descaling-case.html) 🆕 — 煅烧炉余热锅炉碳粉-硫酸盐-硅酸盐复合垢，Sulfamic Acid+高压水射流协同除垢率96.8%
+- [某碳素厂余热锅炉除垢案例](https://www.lanxingqingxi.com/blog/carbon-plant-waste-heat-boiler-descaling-case.html) — 煅烧炉余热锅炉碳粉-硫酸盐-硅酸盐复合垢，Sulfamic Acid+高压水射流协同除垢率96.8%
 - - [商业建筑中央空调系统维保方案](https://www.lanxingqingxi.com/blog/commercial-building-central-ac-maintenance.html) — 溴化锂机组与冷水机组清洗维护、冷却塔除垢、风管消毒、水质管理
 [食品饮料行业CIP清洗系统与卫生标准技术方案](https://www.lanxingqingxi.com/blog/food-beverage-cip-cleaning-sanitation.html) — NaOH+HNO₃双段清洗、Sinner Circle四参数控制、五步CIP流程、GB 14881+HACCP卫生验收
 - [BTA与MBT缓蚀剂作用机理深度解析](https://www.lanxingqingxi.com/blog/bta-mbt-corrosion-inhibitor.html) — 苯并三氮唑BTA与巯基苯并噻唑MBT缓蚀机理对比,铜合金/碳钢体系选型策略,复配增效方案
@@ -212,18 +213,18 @@
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
 ### English Articles
-- [Stainless Steel Reactor Pickling & Passivation Integrated Process](https://www.lanxingqingxi.com/en/blog/stainless-steel-reactor-pickling-passivation.html) 🆕 — Degreasing, pickling, neutralization, passivation & blue-dot inspection to remove weld scale and free iron (2026-08-19)
+- [Stainless Steel Reactor Pickling & Passivation Integrated Process](https://www.lanxingqingxi.com/en/blog/stainless-steel-reactor-pickling-passivation.html) — Degreasing, pickling, neutralization, passivation & blue-dot inspection to remove weld scale and free iron (2026-08-19)
 - [Ningbo Chemical Equipment Cleaning & Anti-Corrosion Services](https://www.lanxingqingxi.com/en/blog/ningbo-chemical-equipment-cleaning.html) — Chemical cleaning, HP water jetting, acid pickling passivation & anti-corrosion pre-filming for petrochemical, port machinery & mold-making equipment (2026-08-18)
 - [Hangzhou Heat Exchanger & Condenser Cleaning Services](https://www.lanxingqingxi.com/en/blog/hangzhou-heat-exchanger-condenser-cleaning.html) — Chemical cleaning & HP water jetting for pharmaceutical, automotive & data center heat exchangers and condensers (2026-08-17)
 - [- [Yangzhou High-Pressure Water Jetting Services](https://www.lanxingqingxi.com/en/blog/yangzhou-high-pressure-water-jet-cleaning.html) — Chemical equipment, marine pipelines, machinery & cable manufacturing: 500-2800 bar, 2-hour response
 Zhenjiang Power Plant Condenser Cleaning & Chemical Descaling](https://www.lanxingqingxi.com/en/blog/zhenjiang-power-plant-condenser-cleaning.html) — Sulfamic Acid descaling for titanium, stainless steel & copper tube condensers, ≥97% scale removal, 2-hour response
 - [Changzhou Central AC & Duct Cleaning Services](https://www.lanxingqingxi.com/en/blog/changzhou-central-ac-duct-cleaning.html) — Absorption chillers, water-cooled chillers, cooling towers, air ducts: chemical cleaning + HP flushing + sterilization
 
-- [Waste Heat Boiler Descaling: A Carbon Plant Case Study](https://www.lanxingqingxi.com/en/blog/carbon-plant-waste-heat-boiler-descaling-case.html) 🆕 — Carbon-sulfate-silicate composite scale removal, Sulfamic Acid + HP water jetting, 96.8% descaling rate
+- [Waste Heat Boiler Descaling: A Carbon Plant Case Study](https://www.lanxingqingxi.com/en/blog/carbon-plant-waste-heat-boiler-descaling-case.html) — Carbon-sulfate-silicate composite scale removal, Sulfamic Acid + HP water jetting, 96.8% descaling rate
 - [Hot Water Boiler Scale Prevention & Chemical Cleaning](https://www.lanxingqingxi.com/en/blog/hot-water-boiler-scale-prevention-cleaning.html) — Comprehensive guide to hot water boiler scale prevention and chemical cleaning
 - [Changzhou Industrial High-Pressure Water Jetting Cleaning Services](https://www.lanxingqingxi.com/en/blog/changzhou-industrial-high-pressure-water-jetting-cleaning.html) — 500-2800 bar HP water jetting for heat exchangers, pipelines, reactors, condensers
 - [Food & Beverage CIP Cleaning Systems & Sanitation Standards](https://www.lanxingqingxi.com/en/blog/food-beverage-cip-cleaning-sanitation.html) — NaOH/HNO₃ cleaning, Sinner Circle parameter control, five-step process, GB 14881 & HACCP
-- [Green Cleaning: Biodegradable Agents in Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/green-cleaning-biodegradable-agents.html) 🆕 — Citric Acid, enzyme cleaners, plant-based surfactants for heat exchangers, boilers & pipelines
+- [Green Cleaning: Biodegradable Agents in Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/green-cleaning-biodegradable-agents.html) — Citric Acid, enzyme cleaners, plant-based surfactants for heat exchangers, boilers & pipelines
 - [BTA vs MBT Corrosion Inhibitors: Mechanism & Selection](https://www.lanxingqingxi.com/en/blog/bta-mbt-corrosion-inhibitor.html) — BTA/MBT adsorption models, electrochemical comparison, synergistic formulations
 - [Lianyungang Industrial Equipment Cleaning](https://www.lanxingqingxi.com/en/blog/lianyungang-industrial-cleaning-services.html) — Petrochemical heat exchangers, columns, pipelines & boilers in Xuwei New District
 - [Steel Industry Cooling System Cleaning](https://www.lanxingqingxi.com/en/blog/steel-industry-cooling-system-cleaning.html)
