@@ -151,7 +151,8 @@
 ---
 
 ## 清洗资讯 | Industry Insights
-- [马鞍山工业设备清洗服务](https://www.lanxingqingxi.com/blog/maanshan-industrial-equipment-cleaning.html) 🆕 — 钢铁冶金设备、换热器、凝汽器、反应釜、管道与中央空调清洗，覆盖马钢及化工园区电力企业，化学清洗+高压水射流除垢防腐（2026-08-24）
+- [芜湖工业设备清洗服务](https://www.lanxingqingxi.com/blog/wuhu-industrial-equipment-cleaning.html) 🆕 — 汽车制造、家电生产、建材水泥三大产业设备清洗：换热器、涂装线循环水系统、压缩机组、管道与锅炉，服务奇瑞、美的芜湖基地及海螺水泥生产线，覆盖镜湖弋江鸠江湾沚繁昌南陵无为（2026-08-24）
+- [马鞍山工业设备清洗服务](https://www.lanxingqingxi.com/blog/maanshan-industrial-equipment-cleaning.html) — 钢铁冶金设备、换热器、凝汽器、反应釜、管道与中央空调清洗，覆盖马钢及化工园区电力企业，化学清洗+高压水射流除垢防腐（2026-08-24）
 - [杭州中央空调清洗与风管消毒服务](https://www.lanxingqingxi.com/blog/hangzhou-central-ac-duct-cleaning.html) — 商业楼宇、写字楼、酒店、数据中心与生物医药企业中央空调化学清洗、冷却塔除垢杀菌、风管清洗消毒，覆盖杭州主城区及萧山余杭临平富阳临安（2026-08-23）
 - [在线不停车化学清洗技术原理](https://www.lanxingqingxi.com/blog/online-non-stop-chemical-cleaning.html) — 设备不停机通过循环或旁路系统注入Sulfamic Acid等清洗剂在线除垢，详解酸洗络合分散三重机理、循环回路设计与工艺参数，附电厂凝汽器在线除垢案例，符合GB/T 25146-2010（2026-08-22）
 - [工业工艺管道化学清洗技术](https://www.lanxingqingxi.com/blog/industrial-process-pipeline-chemical-cleaning.html) — 蒸汽管道、循环水管道、油管道、工艺物料管道酸洗除垢、碱洗脱脂、中和钝化、预膜全流程，除垢率95%以上，符合GB/T 25146-2010（2026-08-21）
@@ -216,7 +217,8 @@
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
 ### English Articles
-- [Ma'anshan Industrial Equipment Cleaning Services](https://www.lanxingqingxi.com/en/blog/maanshan-industrial-equipment-cleaning.html) 🆕 — Steel mill equipment, heat exchangers, condensers, reactors, piping & central AC cleaning, chemical cleaning & HP water jetting with corrosion protection (2026-08-24)
+- [Wuhu Industrial Equipment Cleaning Services](https://www.lanxingqingxi.com/en/blog/wuhu-industrial-equipment-cleaning.html) 🆕 — Equipment cleaning for automotive, appliance and cement industries: heat exchangers, paint-shop systems, compressor units, pipelines and boilers — serving Chery, Midea and Conch plants (2026-08-24)
+- [Ma'anshan Industrial Equipment Cleaning Services](https://www.lanxingqingxi.com/en/blog/maanshan-industrial-equipment-cleaning.html) — Steel mill equipment, heat exchangers, condensers, reactors, piping & central AC cleaning, chemical cleaning & HP water jetting with corrosion protection (2026-08-24)
 - [Hangzhou Central AC Cleaning & Duct Disinfection Services](https://www.lanxingqingxi.com/en/blog/hangzhou-central-ac-duct-cleaning.html) — Chemical cleaning, cooling tower descaling & duct disinfection for commercial buildings, offices, hotels, data centers & pharmaceutical clean AC systems (2026-08-23)
 - [Online Non-Stop Chemical Cleaning Technology Principles](https://www.lanxingqingxi.com/en/blog/online-non-stop-chemical-cleaning.html) — Inject cleaning agents through circulation or bypass systems while equipment runs, covering mechanisms, agent selection, loop design and process parameters (2026-08-22)
 - [Stainless Steel Reactor Pickling & Passivation Integrated Process](https://www.lanxingqingxi.com/en/blog/stainless-steel-reactor-pickling-passivation.html) — Degreasing, pickling, neutralization, passivation & blue-dot inspection to remove weld scale and free iron (2026-08-19)
