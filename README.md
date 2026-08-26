@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
 - [芜湖工业设备清洗服务](https://www.lanxingqingxi.com/blog/wuhu-industrial-equipment-cleaning.html) 🆕 — 汽车制造、家电生产、建材水泥三大产业设备清洗：换热器、涂装线循环水系统、压缩机组、管道与锅炉，服务奇瑞、美的芜湖基地及海螺水泥生产线，覆盖镜湖弋江鸠江湾沚繁昌南陵无为（2026-08-24）
 - [马鞍山工业设备清洗服务](https://www.lanxingqingxi.com/blog/maanshan-industrial-equipment-cleaning.html) — 钢铁冶金设备、换热器、凝汽器、反应釜、管道与中央空调清洗，覆盖马钢及化工园区电力企业，化学清洗+高压水射流除垢防腐（2026-08-24）
 - [杭州中央空调清洗与风管消毒服务](https://www.lanxingqingxi.com/blog/hangzhou-central-ac-duct-cleaning.html) — 商业楼宇、写字楼、酒店、数据中心与生物医药企业中央空调化学清洗、冷却塔除垢杀菌、风管清洗消毒，覆盖杭州主城区及萧山余杭临平富阳临安（2026-08-23）
@@ -161,7 +162,6 @@
 - [宁波化工设备清洗与防腐服务](https://www.lanxingqingxi.com/blog/ningbo-chemical-equipment-cleaning.html) — 石化（镇海炼化、宁波石化经开区、大榭开发区）、港口机械、模具三大产业化工设备化学清洗+高压水射流清洗+酸洗钝化+防腐预膜，覆盖海曙江北北仑镇海鄞州奉化余姚慈溪象山宁海（2026-08-18）
 - [杭州换热器与凝汽器清洗服务](https://www.lanxingqingxi.com/blog/hangzhou-heat-exchanger-condenser-cleaning.html) — 生物医药、汽车制造、数据中心三大产业换热器与凝汽器化学清洗+高压水射流清洗，覆盖上城拱墅西湖滨江萧山余杭临平钱塘富阳临安桐庐建德淳安（2026-08-17）
 - [氟利昂冷水机组清洗与水质管理](https://www.lanxingqingxi.com/blog/freon-chiller-cleaning-water-treatment.html) — 离心式螺杆式冷水机组冷凝器蒸发器除垢、循环冷却水缓蚀阻垢杀菌灭藻处理，恢复制冷效率（2026-08-16）
-- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
 - [滁州工业设备清洗服务方案](https://www.lanxingqingxi.com/blog/chuzhou-industrial-equipment-cleaning.html) — 环保能源（光大城乡再生能源）、家电制造、盐化工三大产业设备化学清洗与高压水射流清洗，含烟冷器高压水清洗案例，覆盖琅琊南谯天长明光来安全椒定远凤阳（2026-08-15）
 - [化纤行业导热油系统清洗维护](https://www.lanxingqingxi.com/blog/chemical-fiber-thermal-oil-cleaning.html) — 聚酯涤纶生产线导热油炉除焦除碳，停机化学清洗+在线清洗方案，GB/T 25146-2010验收（2026-08-14）
 - [工业清洗质量验收标准解读](https://www.lanxingqingxi.com/blog/industrial-cleaning-acceptance-standards.html) — 除垢率、腐蚀率、钝化膜质量与表面清洁度四大验收指标，依据GB/T 25146-2010（2026-08-13）
