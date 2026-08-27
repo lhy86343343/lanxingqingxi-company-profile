@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>设备结垢诊断评估器 - 免费在线判断结垢程度与清洗时机 | 丹阳蓝星清洗</title>
+  <meta name="description" content="免费在线诊断工业设备结垢程度：选择设备类型、材质、垢型与垢厚，自动评估结垢风险等级、换热效率下降率与能耗损失，匹配化学清洗工艺与缓蚀剂体系，一键生成结垢诊断评估单PDF。适用换热器、冷凝器、反应釜、锅炉、中央空调等设备。">
+  <meta name="keywords" content="设备结垢诊断,结垢程度判断,换热器结垢评估,清洗时机判断,结垢风险等级,换热效率下降,能耗损失计算,除垢工艺选型,丹阳蓝星清洗">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="baidu-site-verification" content="codeva-e6B4jtlsytrAuz4K">
+  <meta name="360-site-verification" content="d1d9353bd128b2c81a6f1b82efa3b03a">
+  <link rel="canonical" href="https://www.lanxingqingxi.com/tools/scaling-diagnosis.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.lanxingqingxi.com/tools/scaling-diagnosis.html">
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.lanxingqingxi.com/tools/scaling-diagnosis.html">
+  <meta property="og:title" content="设备结垢诊断评估器 - 免费在线判断结垢程度与清洗时机">
+  <meta property="og:description" content="1 分钟在线评估设备结垢风险等级、换热效率损失与能耗浪费，免费生成结垢诊断评估单。">
+  <meta property="og:url" content="https://www.lanxingqingxi.com/tools/scaling-diagnosis.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.lanxingqingxi.com/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="丹阳蓝星清洗">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="设备结垢诊断评估器 - 免费在线判断结垢程度与清洗时机">
+  <meta name="twitter:description" content="1 分钟在线评估设备结垢风险等级、换热效率损失与能耗浪费，免费生成结垢诊断评估单。">
+  <meta name="twitter:image" content="https://www.lanxingqingxi.com/images/og-image.jpg">
+  <!-- GEO meta -->
+  <meta name="geo.position" content="31.9564;119.7357">
+  <meta name="geo.region" content="CN-JS">
+  <meta name="geo.placename" content="江苏省丹阳市丹北镇埤城洪家埭98号">
+  <meta name="ICBM" content="31.9564, 119.7357">
+  <meta name="DC.title" content="设备结垢诊断评估器 - 丹阳蓝星清洗">
+  <meta name="DC.description" content="免费在线评估工业设备结垢程度与清洗时机，生成诊断评估单。">
+  <link rel="icon" type="image/png" href="/images/logo.png">
+  <link rel="stylesheet" href="css/tailwind.css">
+  <style>
+    body{font-family:'Microsoft YaHei','PingFang SC',sans-serif}
+    input[type=range]{-webkit-appearance:none;appearance:none;height:6px;border-radius:3px;background:linear-gradient(90deg,#0066CC,#00A8E8);outline:none}
+    input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:18px;height:18px;border-radius:50%;background:#fff;border:3px solid #0066CC;cursor:pointer}
+    input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:#fff;border:3px solid #0066CC;cursor:pointer}
+    input[type=checkbox]{width:16px;height:16px;accent-color:#0066CC;cursor:pointer}
+    .risk-badge{transition:all .3s}
+    .tool-card{background:linear-gradient(160deg,rgba(15,23,42,.92),rgba(2,6,23,.95))}
+    .symptom-label{cursor:pointer;transition:all .2s}
+    .symptom-label:hover{border-color:#3b82f6}
+    .symptom-label.checked{background:rgba(37,99,235,.15);border-color:#3b82f6}
+    /* PDF sheet 预览容器：窄窗口可横向滚动，不压缩 sheet */
+    #pdf-modal .pdf-sheet-wrap{overflow:auto;padding:20px;background:#0f172a;display:flex;justify-content:center}
+    @media (max-width:900px){#pdf-modal .pdf-sheet-wrap{justify-content:flex-start}}
+  </style>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+    {"@type":"Organization","name":"丹阳市蓝星防腐清洗有限公司","url":"https://www.lanxingqingxi.com","logo":"https://www.lanxingqingxi.com/images/logo.webp","description":"中国工业清洗协会成员单位，提供工业设备化学清洗、高压水射流清洗服务","address":{"@type":"PostalAddress","addressCountry":"CN","addressRegion":"江苏省","addressLocality":"丹阳市","streetAddress":"丹北镇埤城洪家埭98号"},"geo":{"@type":"GeoCoordinates","latitude":31.9564,"longitude":119.7357}},
+    {"@type":"WebApplication","name":"设备结垢诊断评估器","url":"https://www.lanxingqingxi.com/tools/scaling-diagnosis.html","applicationCategory":"BusinessApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","description":"免费在线评估工业设备结垢程度、换热效率损失与清洗时机，生成结垢诊断评估单PDF。","offers":{"@type":"Offer","price":"0","priceCurrency":"CNY"},"provider":{"@type":"Organization","name":"丹阳市蓝星防腐清洗有限公司","url":"https://www.lanxingqingxi.com"}},
+    {"@type":"FAQPage","mainEntity":[
+      {"@type":"Question","name":"设备结垢到什么程度需要清洗？","acceptedAnswer":{"@type":"Answer","text":"垢厚1mm以内属轻微结垢，建议关注水质；垢厚1-3mm时换热效率下降约10%-20%，建议3个月内安排清洗；垢厚超过3mm时效率损失20%-35%，能耗浪费明显，应尽快安排清洗并取样化验。"}},
+      {"@type":"Question","name":"结垢会导致多少能耗损失？","acceptedAnswer":{"@type":"Answer","text":"水垢导热系数仅为碳钢的1/30-1/150，垢厚3mm时换热效率下降可达20%-35%，对应年能源费用损失约20%-35%。例如年能源费用100万元的系统，每年多支出约20-35万元。"}},
+      {"@type":"Question","name":"不同材质设备清洗时有什么禁忌？","acceptedAnswer":{"@type":"Answer","text":"铜合金禁氨类药剂（氨蚀铜）；不锈钢禁盐酸及含氯清洗剂（应力腐蚀）；钛材严禁氢氟酸及含氟药剂；搪玻璃严禁强酸强碱和高压直喷；碳钢酸洗后须立即钝化防返锈。"}},
+      {"@type":"Question","name":"这个诊断评估器收费吗？","acceptedAnswer":{"@type":"Answer","text":"完全免费。评估结果基于行业经验规则，最终清洗方案需现场勘查或取样化验核定，可拨打18952832843获取免费技术咨询。"}},
+      {"@type":"Question","name":"评估结果准确吗？","acceptedAnswer":{"@type":"Answer","text":"评估器按垢厚、垢型、设备材质与运行症状综合评分，结果用于结垢风险预判与清洗时机参考。垢样颜色、水质化验与现场勘查可进一步确认结垢类型与程度。"}}
+    ]}
+  ]}
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-200 antialiased min-h-screen selection:bg-blue-600 selection:text-white">
+
+  <!-- Top bar -->
+  <header class="bg-slate-900/90 backdrop-blur-md border-b border-slate-800 sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="https://www.lanxingqingxi.com/" target="_blank" rel="noopener" class="flex items-center gap-2">
+        <span class="bg-blue-900 text-white font-black text-xs px-2 py-0.5 rounded">蓝星清洗</span>
+        <span class="text-sm sm:text-base font-bold text-white">丹阳市蓝星防腐清洗有限公司</span>
+      </a>
+      <a href="https://www.lanxingqingxi.com/" target="_blank" rel="noopener" class="text-xs sm:text-sm text-blue-300 hover:text-blue-200 hover:underline whitespace-nowrap">← 返回官网主站</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="max-w-7xl mx-auto px-4 pt-10 pb-6 text-center">
+    <span class="inline-block bg-blue-900/60 border border-blue-500 text-blue-200 text-xs font-semibold px-3 py-1 rounded-full mb-4">免费工具 · 1 分钟出结果</span>
+    <h1 class="text-2xl sm:text-3xl font-black text-white leading-tight">设备结垢诊断评估器</h1>
+    <p class="text-slate-400 text-sm sm:text-base mt-3 max-w-3xl mx-auto leading-relaxed">判断设备「该不该洗、有多严重、怎么洗」。选择工况参数，实时评估<b class="text-blue-300">结垢风险等级</b>、<b class="text-blue-300">换热效率损失</b>与<b class="text-blue-300">能耗浪费</b>，并给出对应清洗工艺与药剂建议。</p>
+  </section>
+
+  <main class="max-w-7xl mx-auto px-4 pb-16 grid lg:grid-cols-12 gap-6">
+
+    <!-- ========== 输入区 ========== -->
+    <section class="lg:col-span-5 tool-card border border-slate-800 rounded-2xl p-5 sm:p-6 space-y-5 h-fit">
+
+      <!-- 设备类型 -->
+      <div>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">① 设备类型</label>
+        <div id="equipment-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2"></div>
+      </div>
+
+      <!-- 材质 -->
+      <div>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">② 主要材质</label>
+        <select id="material-select" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500">
+          <option value="carbon_steel">碳钢</option>
+          <option value="stainless_304">304 不锈钢</option>
+          <option value="stainless_316l">316L 不锈钢</option>
+          <option value="titanium">钛材</option>
+          <option value="copper">铜合金</option>
+          <option value="glass_lined">搪玻璃</option>
+        </select>
+      </div>
+
+      <!-- 垢型 -->
+      <div>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">③ 垢型（拿不准？看下方颜色提示）</label>
+        <select id="scale-select" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500">
+          <option value="carbonate">碳酸盐硬水垢（白色/灰白疏松）</option>
+          <option value="sulfate_silicate">硅酸盐难溶垢（灰白坚硬）</option>
+          <option value="rust">铁锈氧化皮（红褐色）</option>
+          <option value="oil_coke">油焦质垢（黑色粘稠/焦化）</option>
+          <option value="bio_slime">菌藻生物粘泥（绿色/褐色粘滑）</option>
+        </select>
+      </div>
+
+      <!-- 垢厚 -->
+      <div>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">④ 垢层厚度</label>
+        <div class="flex items-center gap-3 mt-2">
+          <input type="range" id="scale-thickness" min="0.5" max="10" step="0.5" value="2" class="flex-1">
+          <span class="text-sm font-bold text-blue-300 w-16 text-right" id="thickness-display">2.0 mm</span>
+        </div>
+        <div class="flex justify-between text-[10px] text-slate-500 mt-1 px-0.5"><span>0.5mm</span><span>5mm</span><span>10mm</span></div>
+      </div>
+
+      <!-- 症状 -->
+      <div>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">⑤ 运行异常症状（可多选，无则留空）</label>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2" id="symptom-group">
+          <label class="symptom-label flex items-center gap-2 bg-slate-900 border border-slate-800 rounded-lg px-3 py-2 text-xs">
+            <input type="checkbox" value="1" onchange="toggleSymptom(this)"> 出水温度升高
+          </label>
+          <label class="symptom-label flex items-center gap-2 bg-slate-900 border border-slate-800 rounded-lg px-3 py-2 text-xs">
+            <input type="checkbox" value="1" onchange="toggleSymptom(this)"> 能耗明显上升
+          </label>
+          <label class="symptom-label flex items-center gap-2 bg-slate-900 border border-slate-800 rounded-lg px-3 py-2 text-xs">
+            <input type="checkbox" value="1" onchange="toggleSymptom(this)"> 流量下降 / 出力不足
+          </label>
+          <label class="symptom-label flex items-center gap-2 bg-slate-900 border border-slate-800 rounded-lg px-3 py-2 text-xs">
+            <input type="checkbox" value="1" onchange="toggleSymptom(this)"> 压差升高
+          </label>
+          <label class="symptom-label flex items-center gap-2 bg-slate-900 border border-slate-800 rounded-lg px-3 py-2 text-xs">
+            <input type="checkbox" value="1" onchange="toggleSymptom(this)"> 振动 / 噪音异常
+          </label>
+          <label class="symptom-label flex items-center gap-2 bg-slate-900 border border-slate-800 rounded-lg px-3 py-2 text-xs">
+            <input type="checkbox" value="1" onchange="toggleSymptom(this)"> 无明显异常
+          </label>
+        </div>
+      </div>
+
+      <!-- 年能源费用 -->
+      <div>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">⑥ 年能源费用（万元/年，选填——用于估算能耗损失金额）</label>
+        <input type="number" id="energy-cost" min="0" step="10" placeholder="例如 100（万元）" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-blue-500">
+      </div>
+
+      <div class="text-[10px] text-slate-500 leading-relaxed border-t border-slate-800 pt-3">
+        💡 垢样颜色参考：白/灰白疏松 → 碳酸盐垢 · 灰白坚硬 → 硅酸盐垢 · 红褐色 → 铁锈 · 黑/粘稠 → 油焦垢 · 绿/褐粘滑 → 菌藻粘泥。结果基于经验规则预评估，最终以现场勘查 / 取样化验为准。
+      </div>
+    </section>
+
+    <!-- ========== 结果区 ========== -->
+    <section class="lg:col-span-7 space-y-4">
+
+      <!-- 风险等级 -->
+      <div class="tool-card border border-slate-800 rounded-2xl p-5 sm:p-6">
+        <div class="flex items-center justify-between flex-wrap gap-3">
+          <div>
+            <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">结垢风险等级</div>
+            <div class="mt-2 flex items-center gap-3 flex-wrap">
+              <span id="risk-badge" class="risk-badge inline-block bg-emerald-600 text-white font-black text-lg px-4 py-1.5 rounded-lg">低风险</span>
+              <span id="risk-score" class="text-xs text-slate-400">综合评分 0 分</span>
+            </div>
+            <p id="risk-desc" class="text-sm text-slate-300 mt-2 leading-relaxed">设备运行正常，建议纳入例行巡检并关注水质指标。</p>
+          </div>
+          <div class="text-right text-xs text-slate-500">
+            <div>诊断编号 <span id="diag-id" class="font-mono text-blue-300">LX-DIAG-0000</span></div>
+            <div class="mt-1">生成时间 <span id="diag-time"></span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 损失量化 -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="tool-card border border-slate-800 rounded-2xl p-5">
+          <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">换热效率下降</div>
+          <div id="out-eff" class="text-2xl font-black text-white mt-2">约 10% ~ 20%</div>
+          <p class="text-[10px] text-slate-500 mt-1">按垢厚估算，参考 GB/T 25146-2010</p>
+        </div>
+        <div class="tool-card border border-slate-800 rounded-2xl p-5">
+          <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">能耗损失估算</div>
+          <div id="out-energy" class="text-2xl font-black text-white mt-2">—</div>
+          <p class="text-[10px] text-slate-500 mt-1" id="out-energy-note">填写年能源费用后自动折算</p>
+        </div>
+      </div>
+
+      <!-- 工艺方案 -->
+      <div class="tool-card border border-slate-800 rounded-2xl p-5 sm:p-6 space-y-3">
+        <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">推荐处理方案</div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-3">
+            <div class="text-[10px] text-slate-500">建议工艺</div>
+            <div id="out-method" class="text-white mt-1 font-medium">循环酸洗化学清洗</div>
+          </div>
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-3">
+            <div class="text-[10px] text-slate-500">主药剂（英文标准名）</div>
+            <div id="out-chemical" class="text-white mt-1 font-medium">Citric Acid 3~5% / Sulfamic Acid 5~8%</div>
+          </div>
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-3">
+            <div class="text-[10px] text-slate-500">缓蚀剂</div>
+            <div id="out-inhibitor" class="text-white mt-1 font-medium">Lan-826 多用酸洗缓蚀剂</div>
+          </div>
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-3">
+            <div class="text-[10px] text-slate-500">参考工期</div>
+            <div id="out-days" class="text-white mt-1 font-medium">2 天（可加急）</div>
+          </div>
+        </div>
+        <div class="border-l-4 border-red-600/80 bg-slate-900 rounded-lg px-3 py-2 text-xs text-red-300 leading-relaxed">
+          ⚠️ <span id="out-warning">酸洗后须立即钝化，防止二次返锈</span>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="bg-gradient-to-tr from-blue-600 to-emerald-600 rounded-2xl p-5 sm:p-6 flex items-center justify-between flex-wrap gap-4">
+        <div>
+          <div class="text-white font-bold text-base sm:text-lg">需要现场勘查 / 取样化验？</div>
+          <div class="text-blue-100 text-xs sm:text-sm mt-1">免费技术咨询，专业工程师一对一对接</div>
+        </div>
+        <div class="flex items-center gap-3 flex-wrap">
+          <a href="tel:18952832843" class="bg-white text-blue-900 font-bold text-sm px-4 py-2.5 rounded-lg hover:opacity-90">📞 18952832843</a>
+          <button onclick="openPdfModal()" class="bg-slate-950 text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-slate-800 cursor-pointer">📄 生成诊断评估单</button>
+        </div>
+      </div>
+
+      <div class="text-[10px] text-slate-500 leading-relaxed text-center pt-1">
+        丹阳市蓝星防腐清洗有限公司 · 中国工业清洗协会会员单位 · 执行标准 GB/T 25146-2010 / GB/T 26135 · 江苏省丹阳市丹北镇埤城洪家埭98号
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== PDF 弹窗 ========== -->
+  <div id="pdf-modal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm overflow-y-auto">
+    <div class="min-h-screen flex items-start justify-center p-4">
+      <div class="w-full max-w-5xl bg-slate-950 rounded-2xl border border-slate-700 overflow-hidden shadow-2xl">
+        <div class="flex items-center justify-between px-4 py-3 border-b border-slate-800">
+          <div class="flex items-center gap-2">
+            <button onclick="downloadPdf()" class="pdf-dl-btn bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold px-3 py-1.5 rounded-lg transition-all shadow cursor-pointer">
+              <span>⬇ 直接下载 PDF</span>
+            </button>
+          </div>
+          <button onclick="closePdfModal()" class="text-slate-400 hover:text-white p-1 rounded-lg hover:bg-slate-700 transition-colors cursor-pointer">✕</button>
+        </div>
+
+        <!-- Printable A4 sheet: 固定 794×1123px（A4@96dpi），纯内联样式，html2canvas 截图不变形 -->
+        <div class="pdf-sheet-wrap">
+          <div id="pdf-print-sheet" style="width:794px;height:1123px;background:#ffffff;position:relative;overflow:hidden;font-family:'Microsoft YaHei','PingFang SC',sans-serif;color:#1e293b;padding:46px 54px;box-sizing:border-box;font-size:12px;line-height:1.75;">
+
+            <!-- 水印 -->
+            <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-30deg);opacity:0.06;font-size:34px;font-weight:900;color:#1e3a8a;letter-spacing:6px;white-space:nowrap;text-align:center;z-index:0;">丹阳市蓝星防腐清洗有限公司<br>结垢诊断评估单</div>
+
+            <!-- 头部 -->
+            <table style="width:100%;border-collapse:collapse;border-bottom:2.5px solid #1e3a8a;padding-bottom:0;margin-bottom:0;">
+              <tr>
+                <td style="vertical-align:top;padding-bottom:14px;">
+                  <div style="display:inline-block;background:#1e3a8a;color:#fff;font-weight:900;font-size:11px;padding:2px 8px;border-radius:3px;margin-bottom:6px;">蓝星清洗</div>
+                  <div style="font-size:21px;font-weight:900;color:#172554;line-height:1.35;">丹阳市蓝星防腐清洗有限公司</div>
+                  <div style="font-size:9.5px;color:#64748b;letter-spacing:1px;margin-top:3px;">DANYANG LANXING ANTI-CORROSION CLEANING CO., LTD. · 诊断评估专函</div>
+                  <div style="font-size:9.5px;color:#475569;margin-top:2px;">中国工业清洗协会会员单位&nbsp;&nbsp;|&nbsp;&nbsp;执行标准：GB/T 25146 / GB/T 26135</div>
+                </td>
+                <td style="vertical-align:top;text-align:right;padding-bottom:14px;font-size:10px;color:#64748b;">
+                  <div>编号：<b id="pdf-doc-id" style="color:#334155;font-family:Consolas,monospace;font-size:10.5px;">LX-DIAG-00000000-0000</b></div>
+                  <div style="margin-top:2px;">评估日期：<b id="pdf-doc-date" style="color:#334155;"></b></div>
+                  <div style="margin-top:2px;color:#047857;font-weight:600;">密级：商务机密 / 定向提供</div>
+                </td>
+              </tr>
+            </table>
+
+            <!-- 标题 -->
+            <div style="text-align:center;padding:20px 0 16px;border-bottom:1px solid #e2e8f0;">
+              <div style="font-size:20px;font-weight:900;color:#172554;letter-spacing:3px;">设备结垢诊断评估单</div>
+              <div style="font-size:10px;color:#94a3b8;margin-top:5px;">基于工况参数的结垢风险预评估 · 最终方案以现场勘查 / 取样化验为准</div>
+            </div>
+
+            <!-- 风险总览 -->
+            <table style="width:100%;border-collapse:collapse;margin-top:16px;">
+              <tr>
+                <td style="border:2px solid #1e3a8a;border-radius:8px;padding:14px 18px;width:52%;vertical-align:middle;">
+                  <div style="font-size:10px;color:#64748b;">结垢风险等级（综合评分 <b id="pdf-risk-score" style="color:#1e293b;">0</b> 分）</div>
+                  <div id="pdf-risk-level" style="font-size:26px;font-weight:900;color:#b91c1c;margin-top:2px;">低风险</div>
+                  <div style="font-size:9.5px;color:#64748b;margin-top:3px;">等级说明：低 0-2 分 / 中 3-5 分 / 高 6-8 分 / 严重 9 分以上</div>
+                </td>
+                <td style="width:4%;"></td>
+                <td style="border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;vertical-align:middle;background:#f8fafc;">
+                  <table style="width:100%;border-collapse:collapse;font-size:11px;">
+                    <tr>
+                      <td style="padding:5px 0;color:#64748b;width:45%;">换热效率下降</td>
+                      <td style="padding:5px 0;color:#1e293b;font-weight:700;text-align:right;"><span id="pdf-eff">约 10% ~ 20%</span></td>
+                    </tr>
+                    <tr>
+                      <td style="padding:5px 0;color:#64748b;border-top:1px dashed #e2e8f0;">能耗损失估算</td>
+                      <td style="padding:5px 0;color:#b91c1c;font-weight:700;text-align:right;border-top:1px dashed #e2e8f0;"><span id="pdf-energy">—</span></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <!-- 工况参数 -->
+            <div style="margin-top:18px;">
+              <div style="font-size:11px;font-weight:800;color:#172554;border-left:4px solid #1e3a8a;padding-left:8px;margin-bottom:8px;">一、工况参数</div>
+              <table style="width:100%;border-collapse:collapse;">
+                <tr><td style="padding:7px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">设备类型</td><td id="pdf-eq-name" style="padding:7px 10px;border:1px solid #e2e8f0;font-weight:600;">管壳式换热器</td></tr>
+                <tr><td style="padding:7px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">主要材质</td><td id="pdf-mat-name" style="padding:7px 10px;border:1px solid #e2e8f0;font-weight:600;">碳钢</td></tr>
+                <tr><td style="padding:7px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">垢型</td><td id="pdf-scale-name" style="padding:7px 10px;border:1px solid #e2e8f0;font-weight:600;">碳酸盐硬水垢</td></tr>
+                <tr><td style="padding:7px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">垢层厚度</td><td id="pdf-thick-name" style="padding:7px 10px;border:1px solid #e2e8f0;font-weight:600;">2.0 mm</td></tr>
+                <tr><td style="padding:7px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">异常症状</td><td id="pdf-symptom-name" style="padding:7px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+              </table>
+            </div>
+
+            <!-- 处理方案 -->
+            <div style="margin-top:16px;">
+              <div style="font-size:11px;font-weight:800;color:#172554;border-left:4px solid #1e3a8a;padding-left:8px;margin-bottom:8px;">二、推荐处理方案</div>
+              <table style="width:100%;border-collapse:collapse;">
+                <tr><td style="padding:7px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">建议工艺</td><td id="pdf-method" style="padding:7px 10px;border:1px solid #e2e8f0;font-weight:600;">循环酸洗化学清洗</td></tr>
+                <tr><td style="padding:7px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">主药剂</td><td id="pdf-chem" style="padding:7px 10px;border:1px solid #e2e8f0;font-weight:600;">Citric Acid 3~5%</td></tr>
+                <tr><td style="padding:7px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">缓蚀剂</td><td id="pdf-inhibitor" style="padding:7px 10px;border:1px solid #e2e8f0;font-weight:600;">Lan-826</td></tr>
+                <tr><td style="padding:7px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">参考工期</td><td id="pdf-days" style="padding:7px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:7px 10px;border:1px solid #e2e8f0;background:#fef2f2;color:#b91c1c;vertical-align:top;">⚠️ 安全警示</td><td id="pdf-warning" style="padding:7px 10px;border:1px solid #e2e8f0;color:#b91c1c;font-weight:600;">—</td></tr>
+              </table>
+            </div>
+
+            <!-- 页脚 + 印章 -->
+            <table style="width:100%;border-collapse:collapse;border-top:1px solid #cbd5e1;margin-top:26px;position:absolute;bottom:44px;left:54px;width:686px;">
+              <tr>
+                <td style="padding-top:14px;vertical-align:bottom;font-size:10px;color:#475569;">
+                  <div>联系人：<b id="pdf-contact-name" style="color:#334155;">现场工程负责人</b>&nbsp;&nbsp;联系电话：<b id="pdf-contact-phone" style="color:#334155;">18952832843</b></div>
+                  <div style="margin-top:3px;">地址：江苏省丹阳市丹北镇埤城洪家埭98号&nbsp;&nbsp;·&nbsp;&nbsp;www.lanxingqingxi.com</div>
+                  <div style="margin-top:8px;font-size:8.5px;color:#94a3b8;">本单基于经验规则预评估生成，仅供清洗时机参考；最终方案以现场勘查 / 取样化验核定为准。</div>
+                </td>
+                <td style="padding-top:10px;text-align:right;vertical-align:bottom;width:140px;">
+                  <div style="width:96px;height:96px;border-radius:50%;border:2.5px solid #b91c1c;color:#b91c1c;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-12deg);font-size:9px;line-height:1.55;font-weight:700;text-align:center;margin-left:auto;">
+                    <div>丹阳市蓝星防腐<br>清洗有限公司</div>
+                    <div style="font-size:15px;font-weight:900;line-height:1.1;">★</div>
+                    <div>诊断评估专用章</div>
+                  </div>
+                  <div style="font-size:8.5px;color:#94a3b8;margin-top:4px;text-align:center;">丹阳蓝星清洗</div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="border-t border-slate-800 py-6 text-center text-[10px] text-slate-500">
+    丹阳市蓝星防腐清洗有限公司 © 2026 · 设备结垢诊断评估器 · 免费在线工具
+  </footer>
+
+  <script>
+  // ===== 规则数据（与数字化在线评估 calc 同一规则体系） =====
+  const equipments = [
+    { id: 'shell_tube', name: '管壳式换热器', desc: '循环化学清洗 + 管程高压通炮', baseDays: 2 },
+    { id: 'plate', name: '板式换热器', desc: '拆装板片 + 循环化学清洗', baseDays: 1 },
+    { id: 'reactor', name: '反应釜 / 聚合釜', desc: '三维旋转喷头喷淋/循环清洗', baseDays: 2 },
+    { id: 'condenser', name: '电厂凝汽器 / 冷凝器', desc: '铜管高压通炮 + 胶球清洗', baseDays: 2 },
+    { id: 'thermal_oil', name: '导热油炉系统', desc: '溶焦循环清洗', baseDays: 3 },
+    { id: 'boiler', name: '工业锅炉', desc: '碱煮 + 酸洗 + 钝化', baseDays: 3 },
+    { id: 'central_ac', name: '中央空调水系统', desc: '循环清洗 + 杀菌', baseDays: 1 }
+  ];
+
+  const materials = {
+    carbon_steel:   { name: '碳钢',         inhibitor: 'Lan-826 多用酸洗缓蚀剂', warning: '酸洗后须立即钝化，防止二次返锈' },
+    stainless_304:  { name: '304 不锈钢',    inhibitor: '有机酸缓蚀剂（禁氯）',   warning: '严禁游离氯离子（禁盐酸）及含卤素清洗剂；酸洗后须充分钝化' },
+    stainless_316l: { name: '316L 不锈钢',   inhibitor: '有机酸缓蚀剂（禁氯）',   warning: '严禁游离氯离子；316L 耐蚀优于 304 但仍需控温控浓' },
+    titanium:       { name: '钛材',          inhibitor: '钛材专用缓蚀剂',         warning: '严禁氢氟酸及任何含氟药剂；氧化膜受损难修复' },
+    copper:         { name: '铜合金',        inhibitor: 'BTA / MBT 铜缓蚀剂',     warning: '严禁氨类药剂（氨蚀铜）；pH 调节仅用 NaOH 禁氨水；防选择性脱锌' },
+    glass_lined:    { name: '搪玻璃',        inhibitor: '温和有机酸（低浓度）',   warning: '严禁强酸强碱；严禁高压直喷，采用三维旋转喷头低压无损清洗' }
+  };
+
+  const scales = {
+    carbonate:        { name: '碳酸盐硬水垢', score: 1, method: '循环酸洗化学清洗',                   chem: 'Citric Acid 3~5% / Sulfamic Acid 5~8%', rate: '≥98.5%' },
+    sulfate_silicate: { name: '硅酸盐难溶垢', score: 2, method: '复合碱煮转化 + 超高压水射流(1200bar)', chem: 'NaOH + Na₂CO₃ 复合碱液', rate: '≥95%' },
+    rust:             { name: '铁锈氧化皮',   score: 1, method: '酸洗 + 钝化处理',                     chem: 'Citric Acid 3~5%（新装管道首选）', rate: '≥98%' },
+    oil_coke:         { name: '油焦质垢',     score: 3, method: '碱煮 / 溶剂溶焦 + 循环清洗',           chem: 'NaOH 复合溶焦剂', rate: '≥96%' },
+    bio_slime:        { name: '菌藻生物粘泥', score: 2, method: '杀菌 + 粘泥剥离 + 循环冲洗',           chem: '非氧化型杀菌剂 + 粘泥剥离剂', rate: '≥97%' }
+  };
+
+  let currentEqId = 'shell_tube';
+  let symptomCount = 0;
+
+  // ===== 渲染 =====
+  function renderEquipmentButtons() {
+    const grid = document.getElementById('equipment-grid');
+    grid.innerHTML = equipments.map(eq => {
+      const active = eq.id === currentEqId;
+      return '<button type="button" onclick="selectEquipment(\'' + eq.id + '\')" class="text-left p-2.5 rounded-xl border transition-all ' +
+        (active ? 'bg-blue-900/60 border-blue-500 shadow-md ring-1 ring-blue-400' : 'bg-slate-950 border-slate-800 hover:border-slate-700') + '">' +
+        '<div class="text-xs font-bold ' + (active ? 'text-white' : 'text-slate-300') + '">' + eq.name + '</div>' +
+        '<div class="text-[10px] text-slate-500 mt-1 line-clamp-1">' + eq.desc + '</div></button>';
+    }).join('');
+  }
+
+  function selectEquipment(id) {
+    currentEqId = id;
+    renderEquipmentButtons();
+    updateDiagnosis();
+  }
+
+  function toggleSymptom(cb) {
+    cb.closest('.symptom-label').classList.toggle('checked', cb.checked);
+    symptomCount = document.querySelectorAll('#symptom-group input:checked').length;
+    updateDiagnosis();
+  }
+
+  // ===== 诊断引擎（纯函数） =====
+  function computeDiagnosis(eqId, matId, scaleId, thick, symptoms, energy) {
+    const eq = equipments.find(e => e.id === eqId) || equipments[0];
+    const mt = materials[matId] || materials.carbon_steel;
+    const sc = scales[scaleId] || scales.carbonate;
+
+    // 垢厚得分
+    let thickScore = thick <= 1 ? 0 : thick <= 3 ? 2 : thick <= 5 ? 4 : 6;
+    let total = thickScore + sc.score + symptoms;
+
+    let level, color, desc;
+    if (total <= 2)      { level = '低风险';  color = '#059669'; desc = '设备运行正常，结垢轻微。建议纳入例行巡检，持续关注水质指标（硬度、pH、浊度）与运行参数变化。'; }
+    else if (total <= 5) { level = '中风险';  color = '#d97706'; desc = '结垢已开始影响换热效率。建议 3 个月内安排清洗计划，同步取样化验确认垢型，制定针对性工艺。'; }
+    else if (total <= 8) { level = '高风险';  color = '#ea580c'; desc = '换热效率损失明显，能耗持续浪费。建议尽快安排清洗，避免垢层继续增厚导致垢下腐蚀。'; }
+    else                 { level = '严重';    color = '#dc2626'; desc = '结垢严重，存在垢下腐蚀、管壁穿孔风险。建议立即停车取样化验，尽快安排清洗检修。'; }
+
+    // 效率下降（按垢厚三档）
+    const eff = thick <= 1 ? '约 5% ~ 10%' : thick <= 3 ? '约 10% ~ 20%' : '约 20% ~ 35%';
+    const effMid = thick <= 1 ? 7.5 : thick <= 3 ? 15 : 27.5;
+
+    // 能耗损失
+    let energyText = '—', energyNote = '填写年能源费用后自动折算';
+    if (energy && energy > 0) {
+      const loss = energy * effMid / 100;
+      energyText = '约 ' + (loss >= 1 ? loss.toFixed(1) : loss.toFixed(2)) + ' 万元/年';
+      energyNote = '按年能源费用 ' + energy + ' 万元 × 效率下降约 ' + effMid + '% 折算';
+    } else {
+      energyText = '约 ' + (effMid * 1).toFixed(1) + ' 万/百万元';
+      energyNote = '参考：年能源费用每 100 万元约损失 ' + (effMid).toFixed(1) + ' 万元/年（未填费用）';
+    }
+
+    // 工期
+    let days = eq.baseDays;
+    if (thick >= 3) days += 1;
+    if (scaleId === 'sulfate_silicate') days += 1;
+
+    return { eq, mt, sc, total, level, color, desc, eff, effMid, energyText, energyNote, days };
+  }
+
+  function updateDiagnosis() {
+    const mat = document.getElementById('material-select').value;
+    const scale = document.getElementById('scale-select').value;
+    const thick = parseFloat(document.getElementById('scale-thickness').value) || 2;
+    const energy = parseFloat(document.getElementById('energy-cost').value) || 0;
+
+    document.getElementById('thickness-display').innerText = thick.toFixed(1) + ' mm';
+
+    const r = computeDiagnosis(currentEqId, mat, scale, thick, symptomCount, energy);
+
+    // 风险徽章
+    const badge = document.getElementById('risk-badge');
+    badge.innerText = r.level;
+    badge.style.background = r.color;
+    document.getElementById('risk-score').innerText = '综合评分 ' + r.total + ' 分';
+    document.getElementById('risk-desc').innerText = r.desc;
+
+    // 量化
+    document.getElementById('out-eff').innerText = r.eff;
+    document.getElementById('out-energy').innerText = r.energyText;
+    document.getElementById('out-energy-note').innerText = r.energyNote;
+
+    // 方案
+    document.getElementById('out-method').innerText = r.sc.method;
+    document.getElementById('out-chemical').innerText = r.sc.chem;
+    document.getElementById('out-inhibitor').innerText = r.mt.inhibitor;
+    document.getElementById('out-warning').innerText = r.mt.warning;
+    document.getElementById('out-days').innerText = r.days + ' 天（可加急）';
+
+    // 诊断编号
+    document.getElementById('diag-id').innerText = 'LX-DIAG-' + genId();
+    document.getElementById('diag-time').innerText = new Date().toLocaleString('zh-CN');
+  }
+
+  function genId() {
+    const d = new Date();
+    const p = function(n){ return (n<10?'0':'')+n; };
+    return d.getFullYear() + p(d.getMonth()+1) + p(d.getDate()) + '-' +
+      Math.floor(1000 + Math.random() * 9000);
+  }
+
+  // ===== 症状文案 =====
+  function symptomText() {
+    const labels = [];
+    document.querySelectorAll('#symptom-group input:checked').forEach(cb => {
+      labels.push(cb.closest('label').innerText.trim());
+    });
+    return labels.length ? labels.join('、') : '—';
+  }
+
+  // ===== PDF =====
+  function openPdfModal() {
+    const mat = document.getElementById('material-select').value;
+    const scale = document.getElementById('scale-select').value;
+    const thick = parseFloat(document.getElementById('scale-thickness').value) || 2;
+    const energy = parseFloat(document.getElementById('energy-cost').value) || 0;
+    const r = computeDiagnosis(currentEqId, mat, scale, thick, symptomCount, energy);
+
+    document.getElementById('pdf-doc-id').innerText = 'LX-DIAG-' + genId();
+    document.getElementById('pdf-doc-date').innerText = new Date().toLocaleDateString('zh-CN');
+    document.getElementById('pdf-risk-level').innerText = r.level;
+    document.getElementById('pdf-risk-score').innerText = r.total;
+    document.getElementById('pdf-risk-level').style.color = r.color;
+    document.getElementById('pdf-eff').innerText = r.eff;
+    document.getElementById('pdf-energy').innerText = r.energyText;
+    document.getElementById('pdf-eq-name').innerText = r.eq.name;
+    document.getElementById('pdf-mat-name').innerText = r.mt.name;
+    document.getElementById('pdf-scale-name').innerText = r.sc.name;
+    document.getElementById('pdf-thick-name').innerText = thick.toFixed(1) + ' mm';
+    document.getElementById('pdf-symptom-name').innerText = symptomText();
+    document.getElementById('pdf-method').innerText = r.sc.method;
+    document.getElementById('pdf-chem').innerText = r.sc.chem;
+    document.getElementById('pdf-inhibitor').innerText = r.mt.inhibitor;
+    document.getElementById('pdf-warning').innerText = r.mt.warning;
+    document.getElementById('pdf-days').innerText = r.days + ' 天（可加急，以现场为准）';
+    document.getElementById('pdf-contact-name').innerText = '现场工程负责人';
+    document.getElementById('pdf-contact-phone').innerText = '18952832843';
+
+    document.getElementById('pdf-modal').classList.remove('hidden');
+  }
+
+  function closePdfModal() {
+    document.getElementById('pdf-modal').classList.add('hidden');
+  }
+
+  function loadPdfLibs(cb) {
+    if (typeof window.jspdf !== 'undefined' && typeof html2canvas !== 'undefined') { cb(); return; }
+    const paths = [
+      '../calc/js/jspdf.umd.min.js', 'https://unpkg.com/jspdf@2.5.1/dist/jspdf.umd.min.js'
+    ];
+    const paths2 = [
+      '../calc/js/html2canvas.min.js', 'https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.min.js'
+    ];
+    function load(srcs, done) {
+      const s = document.createElement('script');
+      s.src = srcs[0];
+      s.onload = function(){ done(); };
+      s.onerror = function(){
+        if (srcs.length > 1) { load(srcs.slice(1), done); }
+        else { done(); }
+      };
+      document.head.appendChild(s);
+    }
+    load(paths, function(){ load(paths2, cb); });
+  }
+
+  function downloadPdf() {
+    const btn = document.querySelector('.pdf-dl-btn');
+    btn.innerText = '生成中…';
+    btn.disabled = true;
+    loadPdfLibs(function(){
+      setTimeout(function(){
+        // 克隆 sheet 到隐藏节点，固定 794×1123（A4@96dpi），保证截图比例恒定不变形
+        const src = document.getElementById('pdf-print-sheet');
+        const host = document.createElement('div');
+        host.style.cssText = 'position:fixed;left:-10000px;top:0;z-index:-1;';
+        host.appendChild(src.cloneNode(true));
+        const sheet = host.firstElementChild;
+        sheet.style.width = '794px';
+        sheet.style.height = '1123px';
+        sheet.style.minHeight = '1123px';
+        document.body.appendChild(host);
+
+        html2canvas(sheet, { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 794, windowHeight: 1123 }).then(function(canvas){
+          const pdf = new window.jspdf.jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+          pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 210, 297);
+          pdf.save('结垢诊断评估单-' + new Date().toISOString().slice(0,10) + '.pdf');
+          btn.innerText = '⬇ 直接下载 PDF';
+          btn.disabled = false;
+          host.remove();
+        }).catch(function(err){
+          console.error('PDF render failed:', err);
+          btn.innerText = '⬇ 直接下载 PDF';
+          btn.disabled = false;
+          host.remove();
+          window.print();
+        });
+      }, 300);
+    });
+  }
+
+  // ===== 初始化 =====
+  renderEquipmentButtons();
+  document.getElementById('material-select').addEventListener('change', updateDiagnosis);
+  document.getElementById('scale-select').addEventListener('change', updateDiagnosis);
+  document.getElementById('scale-thickness').addEventListener('input', updateDiagnosis);
+  document.getElementById('energy-cost').addEventListener('input', updateDiagnosis);
+  updateDiagnosis();
+  </script>
+</body>
+</html>
