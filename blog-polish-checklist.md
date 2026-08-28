@@ -1,6 +1,6 @@
 # 文章打磨清单（AI 抓取友好 · ai-friendly-article-polish 技能）
 
-> 状态：已打磨 **5/111** 篇 | 更新日期：2026-08-28
+> 状态：已打磨 **9/111** 篇 | 更新日期：2026-08-28
 > 打磨标准：标题-作者-摘要-工具-正文结构 / 药剂 LX-900 代号+类别句 / 直接答案式摘要 / 相关阅读 / 表格语义化 / JSON-LD 唯一块 / dateModified+sitemap 日期同步
 
 | # | 状态 | 文章 | 标题 |
@@ -31,7 +31,7 @@
 | 24 | ⬜ | [dual-carbon-industrial-cleaning-energy-saving.html](https://www.lanxingqingxi.com/blog/dual-carbon-industrial-cleaning-energy-saving.html) | 双碳目标下的工业清洗节能实践 — 丹阳蓝星清洗 |
 | 25 | ⬜ | [reactor-inner-wall-polymer-cleaning.html](https://www.lanxingqingxi.com/blog/reactor-inner-wall-polymer-cleaning.html) | 反应釜内壁聚合物三维无死角高压水清洗 |
 | 26 | ⬜ | [reactor-cleaning.html](https://www.lanxingqingxi.com/blog/reactor-cleaning.html) | 反应釜化学清洗技术方案：搪瓷与不锈钢反应釜除垢工艺及高压水射流组合清洗标准流程与钝化处理 |
-| 27 | ⬜ | [hydraulic-press.html](https://www.lanxingqingxi.com/blog/hydraulic-press.html) | 反渗透设备RO膜化学清洗全流程指南：无机盐垢有机物微生物胶体四大污染识别与酸洗碱洗工艺步骤详解 |
+| 27 | ✅ | [hydraulic-press.html](https://www.lanxingqingxi.com/blog/hydraulic-press.html) | 反渗透设备RO膜化学清洗全流程指南：无机盐垢有机物微生物胶体四大污染识别与酸洗碱洗工艺步骤详解 |
 | 28 | ⬜ | [various-heat-exchanger-cleaning.html](https://www.lanxingqingxi.com/blog/various-heat-exchanger-cleaning.html) | 各种类型换热器化学清洗方法对比：列管式、板式、螺旋板式与浮头式清洗方案 |
 | 29 | ⬜ | [commercial-building-central-ac-maintenance.html](https://www.lanxingqingxi.com/blog/commercial-building-central-ac-maintenance.html) | 商业建筑中央空调系统维保方案 — 丹阳蓝星清洗 |
 | 30 | ⬜ | [online-non-stop-chemical-cleaning.html](https://www.lanxingqingxi.com/blog/online-non-stop-chemical-cleaning.html) | 在线不停车化学清洗技术原理 — 丹阳蓝星清洗 |
@@ -41,7 +41,7 @@
 | 34 | ⬜ | [thermal-oil-boiler.html](https://www.lanxingqingxi.com/blog/thermal-oil-boiler.html) | 导热油锅炉及有机热载体炉管道系统专业化学清洗除焦除碳技术方案恢复加热效率保障安全运行 — 丹阳蓝星清洗 |
 | 35 | ⬜ | [thermal-oil-boiler-and-pipe-cleaning.html](https://www.lanxingqingxi.com/blog/thermal-oil-boiler-and-pipe-cleaning.html) | 导热油锅炉及管道系统化学清洗除焦除碳 — 有机热载体炉积碳清洗方案 |
 | 36 | ⬜ | [thermal-oil-boiler-decoking-cleaning.html](https://www.lanxingqingxi.com/blog/thermal-oil-boiler-decoking-cleaning.html) | 导热油锅炉积碳清除与系统除焦 — 丹阳蓝星清洗 |
-| 37 | ⬜ | [industrial-process-pipeline-chemical-cleaning.html](https://www.lanxingqingxi.com/blog/industrial-process-pipeline-chemical-cleaning.html) | 工业工艺管道化学清洗技术 — 除垢脱脂钝化预膜全流程方案 — 丹阳蓝星清洗 |
+| 37 | ✅ | [industrial-process-pipeline-chemical-cleaning.html](https://www.lanxingqingxi.com/blog/industrial-process-pipeline-chemical-cleaning.html) | 工业工艺管道化学清洗技术 — 除垢脱脂钝化预膜全流程方案 — 丹阳蓝星清洗 |
 | 38 | ⬜ | [blog-list.html](https://www.lanxingqingxi.com/blog/blog-list.html) | 工业清洗技术博客 | 换热器清洗 · 化学清洗 · 高压水射流清洗知识 — 丹阳蓝星清洗 |
 | 39 | ⬜ | [corrosion-inhibitor-selection-guide.html](https://www.lanxingqingxi.com/blog/corrosion-inhibitor-selection-guide.html) | 工业清洗缓蚀剂作用机理与选型全指南：BTA MBT乌洛托品钼酸钠电化学成膜机制及不同材质配方案例 |
 | 40 | ⬜ | [industry-cleaning-technology-trends.html](https://www.lanxingqingxi.com/blog/industry-cleaning-technology-trends.html) | 工业清洗行业技术发展趋势与创新前沿 | 在线不停车清洗·绿色环保药剂·AI智能监测·高压水机器人 |
@@ -81,7 +81,7 @@
 | 74 | ⬜ | [sulfamic-acid-industrial-cleaning.html](https://www.lanxingqingxi.com/blog/sulfamic-acid-industrial-cleaning.html) | 氨基磺酸在工业清洗中的应用与限制 — 氨氮基磺酸除垢技术解析 |
 | 75 | ⬜ | [taizhou-industrial-equipment-cleaning.html](https://www.lanxingqingxi.com/blog/taizhou-industrial-equipment-cleaning.html) | 泰州工业设备化学清洗服务 | 换热器·反应釜·管道清洗 |
 | 76 | ⬜ | [floating-head-heat-exchanger-cleaning.html](https://www.lanxingqingxi.com/blog/floating-head-heat-exchanger-cleaning.html) | 浮头式换热器检修清洗全流程 | 抽芯除垢化学清洗 |
-| 77 | ⬜ | [chemical-cleaning.html](https://www.lanxingqingxi.com/blog/chemical-cleaning.html) | 液压机油路与水路系统化学清洗全流程：污染物分析清洗剂选型循环冲洗工艺及NAS1638验收标准 |
+| 77 | ✅ | [chemical-cleaning.html](https://www.lanxingqingxi.com/blog/chemical-cleaning.html) | 液压机油路与水路系统化学清洗全流程：污染物分析清洗剂选型循环冲洗工艺及NAS1638验收标准 |
 | 78 | ⬜ | [huaian-pipeline-chemical-high-pressure-cleaning.html](https://www.lanxingqingxi.com/blog/huaian-pipeline-chemical-high-pressure-cleaning.html) | 淮安管道化学清洗与高压水清洗服务方案 | 盐化工卤水管道除盐垢特钢冷却水管除锈 |
 | 79 | ⬜ | [general-tech.html](https://www.lanxingqingxi.com/blog/general-tech.html) | 清洗技术与规范 |
 | 80 | ⬜ | [lithium-bromide-central-ac-maintenance.html](https://www.lanxingqingxi.com/blog/lithium-bromide-central-ac-maintenance.html) | 溴化锂中央空调清洗维护保养 |
@@ -107,7 +107,7 @@
 | 100 | ⬜ | [return-parts-heavy-oil-cleaning.html](https://www.lanxingqingxi.com/blog/return-parts-heavy-oil-cleaning.html) | 返修零件重油污积碳清洗工程案例 — 高温碱煮与高压水射流组合工艺去除顽固油垢恢复零件性能 |
 | 101 | ⬜ | [lianyungang-industrial-cleaning-services.html](https://www.lanxingqingxi.com/blog/lianyungang-industrial-cleaning-services.html) | 连云港工业设备化学清洗与高压水射流清洗服务 — 丹阳蓝星清洗 |
 | 102 | ⬜ | [choosing-industrial-cleaning-provider.html](https://www.lanxingqingxi.com/blog/choosing-industrial-cleaning-provider.html) | 选择工业清洗服务商的5个关键标准 — 丹阳蓝星清洗 |
-| 103 | ⬜ | [steel-industry-cooling-system-cleaning.html](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) | 钢铁行业冷却系统清洗与防腐 — 行业应用 |
+| 103 | ✅ | [steel-industry-cooling-system-cleaning.html](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) | 钢铁行业冷却系统清洗与防腐 — 行业应用 |
 | 104 | ⬜ | [sodium-molybdate-anodic-passivation.html](https://www.lanxingqingxi.com/blog/sodium-molybdate-anodic-passivation.html) | 钼酸钠阳极钝化技术详解：缓蚀机理、应用方案与常见问题 — 丹阳蓝星清洗 |
 | 105 | ✅ | [copper-tube-condenser-cleaning-corrosion-protection.html](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning-corrosion-protection.html) | 铜管凝汽器专用清洗与缓蚀保护 — 丹阳蓝星清洗 |
 | 106 | ⬜ | [copper-tube-condenser-cleaning.html](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning.html) | 铜管凝汽器专用清洗与缓蚀保护 — 丹阳蓝星清洗 |
