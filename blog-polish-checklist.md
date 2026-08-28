@@ -1,6 +1,6 @@
 # 文章打磨清单（AI 抓取友好 · ai-friendly-article-polish 技能）
 
-> 状态：已打磨 **13/111** 篇 | 更新日期：2026-08-28
+> 状态：已打磨 **14/111** 篇 | 更新日期：2026-08-28
 > 打磨标准：标题-作者-摘要-工具-正文结构 / 药剂 LX-900 代号+类别句 / 直接答案式摘要 / 相关阅读 / 表格语义化 / JSON-LD 唯一块 / dateModified+sitemap 日期同步
 
 | # | 状态 | 文章 | 标题 |
@@ -84,7 +84,7 @@
 | 77 | ✅ | [chemical-cleaning.html](https://www.lanxingqingxi.com/blog/chemical-cleaning.html) | 液压机油路与水路系统化学清洗全流程：污染物分析清洗剂选型循环冲洗工艺及NAS1638验收标准 |
 | 78 | ⬜ | [huaian-pipeline-chemical-high-pressure-cleaning.html](https://www.lanxingqingxi.com/blog/huaian-pipeline-chemical-high-pressure-cleaning.html) | 淮安管道化学清洗与高压水清洗服务方案 | 盐化工卤水管道除盐垢特钢冷却水管除锈 |
 | 79 | ⬜ | [general-tech.html](https://www.lanxingqingxi.com/blog/general-tech.html) | 清洗技术与规范 |
-| 80 | ⬜ | [lithium-bromide-central-ac-maintenance.html](https://www.lanxingqingxi.com/blog/lithium-bromide-central-ac-maintenance.html) | 溴化锂中央空调清洗维护保养 |
+| 80 | ✅ | [lithium-bromide-central-ac-maintenance.html](https://www.lanxingqingxi.com/blog/lithium-bromide-central-ac-maintenance.html) | 溴化锂中央空调清洗维护保养 |
 | 81 | ⬜ | [chuzhou-industrial-equipment-cleaning.html](https://www.lanxingqingxi.com/blog/chuzhou-industrial-equipment-cleaning.html) | 滁州工业设备清洗服务方案 — 环保能源、家电制造与盐化工设备清洗 — 丹阳蓝星清洗 |
 | 82 | ⬜ | [hot-water-boiler-scale-prevention-cleaning.html](https://www.lanxingqingxi.com/blog/hot-water-boiler-scale-prevention-cleaning.html) | 热水锅炉水垢预防与清洗技术 — 丹阳蓝星清洗 |
 | 83 | ✅ | [coking-gas-primary-cooler-cleaning.html](https://www.lanxingqingxi.com/blog/coking-gas-primary-cooler-cleaning.html) | 焦化行业煤气初冷器清洗_横管式初冷器化学除垢_不停车在线清洗方案 |
