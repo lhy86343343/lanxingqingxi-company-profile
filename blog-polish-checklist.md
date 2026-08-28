@@ -1,6 +1,6 @@
 # 文章打磨清单（AI 抓取友好 · ai-friendly-article-polish 技能）
 
-> 状态：已打磨 **10/111** 篇 | 更新日期：2026-08-28
+> 状态：已打磨 **11/111** 篇 | 更新日期：2026-08-28
 > 打磨标准：标题-作者-摘要-工具-正文结构 / 药剂 LX-900 代号+类别句 / 直接答案式摘要 / 相关阅读 / 表格语义化 / JSON-LD 唯一块 / dateModified+sitemap 日期同步
 
 | # | 状态 | 文章 | 标题 |
@@ -33,7 +33,7 @@
 | 26 | ⬜ | [reactor-cleaning.html](https://www.lanxingqingxi.com/blog/reactor-cleaning.html) | 反应釜化学清洗技术方案：搪瓷与不锈钢反应釜除垢工艺及高压水射流组合清洗标准流程与钝化处理 |
 | 27 | ✅ | [hydraulic-press.html](https://www.lanxingqingxi.com/blog/hydraulic-press.html) | 反渗透设备RO膜化学清洗全流程指南：无机盐垢有机物微生物胶体四大污染识别与酸洗碱洗工艺步骤详解 |
 | 28 | ⬜ | [various-heat-exchanger-cleaning.html](https://www.lanxingqingxi.com/blog/various-heat-exchanger-cleaning.html) | 各种类型换热器化学清洗方法对比：列管式、板式、螺旋板式与浮头式清洗方案 |
-| 29 | ⬜ | [commercial-building-central-ac-maintenance.html](https://www.lanxingqingxi.com/blog/commercial-building-central-ac-maintenance.html) | 商业建筑中央空调系统维保方案 — 丹阳蓝星清洗 |
+| 29 | ✅ | [commercial-building-central-ac-maintenance.html](https://www.lanxingqingxi.com/blog/commercial-building-central-ac-maintenance.html) | 商业建筑中央空调系统维保方案 — 丹阳蓝星清洗 |
 | 30 | ⬜ | [online-non-stop-chemical-cleaning.html](https://www.lanxingqingxi.com/blog/online-non-stop-chemical-cleaning.html) | 在线不停车化学清洗技术原理 — 丹阳蓝星清洗 |
 | 31 | ⬜ | [regional.html](https://www.lanxingqingxi.com/blog/regional.html) | 地域服务_工业设备清洗区域覆盖_江苏浙江上海安徽河南 |
 | 32 | ⬜ | [double-pipe-heat-exchanger-online-cleaning.html](https://www.lanxingqingxi.com/blog/double-pipe-heat-exchanger-online-cleaning.html) | 套管式换热器不停车在线化学清洗技术详解：Sulfamic Acid复合配方BTA缓蚀工艺与工程实践案例 |
