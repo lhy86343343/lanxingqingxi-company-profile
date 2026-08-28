@@ -1,6 +1,6 @@
 # 文章打磨清单（AI 抓取友好 · ai-friendly-article-polish 技能）
 
-> 状态：已打磨 **9/111** 篇 | 更新日期：2026-08-28
+> 状态：已打磨 **10/111** 篇 | 更新日期：2026-08-28
 > 打磨标准：标题-作者-摘要-工具-正文结构 / 药剂 LX-900 代号+类别句 / 直接答案式摘要 / 相关阅读 / 表格语义化 / JSON-LD 唯一块 / dateModified+sitemap 日期同步
 
 | # | 状态 | 文章 | 标题 |
@@ -13,7 +13,7 @@
 | 6 | ⬜ | [stainless-steel-reactor-pickling-passivation.html](https://www.lanxingqingxi.com/blog/stainless-steel-reactor-pickling-passivation.html) | 不锈钢反应釜酸洗钝化一体工艺 — 丹阳蓝星清洗 |
 | 7 | ⬜ | [stainless-steel.html](https://www.lanxingqingxi.com/blog/stainless-steel.html) | 不锈钢酸洗钝化完整指南：HNO₃经典法vs柠檬酸环保工艺及蓝点检测 |
 | 8 | ⬜ | [central-ac.html](https://www.lanxingqingxi.com/blog/central-ac.html) | 中央空调与制冷机组清洗 |
-| 9 | ⬜ | [central-air-conditioning-cleaning.html](https://www.lanxingqingxi.com/blog/central-air-conditioning-cleaning.html) | 中央空调溴化锂吸收式机组与冷水机组冷凝器蒸发器化学清洗及循环冷却水水质稳定处理全方案 |
+| 9 | ✅ | [central-air-conditioning-cleaning.html](https://www.lanxingqingxi.com/blog/central-air-conditioning-cleaning.html) | 中央空调溴化锂吸收式机组与冷水机组冷凝器蒸发器化学清洗及循环冷却水水质稳定处理全方案 |
 | 10 | ⬜ | [heat-exchanger-types.html](https://www.lanxingqingxi.com/blog/heat-exchanger-types.html) | 五大类型换热器清洗方法全面对比：板式列管螺旋板套管空冷器结构差异结垢机理与化学清洗方案选型 |
 | 11 | ⬜ | [waste-heat-boiler-tube-bundle-cleaning.html](https://www.lanxingqingxi.com/blog/waste-heat-boiler-tube-bundle-cleaning.html) | 余热锅炉换热管束清洗工艺 — 硫酸清洗与高压水射流协同除垢技术 |
 | 12 | ⬜ | [condenser-vacuum-recovery-cleaning.html](https://www.lanxingqingxi.com/blog/condenser-vacuum-recovery-cleaning.html) | 凝汽器真空度恢复与清洗效果评估 — 丹阳蓝星清洗 |
