@@ -1,6 +1,6 @@
 # 文章打磨清单（AI 抓取友好 · ai-friendly-article-polish 技能）
 
-> 状态：已打磨 **12/111** 篇 | 更新日期：2026-08-28
+> 状态：已打磨 **13/111** 篇 | 更新日期：2026-08-28
 > 打磨标准：标题-作者-摘要-工具-正文结构 / 药剂 LX-900 代号+类别句 / 直接答案式摘要 / 相关阅读 / 表格语义化 / JSON-LD 唯一块 / dateModified+sitemap 日期同步
 
 | # | 状态 | 文章 | 标题 |
@@ -76,7 +76,7 @@
 | 69 | ⬜ | [power-plant-condenser-online-cleaning-case.html](https://www.lanxingqingxi.com/blog/power-plant-condenser-online-cleaning-case.html) | 某发电厂凝汽器在线化学清洗案例：Sulfamic Acid不停机除垢恢复真空度实战全记录 |
 | 70 | ⬜ | [carbon-plant-waste-heat-boiler-descaling-case.html](https://www.lanxingqingxi.com/blog/carbon-plant-waste-heat-boiler-descaling-case.html) | 某碳素厂余热锅炉除垢案例 — 丹阳蓝星清洗 |
 | 71 | ⬜ | [steel-waste-heat-boiler-descaling-case.html](https://www.lanxingqingxi.com/blog/steel-waste-heat-boiler-descaling-case.html) | 某钢铁企业余热锅炉除垢案例 — 锅炉与反应设备 — 丹阳蓝星清洗 |
-| 72 | ⬜ | [freon-chiller-cleaning-water-treatment.html](https://www.lanxingqingxi.com/blog/freon-chiller-cleaning-water-treatment.html) | 氟利昂冷水机组清洗与水质管理 — 离心式螺杆式机组除垢与循环水处理方案 |
+| 72 | ✅ | [freon-chiller-cleaning-water-treatment.html](https://www.lanxingqingxi.com/blog/freon-chiller-cleaning-water-treatment.html) | 氟利昂冷水机组清洗与水质管理 — 离心式螺杆式机组除垢与循环水处理方案 |
 | 73 | ✅ | [fluoride-lithium-bromide.html](https://www.lanxingqingxi.com/blog/fluoride-lithium-bromide.html) | 氟化物在溴化锂吸收式机组腔体清洗的应用 | Ammonium Bifluoride络合清洗 |
 | 74 | ⬜ | [sulfamic-acid-industrial-cleaning.html](https://www.lanxingqingxi.com/blog/sulfamic-acid-industrial-cleaning.html) | 氨基磺酸在工业清洗中的应用与限制 — 氨氮基磺酸除垢技术解析 |
 | 75 | ⬜ | [taizhou-industrial-equipment-cleaning.html](https://www.lanxingqingxi.com/blog/taizhou-industrial-equipment-cleaning.html) | 泰州工业设备化学清洗服务 | 换热器·反应釜·管道清洗 |
