@@ -1,225 +1,670 @@
-# ===== 丹阳蓝星清洗 — robots.txt =====
-# www.lanxingqingxi.com
-# Last updated: 2026-08-06
-
-# --- All Crawlers ---
-User-agent: *
-Allow: /
-Disallow: /.private/
-Disallow: /cgi-bin/
-Crawl-delay: 1
-
-# --- Baidu Crawlers ---
-User-agent: Baiduspider
-Allow: /
-Crawl-delay: 1
-
-User-agent: Baiduspider-render
-Allow: /
-
-User-agent: Baiduspider-image
-Allow: /
-
-# --- AI / LLM Crawlers (Allow for GEO visibility) ---
-# DeepSeek (深度求索)
-User-agent: DeepSeekBot
-Allow: /
-
-# Kimi (月之暗面)
-User-agent: Kimi-User
-Allow: /
-
-# ChatGLM (智谱清言)
-User-agent: ChatGLM-Spider
-Allow: /
-
-# ByteDance AI / 豆包 (字节跳动)
-User-agent: Bytespider
-Allow: /
-
-# Bing (搜索引擎 + AI)
-User-agent: Bingbot
-Allow: /
-
-# Perplexity
-User-agent: PerplexityBot
-Allow: /
-
-# Anthropic
-User-agent: ClaudeBot
-Allow: /
-User-agent: Claude-User
-Allow: /
-User-agent: Claude-Web
-Allow: /
-User-agent: anthropic-ai
-Allow: /
-
-# OpenAI
-User-agent: GPTBot
-Allow: /
-User-agent: OAI-SearchBot
-Allow: /
-User-agent: ChatGPT-User
-Allow: /
-
-# Google AI
-User-agent: Google-Extended
-Allow: /
-
-# Common Crawl (web archive)
-User-agent: CCBot
-Allow: /
-
-# Diffbot (knowledge graph)
-User-agent: Diffbot
-Allow: /
-
-# Meta AI
-User-agent: Meta-ExternalAgent
-Allow: /
-
-# iAsk
-User-agent: iAskBot
-Allow: /
-
-# Brave
-User-agent: Bravebot
-Allow: /
-
-# 360 AI
-User-agent: 360Spider
-Allow: /
-Crawl-delay: 1
-
-# Yisou (神马搜索)
-User-agent: YisouSpider
-Allow: /
-Crawl-delay: 1
-
-# Sogou
-User-agent: Sogou web spider
-Allow: /
-Crawl-delay: 1
-
-# Tencent
-User-agent: Tencentbot
-Allow: /
-
-# 华为 Petal
-User-agent: PetalBot
-Allow: /
-
-# Apple AI
-User-agent: Applebot
-Allow: /
-
-# Google Other / Vertex AI
-User-agent: GoogleOther
-Allow: /
-User-agent: Google-CloudVertexBot
-Allow: /
-
-# 华为盘古
-User-agent: PanguBot
-Allow: /
-
-# Crawl4AI
-User-agent: Crawl4AI
-Allow: /
-
-# Devin / Manus / opencode (AI coding agents)
-User-agent: Devin
-Allow: /
-User-agent: Manus-User
-Allow: /
-User-agent: opencode
-Allow: /
-
-# Firecrawl
-User-agent: FirecrawlAgent
-Allow: /
-
-# FriendlyCrawler
-User-agent: FriendlyCrawler
-Allow: /
-
-# Amazon Alexa AI
-User-agent: Amazonbot
-Allow: /
-
-# Cohere AI
-User-agent: cohere
-Allow: /
-
-# Omgili
-User-agent: Omgili
-Allow: /
-
-# 阿里云
-User-agent: Aliyun
-Allow: /
-
-# 腾讯元宝
-User-agent: Yuanbao
-Allow: /
-
-# NovaAct
-User-agent: NovaAct
-Allow: /
-
-# TwinAgent
-User-agent: TwinAgent
-Allow: /
-
-# You.com (AI search)
-User-agent: YouBot
-Allow: /
-
-# DuckDuckGo AI
-User-agent: DuckAssistBot
-Allow: /
-
-# Phind (AI code & search)
-User-agent: PhindBot
-Allow: /
-
-# Tavily (AI search API)
-User-agent: TavilyBot
-Allow: /
-
-# Exa (AI search)
-User-agent: ExaBot
-Allow: /
-
-# --- Additional AI Crawlers (2026-08-03 sync) ---
-
-# ByteDance
-User-agent: TikTokSpider
-Allow: /
-User-agent: Trae
-Allow: /
-
-# Alibaba
-User-agent: TongyiBot
-Allow: /
-
-# Baidu AI
-User-agent: YiyanBot
-Allow: /
-
-# OpenAI (additional)
-User-agent: ChatGPT Agent
-Allow: /
-User-agent: OpenAI
-Allow: /
-
-# Anthropic (additional)
-User-agent: Claude-SearchBot
-Allow: /
-User-agent: Claude-Code
-Allow: /
-
+# ===== 丹阳蓝星清洗 — robots.txt =====
+
+
+# www.lanxingqingxi.com
+
+
+# Last updated: 2026-08-06
+
+
+
+
+
+# --- All Crawlers ---
+
+
+User-agent: *
+
+
+Allow: /
+
+
+Disallow: /.private/
+
+
+Disallow: /cgi-bin/
+
+
+Crawl-delay: 1
+
+
+
+
+
+# --- Baidu Crawlers ---
+
+
+User-agent: Baiduspider
+
+
+Allow: /
+
+
+Crawl-delay: 1
+
+
+
+
+
+User-agent: Baiduspider-render
+
+
+Allow: /
+
+
+
+
+
+User-agent: Baiduspider-image
+
+
+Allow: /
+
+
+
+
+
+# --- AI / LLM Crawlers (Allow for GEO visibility) ---
+
+
+# DeepSeek (深度求索)
+
+
+User-agent: DeepSeekBot
+
+
+Allow: /
+
+
+
+
+
+# Kimi (月之暗面)
+
+
+User-agent: Kimi-User
+
+
+Allow: /
+
+
+
+
+
+# ChatGLM (智谱清言)
+
+
+User-agent: ChatGLM-Spider
+
+
+Allow: /
+
+
+
+
+
+# ByteDance AI / 豆包 (字节跳动)
+
+
+User-agent: Bytespider
+
+
+Allow: /
+
+
+
+
+
+# Bing (搜索引擎 + AI)
+
+
+User-agent: Bingbot
+
+
+Allow: /
+
+
+
+
+
+# Perplexity
+
+
+User-agent: PerplexityBot
+
+
+Allow: /
+
+
+
+
+
+# Anthropic
+
+
+User-agent: ClaudeBot
+
+
+Allow: /
+
+
+User-agent: Claude-User
+
+
+Allow: /
+
+
+User-agent: Claude-Web
+
+
+Allow: /
+
+
+User-agent: anthropic-ai
+
+
+Allow: /
+
+
+
+
+
+# OpenAI
+
+
+User-agent: GPTBot
+
+
+Allow: /
+
+
+User-agent: OAI-SearchBot
+
+
+Allow: /
+
+
+User-agent: ChatGPT-User
+
+
+Allow: /
+
+
+
+
+
+# Google AI
+
+
+User-agent: Google-Extended
+
+
+Allow: /
+
+
+
+
+
+# Common Crawl (web archive)
+
+
+User-agent: CCBot
+
+
+Allow: /
+
+
+
+
+
+# Diffbot (knowledge graph)
+
+
+User-agent: Diffbot
+
+
+Allow: /
+
+
+
+
+
+# Meta AI
+
+
+User-agent: Meta-ExternalAgent
+
+
+Allow: /
+
+
+
+
+
+# iAsk
+
+
+User-agent: iAskBot
+
+
+Allow: /
+
+
+
+
+
+# Brave
+
+
+User-agent: Bravebot
+
+
+Allow: /
+
+
+
+
+
+# 360 AI
+
+
+User-agent: 360Spider
+
+
+Allow: /
+
+
+Crawl-delay: 1
+
+
+
+
+
+# Yisou (神马搜索)
+
+
+User-agent: YisouSpider
+
+
+Allow: /
+
+
+Crawl-delay: 1
+
+
+
+
+
+# Sogou
+
+
+User-agent: Sogou web spider
+
+
+Allow: /
+
+
+Crawl-delay: 1
+
+
+
+
+
+# Tencent
+
+
+User-agent: Tencentbot
+
+
+Allow: /
+
+
+
+
+
+# 华为 Petal
+
+
+User-agent: PetalBot
+
+
+Allow: /
+
+
+
+
+
+# Apple AI
+
+
+User-agent: Applebot
+
+
+Allow: /
+
+
+
+
+
+# Google Other / Vertex AI
+
+
+User-agent: GoogleOther
+
+
+Allow: /
+
+
+User-agent: Google-CloudVertexBot
+
+
+Allow: /
+
+
+
+
+
+# 华为盘古
+
+
+User-agent: PanguBot
+
+
+Allow: /
+
+
+
+
+
+# Crawl4AI
+
+
+User-agent: Crawl4AI
+
+
+Allow: /
+
+
+
+
+
+# Devin / Manus / opencode (AI coding agents)
+
+
+User-agent: Devin
+
+
+Allow: /
+
+
+User-agent: Manus-User
+
+
+Allow: /
+
+
+User-agent: opencode
+
+
+Allow: /
+
+
+
+
+
+# Firecrawl
+
+
+User-agent: FirecrawlAgent
+
+
+Allow: /
+
+
+
+
+
+# FriendlyCrawler
+
+
+User-agent: FriendlyCrawler
+
+
+Allow: /
+
+
+
+
+
+# Amazon Alexa AI
+
+
+User-agent: Amazonbot
+
+
+Allow: /
+
+
+
+
+
+# Cohere AI
+
+
+User-agent: cohere
+
+
+Allow: /
+
+
+
+
+
+# Omgili
+
+
+User-agent: Omgili
+
+
+Allow: /
+
+
+
+
+
+# 阿里云
+
+
+User-agent: Aliyun
+
+
+Allow: /
+
+
+
+
+
+# 腾讯元宝
+
+
+User-agent: Yuanbao
+
+
+Allow: /
+
+
+
+
+
+# NovaAct
+
+
+User-agent: NovaAct
+
+
+Allow: /
+
+
+
+
+
+# TwinAgent
+
+
+User-agent: TwinAgent
+
+
+Allow: /
+
+
+
+
+
+# You.com (AI search)
+
+
+User-agent: YouBot
+
+
+Allow: /
+
+
+
+
+
+# DuckDuckGo AI
+
+
+User-agent: DuckAssistBot
+
+
+Allow: /
+
+
+
+
+
+# Phind (AI code & search)
+
+
+User-agent: PhindBot
+
+
+Allow: /
+
+
+
+
+
+# Tavily (AI search API)
+
+
+User-agent: TavilyBot
+
+
+Allow: /
+
+
+
+
+
+# Exa (AI search)
+
+
+User-agent: ExaBot
+
+
+Allow: /
+
+
+
+
+
+# --- Additional AI Crawlers (2026-08-03 sync) ---
+
+
+
+
+
+# ByteDance
+
+
+User-agent: TikTokSpider
+
+
+Allow: /
+
+
+User-agent: Trae
+
+
+Allow: /
+
+
+
+
+
+# Alibaba
+
+
+User-agent: TongyiBot
+
+
+Allow: /
+
+
+
+
+
+# Baidu AI
+User-agent: Baidu-ERNIE-Bot
+
+
+User-agent: YiyanBot
+
+
+Allow: /
+
+
+
+
+
+# OpenAI (additional)
+
+
+User-agent: ChatGPT Agent
+
+
+Allow: /
+
+
+User-agent: OpenAI
+
+
+Allow: /
+
+
+
+
+
+# Anthropic (additional)
+
+
+User-agent: Claude-SearchBot
+
+
+Allow: /
+
+
+User-agent: Claude-Code
+
+
+Allow: /
+
+
+
+
+
 # Qwen (通义千问)
 User-agent: QwenBot
 Allow: /
@@ -268,98 +713,407 @@ Crawl-delay: 5
 # SenseTime (商汤)
 User-agent: SenseTimeBot
 Allow: /
-# Google (additional)
-User-agent: GoogleOther-Image
-Allow: /
-User-agent: GoogleOther-Video
-Allow: /
-User-agent: Gemini-Deep-Research
-Allow: /
-User-agent: Google-NotebookLM
-Allow: /
-User-agent: Google-Agent
-Allow: /
-
-# Microsoft AI
-User-agent: AzureAI-SearchBot
-Allow: /
-
-# Meta (additional)
-User-agent: Meta-ExternalFetcher
-Allow: /
-User-agent: FacebookBot
-Allow: /
-User-agent: meta-webindexer
-Allow: /
-
-# Perplexity
-User-agent: Perplexity-User
-Allow: /
-
-# Mistral
-User-agent: MistralAI-User
-Allow: /
-
-# Cohere (additional)
-User-agent: cohere-ai
-Allow: /
-User-agent: cohere-training-data-crawler
-Allow: /
-
-# Apple
-User-agent: Applebot-Extended
-Allow: /
-
-# Amazon (additional)
-User-agent: bedrockbot
-Allow: /
-User-agent: Amzn-SearchBot
-Allow: /
-
-# Cloudflare AI
-User-agent: Cloudflare-AutoRAG
-Allow: /
-
-# AI Search (additional)
-User-agent: kagi-fetcher
-Allow: /
-User-agent: LinerBot
-Allow: /
-User-agent: LinkupBot
-Allow: /
-
-# AI Training Data (additional)
-User-agent: img2dataset
-Allow: /
-User-agent: LAIONDownloader
-Allow: /
-User-agent: SBIntuitionsBot
-Allow: /
-# --- Additional AI Crawlers (2026-08-04) ---
-
-# xAI / Grok
-User-agent: Grok
-Allow: /
-
-# Twitter/X link preview
-User-agent: Twitterbot
-Allow: /
-
-# Genspark AI Search
-User-agent: Genspark
-Allow: /
-
-# Andi AI Search
-User-agent: Andi
-Allow: /
-
-# Arc Search AI
-User-agent: ArcSearch
-Allow: /
-
+# Google (additional)
+
+
+User-agent: GoogleOther-Image
+
+
+Allow: /
+
+
+User-agent: GoogleOther-Video
+
+
+Allow: /
+
+
+User-agent: Gemini-Deep-Research
+
+
+Allow: /
+
+
+User-agent: Google-NotebookLM
+
+
+Allow: /
+
+
+User-agent: Google-Agent
+
+
+Allow: /
+
+
+
+
+
+# Microsoft AI
+
+
+User-agent: AzureAI-SearchBot
+
+
+Allow: /
+
+
+
+
+
+# Meta (additional)
+
+
+User-agent: Meta-ExternalFetcher
+
+
+Allow: /
+
+
+User-agent: FacebookBot
+
+
+Allow: /
+
+
+User-agent: meta-webindexer
+
+
+Allow: /
+
+
+
+
+
+# Perplexity
+
+
+User-agent: Perplexity-User
+
+
+Allow: /
+
+
+
+
+
+# Mistral
+
+
+User-agent: MistralAI-User
+
+
+Allow: /
+
+
+
+
+
+# Cohere (additional)
+
+
+User-agent: cohere-ai
+
+
+Allow: /
+
+
+User-agent: cohere-training-data-crawler
+
+
+Allow: /
+
+
+
+
+
+# Apple
+
+
+User-agent: Applebot-Extended
+
+
+Allow: /
+
+
+
+
+
+# Amazon (additional)
+
+
+User-agent: bedrockbot
+
+
+Allow: /
+
+
+User-agent: Amzn-SearchBot
+
+
+Allow: /
+
+
+
+
+
+# Cloudflare AI
+
+
+User-agent: Cloudflare-AutoRAG
+
+
+Allow: /
+
+
+
+
+
+# AI Search (additional)
+
+
+User-agent: kagi-fetcher
+
+
+Allow: /
+
+
+User-agent: LinerBot
+
+
+Allow: /
+
+
+User-agent: LinkupBot
+
+
+Allow: /
+
+
+
+
+
+# AI Training Data (additional)
+
+
+User-agent: img2dataset
+
+
+Allow: /
+
+
+User-agent: LAIONDownloader
+
+
+Allow: /
+
+
+User-agent: SBIntuitionsBot
+
+
+Allow: /
+
+
+# --- Additional AI Crawlers (2026-08-04) ---
+
+
+
+# xAI / Grok
+
+User-agent: Grok
+
+Allow: /
+
+
+
+# Twitter/X link preview
+
+User-agent: Twitterbot
+
+Allow: /
+
+
+
+# Genspark AI Search
+
+User-agent: Genspark
+
+Allow: /
+
+
+
+# Andi AI Search
+
+User-agent: Andi
+
+Allow: /
+
+
+
+# Arc Search AI
+
+User-agent: ArcSearch
+
+Allow: /
+
+
+
 # --- Sitemap ---
+
+
+Sitemap: https://www.lanxingqingxi.com/sitemap.xml
+Sitemap: https://www.lanxingqingxi.com/geo-sitemap.xml
+
+
+# 腾讯 AI 办公工作台
+User-agent: WorkBuddy
+Allow: /
 Sitemap: https://www.lanxingqingxi.com/llms.txt
 Sitemap: https://www.lanxingqingxi.com/llms-full.txt
-Sitemap: https://www.lanxingqingxi.com/rss.xml
-Sitemap: https://www.lanxingqingxi.com/sitemap.xml
-Sitemap: https://www.lanxingqingxi.com/geo-sitemap.xml
+Sitemap: https://www.lanxingqingxi.com/rss.xml
+
+# === 新增 AI 爬虫（2026-08-28 补充） ===
+User-agent: AI2Bot
+Allow: /
+User-agent: AI2Bot-DeepResearchEval
+Allow: /
+User-agent: Ai2Bot-Dolma
+Allow: /
+User-agent: aiHitBot
+Allow: /
+User-agent: AIWebIndex
+Allow: /
+User-agent: amazon-kendra
+Allow: /
+User-agent: amazon-QBusiness
+Allow: /
+User-agent: AmazonBuyForMe
+Allow: /
+User-agent: Andibot
+Allow: /
+User-agent: Anomura
+Allow: /
+User-agent: ApifyBot
+Allow: /
+User-agent: ApifyWebsiteContentCrawler
+Allow: /
+User-agent: bigsur.ai
+Allow: /
+User-agent: Brightbot
+Allow: /
+User-agent: BuddyBot
+Allow: /
+User-agent: Channel3Bot
+Allow: /
+User-agent: CloudVertexBot
+Allow: /
+User-agent: Code
+Allow: /
+User-agent: Cotoyogi
+Allow: /
+User-agent: CragCrawler
+Allow: /
+User-agent: Crawlspace
+Allow: /
+User-agent: Cursor
+Allow: /
+User-agent: Datenbank Crawler
+Allow: /
+User-agent: Echobot Bot
+Allow: /
+User-agent: ExaSearchBot
+Allow: /
+User-agent: GeistHaus-PageFetcher
+Allow: /
+User-agent: Google-Firebase
+Allow: /
+User-agent: Google-Gemini-CLI
+Allow: /
+User-agent: GoogleAgent-Mariner
+Allow: /
+User-agent: GoogleAgent-URLContext
+Allow: /
+User-agent: HenkBot
+Allow: /
+User-agent: iaskspider
+Allow: /
+User-agent: ICC-Crawler
+Allow: /
+User-agent: ImagesiftBot
+Allow: /
+User-agent: imageSpider
+Allow: /
+User-agent: Kangaroo Bot
+Allow: /
+User-agent: KlaviyoAIBot
+Allow: /
+User-agent: KunatoCrawler
+Allow: /
+User-agent: laion-huggingface-processor
+Allow: /
+User-agent: LCC
+Allow: /
+User-agent: Linguee Bot
+Allow: /
+User-agent: MyCentralAIScraperBot
+Allow: /
+User-agent: NagetBot
+Allow: /
+User-agent: netEstate Imprint Crawler
+Allow: /
+User-agent: newsai
+Allow: /
+User-agent: NotebookLM
+Allow: /
+User-agent: Operator
+Allow: /
+User-agent: Panscient
+Allow: /
+User-agent: panscient.com
+Allow: /
+User-agent: Poggio-Citations
+Allow: /
+User-agent: Poseidon Research Crawler
+Allow: /
+User-agent: QualifiedBot
+Allow: /
+User-agent: Querit-SearchBot
+Allow: /
+User-agent: QueritBot
+Allow: /
+User-agent: QuillBot
+Allow: /
+User-agent: quillbot.com
+Allow: /
+User-agent: Reflectionbot
+Allow: /
+User-agent: SemrushBot-OCOB
+Allow: /
+User-agent: SemrushBot-SWA
+Allow: /
+User-agent: Shap-User
+Allow: /
+User-agent: ShapBot
+Allow: /
+User-agent: Sidetrade indexer bot
+Allow: /
+User-agent: TerraCotta
+Allow: /
+User-agent: Thinkbot
+Allow: /
+User-agent: Timpibot
+Allow: /
+User-agent: UseAI
+Allow: /
+User-agent: VelenPublicWebCrawler
+Allow: /
+User-agent: WARDBot
+Allow: /
+User-agent: Webzio-Extended
+Allow: /
+User-agent: WRTNBot
+Allow: /
+User-agent: YaK
+Allow: /
+User-agent: ZanistaBot
+Allow: /
