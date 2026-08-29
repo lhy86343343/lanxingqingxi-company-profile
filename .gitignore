@@ -3,3 +3,8 @@
 
 # Hermes local config
 .hermes/
+# 备份与工作副本（不入库）
+*.bak-*
+mainsite-work/
+calc/upload_calc.py
+calc/backup-index-*.html
