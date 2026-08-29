@@ -8,3 +8,10 @@
 mainsite-work/
 calc/upload_calc.py
 calc/backup-index-*.html
+upload_fix_params.py
+upload_round2.py
+upload_round2_fix.py
+upload_knowledge_one.py
+backup_one.py
+hx_live.html
+fetch_knowledge_log.txt
