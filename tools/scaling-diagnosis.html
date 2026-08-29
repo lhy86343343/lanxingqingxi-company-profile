@@ -119,7 +119,7 @@
         <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">③ 垢型（拿不准？看下方颜色提示）</label>
         <select id="scale-select" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500">
           <option value="carbonate">碳酸盐硬水垢（白色/灰白疏松）</option>
-          <option value="sulfate_silicate">硅酸盐难溶垢（灰白坚硬）</option>
+          <option value="sulfate_silicate">硫酸盐/硅酸盐难溶垢（黄白或灰白坚硬）</option>
           <option value="rust">铁锈氧化皮（红褐色）</option>
           <option value="oil_coke">油焦质垢（黑色粘稠/焦化）</option>
           <option value="bio_slime">菌藻生物粘泥（绿色/褐色粘滑）</option>
@@ -217,7 +217,7 @@
       </div>
 
       <div class="text-[10px] text-slate-500 leading-relaxed border-t border-slate-800 pt-3">
-        💡 垢样颜色参考：白/灰白疏松 → 碳酸盐垢 · 灰白坚硬 → 硅酸盐垢 · 红褐色 → 铁锈 · 黑/粘稠 → 油焦垢 · 绿/褐粘滑 → 菌藻粘泥。结果基于行业经验规则预评估，最终以现场勘查 / 取样化验为准。
+        💡 垢样颜色参考：白/灰白疏松 → 碳酸盐垢 · 黄白/灰白坚硬 → 硫酸盐/硅酸盐垢 · 红褐色 → 铁锈 · 黑/粘稠 → 油焦垢 · 绿/褐粘滑 → 菌藻粘泥。结果基于行业经验规则预评估，最终以现场勘查 / 取样化验为准。
       </div>
     </section>
 
@@ -346,7 +346,7 @@
       </div>
 
       <div class="text-[10px] text-slate-500 leading-relaxed text-center pt-1">
-        丹阳市蓝星防腐清洗有限公司 · 中国工业清洗协会会员单位 · 执行标准 GB/T 25146-2010 / GB/T 26135 · 江苏省丹阳市丹北镇埤城洪家埭98号
+        丹阳市蓝星防腐清洗有限公司 · 中国工业清洗协会会员单位 · 执行标准 GB/T 25146-2010（化学清洗质量验收）/ GB/T 26148-2025（高压水射流作业安全） · 江苏省丹阳市丹北镇埤城洪家埭98号
       </div>
     </section>
   </main>
@@ -378,7 +378,7 @@
                   <div style="display:inline-block;background:#1e3a8a;color:#fff;font-weight:900;font-size:11px;padding:2px 8px;border-radius:3px;margin-bottom:6px;">蓝星清洗</div>
                   <div style="font-size:20px;font-weight:900;color:#172554;line-height:1.35;">丹阳市蓝星防腐清洗有限公司</div>
                   <div style="font-size:9px;color:#64748b;letter-spacing:1px;margin-top:2px;">DANYANG LANXING ANTI-CORROSION CLEANING CO., LTD. · 诊断评估专函</div>
-                  <div style="font-size:9px;color:#475569;margin-top:2px;">中国工业清洗协会会员单位&nbsp;&nbsp;|&nbsp;&nbsp;执行标准：GB/T 25146 / GB/T 26135</div>
+                  <div style="font-size:9px;color:#475569;margin-top:2px;">中国工业清洗协会会员单位&nbsp;&nbsp;|&nbsp;&nbsp;执行标准：GB/T 25146-2010 / GB/T 26148-2025</div>
                 </td>
                 <td style="vertical-align:top;text-align:right;padding-bottom:10px;font-size:10px;color:#64748b;">
                   <div>编号：<b id="pdf-doc-id" style="color:#334155;font-family:Consolas,monospace;font-size:10px;">LX-DIAG-00000000-0000</b></div>
@@ -535,10 +535,10 @@
       method: '循环酸洗化学清洗', methodMid: '循环酸洗 + 高压水辅助冲洗', methodHeavy: '化学软化（碱煮）+ 循环酸洗 + 高压水射流',
       chem: 'Citric Acid 3~5% / Sulfamic Acid 5~8%', cycle: '常规 6-12 个月；硬水/高温工况缩短至 3-6 个月',
       chemNote: '碳酸盐垢对酸敏感，酸洗除垢效率高，属较易处理的垢型。' },
-    sulfate_silicate: { name: '硅酸盐难溶垢', score: 2, rate: '≥95%', tests: '垢样 X 射线衍射分析（确认硅酸盐）/ 水质硅含量化验 / 垢下腐蚀检查',
+    sulfate_silicate: { name: '硫酸盐/硅酸盐难溶垢', score: 2, rate: '≥85%', tests: '垢样 X 射线衍射分析（确认硅酸盐）/ 水质硅含量化验 / 垢下腐蚀检查',
       method: '复合碱煮转化 + 超高压水射流(1200bar)', methodMid: '复合碱煮转化 + 高压水射流辅助', methodHeavy: '复合碱煮软化 + 超高压水射流(2000bar) 分步清除',
       chem: 'NaOH + Na₂CO₃ 复合碱液', cycle: '12-24 个月；难溶垢重点防再生，配合水质处理',
-      chemNote: '硅酸盐垢致密难溶，酸洗难以直接溶解，需碱煮转化或物理清除，处理难度较高。' },
+      chemNote: '硫酸盐/硅酸盐垢致密难溶，酸洗难以直接溶解，需碱煮转化或物理清除，处理难度较高。' },
     rust:             { name: '铁锈氧化皮',   score: 1, rate: '≥98%', tests: '垢样铁含量分析 / 溶解氧与 pH 检测 / 腐蚀产物分析',
       method: '酸洗 + 钝化处理', methodMid: '酸洗 + 钝化（加强置换冲洗）', methodHeavy: '预除垢（机械/高压）+ 酸洗 + 钝化',
       chem: 'Citric Acid 3~5%（新装管道首选）', cycle: '新装系统首年 6 个月重点监测；常规 6-12 个月',
@@ -547,7 +547,7 @@
       method: '碱煮 / 溶剂溶焦 + 循环清洗', methodMid: '溶剂溶焦 + 循环清洗', methodHeavy: '分段碱煮 + 溶剂溶焦 + 高压水射流',
       chem: 'NaOH 复合溶焦剂', cycle: '12-24 个月（导热油系统）；关注油品劣化与残炭指标',
       chemNote: '油焦质垢粘附力强，单纯酸洗无效，需碱煮或溶剂溶焦处理。' },
-    bio_slime:        { name: '菌藻生物粘泥', score: 2, rate: '≥97%', tests: '微生物培养与菌落计数 / 杀菌剂残留检测 / 粘泥量测定',
+    bio_slime:        { name: '菌藻生物粘泥（其他垢型）', score: 2, rate: '≥85%', tests: '微生物培养与菌落计数 / 杀菌剂残留检测 / 粘泥量测定',
       method: '杀菌 + 粘泥剥离 + 循环冲洗', methodMid: '杀菌 + 粘泥剥离 + 循环冲洗', methodHeavy: '粘泥剥离 + 强力循环冲洗 + 高压水辅助',
       chem: '非氧化型杀菌剂 + 粘泥剥离剂', cycle: '3-6 个月（以杀菌控制为主）',
       chemNote: '生物粘泥需先杀菌剥离再冲洗，直接酸洗会造成二次污染。' }
