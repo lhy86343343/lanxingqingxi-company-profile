@@ -7,6 +7,9 @@
 *.bak-*
 mainsite-work/
 calc/upload_calc.py
+sendmail.php
+save-lead.php
+*_online_backup_*.php
 calc/backup-index-*.html
 upload_fix_params.py
 upload_round2.py
