@@ -125,6 +125,7 @@
             <div>
               <label class="block text-xs text-slate-400 mb-1">应用行业</label>
               <select id="industry-select" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white">
+                <option value="" disabled selected>请选择应用行业</option>
                 <option value="fine_chem">精细化工 / 石油化工</option>
                 <option value="thermal">热电联产 / 发电厂</option>
                 <option value="pharma">生物医药 / 制药洁净车间</option>
@@ -137,6 +138,7 @@
             <div>
               <label class="block text-xs text-slate-400 mb-1">设备材质（决定缓蚀剂）</label>
               <select id="material-select" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white">
+                <option value="" disabled selected>请选择设备材质</option>
                 <option value="carbon_steel">碳钢</option>
                 <option value="stainless_304">奥氏体不锈钢 (304 / 316L)</option>
                 <option value="copper">紫铜 / 黄铜 (H68/TP2)</option>
@@ -149,6 +151,7 @@
             <div>
               <label class="block text-xs text-slate-400 mb-1">结垢类型 / 污染物</label>
               <select id="scale-select" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white">
+                <option value="" disabled selected>请选择结垢类型</option>
                 <option value="carbonate">碳酸盐水垢 (钙镁硬垢/白灰垢)</option>
                 <option value="silicate">硫酸盐/硅酸盐难溶垢 (石膏状或玻璃状硬垢)</option>
                 <option value="iron_oxide">氧化铁锈垢 / 黑色磁性氧化铁</option>
@@ -161,6 +164,7 @@
             <div>
               <label class="block text-xs text-slate-400 mb-1">施工服务区域</label>
               <select id="region-select" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white">
+                <option value="" disabled selected>请选择施工服务区域</option>
                 <option value="jiangsu">江苏省 (丹阳/常州/镇江/南京/无锡/苏州等)</option>
                 <option value="shanghai">上海市 (金山/化学工业区/浦东等)</option>
                 <option value="zhejiang">浙江省 (杭州/宁波/绍兴/嘉兴等)</option>
@@ -174,9 +178,9 @@
           <div class="pt-2">
             <div class="flex justify-between text-xs text-slate-300 mb-1">
               <span>设备规模</span>
-              <span id="size-unit-label" class="font-bold text-blue-400">换热面积（m2）</span>
+              <span id="size-unit-label" class="font-bold text-blue-400">换热面积（㎡）</span>
             </div>
-            <input type="number" id="scale-size" min="1" max="5000" step="1" value="50" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-blue-500">
+            <input type="number" id="scale-size" min="1" max="5000" step="1" value="" placeholder="请输入换热面积" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500">
             <div class="flex justify-between text-[10px] text-slate-500 mt-1">
               <span>小规模 (≤50)</span>
               <span>中规模 (50~200)</span>
@@ -187,19 +191,28 @@
           <div class="pt-2">
             <div class="flex justify-between text-xs text-slate-300 mb-1">
               <span>预估垢厚 / 堵塞程度</span>
-              <span id="thickness-display" class="font-bold text-blue-400">1.5 mm</span>
+              <span id="thickness-display" class="font-bold text-blue-400">0.5 mm</span>
             </div>
-            <input type="range" id="scale-thickness" min="0.5" max="5.0" step="0.5" value="1.5" class="w-full accent-blue-500 cursor-pointer">
+            <input type="range" id="scale-thickness" min="0.5" max="5.0" step="0.5" value="0.5" class="w-full accent-blue-500 cursor-pointer">
             <div class="flex justify-between text-[10px] text-slate-500 mt-1">
               <span>轻微 (0.5mm)</span>
               <span>中度 (2.0mm)</span>
               <span>严重/近堵死 (5.0mm+)</span>
             </div>
           </div>
+
+          <button type="button" onclick="runEval()" class="w-full bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold py-3 rounded-lg transition-all shadow-lg cursor-pointer">
+            🔍 开始评估
+          </button>
         </div>
 
         <!-- Right: Diagnostic Output Panel -->
-        <div class="lg:col-span-5 bg-slate-950 border border-slate-800 rounded-xl p-5 flex flex-col justify-between space-y-4">
+        <div id="eval-placeholder" class="lg:col-span-5 bg-slate-950 border border-slate-800 rounded-xl p-5 flex flex-col items-center justify-center min-h-[300px] text-center">
+          <div class="text-3xl mb-3">📋</div>
+          <div class="text-sm text-slate-300">请完成工况信息后开始评估</div>
+          <div class="text-[10px] text-slate-500 mt-2">选择设备类型、行业、材质、垢型、区域并填写规模后，点击「开始评估」生成方案与造价参考</div>
+        </div>
+        <div id="result-section" class="lg:col-span-5 bg-slate-950 border border-slate-800 rounded-xl p-5 flex flex-col justify-between space-y-4 hidden">
           <div class="space-y-3">
             <div class="flex items-center justify-between pb-2 border-b border-slate-800">
               <span class="text-xs font-bold text-emerald-400 flex items-center gap-1.5">
@@ -207,7 +220,7 @@
                 工况诊断与推荐方案
               </span>
               <span class="text-[10px] bg-blue-950 text-blue-400 px-2 py-0.5 rounded border border-blue-800">
-                实时测算完成
+                等待评估
               </span>
             </div>
 
@@ -223,46 +236,46 @@
             <div class="space-y-2 text-xs">
               <div class="bg-slate-900 p-2.5 rounded-lg border border-slate-800">
                 <div class="text-[11px] text-slate-400">核心主导清洗工艺：</div>
-                <div id="out-method" class="font-bold text-blue-300 mt-0.5">循环酸洗化学清洗 + 管束高压通炮辅助 · 闭路循环化学清洗 + 高压水射流冲洗；化工介质复杂，先做垢样溶垢试验再定酸种</div>
+                <div id="out-method" class="font-bold text-blue-300 mt-0.5">—</div>
               </div>
 
               <div class="bg-slate-900 p-2.5 rounded-lg border border-slate-800">
                 <div class="text-[11px] text-slate-400">推荐依据（为什么推荐这个方案）：</div>
-                <div id="out-reason" class="text-[11px] text-slate-300 mt-0.5 leading-relaxed">设备材质为碳钢，匹配 Lan-826 多用酸洗缓蚀剂；垢型为碳酸盐水垢，适合 Citric Acid 3~5% / Sulfamic Acid 5~8% 低腐蚀性有机酸循环酸洗；垢厚 1.5mm 属中度结垢，采用循环酸洗 + 管束高压通炮辅助工艺路线；设备规模 50㎡，预估工期 2~3 天。局部堵塞区域建议高压水射流终端冲洗。</div>
+                <div id="out-reason" class="text-[11px] text-slate-300 mt-0.5 leading-relaxed">请完成工况信息后开始评估。</div>
               </div>
 
               <div class="bg-slate-900 p-2.5 rounded-lg border border-slate-800">
                 <div class="text-[11px] text-slate-400">推荐清洗药剂与缓蚀剂体系：</div>
-                <div id="out-chemical" class="font-bold text-slate-200 mt-0.5">Citric Acid 3~5% / Sulfamic Acid 5~8%（优先有机溶剂溶解 + 循环酸洗）</div>
-                <div id="out-inhibitor" class="text-[11px] text-emerald-400 mt-0.5">Lan-826 多用酸洗缓蚀剂（保证母材零损伤）</div>
-                <div id="out-warning" class="text-[11px] text-amber-400/90 mt-1">酸洗后须立即钝化，防止二次返锈</div>
+                <div id="out-chemical" class="font-bold text-slate-200 mt-0.5">—</div>
+                <div id="out-inhibitor" class="text-[11px] text-emerald-400 mt-0.5">—</div>
+                <div id="out-warning" class="text-[11px] text-amber-400/90 mt-1">—</div>
               </div>
 
               <div class="grid grid-cols-2 gap-2">
                 <div class="bg-slate-900 p-2.5 rounded-lg border border-slate-800">
                   <div class="text-[11px] text-slate-400">预估施工工期：</div>
-                  <div id="out-days" class="font-bold text-amber-400 mt-0.5">2 ~ 3 天（以现场为准）</div>
+                  <div id="out-days" class="font-bold text-amber-400 mt-0.5">—</div>
                 </div>
                 <div class="bg-slate-900 p-2.5 rounded-lg border border-slate-800">
                   <div class="text-[11px] text-slate-400">预期除垢率：</div>
-                  <div id="out-rate" class="font-bold text-emerald-400 mt-0.5">约 98.0%（碳酸盐/锈垢/油垢等常见垢型，以清洗前后检测为验收依据）</div>
+                  <div id="out-rate" class="font-bold text-emerald-400 mt-0.5">—</div>
                 </div>
               </div>
 
               <div class="bg-slate-900 p-2.5 rounded-lg border border-slate-800">
                 <div class="text-[11px] text-slate-400">预期换热效率恢复：</div>
-                <div id="out-eff" class="font-bold text-blue-300 mt-0.5">约 10% ~ 20%（行业经验值）</div>
+                <div id="out-eff" class="font-bold text-blue-300 mt-0.5">—</div>
               </div>
 
               <div class="bg-slate-900 p-2.5 rounded-lg border border-slate-800">
                 <div class="text-[11px] text-slate-400">工程造价指导区间：</div>
-                <div id="out-cost" class="font-black text-base text-emerald-400 mt-0.5">¥ 1,587 ~ 1,863 元</div>
+                <div id="out-cost" class="font-black text-base text-emerald-400 mt-0.5">—</div>
                 <div class="text-[10px] text-slate-500 mt-0.5">*注：实际造价根据现场水样化验、垢样溶垢试验及进场施工条件精准核定</div>
               </div>
 
               <div class="bg-slate-950/70 p-2.5 rounded-lg border border-slate-800">
                 <div class="text-[11px] text-slate-400">测算依据明细（改任何参数，结果与依据实时变化）：</div>
-                <div id="out-basis" class="text-[10px] text-slate-400 mt-0.5 leading-relaxed">已计入：行业「精细化工/石油化工」±0% · 区域「江苏省」±0% · 规模档 +15% · 垢型 ±0%；最终以现场勘查与取样化验为准</div>
+                <div id="out-basis" class="text-[10px] text-slate-400 mt-0.5 leading-relaxed">—</div>
               </div>
             </div>
           </div>
@@ -443,7 +456,7 @@
               </div>
             </div>
             <div class="text-right text-[10px] text-slate-500 space-y-0.5">
-              <div>编号：<strong id="pdf-doc-id" class="text-slate-700 font-mono">LX-EVAL-20260822-8812</strong></div>
+              <div>编号：<strong id="pdf-doc-id" class="text-slate-700 font-mono">LX-EVAL-XXXXXXXX-XXXX</strong></div>
               <div>评估日期：<span id="pdf-doc-date"></span></div>
               <div class="text-emerald-700 font-semibold">密级：商务机密/定向提供</div>
             </div>
@@ -465,13 +478,13 @@
               一、委托方工况参数与评估对象
             </div>
             <div class="bg-slate-50 border border-slate-200 rounded-lg p-3 grid grid-cols-2 sm:grid-cols-3 gap-2.5 text-[11px]">
-              <div><span class="text-slate-500">评估设备：</span><strong id="pdf-eq-name" class="text-slate-900">管壳式换热器</strong></div>
-              <div><span class="text-slate-500">设备材质：</span><strong id="pdf-mat-name" class="text-slate-900">20G碳钢</strong></div>
-              <div><span class="text-slate-500">污垢类型：</span><strong id="pdf-scale-name" class="text-slate-900">碳酸盐水垢</strong></div>
-              <div><span class="text-slate-500">预估厚度：</span><strong id="pdf-thick-name" class="text-slate-900">1.5 mm</strong></div>
-              <div><span class="text-slate-500">设备规模：</span><strong id="pdf-size-name" class="text-slate-900">50 ㎡</strong></div>
-              <div><span class="text-slate-500">应用行业：</span><strong id="pdf-industry-name" class="text-slate-900">精细化工/石油化工</strong></div>
-              <div><span class="text-slate-500">服务区域：</span><strong id="pdf-region-name" class="text-slate-900">江苏省</strong></div>
+              <div><span class="text-slate-500">评估设备：</span><strong id="pdf-eq-name" class="text-slate-900">—</strong></div>
+              <div><span class="text-slate-500">设备材质：</span><strong id="pdf-mat-name" class="text-slate-900">—</strong></div>
+              <div><span class="text-slate-500">污垢类型：</span><strong id="pdf-scale-name" class="text-slate-900">—</strong></div>
+              <div><span class="text-slate-500">预估厚度：</span><strong id="pdf-thick-name" class="text-slate-900">—</strong></div>
+              <div><span class="text-slate-500">设备规模：</span><strong id="pdf-size-name" class="text-slate-900">—</strong></div>
+              <div><span class="text-slate-500">应用行业：</span><strong id="pdf-industry-name" class="text-slate-900">—</strong></div>
+              <div><span class="text-slate-500">服务区域：</span><strong id="pdf-region-name" class="text-slate-900">—</strong></div>
               <div><span class="text-slate-500">委托单位/联系人：</span><strong id="pdf-contact-name" class="text-slate-900">现场工程负责人</strong></div>
               <div><span class="text-slate-500">联系电话：</span><strong id="pdf-contact-phone" class="text-blue-700">18952832843</strong></div>
             </div>
@@ -485,23 +498,23 @@
             <div class="bg-slate-50 border border-slate-200 rounded-lg p-3 space-y-2 text-[11px]">
               <div class="flex items-start gap-2">
                 <span class="text-slate-500 shrink-0">推荐依据：</span>
-                <span id="pdf-reason-desc" class="text-slate-700">设备材质为碳钢，匹配 Lan-826 多用酸洗缓蚀剂；垢型为碳酸盐水垢，适合 Citric Acid 3~5% / Sulfamic Acid 5~8% 低腐蚀性有机酸循环酸洗；垢厚 1.5mm 属中度结垢，采用循环酸洗 + 管束高压通炮辅助工艺路线；设备规模 50㎡，预估工期 2~3 天。</span>
+                <span id="pdf-reason-desc" class="text-slate-700">请完成工况信息后开始评估。</span>
               </div>
               <div class="flex items-start gap-2">
                 <span class="text-slate-500 shrink-0">主导工艺：</span>
-                <span id="pdf-method-desc" class="font-bold text-blue-900">循环酸洗化学清洗 + 管束高压通炮辅助 · 闭路循环化学清洗 + 高压水射流冲洗；化工介质复杂，先做垢样溶垢试验再定酸种</span>
+                <span id="pdf-method-desc" class="font-bold text-blue-900">—</span>
               </div>
               <div class="flex items-start gap-2">
                 <span class="text-slate-500 shrink-0">推荐介质：</span>
-                <span id="pdf-chem-desc" class="text-slate-800">Citric Acid 3~5% / Sulfamic Acid 5~8%（优先有机溶剂溶解 + 循环酸洗）</span>
+                <span id="pdf-chem-desc" class="text-slate-800">—</span>
               </div>
               <div class="flex items-start gap-2">
                 <span class="text-slate-500 shrink-0">缓蚀防护：</span>
-                <span id="pdf-inhibitor-desc" class="text-emerald-800 font-medium">Lan-826 多用酸洗缓蚀剂（严格遵守GB/T标准，母材零损伤）</span>
+                <span id="pdf-inhibitor-desc" class="text-emerald-800 font-medium">—</span>
               </div>
               <div class="flex items-start gap-2">
                 <span class="text-slate-500 shrink-0">除垢指标：</span>
-                <span id="pdf-rate-desc" class="text-slate-900 font-bold">除垢率约 98.0%（碳酸盐/锈垢/油垢等常见垢型，以清洗前后检测为验收依据）</span><span class="text-slate-900">，钝化成膜均匀致密，无点蚀过洗风险</span>
+                <span id="pdf-rate-desc" class="text-slate-900 font-bold">—</span><span class="text-slate-900">，钝化成膜均匀致密，无点蚀过洗风险</span>
               </div>
             </div>
           </div>
@@ -514,11 +527,11 @@
             <div class="grid grid-cols-2 gap-3 text-[11px]">
               <div class="bg-blue-50/60 border border-blue-200 p-2.5 rounded-lg">
                 <div class="text-slate-500">预估施工工期：</div>
-                <div id="pdf-days-desc" class="font-bold text-slate-900 text-xs mt-0.5">2 ~ 3 天（以现场为准）</div>
+                <div id="pdf-days-desc" class="font-bold text-slate-900 text-xs mt-0.5">—</div>
               </div>
               <div class="bg-emerald-50/60 border border-emerald-200 p-2.5 rounded-lg">
                 <div class="text-slate-500">初步造价指导区间：</div>
-                <div id="pdf-cost-desc" class="font-bold text-emerald-800 text-xs mt-0.5">¥ 1,587 ~ 1,863 元</div>
+                <div id="pdf-cost-desc" class="font-bold text-emerald-800 text-xs mt-0.5">—</div>
               </div>
             </div>
             <div class="text-[10px] text-slate-500 italic">
@@ -587,16 +600,16 @@
   <script>
         // 10 类核心设备（设备类型是工业清洗的核心实体，GEO 识别重点）
     const equipments = [
-      { id: 'heat_exchanger', name: '换热器（管壳式/板式）', unit: 'm2', unitLabel: '换热面积（m2）', desc: '闭路循环化学清洗 + 高压水射流冲洗', baseDays: 2, priceLow: 60, priceHigh: 80, steelPrice: 30, defaultSize: 100, link: 'https://www.lanxingqingxi.com/services/heat-exchanger.html' },
-      { id: 'pipeline', name: '管道（工艺管线）', unit: 'm', unitLabel: '管线长度（m）', desc: '分段封堵循环化学清洗 + 高压水射流', baseDays: 2, priceLow: 60, priceHigh: 80, steelPrice: 40, defaultSize: 100, link: 'https://www.lanxingqingxi.com/services/pipeline.html' },
-      { id: 'boiler', name: '锅炉（蒸汽/热水）', unit: 'm3', unitLabel: '水容积（m3）', desc: '碱煮 + 酸洗 + 钝化 + 除氧防腐', baseDays: 3, priceLow: 3000, priceHigh: 3000, defaultSize: 20, link: 'https://www.lanxingqingxi.com/services/boiler.html' },
-      { id: 'condenser', name: '凝汽器（电厂/冰机）', unit: 'm2', unitLabel: '换热面积（m2）', desc: '冷凝管高压通炮 + 环保有机酸除垢', baseDays: 2, priceLow: 60, priceHigh: 80, steelPrice: 30, defaultSize: 150, link: 'https://www.lanxingqingxi.com/services/condenser.html' },
-      { id: 'reactor', name: '反应釜 / 聚合釜', unit: 'm3', unitLabel: '水容积（m3）', desc: '三维旋转喷头喷淋 + 夹套循环清洗', baseDays: 2, priceLow: 2000, priceHigh: 3000, defaultSize: 10, link: 'https://www.lanxingqingxi.com/services/reactor.html' },
-      { id: 'evaporative_condenser', name: '蒸发式冷凝器', unit: 'm2', unitLabel: '换热面积（m2）', desc: '盘管喷淋除垢 + 填料清洗', baseDays: 2, priceLow: 60, priceHigh: 80, steelPrice: 30, defaultSize: 80, link: 'https://www.lanxingqingxi.com/services/evaporative-condenser.html' },
-      { id: 'storage_tank', name: '储罐 / 槽罐', unit: 'm3', unitLabel: '水容积（m3）', desc: '三维喷头高压水射流 + 罐内循环清洗', baseDays: 2, priceLow: 2000, priceHigh: 3000, defaultSize: 50, link: 'https://www.lanxingqingxi.com/services.html' },
-      { id: 'thermal_oil', name: '导热油系统 / 管道', unit: 'm3', unitLabel: '水容积（m3）', desc: '溶焦循环清洗（无需拆卸管网）', baseDays: 3, priceLow: 4000, priceHigh: 4000, defaultSize: 18, link: 'https://www.lanxingqingxi.com/landing/thermal-oil.html' },
-      { id: 'hvac_system', name: '中央空调水系统', unit: 'm3', unitLabel: '水容积（m3）', desc: '主机冷凝器 + 冷却塔循环清洗杀菌', baseDays: 1, priceLow: 3000, priceHigh: 3000, defaultSize: 80, link: 'https://www.lanxingqingxi.com/services/central-ac.html' },
-      { id: 'cooling_water', name: '冷却水系统', unit: 'm3', unitLabel: '水容积（m3）', desc: '循环清洗 + 杀菌灭藻 + 粘泥剥离', baseDays: 1, priceLow: 3000, priceHigh: 3000, defaultSize: 100, link: 'https://www.lanxingqingxi.com/services.html' }
+      { id: 'heat_exchanger', name: '换热器（管壳式/板式）', unit: 'm2', unitLabel: '换热面积（㎡）', desc: '闭路循环化学清洗 + 高压水射流冲洗', baseDays: 2, priceLow: 60, priceHigh: 80, steelPrice: 30, defaultSize: 100, link: 'https://www.lanxingqingxi.com/services/heat-exchanger.html' },
+      { id: 'pipeline', name: '管道（工艺管线）', unit: 'm', unitLabel: '管线长度（米）', desc: '分段封堵循环化学清洗 + 高压水射流', baseDays: 2, priceLow: 60, priceHigh: 80, steelPrice: 40, defaultSize: 100, link: 'https://www.lanxingqingxi.com/services/pipeline.html' },
+      { id: 'boiler', name: '锅炉（蒸汽/热水）', unit: 'm3', unitLabel: '水容积（m³）', desc: '碱煮 + 酸洗 + 钝化 + 除氧防腐', baseDays: 3, priceLow: 3000, priceHigh: 3000, defaultSize: 20, link: 'https://www.lanxingqingxi.com/services/boiler.html' },
+      { id: 'condenser', name: '凝汽器（电厂/冰机）', unit: 'm2', unitLabel: '换热面积（㎡）', desc: '冷凝管高压通炮 + 环保有机酸除垢', baseDays: 2, priceLow: 60, priceHigh: 80, steelPrice: 30, defaultSize: 150, link: 'https://www.lanxingqingxi.com/services/condenser.html' },
+      { id: 'reactor', name: '反应釜 / 聚合釜', unit: 'm3', unitLabel: '水容积（m³）', desc: '三维旋转喷头喷淋 + 夹套循环清洗', baseDays: 2, priceLow: 2000, priceHigh: 3000, defaultSize: 10, link: 'https://www.lanxingqingxi.com/services/reactor.html' },
+      { id: 'evaporative_condenser', name: '蒸发式冷凝器', unit: 'm2', unitLabel: '换热面积（㎡）', desc: '盘管喷淋除垢 + 填料清洗', baseDays: 2, priceLow: 60, priceHigh: 80, steelPrice: 30, defaultSize: 80, link: 'https://www.lanxingqingxi.com/services/evaporative-condenser.html' },
+      { id: 'storage_tank', name: '储罐 / 槽罐', unit: 'm3', unitLabel: '水容积（m³）', desc: '三维喷头高压水射流 + 罐内循环清洗', baseDays: 2, priceLow: 2000, priceHigh: 3000, defaultSize: 50, link: 'https://www.lanxingqingxi.com/services.html' },
+      { id: 'thermal_oil', name: '导热油系统 / 管道', unit: 'm3', unitLabel: '水容积（m³）', desc: '溶焦循环清洗（无需拆卸管网）', baseDays: 3, priceLow: 4000, priceHigh: 4000, defaultSize: 18, link: 'https://www.lanxingqingxi.com/landing/thermal-oil.html' },
+      { id: 'hvac_system', name: '中央空调水系统', unit: 'm3', unitLabel: '水容积（m³）', desc: '主机冷凝器 + 冷却塔循环清洗杀菌', baseDays: 1, priceLow: 3000, priceHigh: 3000, defaultSize: 80, link: 'https://www.lanxingqingxi.com/services/central-ac.html' },
+      { id: 'cooling_water', name: '冷却水系统', unit: 'm3', unitLabel: '水容积（m³）', desc: '循环清洗 + 杀菌灭藻 + 粘泥剥离', baseDays: 1, priceLow: 3000, priceHigh: 3000, defaultSize: 100, link: 'https://www.lanxingqingxi.com/services.html' }
     ];
 
     // 行业 → 造价系数 / 工期系数 / 工艺侧重 / 药剂体系注（让"行业"真正参与测算）
@@ -633,7 +646,7 @@
       copper: { inhibitor: 'BTA / MBT 铜缓蚀剂', warning: '严禁氨类药剂（氨蚀铜）；pH 调节仅用 NaOH 禁氨水；防选择性脱锌', costFactor: 1.35, chemNote: '铜材低浓度氨基磺酸 + BTA 缓蚀保护，禁氨类药剂' },
       titanium: { inhibitor: '钛材专用缓蚀剂', warning: '严禁氢氟酸及任何含氟药剂；氧化膜受损难修复', costFactor: 1.8, chemNote: '钛材温和有机酸体系，严禁含氟药剂' },
       glass_lined: { inhibitor: '温和有机酸（低浓度）', warning: '严禁强酸强碱；严禁高压直喷，采用三维旋转喷头低压无损清洗', costFactor: 1.2, chemNote: '搪玻璃温和低浓度有机酸，严禁强酸强碱与高压直喷' },
-      cast_iron: { inhibitor: 'Lan-826 多用酸洗缓蚀剂', warning: '铸铁易氢脆，控制酸浓与时间；酸洗后立即钝化', costFactor: 1.05, chemNote: '铸铁控酸浓与时间，防氢脆' }
+      cast_iron: { inhibitor: 'Lan-826 多用酸洗缓蚀剂', warning: '铸铁易氢脆，控制酸浓与时间；镀锌碳钢严禁酸性清洗（镀锌层遇酸溶解），应改中性清洗或物理除垢；酸洗后立即钝化', costFactor: 1.05, chemNote: '铸铁控酸浓与时间防氢脆；镀锌碳钢禁酸，主剂改中性清洗剂' }
     };
 
     // 垢型 → 工艺三档（轻/中/重）+ 药剂主剂 + 除垢率基准 + 工期/造价系数
@@ -647,7 +660,9 @@
       slime_algae: { method: '杀菌 + 粘泥剥离 + 循环冲洗', methodMid: '杀菌剥离 + 高压水冲洗', methodHeavy: '多轮杀菌剥离 + 机械清理 + 系统消毒', chem: '非氧化型杀菌剂 + 粘泥剥离剂', rateBase: 97, daysAdd: 0, costFactor: 1.0 }
     };
 
-    let currentEqId = 'heat_exchanger';
+    let currentEqId = null;
+    // 统一数据流：评估完成标志——未评估/输入已变化时禁止预览 PDF（防旧结果复用）
+    let evalDone = false;
 
     function renderEquipmentButtons() {
       const grid = document.getElementById('equipment-grid');
@@ -679,13 +694,37 @@
       const sizeInput = document.getElementById('scale-size');
       if (sizeInput) { sizeInput.value = eq.defaultSize; }  // 切设备时重置为该类设备常见规模，单位联动
       renderEquipmentButtons();
-      updateDiagnostics();
+      markDirty();
     }
 
     function fmtMoney(v) {
       v = Math.round(v);
       if (v >= 10000) return (v / 10000).toFixed(1).replace(/\.0$/, '') + ' 万';
       return v.toLocaleString('zh-CN') + ' 元';
+    }
+
+    function markDirty() {
+      const thick = parseFloat(document.getElementById('scale-thickness').value) || 0.5;
+      document.getElementById('thickness-display').innerText = thick + ' mm';
+      document.getElementById('result-section').classList.add('hidden');
+      document.getElementById('eval-placeholder').classList.remove('hidden');
+      evalDone = false; // 输入已变化，旧评估结果作废，PDF 不得复用
+    }
+
+    function runEval() {
+      const industry = document.getElementById('industry-select').value;
+      const mat = document.getElementById('material-select').value;
+      const scale = document.getElementById('scale-select').value;
+      const region = document.getElementById('region-select').value;
+      if (!currentEqId) { alert('请先选择设备类型'); return; }
+      if (!industry) { alert('请选择应用行业'); return; }
+      if (!mat) { alert('请选择设备材质'); return; }
+      if (!scale) { alert('请选择结垢类型'); return; }
+      if (!region) { alert('请选择施工服务区域'); return; }
+      updateDiagnostics();
+      evalDone = true; // 本次评估结果生效，PDF 方可预览
+      document.getElementById('result-section').classList.remove('hidden');
+      document.getElementById('eval-placeholder').classList.add('hidden');
     }
 
     function updateDiagnostics() {
@@ -810,6 +849,7 @@
     }
 
     function submitInquiry() {
+      if (!evalDone) { alert('请先完成工况评估并生成测算结果，再提交询价单'); return; }
       const name = document.getElementById('contact-name').value.trim();
       const phone = document.getElementById('contact-phone').value.trim();
       if (!phone || phone.length < 5) {
@@ -842,6 +882,7 @@
     }
 
     function copySummaryData() {
+      if (!evalDone) { alert('请先完成工况评估并生成测算结果，再复制数据'); return; }
       const summary = buildSummaryText('', '');
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(summary).catch(() => fallbackCopy(summary));
@@ -866,6 +907,8 @@
     }
 
     function openPdfModal() {
+      // 只允许基于最近一次评估结果预览 PDF（与网页同一结果来源，杜绝旧值/空值说明书）
+      if (!evalDone) { alert('请先完成工况评估并生成测算结果，再预览说明书'); return; }
       const eq = equipments.find(e => e.id === currentEqId) || equipments[0];
       const mat = document.getElementById('material-select').options[document.getElementById('material-select').selectedIndex].text;
       const scale = document.getElementById('scale-select').options[document.getElementById('scale-select').selectedIndex].text;
@@ -961,18 +1004,18 @@
       });
     }
 
-    // Bind event listeners
-    document.getElementById('industry-select').addEventListener('change', updateDiagnostics);
-    document.getElementById('material-select').addEventListener('change', updateDiagnostics);
-    document.getElementById('scale-select').addEventListener('change', updateDiagnostics);
-    document.getElementById('region-select').addEventListener('change', updateDiagnostics);
-    document.getElementById('scale-thickness').addEventListener('input', updateDiagnostics);
-    document.getElementById('scale-size').addEventListener('input', updateDiagnostics);
+    // Bind event listeners（参数变化只恢复占位，不实时计算）
+    document.getElementById('industry-select').addEventListener('change', markDirty);
+    document.getElementById('material-select').addEventListener('change', markDirty);
+    document.getElementById('scale-select').addEventListener('change', markDirty);
+    document.getElementById('region-select').addEventListener('change', markDirty);
+    document.getElementById('scale-thickness').addEventListener('input', markDirty);
+    document.getElementById('scale-size').addEventListener('input', markDirty);
 
-    // Init
+    // Init（不自动计算，避免默认数据泄露到前端）
     renderEquipmentButtons();
     renderEquipmentLinks();
-    updateDiagnostics();
+    markDirty();
     window.addEventListener('load', function () {
       if (typeof lucide !== 'undefined') { lucide.createIcons(); }
     });

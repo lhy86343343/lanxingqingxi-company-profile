@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>设备清洗周期智能评估器 - 免费计算清洗周期与维护计划 | 丹阳蓝星清洗</title>
+  <meta name="description" content="免费在线评估设备清洗周期：根据设备类型、水质硬度、运行温度、运行时间及历史清洗记录，评估建议清洗周期、当前维护状态（正常/接近周期/建议清洗）与下一次清洗时间，生成维护计划表PDF。适用换热器、锅炉、中央空调、凝汽器、反应釜、导热油炉等设备。">
+  <meta name="keywords" content="设备清洗周期,清洗频率,换热器多久清洗,锅炉清洗周期,中央空调清洗周期,维护状态评估,维护计划,定期清洗,历史清洗记录,设备维护,丹阳蓝星清洗">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="baidu-site-verification" content="codeva-e6B4jtlsytrAuz4K">
+  <meta name="360-site-verification" content="d1d9353bd128b2c81a6f1b82efa3b03a">
+  <link rel="canonical" href="https://www.lanxingqingxi.com/tools/maintenance-cycle.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.lanxingqingxi.com/tools/maintenance-cycle.html">
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.lanxingqingxi.com/tools/maintenance-cycle.html">
+  <meta property="og:title" content="设备清洗周期智能评估器 - 免费计算清洗周期与维护状态">
+  <meta property="og:description" content="根据设备类型、水质、运行温度与历史清洗记录，评估建议清洗周期、当前维护状态与下一次清洗时间，生成维护计划表PDF。">
+  <meta property="og:url" content="https://www.lanxingqingxi.com/tools/maintenance-cycle.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.lanxingqingxi.com/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="丹阳蓝星清洗">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="设备清洗周期智能评估器 - 免费计算清洗周期与维护状态">
+  <meta name="twitter:description" content="根据设备类型、水质、运行温度与历史清洗记录，评估建议清洗周期、当前维护状态与下一次清洗时间。">
+  <meta name="twitter:image" content="https://www.lanxingqingxi.com/images/og-image.jpg">
+  <!-- GEO meta -->
+  <meta name="geo.position" content="31.9564;119.7357">
+  <meta name="geo.region" content="CN-JS">
+  <meta name="geo.placename" content="江苏省丹阳市丹北镇埤城洪家埭98号">
+  <meta name="ICBM" content="31.9564, 119.7357">
+  <meta name="DC.title" content="设备清洗周期智能评估器 - 丹阳蓝星清洗">
+  <meta name="DC.description" content="免费在线评估设备清洗周期与当前维护状态，生成维护计划表。">
+  <link rel="icon" type="image/png" href="/images/logo.png">
+  <link rel="stylesheet" href="css/tailwind.css">
+  <style>
+    body{font-family:'Microsoft YaHei','PingFang SC',sans-serif}
+    input[type=range]{-webkit-appearance:none;appearance:none;height:6px;border-radius:3px;background:linear-gradient(90deg,#0066CC,#00A8E8);outline:none}
+    input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:18px;height:18px;border-radius:50%;background:#fff;border:3px solid #0066CC;cursor:pointer}
+    input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:#fff;border:3px solid #0066CC;cursor:pointer}
+    input[type=month]{color-scheme:dark}
+    .risk-badge{transition:all .3s}
+    .tool-card{background:linear-gradient(160deg,rgba(15,23,42,.92),rgba(2,6,23,.95))}
+    #pdf-modal .pdf-sheet-wrap{overflow:auto;padding:20px;background:#0f172a;display:flex;justify-content:center}
+    @media (max-width:900px){#pdf-modal .pdf-sheet-wrap{justify-content:flex-start}}
+  </style>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+    {"@type":"Organization","name":"丹阳市蓝星防腐清洗有限公司","url":"https://www.lanxingqingxi.com","logo":"https://www.lanxingqingxi.com/images/logo.webp","description":"中国工业清洗协会成员单位，提供工业设备化学清洗、高压水射流清洗服务","address":{"@type":"PostalAddress","addressCountry":"CN","addressRegion":"江苏省","addressLocality":"丹阳市","streetAddress":"丹北镇埤城洪家埭98号"},"geo":{"@type":"GeoCoordinates","latitude":31.9564,"longitude":119.7357}},
+    {"@type":"WebApplication","name":"设备清洗周期智能评估器","url":"https://www.lanxingqingxi.com/tools/maintenance-cycle.html","applicationCategory":"BusinessApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","description":"根据设备类型、水质硬度、运行温度与历史清洗记录，评估建议清洗周期、当前维护状态（正常/接近周期/建议清洗）与下一次清洗时间，生成维护计划表PDF。","offers":{"@type":"Offer","price":"0","priceCurrency":"CNY"},"provider":{"@type":"Organization","name":"丹阳市蓝星防腐清洗有限公司","url":"https://www.lanxingqingxi.com"}},
+    {"@type":"FAQPage","mainEntity":[
+      {"@type":"Question","name":"换热器一般多久清洗一次？","acceptedAnswer":{"@type":"Answer","text":"常规市政水、中温工况下建议每12个月清洗一次；水质硬度高或运行温度高时周期缩短至6-9个月，软化水可延长至18个月。上次清洗后效果不佳（残留结垢、压差未恢复）时周期应再缩短。中央空调冷却水系统结垢快，建议每6个月检查一次。"}},
+      {"@type":"Question","name":"设备清洗周期由哪些因素决定？","acceptedAnswer":{"@type":"Answer","text":"主要看四点：补水水质硬度（硬度越高结垢越快）、运行温度（温度越高碳酸钙越易析出）、设备类型（冷却塔、中央空调等敞开式系统结垢快于密闭系统）、历史清洗效果（清洗后压差与效率恢复情况）。建议结合效率监测动态调整。"}},
+      {"@type":"Question","name":"如何判断设备是否已到清洗周期？","acceptedAnswer":{"@type":"Answer","text":"填写上次清洗日期后，系统按已运行时间与建议周期自动判断：已运行时间不足周期80%为运行正常（绿色）；达到80%-100%为接近维护周期（黄色），建议提前安排清洗计划；超过周期为建议安排清洗（红色），超期越久垢下腐蚀与非计划停机风险越高。"}},
+      {"@type":"Question","name":"超过清洗周期不洗会怎样？","acceptedAnswer":{"@type":"Answer","text":"垢厚超过3mm时换热效率下降20%-35%（典型工况初步估算），年能源费用100万元的系统每年多支出20-35万元；超期越长，垢下腐蚀导致管壁穿孔、非计划停机的风险越高。"}},
+      {"@type":"Question","name":"这个周期评估器收费吗？","acceptedAnswer":{"@type":"Answer","text":"完全免费。周期建议基于行业通用经验值，最终以现场勘查、水质化验与效率监测为准，可拨打18952832843获取免费维护咨询。"}}
+    ]}
+  ]}
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-200 antialiased min-h-screen selection:bg-blue-600 selection:text-white">
+
+  <!-- Top bar -->
+  <header class="bg-slate-900/90 backdrop-blur-md border-b border-slate-800 sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="https://www.lanxingqingxi.com/" target="_blank" rel="noopener" class="flex items-center gap-2">
+        <span class="bg-blue-900 text-white font-black text-xs px-2 py-0.5 rounded">蓝星清洗</span>
+        <span class="text-sm sm:text-base font-bold text-white">丹阳市蓝星防腐清洗有限公司</span>
+      </a>
+      <a href="https://www.lanxingqingxi.com/" target="_blank" rel="noopener" class="text-xs sm:text-sm text-blue-300 hover:text-blue-200 hover:underline whitespace-nowrap">← 返回官网主站</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="max-w-7xl mx-auto px-4 pt-10 pb-6 text-center">
+    <span class="inline-block bg-blue-900/60 border border-blue-500 text-blue-200 text-xs font-semibold px-3 py-1 rounded-full mb-4">免费工具 · 10 秒出结果</span>
+    <h1 class="text-2xl sm:text-3xl font-black text-white leading-tight">设备清洗周期智能评估器</h1>
+    <p class="text-slate-400 text-sm sm:text-base mt-3 max-w-3xl mx-auto leading-relaxed">根据设备类型、水质、运行温度、运行时间及历史清洗记录，评估<b class="text-blue-300">建议清洗周期</b>、<b class="text-blue-300">当前维护状态</b>与<b class="text-blue-300">下一次清洗时间</b>，生成维护计划表。</p>
+  </section>
+
+  <main class="max-w-7xl mx-auto px-4 pb-16 grid lg:grid-cols-12 gap-6">
+
+    <!-- ========== 输入区 ========== -->
+    <section class="lg:col-span-5 tool-card border border-slate-800 rounded-2xl p-5 sm:p-6 space-y-5 h-fit">
+
+      <!-- 设备类型 -->
+      <div>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">① 设备类型</label>
+        <div id="equipment-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2"></div>
+      </div>
+
+      <!-- 水质 -->
+      <div>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">② 补水水质硬度</label>
+        <select id="water-select" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500">
+          <option value="low">低硬度（&lt;150 mg/L，软化水 / 市政水）</option>
+          <option value="medium" selected>中硬度（150-300 mg/L，常规地表水）</option>
+          <option value="high">高硬度（300-600 mg/L，井水 / 硬水）</option>
+          <option value="ultra">超高硬度（&gt;600 mg/L，高矿化度水）</option>
+        </select>
+      </div>
+
+      <!-- 温度 -->
+      <div>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">③ 运行温度</label>
+        <select id="temp-select" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500">
+          <option value="low">低温（&lt;50℃）</option>
+          <option value="medium" selected>中温（50-80℃）</option>
+          <option value="high">高温（&gt;80℃）</option>
+        </select>
+      </div>
+
+      <!-- 上次清洗日期 -->
+      <div>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">④ 上次清洗日期（选填——判断是否超期）</label>
+        <input type="month" id="last-clean" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500">
+      </div>
+
+      <!-- 上次清洗方式 -->
+      <div>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">⑤ 上次清洗方式（选填）</label>
+        <select id="method-select" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500">
+          <option value="chem" selected>化学清洗（循环酸洗等）</option>
+          <option value="highpress">高压水射流清洗</option>
+          <option value="manual">人工物理清洗（通炮/通管）</option>
+          <option value="unknown">未记录</option>
+        </select>
+      </div>
+
+      <!-- 清洗后效果 -->
+      <div>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">⑥ 清洗后运行效果（选填——影响周期修正）</label>
+        <select id="effect-select" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500">
+          <option value="good" selected>良好（压差/效率恢复正常）</option>
+          <option value="fair">一般（部分恢复）</option>
+          <option value="poor">较差（压差/效率恢复不明显）</option>
+          <option value="unknown">未记录</option>
+        </select>
+      </div>
+
+      <div class="text-[10px] text-slate-500 leading-relaxed border-t border-slate-800 pt-3">
+        💡 周期建议基于设备类型、水质硬度、运行温度与历史清洗效果的行业通用经验值。密闭系统（导热油炉、反应釜夹套）结垢慢，敞开式系统（冷却塔、中央空调）结垢快。结果仅供参考，最终以现场勘查 / 水质化验 / 效率监测为准。
+      </div>
+    </section>
+
+    <!-- ========== 结果区 ========== -->
+    <section class="lg:col-span-7 space-y-4">
+
+      <!-- 周期 -->
+      <div class="tool-card border border-slate-800 rounded-2xl p-5 sm:p-6">
+        <div class="flex items-center justify-between flex-wrap gap-3">
+          <div>
+            <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">建议清洗周期</div>
+            <div class="mt-2 flex items-center gap-3 flex-wrap">
+              <span id="cycle-badge" class="risk-badge inline-block bg-blue-700 text-white font-black text-lg px-4 py-1.5 rounded-lg">待评估</span>
+              <span id="cycle-per-year" class="text-xs text-slate-400">—</span>
+            </div>
+            <p id="cycle-desc" class="text-sm text-slate-300 mt-2 leading-relaxed">请先选择设备类型，将自动评估建议清洗周期与维护状态。</p>
+          </div>
+          <div class="text-right text-xs text-slate-500">
+            <div>评估编号 <span id="eval-id" class="font-mono text-blue-300">LX-CYC-XXXXXXXX</span></div>
+            <div class="mt-1">生成时间 <span id="eval-time"></span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 维护状态（三态）+ 已运行 -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="tool-card border border-slate-800 rounded-2xl p-5">
+          <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">当前维护状态</div>
+          <div id="status-badge" class="inline-block text-white font-black text-base px-3 py-1 rounded-lg mt-2" style="background:#64748b">未填写</div>
+          <p id="status-desc" class="text-[10px] text-slate-500 mt-2 leading-relaxed">填写上次清洗日期后自动判断</p>
+          <div id="status-extra" class="text-[10px] text-slate-500 mt-1 leading-relaxed">填写上次清洗日期后显示已运行时间</div>
+        </div>
+        <div class="tool-card border border-slate-800 rounded-2xl p-5">
+          <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">下一次清洗建议</div>
+          <div id="next-out" class="text-lg font-black text-white mt-2 leading-snug">填写上次清洗日期后自动计算</div>
+          <p class="text-[10px] text-slate-500 mt-1" id="next-note">建议周期 × 上次清洗效果修正（良好 1.0 / 一般 0.85 / 较差 0.7）</p>
+        </div>
+      </div>
+
+      <!-- 超期提示 → 结垢诊断（联动） -->
+      <div id="overdue-banner" class="hidden border-l-4 border-orange-500 bg-slate-900 rounded-xl px-4 py-3 text-xs text-orange-200 leading-relaxed flex items-center justify-between flex-wrap gap-3">
+        <span>⚠️ 设备已超过建议清洗周期，建议先做<b class="text-white">结垢风险诊断</b>，确认结垢程度后再安排针对性清洗方案。</span>
+        <a href="/tools/scaling-diagnosis.html" class="bg-orange-600 hover:bg-orange-500 text-white text-xs font-semibold px-4 py-2 rounded-lg whitespace-nowrap">立即免费诊断 →</a>
+      </div>
+
+      <!-- 维护计划 -->
+      <div class="tool-card border border-slate-800 rounded-2xl p-5 sm:p-6 space-y-3">
+        <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">维护计划要点</div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-3">
+            <div class="text-[10px] text-slate-500">季度监测</div>
+            <div id="plan-monitor" class="text-white mt-1 font-medium">—</div>
+          </div>
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-3">
+            <div class="text-[10px] text-slate-500">水质管理</div>
+            <div id="plan-water" class="text-white mt-1 font-medium">—</div>
+          </div>
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-3">
+            <div class="text-[10px] text-slate-500">重点检查</div>
+            <div id="plan-check" class="text-white mt-1 font-medium">—</div>
+          </div>
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-3">
+            <div class="text-[10px] text-slate-500">执行标准</div>
+            <div class="text-white mt-1 font-medium">GB/T 25146-2010</div>
+          </div>
+        </div>
+        <div class="border-l-4 border-blue-500 bg-slate-900 rounded-lg px-3 py-2 text-xs text-blue-300 leading-relaxed">
+          ℹ️ 设备结垢严重程度可先用「结垢风险诊断器」判断，清洗费用可参考「数字化在线评估」。
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="bg-gradient-to-tr from-blue-600 to-emerald-600 rounded-2xl p-5 sm:p-6 flex items-center justify-between flex-wrap gap-4">
+        <div>
+          <div class="text-white font-bold text-base sm:text-lg">需要定制维护计划？</div>
+          <div class="text-blue-100 text-xs sm:text-sm mt-1">免费技术咨询，专业工程师按您的工况制定年度维护方案</div>
+        </div>
+        <div class="flex items-center gap-3 flex-wrap">
+          <a href="tel:18952832843" class="bg-white text-blue-900 font-bold text-sm px-4 py-2.5 rounded-lg hover:opacity-90">📞 18952832843</a>
+          <button onclick="openPdfModal()" class="bg-slate-950 text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-slate-800 cursor-pointer">📄 生成维护计划表</button>
+        </div>
+      </div>
+
+      <!-- 互推：诊断评估器 -->
+      <div class="tool-card border border-slate-800 rounded-2xl p-4 flex items-center justify-between flex-wrap gap-3">
+        <div class="text-xs text-slate-300 leading-relaxed">
+          <b class="text-white">还想判断设备结垢多严重？</b><br>用「结垢风险诊断器」评估风险等级、效率损失与能耗浪费
+        </div>
+        <a href="/tools/scaling-diagnosis.html" class="bg-slate-800 text-blue-300 text-xs font-semibold px-4 py-2 rounded-lg hover:bg-slate-700 whitespace-nowrap">结垢风险诊断器 →</a>
+      </div>
+
+      <div class="text-[10px] text-slate-500 leading-relaxed text-center pt-1">
+        丹阳市蓝星防腐清洗有限公司 · 中国工业清洗协会会员单位 · 执行标准 GB/T 25146-2010（化学清洗质量验收）/ GB/T 26148-2025（高压水射流作业安全） · 江苏省丹阳市丹北镇埤城洪家埭98号
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== PDF 弹窗 ========== -->
+  <div id="pdf-modal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm overflow-y-auto">
+    <div class="min-h-screen flex items-start justify-center p-4">
+      <div class="w-full max-w-5xl bg-slate-950 rounded-2xl border border-slate-700 overflow-hidden shadow-2xl">
+        <div class="flex items-center justify-between px-4 py-3 border-b border-slate-800">
+          <div class="flex items-center gap-2">
+            <button onclick="downloadPdf()" class="pdf-dl-btn bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold px-3 py-1.5 rounded-lg transition-all shadow cursor-pointer">
+              <span>⬇ 直接下载 PDF</span>
+            </button>
+          </div>
+          <button onclick="closePdfModal()" class="text-slate-400 hover:text-white p-1 rounded-lg hover:bg-slate-700 transition-colors cursor-pointer">✕</button>
+        </div>
+
+        <!-- Printable A4 sheet: 固定 794×1123px（A4@96dpi），纯内联样式 -->
+        <div class="pdf-sheet-wrap">
+          <div id="pdf-print-sheet" style="width:794px;height:1123px;background:#ffffff;position:relative;overflow:hidden;font-family:'Microsoft YaHei','PingFang SC',sans-serif;color:#1e293b;padding:40px 50px;box-sizing:border-box;font-size:11px;line-height:1.65;">
+
+            <!-- 水印 -->
+            <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-30deg);opacity:0.06;font-size:34px;font-weight:900;color:#1e3a8a;letter-spacing:6px;white-space:nowrap;text-align:center;z-index:0;">丹阳市蓝星防腐清洗有限公司<br>设备维护计划表</div>
+
+            <!-- 头部 -->
+            <table style="width:100%;border-collapse:collapse;border-bottom:2.5px solid #1e3a8a;margin-bottom:0;">
+              <tr>
+                <td style="vertical-align:top;padding-bottom:12px;">
+                  <div style="display:inline-block;background:#1e3a8a;color:#fff;font-weight:900;font-size:11px;padding:2px 8px;border-radius:3px;margin-bottom:6px;">蓝星清洗</div>
+                  <div style="font-size:20px;font-weight:900;color:#172554;line-height:1.35;">丹阳市蓝星防腐清洗有限公司</div>
+                  <div style="font-size:9px;color:#64748b;letter-spacing:1px;margin-top:2px;">DANYANG LANXING ANTI-CORROSION CLEANING CO., LTD. · 维护计划专函</div>
+                  <div style="font-size:9px;color:#475569;margin-top:2px;">中国工业清洗协会会员单位&nbsp;&nbsp;|&nbsp;&nbsp;执行标准：GB/T 25146-2010 / GB/T 26148-2025</div>
+                </td>
+                <td style="vertical-align:top;text-align:right;padding-bottom:12px;font-size:10px;color:#64748b;">
+                  <div>编号：<b id="pdf-doc-id" style="color:#334155;font-family:Consolas,monospace;font-size:10px;">LX-CYC-XXXXXXXX-XXXX</b></div>
+                  <div style="margin-top:2px;">评估日期：<b id="pdf-doc-date" style="color:#334155;"></b></div>
+                  <div style="margin-top:2px;color:#047857;font-weight:600;">密级：商务机密 / 定向提供</div>
+                </td>
+              </tr>
+            </table>
+
+            <!-- 标题 -->
+            <div style="text-align:center;padding:16px 0 12px;border-bottom:1px solid #e2e8f0;">
+              <div style="font-size:19px;font-weight:900;color:#172554;letter-spacing:3px;">设备维护计划表</div>
+              <div style="font-size:9.5px;color:#94a3b8;margin-top:3px;">基于设备类型、水质、运行温度与历史清洗记录的周期评估 · 最终以现场勘查为准</div>
+            </div>
+
+            <!-- 周期总览 -->
+            <table style="width:100%;border-collapse:collapse;margin-top:14px;">
+              <tr>
+                <td style="border:2px solid #1e3a8a;border-radius:8px;padding:12px 16px;width:50%;vertical-align:middle;">
+                  <div style="font-size:9.5px;color:#64748b;">建议清洗周期</div>
+                  <div id="pdf-cycle" style="font-size:24px;font-weight:900;color:#1d4ed8;margin-top:2px;">待评估</div>
+                  <div style="font-size:9px;color:#64748b;margin-top:2px;" id="pdf-cycle-sub">选择设备类型后自动计算</div>
+                </td>
+                <td style="width:3%;"></td>
+                <td style="border:1px solid #e2e8f0;border-radius:8px;padding:9px 14px;vertical-align:middle;background:#f8fafc;">
+                  <table style="width:100%;border-collapse:collapse;font-size:10.5px;">
+                    <tr>
+                      <td style="padding:4px 0;color:#64748b;width:46%;">当前维护状态</td>
+                      <td style="padding:4px 0;color:#1e293b;font-weight:700;text-align:right;"><span id="pdf-status">未填写</span></td>
+                    </tr>
+                    <tr>
+                      <td style="padding:4px 0;color:#64748b;border-top:1px dashed #e2e8f0;">已运行时间</td>
+                      <td style="padding:4px 0;color:#1e293b;font-weight:700;text-align:right;border-top:1px dashed #e2e8f0;"><span id="pdf-since">未填写</span></td>
+                    </tr>
+                    <tr>
+                      <td style="padding:4px 0;color:#64748b;border-top:1px dashed #e2e8f0;">效率损失预估</td>
+                      <td style="padding:4px 0;color:#b91c1c;font-weight:700;text-align:right;border-top:1px dashed #e2e8f0;"><span id="pdf-loss">—</span></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <!-- 一、工况与历史记录 -->
+            <div style="margin-top:14px;">
+              <div style="font-size:11px;font-weight:800;color:#172554;border-left:4px solid #1e3a8a;padding-left:8px;margin-bottom:6px;">一、工况与历史清洗记录</div>
+              <table style="width:100%;border-collapse:collapse;">
+                <tr><td style="padding:6px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">设备类型</td><td id="pdf-eq-name" style="padding:6px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:6px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">水质硬度</td><td id="pdf-water" style="padding:6px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:6px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">运行温度</td><td id="pdf-temp" style="padding:6px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:6px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">上次清洗日期</td><td id="pdf-last" style="padding:6px 10px;border:1px solid #e2e8f0;font-weight:600;">未填写</td></tr>
+                <tr><td style="padding:6px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">上次清洗方式</td><td id="pdf-method" style="padding:6px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:6px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">清洗后运行效果</td><td id="pdf-effect" style="padding:6px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+              </table>
+            </div>
+
+            <!-- 二、维护状态评估 -->
+            <div style="margin-top:12px;">
+              <div style="font-size:11px;font-weight:800;color:#172554;border-left:4px solid #1e3a8a;padding-left:8px;margin-bottom:6px;">二、维护状态评估</div>
+              <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:8px 12px;">
+                <div style="font-size:11px;font-weight:800;color:#64748b;" id="pdf-state-title">当前状态：未填写</div>
+                <div style="font-size:10px;color:#475569;margin-top:3px;line-height:1.6;" id="pdf-state-desc">请填写上次清洗日期后自动评估维护状态。</div>
+                <div style="font-size:9.5px;color:#64748b;margin-top:4px;border-top:1px dashed #e2e8f0;padding-top:4px;" id="pdf-next">下一次清洗建议：请填写上次清洗日期后自动计算</div>
+              </div>
+            </div>
+
+            <!-- 三、年度维护计划 -->
+            <div style="margin-top:12px;">
+              <div style="font-size:11px;font-weight:800;color:#172554;border-left:4px solid #1e3a8a;padding-left:8px;margin-bottom:6px;">三、年度维护计划</div>
+              <table style="width:100%;border-collapse:collapse;">
+                <tr><td style="padding:6px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">季度监测</td><td id="pdf-monitor" style="padding:6px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:6px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">水质管理</td><td id="pdf-water-plan" style="padding:6px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:6px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">重点检查</td><td id="pdf-check" style="padding:6px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:6px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">执行标准</td><td id="pdf-standard" style="padding:6px 10px;border:1px solid #e2e8f0;font-weight:600;">GB/T 25146-2010 / GB/T 26148-2025</td></tr>
+              </table>
+            </div>
+
+            <!-- 页脚 + 印章 -->
+            <table style="width:100%;border-collapse:collapse;border-top:1px solid #cbd5e1;margin-top:16px;position:absolute;bottom:38px;left:50px;width:694px;">
+              <tr>
+                <td style="padding-top:10px;vertical-align:bottom;font-size:9.5px;color:#475569;">
+                  <div>联系人：<b id="pdf-contact-name" style="color:#334155;">现场工程负责人</b>&nbsp;&nbsp;联系电话：<b id="pdf-contact-phone" style="color:#334155;">18952832843</b></div>
+                  <div style="margin-top:2px;">地址：江苏省丹阳市丹北镇埤城洪家埭98号&nbsp;&nbsp;·&nbsp;&nbsp;www.lanxingqingxi.com</div>
+                  <div style="margin-top:6px;font-size:8px;color:#94a3b8;">以上周期与效果预估均为初步工程估算，最终方案以现场勘查 / 水质化验 / 效率监测核定为准；本表仅供维护计划参考。</div>
+                </td>
+                <td style="padding-top:8px;text-align:right;vertical-align:bottom;width:130px;">
+                  <div style="width:88px;height:88px;border-radius:50%;border:2.5px solid #b91c1c;color:#b91c1c;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-12deg);font-size:8.5px;line-height:1.55;font-weight:700;text-align:center;margin-left:auto;">
+                    <div>丹阳市蓝星防腐<br>清洗有限公司</div>
+                    <div style="font-size:14px;font-weight:900;line-height:1.1;">★</div>
+                    <div>维护计划专用章</div>
+                  </div>
+                  <div style="font-size:8px;color:#94a3b8;margin-top:3px;text-align:center;">丹阳蓝星清洗</div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="border-t border-slate-800 py-6 text-center text-[10px] text-slate-500">
+    丹阳市蓝星防腐清洗有限公司 © 2026 · 设备清洗周期智能评估器 · 免费在线工具
+  </footer>
+
+  <script>
+  // ===== 规则数据（行业通用经验值，不涉及配方） =====
+  const equipments = [
+    { id: 'shell_tube', name: '管壳式换热器', desc: '循环冷却水系统', baseMonths: 12 },
+    { id: 'plate', name: '板式换热器', desc: '板片间结垢快', baseMonths: 12 },
+    { id: 'reactor', name: '反应釜 / 聚合釜', desc: '夹套 / 盘管系统', baseMonths: 24 },
+    { id: 'condenser', name: '电厂凝汽器 / 冷凝器', desc: '铜管系统', baseMonths: 12 },
+    { id: 'thermal_oil', name: '导热油炉系统', desc: '密闭油系统', baseMonths: 24 },
+    { id: 'boiler', name: '工业锅炉', desc: '炉水 / 蒸汽系统', baseMonths: 12 },
+    { id: 'central_ac', name: '中央空调水系统', desc: '冷却塔开放系统', baseMonths: 6 }
+  ];
+
+  // 水质修正系数
+  const waters = {
+    low:    { name: '低硬度（<150 mg/L）', factor: 1.5, desc: '水质好，结垢慢，周期可适当延长' },
+    medium: { name: '中硬度（150-300 mg/L）', factor: 1.0, desc: '常规水质，按标准周期执行' },
+    high:   { name: '高硬度（300-600 mg/L）', factor: 0.75, desc: '结垢较快，周期应适当缩短' },
+    ultra:  { name: '超高硬度（>600 mg/L）', factor: 0.5, desc: '结垢很快，强烈建议配套水质处理并缩短周期' }
+  };
+
+  // 温度修正系数
+  const temps = {
+    low:    { name: '低温（<50℃）', factor: 1.25, desc: '低温工况结垢慢' },
+    medium: { name: '中温（50-80℃）', factor: 1.0, desc: '常规工况' },
+    high:   { name: '高温（>80℃）', factor: 0.75, desc: '高温加速碳酸钙析出' }
+  };
+
+  // 清洗方式 / 清洗后效果
+  const methods = {
+    chem:    { name: '化学清洗（循环酸洗等）', note: '除垢彻底，效率恢复好' },
+    highpress:{ name: '高压水射流清洗', note: '物理除垢，适合硬垢' },
+    manual:  { name: '人工物理清洗（通炮/通管）', note: '适合管口可拆设备' },
+    unknown: { name: '未记录', note: '建议补充维护档案' }
+  };
+  const effects = {
+    good:    { name: '良好（压差/效率恢复正常）', factor: 1.0, note: '上次清洗效果良好，按标准周期执行' },
+    fair:    { name: '一般（部分恢复）', factor: 0.85, note: '上次清洗效果一般，周期适当缩短' },
+    poor:    { name: '较差（压差/效率恢复不明显）', factor: 0.7, note: '上次清洗效果较差，建议评估清洗工艺并缩短周期' },
+    unknown: { name: '未记录', factor: 1.0, note: '未记录上次效果，按标准周期执行' }
+  };
+
+  const monitors = {
+    shell_tube: '换热效率 / 进出口温差记录', plate: '板片压差 / 温差记录', reactor: '夹套传热 / 釜温记录',
+    condenser: '真空度 / 端差记录', thermal_oil: '油温 / 压差 / 残炭监测', boiler: '炉水指标 / 排烟温度',
+    central_ac: '主机能效比 / 冷却塔水温'
+  };
+
+  let currentEqId = null;
+  // 统一数据流：唯一评估结果对象，网页 UI 与 PDF 共用（PDF 不再二次计算）
+  let lastCycle = null;
+
+  // ===== 渲染 =====
+  function renderEquipmentButtons() {
+    const grid = document.getElementById('equipment-grid');
+    grid.innerHTML = equipments.map(eq => {
+      const active = eq.id === currentEqId;
+      return '<button type="button" onclick="selectEquipment(\'' + eq.id + '\')" class="text-left p-2.5 rounded-xl border transition-all ' +
+        (active ? 'bg-blue-900/60 border-blue-500 shadow-md ring-1 ring-blue-400' : 'bg-slate-950 border-slate-800 hover:border-slate-700') + '">' +
+        '<div class="text-xs font-bold ' + (active ? 'text-white' : 'text-slate-300') + '">' + eq.name + '</div>' +
+        '<div class="text-[10px] text-slate-500 mt-1 line-clamp-1">' + eq.desc + '</div></button>';
+    }).join('');
+  }
+
+  function selectEquipment(id) {
+    currentEqId = id;
+    renderEquipmentButtons();
+    updateEval();
+  }
+
+  // ===== 评估引擎（纯函数） =====
+  function computeCycle(eqId, waterId, tempId, lastClean, methodId, effectId) {
+    const eq = equipments.find(e => e.id === eqId) || equipments[0];
+    const w = waters[waterId] || waters.medium;
+    const t = temps[tempId] || temps.medium;
+    const m = methods[methodId] || methods.chem;
+    const e = effects[effectId] || effects.good;
+
+    // 周期 = 基准 × 水质系数 × 温度系数 × 清洗效果系数，四舍五入到整月，下限 3 个月
+    let months = Math.round(eq.baseMonths * w.factor * t.factor * e.factor);
+    if (months < 3) months = 3;
+
+    const perYear = (12 / months);
+    const perYearText = perYear >= 1 ? '约 ' + Math.round(perYear) + ' 次/年' : '约 ' + Math.round(12 / months) + ' 个月/次';
+
+    // 维护状态（三态：正常 / 接近周期 / 建议清洗）
+    let status = '未填写', statusColor = '#64748b', statusDesc = '填写上次清洗日期后自动判断';
+    let lossText = '—', lossNote = '填写上次清洗日期后自动预估';
+    let monthsSince = -1, nextText = '填写上次清洗日期后自动计算', nextNote = '建议周期 × 上次清洗效果修正（良好 1.0 / 一般 0.85 / 较差 0.7）';
+    let overdue = false;
+    const now = new Date();
+
+    if (lastClean) {
+      const then = new Date(lastClean + '-01');
+      monthsSince = (now.getFullYear() - then.getFullYear()) * 12 + (now.getMonth() - then.getMonth());
+      const over = monthsSince - months;
+      const near = Math.round(months * 0.8); // 接近周期阈值
+
+      if (over <= 0) {
+        if (monthsSince >= near) {
+          // 接近周期（80%-100%）
+          status = '接近维护周期';
+          statusColor = '#d97706';
+          statusDesc = '已运行 ' + monthsSince + ' 个月（周期 ' + months + ' 个月），建议提前安排清洗计划';
+          lossText = '约 5% ~ 10%';
+          lossNote = '接近维护周期，建议安排计划性清洗';
+          nextText = '未来 ' + (-over) + ' 个月内安排清洗（接近周期）';
+          nextNote = '建议提前预约，避免超期运行';
+        } else {
+          status = '运行正常';
+          statusColor = '#059669';
+          statusDesc = '距离下次清洗还有 ' + Math.max(0, -over) + ' 个月，请按计划执行季度监测';
+          lossText = '约 0% ~ 5%';
+          lossNote = '按计划清洗，效率损失可控';
+          nextText = '预计 ' + addMonthsText(lastClean, months) + ' 前后安排清洗';
+          nextNote = '按当前工况与清洗效果，建议周期为每 ' + months + ' 个月';
+        }
+      } else if (over <= months) {
+        status = '建议安排清洗';
+        statusColor = '#ea580c';
+        statusDesc = '已超期 ' + over + ' 个月，建议尽快安排清洗计划';
+        lossText = '约 10% ~ 20%';
+        lossNote = '超期 ' + over + ' 个月，换热效率明显下降';
+        nextText = '立即安排清洗（已超期 ' + over + ' 个月）';
+        nextNote = '超期越久，垢下腐蚀与非计划停机风险越高';
+        overdue = true;
+      } else {
+        status = '严重超期';
+        statusColor = '#dc2626';
+        statusDesc = '已超期 ' + over + ' 个月，存在垢下腐蚀风险，建议立即安排清洗';
+        lossText = '约 20% ~ 35%';
+        lossNote = '超期 ' + over + ' 个月，效率损失严重，能耗持续浪费';
+        nextText = '立即安排清洗并做结垢诊断（已超期 ' + over + ' 个月）';
+        nextNote = '建议同步进行垢样分析，确认清洗工艺';
+        overdue = true;
+      }
+    }
+
+    return { eq, w, t, m, e, months, perYearText, status, statusColor, statusDesc, lossText, lossNote, monthsSince, nextText, nextNote, overdue };
+  }
+
+  function addMonthsText(monthStr, n) {
+    const d = new Date(monthStr + '-01');
+    d.setMonth(d.getMonth() + n);
+    return d.getFullYear() + ' 年 ' + (d.getMonth() + 1) + ' 月';
+  }
+
+  function updateEval() {
+    const water = document.getElementById('water-select').value;
+    const temp = document.getElementById('temp-select').value;
+    const lastClean = document.getElementById('last-clean').value;
+    const methodId = document.getElementById('method-select').value;
+    const effectId = document.getElementById('effect-select').value;
+
+    // 状态 A：未选择设备 → 尚未完成评估（中立占位，不生成编号/时间）
+    if (!currentEqId) {
+      document.getElementById('cycle-badge').innerText = '待评估';
+      document.getElementById('cycle-per-year').innerText = '—';
+      document.getElementById('cycle-desc').innerText = '请先选择设备类型，将自动评估建议清洗周期与维护状态。';
+      const sb = document.getElementById('status-badge');
+      sb.innerText = '未填写';
+      sb.style.background = '#64748b';
+      document.getElementById('status-desc').innerText = '填写上次清洗日期后自动判断';
+      document.getElementById('status-extra').innerText = '填写上次清洗日期后显示已运行时间';
+      document.getElementById('next-out').innerText = '选择设备类型并填写日期后自动计算';
+      document.getElementById('next-note').innerText = '建议周期 × 上次清洗效果修正（良好 1.0 / 一般 0.85 / 较差 0.7）';
+      document.getElementById('overdue-banner').classList.add('hidden');
+      document.getElementById('plan-monitor').innerText = '—';
+      document.getElementById('plan-water').innerText = '—';
+      document.getElementById('plan-check').innerText = '—';
+      document.getElementById('eval-id').innerText = 'LX-CYC-XXXXXXXX';
+      document.getElementById('eval-time').innerText = '';
+      lastCycle = null;
+      fillPdfFromForm(null);
+      return;
+    }
+
+    const r = computeCycle(currentEqId, water, temp, lastClean, methodId, effectId);
+
+    const badge = document.getElementById('cycle-badge');
+    badge.innerText = '每 ' + r.months + ' 个月';
+    document.getElementById('cycle-per-year').innerText = r.perYearText;
+    document.getElementById('cycle-desc').innerText = r.eq.name + '·' + r.w.desc + '；' + r.t.desc + '；' + r.e.note + '。建议每 ' + r.months + ' 个月安排一次清洗，结合效率监测动态调整。';
+
+    const sb = document.getElementById('status-badge');
+    sb.innerText = r.status;
+    sb.style.background = r.statusColor;
+    document.getElementById('status-desc').innerText = r.statusDesc;
+    document.getElementById('status-extra').innerText = r.monthsSince >= 0 ? '已运行 ' + r.monthsSince + ' 个月 · 建议周期 ' + r.months + ' 个月' : '填写上次清洗日期后显示已运行时间';
+    document.getElementById('next-out').innerText = r.nextText;
+    document.getElementById('next-note').innerText = r.nextNote;
+
+    // 超期联动横幅
+    document.getElementById('overdue-banner').classList.toggle('hidden', !r.overdue);
+
+    document.getElementById('plan-monitor').innerText = monitors[currentEqId] || monitors.shell_tube;
+    document.getElementById('plan-water').innerText = '硬度 / pH / 浊度季度化验';
+    document.getElementById('plan-check').innerText = '压差、垢样观察、腐蚀检查';
+
+    document.getElementById('eval-id').innerText = 'LX-CYC-' + genId();
+    document.getElementById('eval-time').innerText = new Date().toLocaleString('zh-CN');
+    lastCycle = r;
+    fillPdfFromForm(r);
+  }
+
+  function genId() {
+    const d = new Date();
+    const p = function(n){ return (n<10?'0':'')+n; };
+    return d.getFullYear() + p(d.getMonth()+1) + p(d.getDate()) + '-' + Math.floor(1000 + Math.random() * 9000);
+  }
+
+  // ===== PDF =====
+  // 统一数据流：接收唯一评估结果对象 r（来自 updateEval 的 computeCycle），不再自行重算
+  function fillPdfFromForm(r) {
+    const water = document.getElementById('water-select').value;
+    const temp = document.getElementById('temp-select').value;
+    const lastClean = document.getElementById('last-clean').value;
+    const methodId = document.getElementById('method-select').value;
+    const effectId = document.getElementById('effect-select').value;
+
+    // 状态 A：无有效评估结果 → PDF 中立占位（编号/日期/周期均为占位）
+    if (!r) {
+      document.getElementById('pdf-doc-id').innerText = 'LX-CYC-XXXXXXXX-XXXX';
+      document.getElementById('pdf-doc-date').innerText = '';
+      document.getElementById('pdf-cycle').innerText = '待评估';
+      document.getElementById('pdf-cycle-sub').innerText = '选择设备类型后自动计算';
+      document.getElementById('pdf-status').innerText = '未填写';
+      document.getElementById('pdf-since').innerText = '未填写';
+      document.getElementById('pdf-loss').innerText = '—';
+      document.getElementById('pdf-eq-name').innerText = '—';
+      document.getElementById('pdf-water').innerText = water ? document.querySelector('#water-select option[value="' + water + '"]').innerText : '—';
+      document.getElementById('pdf-temp').innerText = temp ? document.querySelector('#temp-select option[value="' + temp + '"]').innerText : '—';
+      document.getElementById('pdf-last').innerText = lastClean ? lastClean.replace('-', ' 年 ') + ' 月' : '未填写';
+      document.getElementById('pdf-method').innerText = methodId ? document.querySelector('#method-select option[value="' + methodId + '"]').innerText : '—';
+      document.getElementById('pdf-effect').innerText = effectId ? document.querySelector('#effect-select option[value="' + effectId + '"]').innerText : '—';
+      document.getElementById('pdf-state-title').innerText = '当前状态：未填写';
+      document.getElementById('pdf-state-title').style.color = '#64748b';
+      document.getElementById('pdf-state-desc').innerText = '请先选择设备类型并填写上次清洗日期后自动评估。';
+      document.getElementById('pdf-next').innerText = '下一次清洗建议：选择设备类型并填写日期后自动计算';
+      document.getElementById('pdf-monitor').innerText = '—';
+      document.getElementById('pdf-water-plan').innerText = '—';
+      document.getElementById('pdf-check').innerText = '—';
+      return null;
+    }
+
+    document.getElementById('pdf-doc-id').innerText = 'LX-CYC-' + genId();
+    document.getElementById('pdf-doc-date').innerText = new Date().toLocaleDateString('zh-CN');
+    document.getElementById('pdf-cycle').innerText = '每 ' + r.months + ' 个月';
+    document.getElementById('pdf-cycle-sub').innerText = r.perYearText + ' · ' + r.eq.name;
+    document.getElementById('pdf-status').innerText = r.status;
+    document.getElementById('pdf-since').innerText = r.monthsSince >= 0 ? r.monthsSince + ' 个月' : '未填写';
+    document.getElementById('pdf-loss').innerText = r.lossText;
+    document.getElementById('pdf-eq-name').innerText = r.eq.name;
+    document.getElementById('pdf-water').innerText = r.w.name;
+    document.getElementById('pdf-temp').innerText = r.t.name;
+    document.getElementById('pdf-last').innerText = lastClean ? lastClean.replace('-', ' 年 ') + ' 月' : '未填写';
+    document.getElementById('pdf-method').innerText = r.m.name;
+    document.getElementById('pdf-effect').innerText = r.e.name;
+    document.getElementById('pdf-state-title').innerText = '当前状态：' + r.status;
+    document.getElementById('pdf-state-title').style.color = r.statusColor;
+    document.getElementById('pdf-state-desc').innerText = r.statusDesc + '。' + r.e.note + '。';
+    document.getElementById('pdf-next').innerText = '下一次清洗建议：' + r.nextText;
+    document.getElementById('pdf-monitor').innerText = monitors[currentEqId] || monitors.shell_tube;
+    document.getElementById('pdf-water-plan').innerText = '硬度 / pH / 浊度季度化验';
+    document.getElementById('pdf-check').innerText = '压差、垢样观察、腐蚀检查';
+    document.getElementById('pdf-standard').innerText = 'GB/T 25146-2010 / GB/T 26148-2025';
+    document.getElementById('pdf-contact-name').innerText = '现场工程负责人';
+    document.getElementById('pdf-contact-phone').innerText = '18952832843';
+
+    return r;
+  }
+
+  function openPdfModal() {
+    fillPdfFromForm(lastCycle);
+    document.getElementById('pdf-modal').classList.remove('hidden');
+  }
+
+  function closePdfModal() {
+    document.getElementById('pdf-modal').classList.add('hidden');
+  }
+
+  function loadPdfLibs(cb) {
+    if (typeof window.jspdf !== 'undefined' && typeof html2canvas !== 'undefined') { cb(); return; }
+    const paths = ['../calc/js/jspdf.umd.min.js', 'https://unpkg.com/jspdf@2.5.1/dist/jspdf.umd.min.js'];
+    const paths2 = ['../calc/js/html2canvas.min.js', 'https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.min.js'];
+    function load(srcs, done) {
+      const s = document.createElement('script');
+      s.src = srcs[0];
+      s.onload = function(){ done(); };
+      s.onerror = function(){ if (srcs.length > 1) { load(srcs.slice(1), done); } else { done(); } };
+      document.head.appendChild(s);
+    }
+    load(paths, function(){ load(paths2, cb); });
+  }
+
+  function downloadPdf() {
+    const btn = document.querySelector('.pdf-dl-btn');
+    btn.innerText = '生成中…';
+    btn.disabled = true;
+    loadPdfLibs(function(){
+      setTimeout(function(){
+        const src = document.getElementById('pdf-print-sheet');
+        const host = document.createElement('div');
+        host.style.cssText = 'position:fixed;left:-10000px;top:0;z-index:-1;';
+        host.appendChild(src.cloneNode(true));
+        const sheet = host.firstElementChild;
+        sheet.style.width = '794px';
+        sheet.style.maxWidth = '794px';
+        sheet.style.height = '1123px';
+        sheet.style.minHeight = '1123px';
+        document.body.appendChild(host);
+
+        html2canvas(sheet, { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 794, windowHeight: 1123 }).then(function(canvas){
+          const pdf = new window.jspdf.jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+          pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 210, 297);
+          pdf.save('设备维护计划表-' + new Date().toISOString().slice(0,10) + '.pdf');
+          btn.innerText = '⬇ 直接下载 PDF';
+          btn.disabled = false;
+          host.remove();
+        }).catch(function(err){
+          console.error('PDF render failed:', err);
+          btn.innerText = '⬇ 直接下载 PDF';
+          btn.disabled = false;
+          host.remove();
+          window.print();
+        });
+      }, 300);
+    });
+  }
+
+  // ===== 初始化 =====
+  renderEquipmentButtons();
+  document.getElementById('water-select').addEventListener('change', updateEval);
+  document.getElementById('temp-select').addEventListener('change', updateEval);
+  document.getElementById('last-clean').addEventListener('input', updateEval);
+  document.getElementById('method-select').addEventListener('change', updateEval);
+  document.getElementById('effect-select').addEventListener('change', updateEval);
+  updateEval(); // 内部已同步填充 PDF（统一数据流）
+  </script>
+
+<!-- AI 智能客服 -->
+<script src="/js/ai-chat.js?v=5" defer></script>
+</body>
+</html>

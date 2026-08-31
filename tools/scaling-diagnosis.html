@@ -102,6 +102,7 @@
       <div>
         <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">② 主要材质</label>
         <select id="material-select" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500">
+          <option value="" disabled selected>请选择材质</option>
           <option value="carbon_steel">碳钢</option>
           <option value="stainless_304">304 不锈钢</option>
           <option value="stainless_316l">316L 不锈钢</option>
@@ -118,6 +119,7 @@
       <div>
         <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">③ 垢型（拿不准？看下方颜色提示）</label>
         <select id="scale-select" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500">
+          <option value="" disabled selected>请选择垢型</option>
           <option value="carbonate">碳酸盐硬水垢（白色/灰白疏松）</option>
           <option value="sulfate_silicate">硫酸盐/硅酸盐难溶垢（黄白或灰白坚硬）</option>
           <option value="rust">铁锈氧化皮（红褐色）</option>
@@ -130,8 +132,8 @@
       <div>
         <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">④ 垢层厚度（不知道垢厚？用⑤设备表现判断即可）</label>
         <div class="flex items-center gap-3 mt-2">
-          <input type="range" id="scale-thickness" min="0.5" max="10" step="0.5" value="2" class="flex-1">
-          <span class="text-sm font-bold text-blue-300 w-16 text-right" id="thickness-display">2.0 mm</span>
+          <input type="range" id="scale-thickness" min="0.5" max="10" step="0.5" value="0.5" class="flex-1">
+          <span class="text-sm font-bold text-blue-300 w-16 text-right" id="thickness-display">0.5 mm</span>
         </div>
         <div class="flex justify-between text-[10px] text-slate-500 mt-1 px-0.5"><span>0.5mm</span><span>5mm</span><span>10mm</span></div>
       </div>
@@ -219,10 +221,19 @@
       <div class="text-[10px] text-slate-500 leading-relaxed border-t border-slate-800 pt-3">
         💡 垢样颜色参考：白/灰白疏松 → 碳酸盐垢 · 黄白/灰白坚硬 → 硫酸盐/硅酸盐垢 · 红褐色 → 铁锈 · 黑/粘稠 → 油焦垢 · 绿/褐粘滑 → 菌藻粘泥。结果基于行业经验规则预评估，最终以现场勘查 / 取样化验为准。
       </div>
+
+      <button onclick="runDiagnosis()" class="w-full bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold py-3 rounded-lg transition-all shadow-lg cursor-pointer">
+        🔍 开始诊断
+      </button>
     </section>
 
     <!-- ========== 结果区 ========== -->
-    <section class="lg:col-span-7 space-y-4">
+    <div id="diag-placeholder" class="lg:col-span-7 tool-card border border-slate-800 rounded-2xl p-5 sm:p-6 flex flex-col items-center justify-center min-h-[300px] text-center">
+      <div class="text-3xl mb-3">🔧</div>
+      <div class="text-sm text-slate-300">请完成工况信息后开始诊断</div>
+      <div class="text-[10px] text-slate-500 mt-2">选择设备类型、材质、垢型并填写垢厚后，点击「开始诊断」生成结垢风险评估</div>
+    </div>
+    <section id="result-section" class="lg:col-span-7 space-y-4 hidden">
 
       <!-- 风险等级 + 诊断依据 -->
       <div class="tool-card border border-slate-800 rounded-2xl p-5 sm:p-6">
@@ -230,13 +241,13 @@
           <div>
             <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">结垢风险等级</div>
             <div class="mt-2 flex items-center gap-3 flex-wrap">
-              <span id="risk-badge" class="risk-badge inline-block bg-yellow-600 text-white font-black text-lg px-4 py-1.5 rounded-lg">中风险</span>
-              <span id="risk-score" class="text-xs text-slate-400">综合评分 6 分</span>
+              <span id="risk-badge" class="risk-badge inline-block bg-slate-600 text-white font-black text-lg px-4 py-1.5 rounded-lg">未诊断</span>
+              <span id="risk-score" class="text-xs text-slate-400">综合评分 — 分</span>
             </div>
-            <p id="risk-desc" class="text-sm text-slate-300 mt-2 leading-relaxed">建议制定清洗计划（3 个月内），同步取样化验确认垢型，制定针对性工艺。</p>
+            <p id="risk-desc" class="text-sm text-slate-300 mt-2 leading-relaxed">请完成工况信息后开始诊断。</p>
           </div>
           <div class="text-right text-xs text-slate-500">
-            <div>诊断编号 <span id="diag-id" class="font-mono text-blue-300">LX-DIAG-0000</span></div>
+            <div>诊断编号 <span id="diag-id" class="font-mono text-blue-300">LX-DIAG-XXXXXXXX</span></div>
             <div class="mt-1">生成时间 <span id="diag-time"></span></div>
           </div>
         </div>
@@ -254,13 +265,13 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div class="tool-card border border-slate-800 rounded-2xl p-5">
           <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">预计换热性能影响（初步估算）</div>
-          <div id="out-eff" class="text-2xl font-black text-white mt-2">约 10% ~ 20%</div>
+          <div id="out-eff" class="text-2xl font-black text-white mt-2">—</div>
           <p class="text-[10px] text-slate-500 mt-1 leading-relaxed">初步估算范围，实际损失与垢层导热系数、设备结构、流速、介质、换热温差及换热面积等因素相关，以清洗前后检测为验收依据。</p>
         </div>
         <div class="tool-card border border-slate-800 rounded-2xl p-5">
           <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">能耗损失估算</div>
-          <div id="out-energy" class="text-2xl font-black text-white mt-2">约 15.0 万/百万元</div>
-          <p class="text-[10px] text-slate-500 mt-1" id="out-energy-note">参考：年能源费用每 100 万元约损失 15.0 万元/年（未填费用）</p>
+          <div id="out-energy" class="text-2xl font-black text-white mt-2">—</div>
+          <p class="text-[10px] text-slate-500 mt-1" id="out-energy-note">填写年能源费用后自动折算</p>
         </div>
       </div>
 
@@ -270,13 +281,13 @@
         <div class="mt-4 space-y-4">
           <div>
             <div class="flex justify-between text-[10px] text-slate-500"><span>低</span><span>中</span><span>高</span><span>严重</span></div>
-            <div class="trend-track mt-1.5"><div id="trend-dot-now" class="trend-dot" style="left:33.3%;background:#d97706"></div></div>
-            <div class="text-xs text-slate-300 mt-1.5">当前：<b id="trend-now-text" class="text-yellow-400">中风险</b></div>
+            <div class="trend-track mt-1.5"><div id="trend-dot-now" class="trend-dot" style="left:0%;background:#64748b"></div></div>
+            <div class="text-xs text-slate-300 mt-1.5">当前：<b id="trend-now-text" class="text-slate-400">未诊断</b></div>
           </div>
           <div>
             <div class="flex justify-between text-[10px] text-slate-500"><span>低</span><span>中</span><span>高</span><span>严重</span></div>
-            <div class="trend-track mt-1.5"><div id="trend-dot-future" class="trend-dot" style="left:66.7%;background:#ea580c"></div></div>
-            <div class="text-xs text-slate-300 mt-1.5">继续运行 6 个月（预估）：<b id="trend-future-text" class="text-orange-400">高风险</b></div>
+            <div class="trend-track mt-1.5"><div id="trend-dot-future" class="trend-dot" style="left:0%;background:#64748b"></div></div>
+            <div class="text-xs text-slate-300 mt-1.5">继续运行 6 个月（预估）：<b id="trend-future-text" class="text-slate-400">未诊断</b></div>
           </div>
         </div>
         <p class="text-[10px] text-slate-500 mt-3 leading-relaxed">按典型结垢速率估算（垢厚约 +1.5 mm/半年，行业经验值），未考虑水质突变等异常工况。想知道设备多久该洗一次？可参考 <a href="/tools/maintenance-cycle.html" class="text-blue-300 underline">清洗周期评估器</a>。</p>
@@ -294,29 +305,29 @@
         <div id="plan-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
           <div class="bg-slate-900 border border-slate-800 rounded-lg p-3">
             <div class="text-[10px] text-slate-500">建议工艺</div>
-            <div id="out-method" class="text-white mt-1 font-medium">循环酸洗 + 高压水辅助冲洗</div>
+            <div id="out-method" class="text-white mt-1 font-medium">—</div>
           </div>
           <div class="bg-slate-900 border border-slate-800 rounded-lg p-3">
             <div class="text-[10px] text-slate-500">主药剂（英文标准名）</div>
-            <div id="out-chemical" class="text-white mt-1 font-medium">Citric Acid 3~5% / Sulfamic Acid 5~8%</div>
+            <div id="out-chemical" class="text-white mt-1 font-medium">—</div>
           </div>
           <div class="bg-slate-900 border border-slate-800 rounded-lg p-3">
             <div class="text-[10px] text-slate-500">缓蚀剂</div>
-            <div id="out-inhibitor" class="text-white mt-1 font-medium">Lan-826 多用酸洗缓蚀剂</div>
+            <div id="out-inhibitor" class="text-white mt-1 font-medium">—</div>
           </div>
           <div class="bg-slate-900 border border-slate-800 rounded-lg p-3">
             <div class="text-[10px] text-slate-500">参考工期</div>
-            <div id="out-days" class="text-white mt-1 font-medium">2 天（可加急）</div>
+            <div id="out-days" class="text-white mt-1 font-medium">—</div>
           </div>
         </div>
 
         <!-- 推荐依据推理链 -->
         <div id="reasoning-box" class="bg-blue-950/40 border border-blue-800/50 rounded-lg px-3 py-2 text-[11px] text-blue-200 leading-relaxed">
-          💡 推荐依据：材质 碳钢（→ Lan-826 缓蚀体系）+ 垢型 碳酸盐硬水垢（→ Citric Acid / Sulfamic Acid 主剂）+ 垢厚 2.0 mm（→ 循环酸洗 + 高压水辅助路线），因此推荐「循环酸洗 + 高压水辅助冲洗」。以上为初步工程估算，最终方案以现场勘查与取样化验为准。
+          💡 推荐依据：请完成工况信息并点击「开始诊断」后自动生成。
         </div>
 
         <div class="border-l-4 border-red-600/80 bg-slate-900 rounded-lg px-3 py-2 text-xs text-red-300 leading-relaxed">
-          ⚠️ <span id="out-warning">酸洗后须立即钝化，防止二次返锈</span>
+          ⚠️ <span id="out-warning">—</span>
         </div>
 
         <!-- 材质适配提示（不要自行清洗） -->
@@ -332,8 +343,8 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
           <button onclick="openPdfModal()" class="bg-slate-950 text-white text-sm font-semibold px-4 py-3 rounded-lg hover:bg-slate-800 cursor-pointer text-left">📄 生成 PDF 诊断报告<br><span class="text-[10px] text-slate-400 font-normal">完整评估报告，可打印存档</span></button>
           <a href="/tools/maintenance-cycle.html" class="bg-white text-blue-900 text-sm font-bold px-4 py-3 rounded-lg hover:opacity-90 text-left">📅 计算下次清洗周期<br><span class="text-[10px] text-blue-700/70 font-normal">用清洗周期评估器</span></a>
-          <a href="tel:18952832843" class="bg-slate-950 text-white text-sm font-semibold px-4 py-3 rounded-lg hover:bg-slate-800 text-left">🧪 垢样分析 / 取样化验<br><span class="text-[10px] text-slate-400 font-normal">免费咨询送检方案</span></a>
-          <a href="tel:18952832843" class="bg-white text-blue-900 text-sm font-bold px-4 py-3 rounded-lg hover:opacity-90 text-left">👨‍🔧 联系工程师<br><span class="text-[10px] text-blue-700/70 font-normal">18952832843 免费对接</span></a>
+          <a href="/contact.html" class="bg-slate-950 text-white text-sm font-semibold px-4 py-3 rounded-lg hover:bg-slate-800 text-left">🧪 垢样分析 / 取样化验<br><span class="text-[10px] text-slate-400 font-normal">免费咨询送检方案 · 📞 18952832843</span></a>
+          <a href="/contact.html" class="bg-white text-blue-900 text-sm font-bold px-4 py-3 rounded-lg hover:opacity-90 text-left">👨‍🔧 联系工程师<br><span class="text-[10px] text-blue-700/70 font-normal">18952832843 免费对接</span></a>
         </div>
       </div>
 
@@ -381,7 +392,7 @@
                   <div style="font-size:9px;color:#475569;margin-top:2px;">中国工业清洗协会会员单位&nbsp;&nbsp;|&nbsp;&nbsp;执行标准：GB/T 25146-2010 / GB/T 26148-2025</div>
                 </td>
                 <td style="vertical-align:top;text-align:right;padding-bottom:10px;font-size:10px;color:#64748b;">
-                  <div>编号：<b id="pdf-doc-id" style="color:#334155;font-family:Consolas,monospace;font-size:10px;">LX-DIAG-00000000-0000</b></div>
+                  <div>编号：<b id="pdf-doc-id" style="color:#334155;font-family:Consolas,monospace;font-size:10px;">LX-DIAG-XXXXXXXX-XXXX</b></div>
                   <div style="margin-top:2px;">评估日期：<b id="pdf-doc-date" style="color:#334155;"></b></div>
                   <div style="margin-top:2px;color:#047857;font-weight:600;">密级：商务机密 / 定向提供</div>
                 </td>
@@ -398,8 +409,8 @@
             <table style="width:100%;border-collapse:collapse;margin-top:12px;">
               <tr>
                 <td style="border:2px solid #1e3a8a;border-radius:8px;padding:10px 16px;width:50%;vertical-align:middle;">
-                  <div style="font-size:9.5px;color:#64748b;">结垢风险等级（综合评分 <b id="pdf-risk-score" style="color:#1e293b;">6</b> 分）</div>
-                  <div id="pdf-risk-level" style="font-size:24px;font-weight:900;color:#d97706;margin-top:2px;">中风险</div>
+                  <div style="font-size:9.5px;color:#64748b;">结垢风险等级（综合评分 <b id="pdf-risk-score" style="color:#1e293b;">—</b> 分）</div>
+                  <div id="pdf-risk-level" style="font-size:24px;font-weight:900;color:#d97706;margin-top:2px;">—</div>
                   <div style="font-size:9px;color:#64748b;margin-top:2px;">等级说明：低 0-5 分 / 中 6-11 分 / 高 12-17 分 / 严重 18 分以上</div>
                 </td>
                 <td style="width:3%;"></td>
@@ -407,7 +418,7 @@
                   <table style="width:100%;border-collapse:collapse;font-size:10.5px;">
                     <tr>
                       <td style="padding:4px 0;color:#64748b;width:46%;">预计换热性能影响</td>
-                      <td style="padding:4px 0;color:#1e293b;font-weight:700;text-align:right;"><span id="pdf-eff">约 10% ~ 20%（初步估算）</span></td>
+                      <td style="padding:4px 0;color:#1e293b;font-weight:700;text-align:right;"><span id="pdf-eff">—</span></td>
                     </tr>
                     <tr>
                       <td style="padding:4px 0;color:#64748b;border-top:1px dashed #e2e8f0;">能耗损失估算</td>
@@ -415,7 +426,7 @@
                     </tr>
                     <tr>
                       <td style="padding:4px 0;color:#64748b;border-top:1px dashed #e2e8f0;">清洗建议</td>
-                      <td style="padding:4px 0;color:#1e293b;font-weight:700;text-align:right;border-top:1px dashed #e2e8f0;"><span id="pdf-action">建议制定清洗计划</span></td>
+                      <td style="padding:4px 0;color:#1e293b;font-weight:700;text-align:right;border-top:1px dashed #e2e8f0;"><span id="pdf-action">—</span></td>
                     </tr>
                   </table>
                 </td>
@@ -426,14 +437,14 @@
             <div style="margin-top:8px;">
               <div style="font-size:11px;font-weight:800;color:#172554;border-left:4px solid #1e3a8a;padding-left:8px;margin-bottom:6px;">一、设备与工况信息</div>
               <table style="width:100%;border-collapse:collapse;">
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">设备类型</td><td id="pdf-eq-name" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">管壳式换热器</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">主要材质</td><td id="pdf-mat-name" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">碳钢</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">垢型</td><td id="pdf-scale-name" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">碳酸盐硬水垢</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">垢层厚度</td><td id="pdf-thick-name" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">2.0 mm</td></tr>
+                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">设备类型</td><td id="pdf-eq-name" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">主要材质</td><td id="pdf-mat-name" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">垢型</td><td id="pdf-scale-name" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">垢层厚度</td><td id="pdf-thick-name" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
                 <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">设备表现</td><td id="pdf-symptom-name" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">水质硬度</td><td id="pdf-water" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">中等（150-300 mg/L）</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">运行温度</td><td id="pdf-temp" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">40-60℃</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">最近一次清洗</td><td id="pdf-lastclean" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">3-6 个月</td></tr>
+                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">水质硬度</td><td id="pdf-water" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">运行温度</td><td id="pdf-temp" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">最近一次清洗</td><td id="pdf-lastclean" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
               </table>
             </div>
 
@@ -441,11 +452,11 @@
             <div style="margin-top:8px;">
               <div style="font-size:11px;font-weight:800;color:#172554;border-left:4px solid #1e3a8a;padding-left:8px;margin-bottom:6px;">二、诊断结论</div>
               <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:8px 12px;">
-                <div style="font-size:12px;font-weight:800;color:#d97706;" id="pdf-conclusion-title">综合判断：中风险。</div>
-                <div style="font-size:9.5px;color:#475569;margin-top:3px;line-height:1.55;" id="pdf-conclusion-text">当前设备存在一定结垢影响，暂未达到紧急清洗条件。建议结合压差、进出口温度及换热能力变化，在 3 个月内制定计划性清洗安排。</div>
-                <div style="font-size:9px;color:#64748b;margin-top:3px;border-top:1px dashed #e2e8f0;padding-top:3px;" id="pdf-reason-text">风险原因：运行温度较高、水质硬度偏高、距上次清洗时间较长，同时出现压差升高与换热效率下降迹象，因此综合判定为中风险。</div>
-                <div style="font-size:9px;color:#64748b;margin-top:3px;" id="pdf-basis-summary">诊断依据：垢厚 2.0 mm（+2）· 垢型 碳酸盐（+1）· 设备表现 无（+0）· 水质 中等（+1）· 温度 40-60℃（+1）· 清洗间隔 3-6 个月（+1）· 材质 碳钢（不影响评分）</div>
-                <div style="font-size:9px;color:#64748b;margin-top:3px;" id="pdf-trend-summary">风险趋势：继续运行 6 个月预计升至「高风险」（按典型结垢速率估算，行业经验值）</div>
+                <div style="font-size:12px;font-weight:800;color:#d97706;" id="pdf-conclusion-title">综合判断：请完成工况信息后开始诊断。</div>
+                <div style="font-size:9.5px;color:#475569;margin-top:3px;line-height:1.55;" id="pdf-conclusion-text">—</div>
+                <div style="font-size:9px;color:#64748b;margin-top:3px;border-top:1px dashed #e2e8f0;padding-top:3px;" id="pdf-reason-text">风险原因：请完成工况信息后开始诊断。</div>
+                <div style="font-size:9px;color:#64748b;margin-top:3px;" id="pdf-basis-summary">诊断依据：—</div>
+                <div style="font-size:9px;color:#64748b;margin-top:3px;" id="pdf-trend-summary">风险趋势：—</div>
               </div>
             </div>
 
@@ -453,10 +464,10 @@
             <div style="margin-top:8px;">
               <div style="font-size:11px;font-weight:800;color:#172554;border-left:4px solid #1e3a8a;padding-left:8px;margin-bottom:6px;">三、推荐清洗方案</div>
               <table style="width:100%;border-collapse:collapse;">
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">建议工艺</td><td id="pdf-method" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">循环酸洗 + 高压水辅助冲洗</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">主药剂</td><td id="pdf-chem" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">Citric Acid 3~5% / Sulfamic Acid 5~8%</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">缓蚀剂</td><td id="pdf-inhibitor" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">Lan-826 多用酸洗缓蚀剂</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">参考工期</td><td id="pdf-days" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">2 天（可加急）</td></tr>
+                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">建议工艺</td><td id="pdf-method" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">主药剂</td><td id="pdf-chem" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">缓蚀剂</td><td id="pdf-inhibitor" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">参考工期</td><td id="pdf-days" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
                 <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#fef2f2;color:#b91c1c;vertical-align:top;">⚠️ 安全警示</td><td id="pdf-warning" style="padding:4px 10px;border:1px solid #e2e8f0;color:#b91c1c;font-weight:600;">—</td></tr>
               </table>
             </div>
@@ -465,8 +476,8 @@
             <div style="margin-top:8px;">
               <div style="font-size:11px;font-weight:800;color:#172554;border-left:4px solid #1e3a8a;padding-left:8px;margin-bottom:6px;">四、建议检测项目与维护周期</div>
               <table style="width:100%;border-collapse:collapse;">
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">建议检测项目</td><td id="pdf-tests" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">垢样成分分析 / 水质硬度碱度化验 / 压差与温差检测</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">维护周期建议</td><td id="pdf-cycle" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">常规 6-12 个月，硬水/高温工况 3-6 个月（详见清洗周期评估器）</td></tr>
+                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">建议检测项目</td><td id="pdf-tests" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">维护周期建议</td><td id="pdf-cycle" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
               </table>
             </div>
 
@@ -577,9 +588,11 @@
     c6: { name: '从未清洗', score: 5, note: '无维护记录，风险高' }
   };
 
-  let currentEqId = 'shell_tube';
+  let currentEqId = null;
   let symptomCount = 0;
   let symptomLabels = [];
+  // 统一数据流：唯一 result 对象，网页 UI 与 PDF 共用（禁止 UI/PDF 各自计算）
+  let lastResult = null;
 
   // ===== 评分与等级（纯函数） =====
   function thickScoreFor(t) { return t <= 1 ? 0 : t <= 3 ? 2 : t <= 5 ? 4 : 6; }
@@ -612,7 +625,7 @@
   function selectEquipment(id) {
     currentEqId = id;
     renderEquipmentButtons();
-    updateDiagnosis();
+    markDirty();
   }
 
   function toggleSymptom(cb) {
@@ -635,7 +648,7 @@
     document.querySelectorAll('#symptom-group input:not(#symptom-none)').forEach(cb => { if (cb.checked) boxes.push(cb); });
     symptomCount = boxes.length;
     symptomLabels = boxes.map(cb => cb.closest('label').innerText.trim());
-    updateDiagnosis();
+    markDirty();
   }
 
   // ===== 诊断引擎（纯函数） =====
@@ -720,10 +733,29 @@
     return { eq, mt, sc, w, t, lc, thickScore, total, lv, eff, effMid, energyText, energyNote, method, chem, days, fLv, trendText, basis, reasonText, reasoning };
   }
 
+  function markDirty() {
+    const thick = parseFloat(document.getElementById('scale-thickness').value) || 0.5;
+    document.getElementById('thickness-display').innerText = thick.toFixed(1) + ' mm';
+    document.getElementById('result-section').classList.add('hidden');
+    document.getElementById('diag-placeholder').classList.remove('hidden');
+    lastResult = null; // 输入已变化，旧诊断结果作废，PDF 不得复用
+  }
+
+  function runDiagnosis() {
+    const mat = document.getElementById('material-select').value;
+    const scale = document.getElementById('scale-select').value;
+    if (!currentEqId) { alert('请先选择设备类型'); return; }
+    if (!mat) { alert('请先选择主要材质'); return; }
+    if (!scale) { alert('请先选择垢型'); return; }
+    updateDiagnosis();
+    document.getElementById('result-section').classList.remove('hidden');
+    document.getElementById('diag-placeholder').classList.add('hidden');
+  }
+
   function updateDiagnosis() {
     const mat = document.getElementById('material-select').value;
     const scale = document.getElementById('scale-select').value;
-    const thick = parseFloat(document.getElementById('scale-thickness').value) || 2;
+    const thick = parseFloat(document.getElementById('scale-thickness').value) || 0.5;
     const energy = parseFloat(document.getElementById('energy-cost').value) || 0;
     const water = document.getElementById('water-select').value;
     const temp = document.getElementById('temp-select').value;
@@ -731,8 +763,15 @@
 
     document.getElementById('thickness-display').innerText = thick.toFixed(1) + ' mm';
 
+    // 统一数据流：一次计算 → 单一 result 对象 → 同时驱动网页 UI 与 PDF（无第二份结果）
     const r = computeDiagnosis(currentEqId, mat, scale, thick, symptomCount, symptomLabels, energy, water, temp, lc);
+    lastResult = r;
+    renderWebResult(r);
+    renderPdfResult(r);
+  }
 
+  // 网页结果渲染（与 PDF 共用同一 result 对象）
+  function renderWebResult(r) {
     // 风险徽章
     const badge = document.getElementById('risk-badge');
     badge.innerText = r.lv.level;
@@ -766,7 +805,7 @@
     document.getElementById('trend-future-text').innerText = r.fLv.level;
     document.getElementById('trend-future-text').className = 'text-' + ['emerald', 'yellow', 'orange', 'red'][r.fLv.idx] + '-400';
 
-    // 工艺方案：低风险不推荐清洗（条件化）
+    // 工艺方案：低风险不推荐清洗（条件化，与 PDF 同一判断来源 r.lv.idx）
     const idle = document.getElementById('plan-idle');
     const grid = document.getElementById('plan-grid');
     const reason = document.getElementById('reasoning-box');
@@ -787,23 +826,8 @@
     document.getElementById('diag-time').innerText = new Date().toLocaleString('zh-CN');
   }
 
-  function genId() {
-    const d = new Date();
-    const p = function(n){ return (n<10?'0':'')+n; };
-    return d.getFullYear() + p(d.getMonth()+1) + p(d.getDate()) + '-' +
-      Math.floor(1000 + Math.random() * 9000);
-  }
-
-  // ===== PDF =====
-  function openPdfModal() {
-    const mat = document.getElementById('material-select').value;
-    const scale = document.getElementById('scale-select').value;
-    const thick = parseFloat(document.getElementById('scale-thickness').value) || 2;
-    const energy = parseFloat(document.getElementById('energy-cost').value) || 0;
-    const water = document.getElementById('water-select').value;
-    const temp = document.getElementById('temp-select').value;
-    const lc = document.getElementById('lastclean-select').value;
-    const r = computeDiagnosis(currentEqId, mat, scale, thick, symptomCount, symptomLabels, energy, water, temp, lc);
+  // PDF 结果渲染（与网页共用同一 result 对象，保证两个视图数据完全一致）
+  function renderPdfResult(r) {
     const lowRisk = r.lv.idx === 0;
 
     document.getElementById('pdf-doc-id').innerText = 'LX-DIAG-' + genId();
@@ -820,20 +844,20 @@
     document.getElementById('pdf-conclusion-title').style.color = r.lv.color;
     document.getElementById('pdf-conclusion-text').innerText = conclusionFor(r.lv.level);
     document.getElementById('pdf-reason-text').innerText = '风险原因：' + r.reasonText;
-    document.getElementById('pdf-basis-summary').innerText = '诊断依据：垢厚 ' + thick.toFixed(1) + ' mm（+' + r.thickScore + '）· 垢型 ' + r.sc.name + '（+' + r.sc.score + '）· 设备表现 ' + (symptomCount ? '发现 ' + symptomCount + ' 项（+' + symptomCount + '）' : '无（+0）') + '· 水质 ' + r.w.name + '（+' + r.w.score + '）· 温度 ' + r.t.name + '（+' + r.t.score + '）· 清洗间隔 ' + r.lc.name + '（+' + r.lc.score + '）· 材质 ' + r.mt.name + '（不影响评分）';
+    document.getElementById('pdf-basis-summary').innerText = '诊断依据：垢厚 ' + r.basis[0].val + '（+' + r.thickScore + '）· 垢型 ' + r.sc.name + '（+' + r.sc.score + '）· 设备表现 ' + (r.basis[2].pts ? '发现 ' + r.basis[2].pts + ' 项（+' + r.basis[2].pts + '）' : '无（+0）') + '· 水质 ' + r.w.name + '（+' + r.w.score + '）· 温度 ' + r.t.name + '（+' + r.t.score + '）· 清洗间隔 ' + r.lc.name + '（+' + r.lc.score + '）· 材质 ' + r.mt.name + '（不影响评分）';
     document.getElementById('pdf-trend-summary').innerText = '风险趋势：' + r.trendText + '（垢厚约 +1.5 mm/半年，行业经验值）';
 
     // 工况参数
     document.getElementById('pdf-eq-name').innerText = r.eq.name;
     document.getElementById('pdf-mat-name').innerText = r.mt.name;
     document.getElementById('pdf-scale-name').innerText = r.sc.name;
-    document.getElementById('pdf-thick-name').innerText = thick.toFixed(1) + ' mm';
-    document.getElementById('pdf-symptom-name').innerText = symptomLabels.length ? symptomLabels.join('、') : '无明显异常';
+    document.getElementById('pdf-thick-name').innerText = r.basis[0].val;
+    document.getElementById('pdf-symptom-name').innerText = r.basis[2].pts ? r.basis[2].val.split('（')[0] : '无明显异常';
     document.getElementById('pdf-water').innerText = r.w.name;
     document.getElementById('pdf-temp').innerText = r.t.name;
     document.getElementById('pdf-lastclean').innerText = r.lc.name;
 
-    // 方案（低风险时显示暂不推荐）
+    // 方案（低风险时显示暂不推荐；与网页 plan-idle 同一判断）
     document.getElementById('pdf-method').innerText = lowRisk ? '暂不建议立即清洗（纳入巡检）' : r.method;
     document.getElementById('pdf-chem').innerText = lowRisk ? '—' : r.chem;
     document.getElementById('pdf-inhibitor').innerText = lowRisk ? '—' : r.mt.inhibitor;
@@ -843,7 +867,20 @@
     document.getElementById('pdf-cycle').innerText = r.sc.cycle + '（详见清洗周期评估器）';
     document.getElementById('pdf-contact-name').innerText = '现场工程负责人';
     document.getElementById('pdf-contact-phone').innerText = '18952832843';
+  }
 
+  function genId() {
+    const d = new Date();
+    const p = function(n){ return (n<10?'0':'')+n; };
+    return d.getFullYear() + p(d.getMonth()+1) + p(d.getDate()) + '-' +
+      Math.floor(1000 + Math.random() * 9000);
+  }
+
+  // ===== PDF =====
+  function openPdfModal() {
+    // 只允许基于最近一次诊断结果生成 PDF（与网页同一 result 对象，杜绝结果 A/B 分叉）
+    if (!lastResult) { alert('请先完成工况信息并点击「开始诊断」，再生成 PDF 报告'); return; }
+    renderPdfResult(lastResult);
     document.getElementById('pdf-modal').classList.remove('hidden');
   }
 
@@ -910,14 +947,14 @@
 
   // ===== 初始化 =====
   renderEquipmentButtons();
-  document.getElementById('material-select').addEventListener('change', updateDiagnosis);
-  document.getElementById('scale-select').addEventListener('change', updateDiagnosis);
-  document.getElementById('scale-thickness').addEventListener('input', updateDiagnosis);
-  document.getElementById('energy-cost').addEventListener('input', updateDiagnosis);
-  document.getElementById('water-select').addEventListener('change', updateDiagnosis);
-  document.getElementById('temp-select').addEventListener('change', updateDiagnosis);
-  document.getElementById('lastclean-select').addEventListener('change', updateDiagnosis);
-  updateDiagnosis();
+  document.getElementById('material-select').addEventListener('change', markDirty);
+  document.getElementById('scale-select').addEventListener('change', markDirty);
+  document.getElementById('scale-thickness').addEventListener('input', markDirty);
+  document.getElementById('energy-cost').addEventListener('input', markDirty);
+  document.getElementById('water-select').addEventListener('change', markDirty);
+  document.getElementById('temp-select').addEventListener('change', markDirty);
+  document.getElementById('lastclean-select').addEventListener('change', markDirty);
+  markDirty();
   </script>
 
 <!-- AI 智能客服 -->
