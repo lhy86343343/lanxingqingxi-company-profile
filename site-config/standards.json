@@ -1,0 +1,47 @@
+{
+  "_comment": "lanxingqingxi.com 标准引用统一数据源（唯一权威：.hermes/desktop-attachments/std-data-summary.md，提取自标准原文 PDF）。修改标准只改此文件 + check_standards.py 自动扫描全站。静态 HTML 页面内容须逐处手工同步（禁批量脚本），改完跑 python check_standards.py",
+  "standards": {
+    "GB/T 25146-2010": {
+      "full_name": "工业设备化学清洗质量验收规范",
+      "usage": "化学清洗质量验收（表2腐蚀率/表3除垢率/5.2.9氯离子）",
+      "status": "current"
+    },
+    "GB/T 26148-2025": {
+      "full_name": "高压水射流清洗作业安全规范",
+      "usage": "高压水射流作业安全（2025-12-01实施，代替26148-2010）",
+      "status": "current",
+      "note": "高压水射流工艺一律挂本标准（作业安全），勿挂26135"
+    },
+    "GB/T 26135-2020": {
+      "full_name": "高压清洗机",
+      "usage": "高压清洗机设备产品标准（2021-06-01实施，代替26135-2010）",
+      "status": "current",
+      "note": "26135是设备标准不是安全规范；表述用「设备符合 GB/T 26135-2020《高压清洗机》」"
+    },
+    "DL/T 957-2017": {
+      "full_name": "火力发电厂凝汽器化学清洗及成膜导则",
+      "usage": "火电凝汽器化学清洗及成膜（代替DL/T 957-2005）",
+      "status": "current",
+      "note": "勿写旧名《电力设备化学清洗导则》或裸号DL/T 957；openstd链接name参数保持DL/T%20957"
+    },
+    "HG/T 2387": {
+      "full_name": "工业设备化学清洗质量标准",
+      "usage": "化学清洗质量（行业标准）",
+      "status": "current"
+    }
+  },
+  "banned": [
+    "GB/T 36542",
+    "DL/T 957-2005",
+    "GB/T 26135-2010",
+    "GB/T 26148-2010",
+    "高压水射流安全作业规范"
+  ],
+  "openstd_links": {
+    "GB/T 25146-2010": "https://openstd.samr.gov.cn/bzgk/gb/std?name=GB/T%2025146-2010",
+    "GB/T 26148-2025": "https://openstd.samr.gov.cn/bzgk/gb/std?name=GB/T%2026148-2025",
+    "GB/T 26135-2020": "https://openstd.samr.gov.cn/bzgk/gb/std?name=GB/T%2026135-2020",
+    "DL/T 957-2017": "https://openstd.samr.gov.cn/bzgk/gb/std?name=DL/T%20957",
+    "HG/T 2387": "https://openstd.samr.gov.cn/bzgk/gb/std?name=HG/T%202387"
+  }
+}

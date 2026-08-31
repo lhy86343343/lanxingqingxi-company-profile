@@ -20,4 +20,16 @@ hx_live.html
 fetch_knowledge_log.txt
 upload_fix_doubao.py
 upload_nav_fix.py
+upload_tools_fix.py
+upload_standards_fix.py
+upload_formula_fix.py
+tools/backup-20260831/
+backup-20260831-standards/
+backup-20260831-formula/
 online_index.html
+# 上传/修复脚本（含 FTP 凭据，一律不入库）
+upload_*.py
+upload_*.log
+fix_*.py
+dl957_online_fix/
+backup-grade-20260831-*
