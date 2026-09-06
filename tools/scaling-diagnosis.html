@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#020617">
+  <meta name="format-detection" content="telephone=no,date=no">
   <title>设备结垢诊断评估器 - 免费在线判断结垢程度与清洗时机 | 丹阳蓝星清洗</title>
   <meta name="description" content="免费在线诊断工业设备结垢程度：输入设备、材质、水质硬度、运行温度、清洗记录与运行异常，自动评估结垢风险等级、换热性能影响与能耗损失，逐项展示诊断依据与风险原因，匹配清洗工艺与缓蚀剂体系，一键生成工程诊断评估报告PDF。适用换热器、凝汽器、锅炉、中央空调等设备。">
   <meta name="keywords" content="设备结垢诊断,结垢程度判断,换热器结垢评估,清洗时机判断,结垢风险等级,诊断依据,风险原因,水质硬度结垢,运行温度结垢,风险趋势,换热效率下降,能耗损失计算,除垢工艺选型,丹阳蓝星清洗">
@@ -31,7 +33,7 @@
   <meta name="ICBM" content="31.9564, 119.7357">
   <meta name="DC.title" content="设备结垢风险诊断器 - 丹阳蓝星清洗">
   <meta name="DC.description" content="免费在线评估工业设备结垢程度与清洗时机，逐项展示诊断依据，生成诊断评估报告。">
-  <link rel="icon" type="image/png" href="/images/logo.png">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="stylesheet" href="css/tailwind.css">
   <style>
     body{font-family:'Microsoft YaHei','PingFang SC',sans-serif}
@@ -50,6 +52,8 @@
     /* PDF sheet 预览容器：窄窗口可横向滚动，不压缩 sheet */
     #pdf-modal .pdf-sheet-wrap{overflow:auto;padding:20px;background:#0f172a;display:flex;justify-content:center}
     @media (max-width:900px){#pdf-modal .pdf-sheet-wrap{justify-content:flex-start}}
+    /* 移动端输入防 iOS 自动缩放（主流工具标准：输入字号 ≥ 16px） */
+    @media (max-width:768px){input,select,textarea{font-size:16px !important}}
   </style>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@graph":[
@@ -66,8 +70,40 @@
     ]}
   ]}
   </script>
+
+  <script>
+  (function(){
+      var bp = document.createElement('script');
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      var s = document.getElementsByTagName('head')[0];
+      s.appendChild(bp);
+  })();
+  </script>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?bffac5586b62254fc605aa1152c485fe";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GT-TNCSKHZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GT-TNCSKHZ');
+  </script>
 </head>
 <body class="bg-slate-950 text-slate-200 antialiased min-h-screen selection:bg-blue-600 selection:text-white">
+  <noscript>
+    <div style="background:#7f1d1d;color:#fecaca;padding:12px 16px;text-align:center;font-size:14px;">
+      本诊断工具需要启用 JavaScript 才能运行。请开启浏览器 JavaScript 后重试，或直接致电
+      <a href="tel:18952832843" style="color:#fff;font-weight:bold;text-decoration:underline;">18952832843（罗经理）</a> 获取免费结垢评估。
+    </div>
+  </noscript>
 
   <!-- Top bar -->
   <header class="bg-slate-900/90 backdrop-blur-md border-b border-slate-800 sticky top-0 z-40">
@@ -100,7 +136,7 @@
 
       <!-- 材质 -->
       <div>
-        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">② 主要材质</label>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider" for="material-select">② 主要材质</label>
         <select id="material-select" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500">
           <option value="" disabled selected>请选择材质</option>
           <option value="carbon_steel">碳钢</option>
@@ -117,7 +153,7 @@
 
       <!-- 垢型 -->
       <div>
-        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">③ 垢型（拿不准？看下方颜色提示）</label>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider" for="scale-select">③ 垢型（拿不准？看下方颜色提示）</label>
         <select id="scale-select" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500">
           <option value="" disabled selected>请选择垢型</option>
           <option value="carbonate">碳酸盐硬水垢（白色/灰白疏松）</option>
@@ -177,7 +213,7 @@
 
       <!-- 水质硬度 -->
       <div>
-        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">⑥ 补水水质硬度（选填 · 默认中等）</label>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider" for="water-select">⑥ 补水水质硬度（选填 · 默认中等）</label>
         <select id="water-select" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500">
           <option value="soft">软水（&lt;150 mg/L 以 CaCO₃ 计）</option>
           <option value="medium" selected>中等（150-300 mg/L）</option>
@@ -189,7 +225,7 @@
 
       <!-- 运行温度 -->
       <div>
-        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">⑦ 运行温度（选填 · 默认 40-60℃）</label>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider" for="temp-select">⑦ 运行温度（选填 · 默认 40-60℃）</label>
         <select id="temp-select" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500">
           <option value="t1">&lt;40℃</option>
           <option value="t2" selected>40-60℃</option>
@@ -201,7 +237,7 @@
 
       <!-- 最近一次清洗 -->
       <div>
-        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">⑧ 最近一次清洗（选填 · 默认 3-6 个月）</label>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider" for="lastclean-select">⑧ 最近一次清洗（选填 · 默认 3-6 个月）</label>
         <select id="lastclean-select" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500">
           <option value="c1">3 个月内</option>
           <option value="c2" selected>3-6 个月</option>
@@ -214,7 +250,7 @@
 
       <!-- 年能源费用 -->
       <div>
-        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider">⑨ 年能源费用（万元/年，选填——用于估算能耗损失金额）</label>
+        <label class="text-xs font-semibold text-slate-400 uppercase tracking-wider" for="energy-cost">⑨ 年能源费用（万元/年，选填——用于估算能耗损失金额）</label>
         <input type="number" id="energy-cost" min="0" step="10" placeholder="例如 100（万元）" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-blue-500">
       </div>
 
@@ -233,7 +269,7 @@
       <div class="text-sm text-slate-300">请完成工况信息后开始诊断</div>
       <div class="text-[10px] text-slate-500 mt-2">选择设备类型、材质、垢型并填写垢厚后，点击「开始诊断」生成结垢风险评估</div>
     </div>
-    <section id="result-section" class="lg:col-span-7 space-y-4 hidden">
+    <section id="result-section" class="lg:col-span-7 space-y-4 hidden" aria-live="polite">
 
       <!-- 风险等级 + 诊断依据 -->
       <div class="tool-card border border-slate-800 rounded-2xl p-5 sm:p-6">
@@ -346,6 +382,7 @@
           <a href="/contact.html" class="bg-slate-950 text-white text-sm font-semibold px-4 py-3 rounded-lg hover:bg-slate-800 text-left">🧪 垢样分析 / 取样化验<br><span class="text-[10px] text-slate-400 font-normal">免费咨询送检方案 · 📞 18952832843</span></a>
           <a href="/contact.html" class="bg-white text-blue-900 text-sm font-bold px-4 py-3 rounded-lg hover:opacity-90 text-left">👨‍🔧 联系工程师<br><span class="text-[10px] text-blue-700/70 font-normal">18952832843 免费对接</span></a>
         </div>
+        <button onclick="copyShareLink()" id="btn-share-link" class="mt-2.5 w-full bg-slate-950/60 border border-slate-700 text-slate-200 text-xs font-semibold px-4 py-2.5 rounded-lg hover:bg-slate-800 cursor-pointer">🔗 复制当前诊断结果链接</button>
       </div>
 
       <!-- 互推：清洗周期评估器 -->
@@ -356,11 +393,35 @@
         <a href="/tools/maintenance-cycle.html" class="bg-slate-800 text-blue-300 text-xs font-semibold px-4 py-2 rounded-lg hover:bg-slate-700 whitespace-nowrap">清洗周期评估器 →</a>
       </div>
 
+      <!-- 互推：设备清洗评估造价 -->
+      <div class="tool-card border border-slate-800 rounded-2xl p-4 flex items-center justify-between flex-wrap gap-3">
+        <div class="text-xs text-slate-300 leading-relaxed">
+          <b class="text-white">还想算算清洗要花多少钱？</b><br>用「设备清洗评估」按设备规模与垢型测算造价区间
+        </div>
+        <a href="/calc/" target="_blank" rel="noopener" class="bg-slate-800 text-blue-300 text-xs font-semibold px-4 py-2 rounded-lg hover:bg-slate-700 whitespace-nowrap">在线测算造价 →</a>
+      </div>
+
       <div class="text-[10px] text-slate-500 leading-relaxed text-center pt-1">
         丹阳市蓝星防腐清洗有限公司 · 中国工业清洗协会会员单位 · 执行标准 GB/T 25146-2010（化学清洗质量验收）/ GB/T 26148-2025（高压水射流作业安全） · 江苏省丹阳市丹北镇埤城洪家埭98号
       </div>
     </section>
   </main>
+
+  <!-- ====== 结垢知识速查（静态内容，便于搜索引擎抓取） ====== -->
+  <section class="max-w-7xl mx-auto px-4" style="padding-bottom:2.5rem;">
+    <div class="tool-card border border-slate-800 rounded-2xl p-5 sm:p-6 text-xs text-slate-300 leading-relaxed">
+      <h2 style="font-size:1rem;font-weight:700;color:#fff;margin-bottom:.6rem;">结垢类型速查与材质禁忌</h2>
+      <p style="margin-bottom:.6rem;">本诊断器依据垢厚、垢型、设备表现、水质硬度、运行温度与清洗间隔六个维度综合评分。以下为常见垢型与材质处理要点（静态参考，具体以本工具评估与现场勘查为准）：</p>
+      <ul style="list-style:disc;padding-left:1.2rem;margin-bottom:.6rem;">
+        <li style="margin-bottom:.25rem;"><b style="color:#fff;">碳酸盐硬水垢</b>（白/灰白疏松）：钙镁硬垢，对酸敏感，循环酸洗除垢效率高；硬水或高温工况应缩短清洗周期。</li>
+        <li style="margin-bottom:.25rem;"><b style="color:#fff;">硫酸盐/硅酸盐难溶垢</b>（黄白/灰白坚硬）：致密难溶，酸洗难以直接溶解，需复合碱煮转化 + 超高压水射流分步清除。</li>
+        <li style="margin-bottom:.25rem;"><b style="color:#fff;">铁锈氧化皮</b>（红褐色）：酸洗后须立即钝化防止返锈；新装管道首选柠檬酸体系。</li>
+        <li style="margin-bottom:.25rem;"><b style="color:#fff;">油焦质垢</b>（黑色粘稠/焦化）：粘附力强，单纯酸洗无效，需碱煮或专用溶剂溶焦处理。</li>
+        <li style="margin-bottom:.25rem;"><b style="color:#fff;">菌藻生物粘泥</b>（绿色/褐色粘滑）：需先杀菌剥离再循环冲洗，直接酸洗会造成二次污染。</li>
+      </ul>
+      <p style="border-top:1px solid #1e293b;padding-top:.5rem;"><b style="color:#fff;">材质禁忌</b>：不锈钢禁盐酸及含氯清洗剂；钛材严禁氢氟酸及任何含氟药剂；铜合金禁氨类药剂；镀锌钢禁酸性清洗剂；搪玻璃严禁强酸强碱与高压直喷；碳钢酸洗后须立即钝化。正式施工前须做材质确认与垢样分析、小试验证。</p>
+    </div>
+  </section>
 
   <!-- ========== PDF 弹窗 ========== -->
   <div id="pdf-modal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm overflow-y-auto">
@@ -518,7 +579,7 @@
   </footer>
 
   <script>
-  // ===== 规则数据（与数字化在线评估 calc 同一规则体系） =====
+  // ===== 规则数据（与设备清洗评估 calc 同一规则体系） =====
   const equipments = [
     { id: 'shell_tube', name: '管壳式换热器', desc: '循环化学清洗 + 管程高压通炮', baseDays: 2 },
     { id: 'plate', name: '板式换热器', desc: '拆装板片 + 循环化学清洗', baseDays: 1 },
@@ -534,8 +595,8 @@
     stainless_304:  { name: '304 不锈钢',    inhibitor: '有机酸缓蚀剂（禁氯）',   warning: '严禁游离氯离子（禁盐酸）及含卤素清洗剂；酸洗后须充分钝化', chemNote: '不锈钢禁盐酸及含氯清洗剂，主剂应以柠檬酸等有机酸系为主，酸洗后须充分钝化防氯离子应力腐蚀。' },
     stainless_316l: { name: '316L 不锈钢',   inhibitor: '有机酸缓蚀剂（禁氯）',   warning: '严禁游离氯离子；316L 耐蚀优于 304 但仍需控温控浓', chemNote: '316L 耐蚀性优于 304，但同样禁氯离子，清洗温度与浓度需严格控制。' },
     titanium:       { name: '钛材',          inhibitor: '钛材专用缓蚀剂',         warning: '严禁氢氟酸及任何含氟药剂；氧化膜受损难修复', chemNote: '钛材严禁氢氟酸及含氟药剂，氧化膜一旦受损难以修复，仅可采用温和有机酸体系。' },
-    copper:         { name: '铜合金',        inhibitor: 'BTA / MBT 铜缓蚀剂',     warning: '严禁氨类药剂（氨蚀铜）；pH 调节仅用 NaOH 禁氨水；防选择性脱锌', chemNote: '铜合金禁氨类药剂，需 BTA/MBT 铜专用缓蚀剂防止选择性脱锌，pH 调节禁用氨水。' },
-    cupronickel:    { name: '铜镍合金',      inhibitor: 'BTA / MBT 铜缓蚀剂',     warning: '严禁氨类药剂；铜镍对氯离子敏感，清洗后须彻底置换冲洗', chemNote: '铜镍合金禁氨、对氯离子敏感，缓蚀剂选择与置换冲洗要求更高。' },
+    copper:         { name: '铜合金',        inhibitor: '专用铜缓蚀剂',     warning: '严禁氨类药剂（氨蚀铜）；pH 调节仅用氢氧化钠禁氨水；防选择性脱锌', chemNote: '铜合金禁氨类药剂，需专用铜缓蚀剂防止选择性脱锌，pH 调节禁用氨水。' },
+    cupronickel:    { name: '铜镍合金',      inhibitor: '专用铜缓蚀剂',     warning: '严禁氨类药剂；铜镍对氯离子敏感，清洗后须彻底置换冲洗', chemNote: '铜镍合金禁氨、对氯离子敏感，缓蚀剂选择与置换冲洗要求更高。' },
     galvanized:     { name: '镀锌钢',        inhibitor: '中性/弱碱清洗剂（禁酸）', warning: '镀锌层遇酸溶解，严禁酸性清洗剂；建议中性清洗或物理除垢', chemOverride: '中性 pH 清洗剂（禁酸，防镀锌层溶解）', methodOverride: '中性清洗 + 物理除垢（不酸洗）', chemNote: '镀锌层耐酸性差，酸洗会直接溶解镀锌层，应采用中性清洗剂或物理除垢方式。' },
     aluminum:       { name: '铝及铝合金',    inhibitor: '铝专用缓蚀剂',           warning: '铝为两性金属，强酸强碱均腐蚀；禁氯离子，需专用缓蚀剂并控温', chemNote: '铝对酸碱性介质均敏感，主剂需用弱酸体系并配合铝专用缓蚀剂，严格控制浓度温度。' },
     glass_lined:    { name: '搪玻璃',        inhibitor: '温和有机酸（低浓度）',   warning: '严禁强酸强碱；严禁高压直喷，采用三维旋转喷头低压无损清洗', chemNote: '搪玻璃严禁强酸强碱与高压直喷，仅可采用低浓度温和有机酸低压清洗。' }
@@ -544,19 +605,19 @@
   const scales = {
     carbonate:        { name: '碳酸盐硬水垢', score: 1, rate: '≥98.5%', tests: '垢样成分分析 / 水质硬度·碱度化验 / 压差与进出口温差检测',
       method: '循环酸洗化学清洗', methodMid: '循环酸洗 + 高压水辅助冲洗', methodHeavy: '化学软化（碱煮）+ 循环酸洗 + 高压水射流',
-      chem: 'Citric Acid 3~5% / Sulfamic Acid 5~8%', cycle: '常规 6-12 个月；硬水/高温工况缩短至 3-6 个月',
+      chem: 'LX-903 酸洗剂', cycle: '常规 6-12 个月；硬水/高温工况缩短至 3-6 个月',
       chemNote: '碳酸盐垢对酸敏感，酸洗除垢效率高，属较易处理的垢型。' },
     sulfate_silicate: { name: '硫酸盐/硅酸盐难溶垢', score: 2, rate: '≥85%', tests: '垢样 X 射线衍射分析（确认硅酸盐）/ 水质硅含量化验 / 垢下腐蚀检查',
       method: '复合碱煮转化 + 超高压水射流(1200bar)', methodMid: '复合碱煮转化 + 高压水射流辅助', methodHeavy: '复合碱煮软化 + 超高压水射流(2000bar) 分步清除',
-      chem: 'NaOH + Na₂CO₃ 复合碱液', cycle: '12-24 个月；难溶垢重点防再生，配合水质处理',
+      chem: 'LX-902 碱洗药剂', cycle: '12-24 个月；难溶垢重点防再生，配合水质处理',
       chemNote: '硫酸盐/硅酸盐垢致密难溶，酸洗难以直接溶解，需碱煮转化或物理清除，处理难度较高。' },
     rust:             { name: '铁锈氧化皮',   score: 1, rate: '≥98%', tests: '垢样铁含量分析 / 溶解氧与 pH 检测 / 腐蚀产物分析',
       method: '酸洗 + 钝化处理', methodMid: '酸洗 + 钝化（加强置换冲洗）', methodHeavy: '预除垢（机械/高压）+ 酸洗 + 钝化',
-      chem: 'Citric Acid 3~5%（新装管道首选）', cycle: '新装系统首年 6 个月重点监测；常规 6-12 个月',
+      chem: 'LX-903 酸洗剂（新装管道首选）', cycle: '新装系统首年 6 个月重点监测；常规 6-12 个月',
       chemNote: '铁锈垢酸洗后必须立即钝化防止返锈，新装管道氧化皮首选柠檬酸体系。' },
     oil_coke:         { name: '油焦质垢',     score: 3, rate: '≥96%', tests: '垢样灼烧减量分析（确认油含量）/ 系统油液污染度检测 / 结焦层厚度检测',
       method: '碱煮 / 溶剂溶焦 + 循环清洗', methodMid: '溶剂溶焦 + 循环清洗', methodHeavy: '分段碱煮 + 溶剂溶焦 + 高压水射流',
-      chem: 'NaOH 复合溶焦剂', cycle: '12-24 个月（导热油系统）；关注油品劣化与残炭指标',
+      chem: '专用高温溶焦药剂', cycle: '12-24 个月（导热油系统）；关注油品劣化与残炭指标',
       chemNote: '油焦质垢粘附力强，单纯酸洗无效，需碱煮或溶剂溶焦处理。' },
     bio_slime:        { name: '菌藻生物粘泥（其他垢型）', score: 2, rate: '≥85%', tests: '微生物培养与菌落计数 / 杀菌剂残留检测 / 粘泥量测定',
       method: '杀菌 + 粘泥剥离 + 循环冲洗', methodMid: '杀菌 + 粘泥剥离 + 循环冲洗', methodHeavy: '粘泥剥离 + 强力循环冲洗 + 高压水辅助',
@@ -591,6 +652,7 @@
   let currentEqId = null;
   let symptomCount = 0;
   let symptomLabels = [];
+  let pdfOpener = null; // 记录打开 PDF 弹窗前的焦点元素，关闭后还原
   // 统一数据流：唯一 result 对象，网页 UI 与 PDF 共用（禁止 UI/PDF 各自计算）
   let lastResult = null;
 
@@ -625,7 +687,7 @@
   function selectEquipment(id) {
     currentEqId = id;
     renderEquipmentButtons();
-    markDirty();
+    onParamChanged(); // 已诊断过则自动按新设备重算，否则保持占位
   }
 
   function toggleSymptom(cb) {
@@ -648,7 +710,7 @@
     document.querySelectorAll('#symptom-group input:not(#symptom-none)').forEach(cb => { if (cb.checked) boxes.push(cb); });
     symptomCount = boxes.length;
     symptomLabels = boxes.map(cb => cb.closest('label').innerText.trim());
-    markDirty();
+    onParamChanged();
   }
 
   // ===== 诊断引擎（纯函数） =====
@@ -676,7 +738,7 @@
       energyText = '约 ' + (loss >= 1 ? loss.toFixed(1) : loss.toFixed(2)) + ' 万元/年';
       energyNote = '按年能源费用 ' + energy + ' 万元 × 效率下降约 ' + effMid + '% 折算（初步估算）';
     } else {
-      energyText = '约 ' + (effMid * 1).toFixed(1) + ' 万/百万元';
+      energyText = '每百万元年费约损失 ' + effMid.toFixed(1) + ' 万元';
       energyNote = '参考：年能源费用每 100 万元约损失 ' + (effMid).toFixed(1) + ' 万元/年（未填费用）';
     }
 
@@ -741,15 +803,123 @@
     lastResult = null; // 输入已变化，旧诊断结果作废，PDF 不得复用
   }
 
+  // ===== 状态持久化与结果分享（localStorage 记忆 + URL 参数分享） =====
+  function setSymptoms(indices) {
+    const cbs = document.querySelectorAll('#symptom-group input:not(#symptom-none)');
+    const none = document.getElementById('symptom-none');
+    Array.prototype.forEach.call(cbs, function(cb, i){ cb.checked = indices.indexOf(i) !== -1; cb.closest('.symptom-label').classList.toggle('checked', cb.checked); });
+    if (none) { none.checked = false; none.closest('.symptom-label').classList.remove('checked'); }
+    const checked = Array.prototype.filter.call(cbs, function(cb){ return cb.checked; });
+    symptomCount = checked.length;
+    symptomLabels = checked.map(function(cb){ return cb.closest('label').innerText.trim(); });
+  }
+  function collectState() {
+    const syms = [];
+    document.querySelectorAll('#symptom-group input:not(#symptom-none)').forEach(function(cb, i){ if (cb.checked) syms.push(i); });
+    return {
+      eq: currentEqId || '', mat: document.getElementById('material-select').value || '', scale: document.getElementById('scale-select').value || '',
+      thick: document.getElementById('scale-thickness').value || '', water: document.getElementById('water-select').value || '',
+      temp: document.getElementById('temp-select').value || '', lastclean: document.getElementById('lastclean-select').value || '',
+      energy: document.getElementById('energy-cost').value || '', sym: syms.join(',')
+    };
+  }
+  function applyState(s) {
+    if (!s) return;
+    if (s.eq) { currentEqId = s.eq; renderEquipmentButtons(); }
+    if (s.mat) document.getElementById('material-select').value = s.mat;
+    if (s.scale) document.getElementById('scale-select').value = s.scale;
+    if (s.thick) document.getElementById('scale-thickness').value = s.thick;
+    if (s.water) document.getElementById('water-select').value = s.water;
+    if (s.temp) document.getElementById('temp-select').value = s.temp;
+    if (s.lastclean) document.getElementById('lastclean-select').value = s.lastclean;
+    if (s.energy) document.getElementById('energy-cost').value = s.energy;
+    if (s.sym) setSymptoms(s.sym.split(',').map(Number));
+    const complete = currentEqId && document.getElementById('material-select').value && document.getElementById('scale-select').value;
+    if (complete) {
+      // 状态完整则直接出结果（分享链接 / 回访用户秒出结果）
+      updateDiagnosis();
+      document.getElementById('result-section').classList.remove('hidden');
+      document.getElementById('diag-placeholder').classList.add('hidden');
+    } else {
+      onParamChanged();
+    }
+  }
+  function saveState() {
+    try { localStorage.setItem('lx_scaling_state', JSON.stringify(collectState())); } catch (e) {}
+  }
+  function loadState() {
+    let s = null;
+    const q = new URLSearchParams(window.location.search);
+    if (q.has('eq')) {
+      s = {
+        eq: q.get('eq') || '', mat: q.get('mat') || '', scale: q.get('scale') || '', thick: q.get('thick') || '',
+        water: q.get('water') || '', temp: q.get('temp') || '', lastclean: q.get('lastclean') || '', energy: q.get('energy') || '', sym: q.get('sym') || ''
+      };
+    } else {
+      try { const raw = localStorage.getItem('lx_scaling_state'); if (raw) s = JSON.parse(raw); } catch (e) {}
+    }
+    applyState(s);
+  }
+  function copyShareLink() {
+    const s = collectState();
+    const q = new URLSearchParams();
+    if (s.eq) q.set('eq', s.eq);
+    if (s.mat) q.set('mat', s.mat);
+    if (s.scale) q.set('scale', s.scale);
+    if (s.thick) q.set('thick', s.thick);
+    if (s.water) q.set('water', s.water);
+    if (s.temp) q.set('temp', s.temp);
+    if (s.lastclean) q.set('lastclean', s.lastclean);
+    if (s.energy) q.set('energy', s.energy);
+    if (s.sym) q.set('sym', s.sym);
+    const url = window.location.origin + window.location.pathname + '?' + q.toString();
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).catch(function(){});
+    } else {
+      const ta = document.createElement('textarea'); ta.value = url; ta.style.position='fixed'; ta.style.opacity='0'; document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); } catch(e) {}
+      document.body.removeChild(ta);
+    }
+    const b = document.getElementById('btn-share-link');
+    if (b) { b.innerText = '链接已复制 ✓'; setTimeout(function(){ b.innerText = '复制当前诊断结果链接'; }, 2500); }
+    return url;
+  }
+
+  // 参数变化：首次诊断前保持占位；已诊断后防抖自动重算（改参数不再需要反复点「开始诊断」）
+  let reEvalTimer = null;
+  function onParamChanged() {
+    const thick = parseFloat(document.getElementById('scale-thickness').value) || 0.5;
+    document.getElementById('thickness-display').innerText = thick.toFixed(1) + ' mm';
+    saveState(); // 每次变化即记忆，回访自动回填
+    clearTimeout(reEvalTimer);
+    reEvalTimer = setTimeout(function () {
+      if (lastResult && currentEqId && document.getElementById('material-select').value && document.getElementById('scale-select').value) {
+        updateDiagnosis(); // 结果随参数实时刷新，PDF 始终基于最新结果
+        document.getElementById('result-section').classList.remove('hidden');
+        document.getElementById('diag-placeholder').classList.add('hidden');
+      } else {
+        document.getElementById('result-section').classList.add('hidden');
+        document.getElementById('diag-placeholder').classList.remove('hidden');
+      }
+    }, 400);
+  }
+
+  function flashInvalid(el) {
+    if (!el) return;
+    el.classList.add('border-red-500');
+    setTimeout(function () { el.classList.remove('border-red-500'); }, 2500);
+  }
+
   function runDiagnosis() {
     const mat = document.getElementById('material-select').value;
     const scale = document.getElementById('scale-select').value;
     if (!currentEqId) { alert('请先选择设备类型'); return; }
-    if (!mat) { alert('请先选择主要材质'); return; }
-    if (!scale) { alert('请先选择垢型'); return; }
+    if (!mat) { flashInvalid(document.getElementById('material-select')); alert('请先选择主要材质'); return; }
+    if (!scale) { flashInvalid(document.getElementById('scale-select')); alert('请先选择垢型'); return; }
     updateDiagnosis();
     document.getElementById('result-section').classList.remove('hidden');
     document.getElementById('diag-placeholder').classList.add('hidden');
+    if (typeof gtag === 'function' && lastResult) gtag('event', 'diag_run', { level: lastResult.lv.level, score: lastResult.total });
   }
 
   function updateDiagnosis() {
@@ -766,6 +936,7 @@
     // 统一数据流：一次计算 → 单一 result 对象 → 同时驱动网页 UI 与 PDF（无第二份结果）
     const r = computeDiagnosis(currentEqId, mat, scale, thick, symptomCount, symptomLabels, energy, water, temp, lc);
     lastResult = r;
+    r.docId = 'LX-DIAG-' + genId(); // 网页与 PDF 共用同一编号
     renderWebResult(r);
     renderPdfResult(r);
   }
@@ -799,11 +970,11 @@
     document.getElementById('trend-dot-now').style.left = (r.lv.idx / 3 * 100).toFixed(1) + '%';
     document.getElementById('trend-dot-now').style.background = r.lv.color;
     document.getElementById('trend-now-text').innerText = r.lv.level;
-    document.getElementById('trend-now-text').className = 'text-' + ['emerald', 'yellow', 'orange', 'red'][r.lv.idx] + '-400';
+    document.getElementById('trend-now-text').style.color = r.lv.color;
     document.getElementById('trend-dot-future').style.left = (r.fLv.idx / 3 * 100).toFixed(1) + '%';
     document.getElementById('trend-dot-future').style.background = r.fLv.color;
     document.getElementById('trend-future-text').innerText = r.fLv.level;
-    document.getElementById('trend-future-text').className = 'text-' + ['emerald', 'yellow', 'orange', 'red'][r.fLv.idx] + '-400';
+    document.getElementById('trend-future-text').style.color = r.fLv.color;
 
     // 工艺方案：低风险不推荐清洗（条件化，与 PDF 同一判断来源 r.lv.idx）
     const idle = document.getElementById('plan-idle');
@@ -821,8 +992,8 @@
     document.getElementById('out-days').innerText = r.days + ' 天（可加急）';
     document.getElementById('reasoning-box').innerText = '💡 推荐依据：' + r.reasoning;
 
-    // 诊断编号
-    document.getElementById('diag-id').innerText = 'LX-DIAG-' + genId();
+    // 诊断编号（与 PDF 共用 r.docId）
+    document.getElementById('diag-id').innerText = r.docId;
     document.getElementById('diag-time').innerText = new Date().toLocaleString('zh-CN');
   }
 
@@ -830,7 +1001,7 @@
   function renderPdfResult(r) {
     const lowRisk = r.lv.idx === 0;
 
-    document.getElementById('pdf-doc-id').innerText = 'LX-DIAG-' + genId();
+    document.getElementById('pdf-doc-id').innerText = r.docId;
     document.getElementById('pdf-doc-date').innerText = new Date().toLocaleDateString('zh-CN');
     document.getElementById('pdf-risk-level').innerText = r.lv.level;
     document.getElementById('pdf-risk-score').innerText = r.total;
@@ -881,11 +1052,16 @@
     // 只允许基于最近一次诊断结果生成 PDF（与网页同一 result 对象，杜绝结果 A/B 分叉）
     if (!lastResult) { alert('请先完成工况信息并点击「开始诊断」，再生成 PDF 报告'); return; }
     renderPdfResult(lastResult);
-    document.getElementById('pdf-modal').classList.remove('hidden');
+    const modal = document.getElementById('pdf-modal');
+    pdfOpener = document.activeElement;
+    modal.classList.remove('hidden');
+    const dl = modal.querySelector('.pdf-dl-btn'); if (dl) { dl.focus(); }
   }
 
   function closePdfModal() {
-    document.getElementById('pdf-modal').classList.add('hidden');
+    const modal = document.getElementById('pdf-modal');
+    modal.classList.add('hidden');
+    if (pdfOpener && typeof pdfOpener.focus === 'function') { pdfOpener.focus(); }
   }
 
   function loadPdfLibs(cb) {
@@ -910,6 +1086,7 @@
   }
 
   function downloadPdf() {
+    if (typeof gtag === 'function') gtag('event', 'diag_pdf');
     const btn = document.querySelector('.pdf-dl-btn');
     btn.innerText = '生成中…';
     btn.disabled = true;
@@ -930,7 +1107,9 @@
         html2canvas(sheet, { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 794, windowHeight: 1123 }).then(function(canvas){
           const pdf = new window.jspdf.jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
           pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 210, 297);
-          pdf.save('结垢诊断评估报告-' + new Date().toISOString().slice(0,10) + '.pdf');
+          const dlNow = new Date();
+          const dlPad = (n) => String(n).padStart(2, '0');
+          pdf.save('结垢诊断评估报告-' + dlNow.getFullYear() + '-' + dlPad(dlNow.getMonth() + 1) + '-' + dlPad(dlNow.getDate()) + '.pdf');
           btn.innerText = '⬇ 直接下载 PDF';
           btn.disabled = false;
           host.remove();
@@ -947,16 +1126,39 @@
 
   // ===== 初始化 =====
   renderEquipmentButtons();
-  document.getElementById('material-select').addEventListener('change', markDirty);
-  document.getElementById('scale-select').addEventListener('change', markDirty);
-  document.getElementById('scale-thickness').addEventListener('input', markDirty);
-  document.getElementById('energy-cost').addEventListener('input', markDirty);
-  document.getElementById('water-select').addEventListener('change', markDirty);
-  document.getElementById('temp-select').addEventListener('change', markDirty);
-  document.getElementById('lastclean-select').addEventListener('change', markDirty);
+  // Esc 关闭 PDF 弹窗
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      const m = document.getElementById('pdf-modal');
+      if (m && !m.classList.contains('hidden')) closePdfModal();
+    }
+  });
+  // 已诊断后参数变化防抖自动重算；未诊断时保持占位
+  document.getElementById('material-select').addEventListener('change', onParamChanged);
+  document.getElementById('scale-select').addEventListener('change', onParamChanged);
+  document.getElementById('scale-thickness').addEventListener('input', onParamChanged);
+  document.getElementById('energy-cost').addEventListener('input', onParamChanged);
+  document.getElementById('water-select').addEventListener('change', onParamChanged);
+  document.getElementById('temp-select').addEventListener('change', onParamChanged);
+  document.getElementById('lastclean-select').addEventListener('change', onParamChanged);
   markDirty();
+  loadState(); // 恢复 localStorage 记忆或解析 URL 分享参数
+  document.addEventListener('click', function (e) {
+    const a = e.target.closest ? e.target.closest('a[href^="tel:"]') : null;
+    if (a && typeof gtag === 'function') gtag('event', 'diag_phone');
+  });
   </script>
 
+<div style="max-width:960px;margin:0 auto;padding:40px 20px">
+<h2 style="text-align:center">常见问题</h2>
+<div class="faq-item" style="margin:0.9rem 0;padding:1rem 1.3rem;background:#f8f9fa;border-left:4px solid #0066CC;border-radius:6px"><h3 style="margin:0 0 0.5rem;font-size:1.02rem;color:#222">设备结垢到什么程度需要清洗？</h3><p style="margin:0;color:#555;line-height:1.8">综合垢厚、垢型、运行异常、水质硬度、运行温度与清洗间隔评分：0-5分低风险暂不建议立即清洗，6-11分中风险建议3个月内制定清洗计划，12-17分高风险建议近期安排清洗，18分以上严重建议尽快现场检测并制定清洗方案。垢厚本身不是唯一依据。</p></div>
+<div class="faq-item" style="margin:0.9rem 0;padding:1rem 1.3rem;background:#f8f9fa;border-left:4px solid #0066CC;border-radius:6px"><h3 style="margin:0 0 0.5rem;font-size:1.02rem;color:#222">结垢会导致多少能耗损失？</h3><p style="margin:0;color:#555;line-height:1.8">水垢导热系数仅为碳钢的1/30-1/150。通常情况下（行业经验值），垢厚1mm以内换热效率下降约5%-10%，1-3mm约10%-20%，超过3mm约20%-35%（典型工况初步估算，实际与垢导热系数、结构、流速、介质、温差及面积有关）。年能源费用100万元的系统，超期运行每年多支出约20-35万元。</p></div>
+<div class="faq-item" style="margin:0.9rem 0;padding:1rem 1.3rem;background:#f8f9fa;border-left:4px solid #0066CC;border-radius:6px"><h3 style="margin:0 0 0.5rem;font-size:1.02rem;color:#222">水质硬度和运行温度对结垢有什么影响？</h3><p style="margin:0;color:#555;line-height:1.8">水质硬度越高，水中钙镁离子越易析出结垢，硬水工况结垢速率显著高于软水；运行温度越高，碳酸钙等难溶盐溶解度越低越易析出，温度每升高约10℃结垢倾向明显增强。因此硬水+高温设备应缩短清洗周期并加强水质处理。</p></div>
+<div class="faq-item" style="margin:0.9rem 0;padding:1rem 1.3rem;background:#f8f9fa;border-left:4px solid #0066CC;border-radius:6px"><h3 style="margin:0 0 0.5rem;font-size:1.02rem;color:#222">不同材质设备清洗时有什么禁忌？</h3><p style="margin:0;color:#555;line-height:1.8">铜合金禁氨类药剂（氨蚀铜）；不锈钢禁盐酸及含氯清洗剂（应力腐蚀）；钛材严禁氢氟酸及含氟药剂；镀锌钢禁酸性清洗剂（镀锌层溶解）；铝为两性金属强酸强碱均腐蚀；搪玻璃严禁强酸强碱和高压直喷；碳钢酸洗后须立即钝化防返锈。</p></div>
+<div class="faq-item" style="margin:0.9rem 0;padding:1rem 1.3rem;background:#f8f9fa;border-left:4px solid #0066CC;border-radius:6px"><h3 style="margin:0 0 0.5rem;font-size:1.02rem;color:#222">不知道垢厚怎么办？还能诊断吗？</h3><p style="margin:0;color:#555;line-height:1.8">可以。现场客户经常不知道垢厚，可通过设备表现判断：换热温差下降、出口温度异常、压差升高、流量下降、能耗增加、冷却效果下降、设备频繁报警、肉眼发现结垢等症状均会计入诊断评分。垢厚未知时保持默认值即可，症状越多风险判定越准确。</p></div>
+<div class="faq-item" style="margin:0.9rem 0;padding:1rem 1.3rem;background:#f8f9fa;border-left:4px solid #0066CC;border-radius:6px"><h3 style="margin:0 0 0.5rem;font-size:1.02rem;color:#222">这个诊断评估器收费吗？</h3><p style="margin:0;color:#555;line-height:1.8">完全免费。评估结果基于行业经验规则与工程经验模型，最终清洗方案需现场勘查或取样化验核定，可拨打18952832843获取免费技术咨询。</p></div>
+<div class="faq-item" style="margin:0.9rem 0;padding:1rem 1.3rem;background:#f8f9fa;border-left:4px solid #0066CC;border-radius:6px"><h3 style="margin:0 0 0.5rem;font-size:1.02rem;color:#222">评估结果准确吗？为什么显示这个等级？</h3><p style="margin:0;color:#555;line-height:1.8">评估器按垢厚、垢型、运行异常、水质硬度、运行温度、清洗间隔六个维度逐项评分并展示诊断依据，同时输出风险原因推理说明，结果用于结垢风险预判与清洗时机参考。垢样颜色、水质化验与现场勘查可进一步确认结垢类型与程度。</p></div>
+</div>
 <!-- AI 智能客服 -->
 <script src="/js/ai-chat.js?v=5" defer></script>
 </body>
