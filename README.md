@@ -151,6 +151,7 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
 - [高压水射流分级清洗实战：从镜面反应釜到换热器列管疏通](https://www.lanxingqingxi.com/blog/jetting-graded-cleaning-cases.html) — 高压水射流分级清洗技术专题：50-70MPa三维旋转喷头清洗不锈钢镜面反应釜内壁、200-250MPa超高压水射流疏通换热器聚合物与硫酸锂硬垢列管，含马鞍山某新材料企业、江苏某化学企业、宣城某制药企业（2026-09-02）
 - [宿迁工业设备清洗服务](https://www.lanxingqingxi.com/blog/suqian-industrial-equipment-cleaning.html) — 宿迁工业设备清洗专业服务：服务中国酒都白酒酿造、纺织、食品与化工企业的换热器、冷凝器、锅炉、发酵冷却系统与管道清洗，化学清洗+高压水射流组合工艺，食品级安全控制与废液达标排放，丹阳蓝星清洗，中国工业清（2026-09-02）
 - [盐城工业设备清洗服务](https://www.lanxingqingxi.com/blog/yancheng-industrial-equipment-cleaning.html) — 盐城工业设备清洗专业服务：覆盖汽车制造、风电装备、钢铁化工等企业的换热器、锅炉、导热油炉、管道与中央空调清洗，化学清洗+高压水射流组合工艺，沿海环境专项钝化防腐蚀，丹阳蓝星清洗，中国工业清洗协会成员单（2026-09-02）
@@ -197,7 +198,6 @@
 - [商业建筑中央空调系统维保方案](https://www.lanxingqingxi.com/blog/commercial-building-central-ac-maintenance.html) — 商场写字楼中央空调维保：冷水机组清洗、冷却塔除垢、风管消毒、水质管理
 - [连云港工业设备化学清洗与高压水射流清洗服务](https://www.lanxingqingxi.com/blog/lianyungang-industrial-cleaning-services.html) — 石化设备换热器塔器管道锅炉清洗，服务徐圩新区石化基地及港口工业区
 - [南通工业设备清洗和中央空调清洗服务](https://www.lanxingqingxi.com/blog/nantong-industrial-equipment-central-ac-cleaning.html) — 船舶海工管路清洗钝化·化工制药反应釜换热器清洗·中央空调冷水机组除垢冷却塔消毒
-- [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
 - [凝汽器真空度恢复与清洗效果评估](https://www.lanxingqingxi.com/blog/condenser-vacuum-recovery-cleaning.html) — Sulfamic Acid化学清洗+高压水射流,真空度从-88.5kPa恢复至-94.2kPa,端差改善66.4%
 - [无锡中央空调系统清洗维护服务](https://www.lanxingqingxi.com/blog/wuxi-central-ac-cleaning.html) — 冷水机组化学除垢·冷却塔杀菌消毒·风机盘管清洗·风管检测
 - [淮安管道化学清洗与高压水清洗服务方案](https://www.lanxingqingxi.com/blog/huaian-pipeline-chemical-high-pressure-cleaning.html) — 淮安工业管道化学清洗与高压水射流清洗专业服务，盐化工卤水管道除盐垢、特钢冷却水管除锈、凹土加工管道清堵、白酒CIP管道食品级清洗。（2026-07-17）
