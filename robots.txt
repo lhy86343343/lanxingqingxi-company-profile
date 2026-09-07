@@ -961,6 +961,26 @@ Allow: /
 # --- Sitemap ---
 
 
+# === 新增 AI 爬虫（2026-09-07 对比 ai.robots.txt 同步） ===
+User-agent: AddSearchBot
+Allow: /
+User-agent: AgentTimes
+Allow: /
+User-agent: Amzn-User
+Allow: /
+User-agent: Diffbot-User
+Allow: /
+User-agent: KimiBot
+Allow: /
+User-agent: Kimi-SearchBot
+Allow: /
+User-agent: Lightpanda
+Allow: /
+User-agent: MistralAI-Training
+Allow: /
+User-agent: OAI-AdsBot
+Allow: /
+
 Sitemap: https://www.lanxingqingxi.com/sitemap.xml
 Sitemap: https://www.lanxingqingxi.com/geo-sitemap.xml
 
