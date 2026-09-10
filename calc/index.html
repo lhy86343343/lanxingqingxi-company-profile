@@ -248,6 +248,8 @@ var _hmt = _hmt || [];
           <button type="button" onclick="runEval()" class="w-full bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold py-3 rounded-lg transition-all shadow-lg cursor-pointer">
             🔍 开始评估
           </button>
+<a href="https://work.weixin.qq.com/kfid/kfcbd2c895281e8910e" target="_blank" rel="noopener" style="display:flex;align-items:center;justify-content:center;gap:8px;margin-top:12px;padding:12px 16px;background:#07C160;color:#fff;border-radius:10px;text-decoration:none;font-weight:700;font-size:14px;box-shadow:0 4px 14px rgba(7,193,96,.30)">📱 微信获取清洗报价<span style="font-weight:400;opacity:.92;font-size:12px;margin-left:6px">免填表 · 直接发设备照片</span></a>
+
         </div>
 
         <!-- Right: Diagnostic Output Panel -->
@@ -378,6 +380,18 @@ var _hmt = _hmt || [];
                 <a id="mailto-link" href="#" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-[11px] bg-slate-800 hover:bg-slate-700 text-blue-300 border border-slate-700 px-2.5 py-1.5 rounded-lg transition-colors">
                   ✉️ 邮件发送评估单至 luohuiyong@126.com
                 </a>
+                <a href="https://work.weixin.qq.com/kfid/kfcbd2c895281e8910e" target="_blank" rel="noopener" class="inline-flex w-full justify-center items-center gap-1.5 text-sm bg-[#07C160] hover:bg-[#06AD56] text-white font-bold px-3 py-2.5 rounded-lg transition-colors">📱 一键联系工程师获取精准报价</a>
+                <div class="text-[10px] text-slate-400 leading-relaxed">已生成评估单 —— 请将评估单发送给工程师微信，工程师据评估单进一步确认清洗工艺、药剂体系与精准报价。</div>
+<div style="margin:14px 0 0;padding:14px;background:#f0fdf4;border:1px solid #07C160;border-radius:12px;display:flex;gap:14px;align-items:center;flex-wrap:wrap">
+<img src="/images/kf-qrcode.png" alt="丹阳蓝星清洗工程师微信报价二维码：扫码加微信，发送设备照片、设备型号与结垢情况，免费获取工业设备清洗报价（换热器/锅炉/管道/冷却塔）" width="118" height="118" loading="lazy" decoding="async" style="width:118px;height:118px;padding:5px;background:#fff;border-radius:10px;flex:0 0 auto">
+<div style="flex:1 1 220px;min-width:200px;text-align:left">
+<h3 style="margin:0 0 6px;font-size:14px;font-weight:700;color:#0b3d2c;line-height:1.6">📱 微信获取报价：把复制好的评估单直接发给工程师</h3>
+<div style="font-size:12.5px;color:#374151;line-height:1.8;margin-bottom:10px">评估单已复制到剪贴板 —— 扫码加微信，粘贴发送即可，工程师凭评估单回电确认取样化验与报价。</div>
+<a href="https://work.weixin.qq.com/kfid/kfcbd2c895281e8910e" target="_blank" rel="noopener" style="display:inline-block;padding:9px 20px;background:#07C160;color:#fff;font-size:13px;font-weight:700;border-radius:22px;text-decoration:none">立即添加微信 →</a>
+<div style="margin-top:7px;font-size:11.5px;color:#6b7280;line-height:1.6">手机点按钮直达微信客服会话 · 电脑扫码 · 微信客服在线，发送资料后工程师尽快回复</div>
+</div>
+</div>
+
               </div>
 
               <!-- Direct Download & Preview Button Box -->
@@ -588,6 +602,16 @@ var _hmt = _hmt || [];
             </div>
           </div>
 
+          <!-- 微信获取报价 CTA (PDF 内, 承接'工具→PDF→微信'链路) -->
+          <div class="mt-2 flex items-center gap-3 rounded-lg p-2" style="background:#f0fdf4;border:2px solid #07C160">
+            <img src="/images/kf-qrcode.png" alt="扫码加微信获取清洗报价二维码" width="86" height="86" style="width:86px;height:86px;flex:0 0 auto;background:#fff;padding:3px;border-radius:6px">
+            <div class="leading-snug">
+              <div class="text-[12px] font-black" style="color:#0b3d2c">📱 微信获取清洗报价</div>
+              <div class="text-[10px] text-slate-700">扫码加工程师微信，把本评估书与设备照片发过去，即可获取<b>正式报价单</b>（本页为初步评估）。</div>
+              <div class="text-[9.5px] text-slate-500">微信：扫左侧二维码 · 电话：18952832843（罗经理）· www.lanxingqingxi.com</div>
+            </div>
+          </div>
+
           <!-- Section 4: Safety & Stamp -->
           <div class="pt-4 border-t border-slate-200 flex justify-between items-end mt-auto">
             <div class="space-y-1 text-[10px] text-slate-600 max-w-sm">
@@ -609,6 +633,29 @@ var _hmt = _hmt || [];
 
         </div>
       </div>
+
+    <!-- PDF 统一尾页: 工程师进一步评估与精准报价 (隐藏, 仅用于生成 PDF 第 2 页) -->
+    <div id="pdf-cta-holder" style="display:none">
+      <div id="pdf-cta-sheet" style="width:794px;height:1123px;background:#ffffff;position:relative;overflow:hidden;font-family:'Microsoft YaHei','PingFang SC',sans-serif;color:#1e293b;padding:56px 60px;box-sizing:border-box;">
+        <div style="text-align:center;font-size:25px;font-weight:900;color:#0b3d2c;letter-spacing:1px;">工程师进一步评估与精准报价</div>
+        <div style="text-align:center;font-size:13px;color:#64748b;margin-top:10px;">本报告为在线初步评估结果 · 精准报价需工程师确认实际工况后出具</div>
+        <div style="text-align:center;font-size:21px;font-weight:900;color:#07C160;margin-top:34px;">📱 微信获取精准报价</div>
+        <div style="margin-top:22px;font-size:13.5px;line-height:2.1;color:#334155;text-align:center;">
+          请将本 PDF 报告发送给丹阳蓝星清洗工程师微信，工程师将根据<br>
+          <b>设备类型 · 材质 · 垢型 · 垢厚 · 工况 · 规模</b> 与本次评估结果，进一步确认：<br>
+          <b style="color:#0b3d2c;">清洗工艺 → 药剂体系 → 工期 → 精准报价</b>
+        </div>
+        <div style="text-align:center;margin-top:34px;">
+          <img src="/images/kf-qrcode.png" alt="扫码添加丹阳蓝星清洗工程师微信获取精准报价" width="240" height="240" style="width:240px;height:240px;background:#fff;padding:8px;border:3px solid #07C160;border-radius:14px;">
+        </div>
+        <div style="text-align:center;font-size:15px;font-weight:800;color:#0b3d2c;margin-top:14px;">扫码添加工程师微信</div>
+        <div style="position:absolute;left:60px;right:60px;bottom:52px;border-top:1px solid #cbd5e1;padding-top:18px;text-align:center;font-size:13px;color:#334155;line-height:2;">
+          电话：<b style="font-size:15px;color:#0b3d2c;">18952832843</b>（罗经理） · 0511-86343343<br>
+          邮箱：luohuiyong@126.com · 官网：www.lanxingqingxi.com<br>
+          <span style="color:#64748b;">丹阳市蓝星防腐清洗有限公司 · 江苏省丹阳市丹北镇埤城洪家埭98号</span>
+        </div>
+      </div>
+    </div>
 
       <!-- Modal Footer -->
       <div class="p-3.5 bg-slate-900 border-t border-slate-800 flex flex-wrap justify-between items-center gap-2">
@@ -1146,12 +1193,29 @@ var _hmt = _hmt || [];
         sheet.style.minHeight = '1123px';
         html2canvas(sheet, { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 794, windowHeight: 1123 }).then(canvas => {
           const pdf = new jspdf.jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
-          pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 210, 297);
-          const dlNow = new Date();
-          const dlPad = (n) => String(n).padStart(2, '0');
-          pdf.save('蓝星清洗方案评估说明书-' + dlNow.getFullYear() + '-' + dlPad(dlNow.getMonth() + 1) + '-' + dlPad(dlNow.getDate()) + '.pdf');
-          host.remove();
-          btns.forEach(b => { b.disabled = false; const s = b.querySelector('span'); s ? s.innerText = '直接下载 PDF' : b.innerText = '直接下载 PDF'; });
+          pdf.addImage(canvas.toDataURL('image/jpeg', 0.92), 'JPEG', 0, 0, 210, 297);
+          // ===== 第 2 页：统一尾页「工程师进一步评估与精准报价」 =====
+          const ctaSrc = document.getElementById('pdf-cta-sheet');
+          let chain = Promise.resolve();
+          if (ctaSrc) {
+            const host2 = document.createElement('div');
+            host2.style.cssText = 'position:fixed;left:-10000px;top:0;z-index:-1;';
+            host2.appendChild(ctaSrc.cloneNode(true));
+            document.body.appendChild(host2);
+            const sheet2 = host2.firstElementChild;
+            sheet2.style.width = '794px'; sheet2.style.maxWidth = '794px';
+            sheet2.style.height = '1123px'; sheet2.style.minHeight = '1123px';
+            chain = html2canvas(sheet2, { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 794, windowHeight: 1123 })
+              .then(function (c2) { pdf.addPage(); pdf.addImage(c2.toDataURL('image/jpeg', 0.92), 'JPEG', 0, 0, 210, 297); host2.remove(); })
+              .catch(function () { host2.remove(); });
+          }
+          chain.then(function () {
+            const dlNow = new Date();
+            const dlPad = (n) => String(n).padStart(2, '0');
+            pdf.save('蓝星清洗方案评估说明书-' + dlNow.getFullYear() + '-' + dlPad(dlNow.getMonth() + 1) + '-' + dlPad(dlNow.getDate()) + '.pdf');
+            host.remove();
+            btns.forEach(b => { b.disabled = false; const s = b.querySelector('span'); s ? s.innerText = '直接下载 PDF' : b.innerText = '直接下载 PDF'; });
+          });
         }).catch(() => {
           host.remove();
           btns.forEach(b => { b.disabled = false; const s = b.querySelector('span'); s ? s.innerText = '直接下载 PDF' : b.innerText = '直接下载 PDF'; });

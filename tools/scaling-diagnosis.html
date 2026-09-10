@@ -261,6 +261,8 @@
       <button onclick="runDiagnosis()" class="w-full bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold py-3 rounded-lg transition-all shadow-lg cursor-pointer">
         🔍 开始诊断
       </button>
+<a href="https://work.weixin.qq.com/kfid/kfcbd2c895281e8910e" target="_blank" rel="noopener" style="display:flex;align-items:center;justify-content:center;gap:8px;margin-top:12px;padding:12px 16px;background:#07C160;color:#fff;border-radius:10px;text-decoration:none;font-weight:700;font-size:14px;box-shadow:0 4px 14px rgba(7,193,96,.30)">📱 微信获取清洗报价<span style="font-weight:400;opacity:.92;font-size:12px;margin-left:6px">免填表 · 直接发设备照片</span></a>
+
     </section>
 
     <!-- ========== 结果区 ========== -->
@@ -382,7 +384,16 @@
           <a href="/contact.html" class="bg-slate-950 text-white text-sm font-semibold px-4 py-3 rounded-lg hover:bg-slate-800 text-left">🧪 垢样分析 / 取样化验<br><span class="text-[10px] text-slate-400 font-normal">免费咨询送检方案 · 📞 18952832843</span></a>
           <a href="/contact.html" class="bg-white text-blue-900 text-sm font-bold px-4 py-3 rounded-lg hover:opacity-90 text-left">👨‍🔧 联系工程师<br><span class="text-[10px] text-blue-700/70 font-normal">18952832843 免费对接</span></a>
         </div>
-        <button onclick="copyShareLink()" id="btn-share-link" class="mt-2.5 w-full bg-slate-950/60 border border-slate-700 text-slate-200 text-xs font-semibold px-4 py-2.5 rounded-lg hover:bg-slate-800 cursor-pointer">🔗 复制当前诊断结果链接</button>
+        <div style="margin:14px 0 0;padding:14px;background:#f0fdf4;border:1px solid #07C160;border-radius:12px;display:flex;gap:14px;align-items:center;flex-wrap:wrap">
+<img src="/images/kf-qrcode.png" alt="丹阳蓝星清洗工程师微信报价二维码：扫码加微信，发送设备照片、设备型号与结垢情况，免费获取工业设备清洗报价（换热器/锅炉/管道/冷却塔）" width="118" height="118" loading="lazy" decoding="async" style="width:118px;height:118px;padding:5px;background:#fff;border-radius:10px;flex:0 0 auto">
+<div style="flex:1 1 220px;min-width:200px;text-align:left">
+<h3 style="margin:0 0 6px;font-size:14px;font-weight:700;color:#0b3d2c;line-height:1.6">📱 微信获取报价：把诊断结果发给工程师</h3>
+<div style="font-size:12.5px;color:#374151;line-height:1.8;margin-bottom:10px">发送设备照片 + 诊断结论，工程师免费初步评估并给出清洗报价。</div>
+<a href="https://work.weixin.qq.com/kfid/kfcbd2c895281e8910e" target="_blank" rel="noopener" style="display:inline-block;padding:9px 20px;background:#07C160;color:#fff;font-size:13px;font-weight:700;border-radius:22px;text-decoration:none">立即添加微信 →</a>
+<div style="margin-top:7px;font-size:11.5px;color:#6b7280;line-height:1.6">手机点按钮直达微信客服会话 · 电脑扫码 · 微信客服在线，发送资料后工程师尽快回复</div>
+</div>
+</div>
+<button onclick="copyShareLink()" id="btn-share-link" class="mt-2.5 w-full bg-slate-950/60 border border-slate-700 text-slate-200 text-xs font-semibold px-4 py-2.5 rounded-lg hover:bg-slate-800 cursor-pointer">🔗 复制当前诊断结果链接</button>
       </div>
 
       <!-- 互推：清洗周期评估器 -->
@@ -438,7 +449,7 @@
 
         <!-- Printable A4 sheet: 固定 794×1123px（A4@96dpi），纯内联样式，html2canvas 截图不变形 -->
         <div class="pdf-sheet-wrap">
-          <div id="pdf-print-sheet" style="width:794px;height:1123px;background:#ffffff;position:relative;overflow:hidden;font-family:'Microsoft YaHei','PingFang SC',sans-serif;color:#1e293b;padding:22px 46px;box-sizing:border-box;font-size:11px;line-height:1.6;">
+          <div id="pdf-print-sheet" style="width:794px;height:1123px;background:#ffffff;position:relative;overflow:hidden;font-family:'Microsoft YaHei','PingFang SC',sans-serif;color:#1e293b;padding:14px 46px;box-sizing:border-box;font-size:11px;line-height:1.6;">
 
             <!-- 水印 -->
             <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-30deg);opacity:0.06;font-size:34px;font-weight:900;color:#1e3a8a;letter-spacing:6px;white-space:nowrap;text-align:center;z-index:0;">丹阳市蓝星防腐清洗有限公司<br>结垢诊断评估报告</div>
@@ -461,7 +472,7 @@
             </table>
 
             <!-- 标题 -->
-            <div style="text-align:center;padding:12px 0 10px;border-bottom:1px solid #e2e8f0;">
+            <div style="text-align:center;padding:8px 0 8px;border-bottom:1px solid #e2e8f0;">
               <div style="font-size:19px;font-weight:900;color:#172554;letter-spacing:3px;">设备结垢风险诊断评估报告</div>
               <div style="font-size:9.5px;color:#94a3b8;margin-top:3px;">基于设备、水质与运行工况的工程预评估 · 最终方案以现场勘查 / 取样化验为准</div>
             </div>
@@ -478,16 +489,16 @@
                 <td style="border:1px solid #e2e8f0;border-radius:8px;padding:9px 14px;vertical-align:middle;background:#f8fafc;">
                   <table style="width:100%;border-collapse:collapse;font-size:10.5px;">
                     <tr>
-                      <td style="padding:4px 0;color:#64748b;width:46%;">预计换热性能影响</td>
-                      <td style="padding:4px 0;color:#1e293b;font-weight:700;text-align:right;"><span id="pdf-eff">—</span></td>
+                      <td style="padding:3px 0;color:#64748b;width:46%;">预计换热性能影响</td>
+                      <td style="padding:3px 0;color:#1e293b;font-weight:700;text-align:right;"><span id="pdf-eff">—</span></td>
                     </tr>
                     <tr>
-                      <td style="padding:4px 0;color:#64748b;border-top:1px dashed #e2e8f0;">能耗损失估算</td>
-                      <td style="padding:4px 0;color:#b91c1c;font-weight:700;text-align:right;border-top:1px dashed #e2e8f0;"><span id="pdf-energy">—</span></td>
+                      <td style="padding:3px 0;color:#64748b;border-top:1px dashed #e2e8f0;">能耗损失估算</td>
+                      <td style="padding:3px 0;color:#b91c1c;font-weight:700;text-align:right;border-top:1px dashed #e2e8f0;"><span id="pdf-energy">—</span></td>
                     </tr>
                     <tr>
-                      <td style="padding:4px 0;color:#64748b;border-top:1px dashed #e2e8f0;">清洗建议</td>
-                      <td style="padding:4px 0;color:#1e293b;font-weight:700;text-align:right;border-top:1px dashed #e2e8f0;"><span id="pdf-action">—</span></td>
+                      <td style="padding:3px 0;color:#64748b;border-top:1px dashed #e2e8f0;">清洗建议</td>
+                      <td style="padding:3px 0;color:#1e293b;font-weight:700;text-align:right;border-top:1px dashed #e2e8f0;"><span id="pdf-action">—</span></td>
                     </tr>
                   </table>
                 </td>
@@ -495,22 +506,22 @@
             </table>
 
             <!-- 一、设备与工况信息 -->
-            <div style="margin-top:8px;">
+            <div style="margin-top:2px;">
               <div style="font-size:11px;font-weight:800;color:#172554;border-left:4px solid #1e3a8a;padding-left:8px;margin-bottom:6px;">一、设备与工况信息</div>
               <table style="width:100%;border-collapse:collapse;">
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">设备类型</td><td id="pdf-eq-name" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">主要材质</td><td id="pdf-mat-name" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">垢型</td><td id="pdf-scale-name" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">垢层厚度</td><td id="pdf-thick-name" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">设备表现</td><td id="pdf-symptom-name" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">水质硬度</td><td id="pdf-water" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">运行温度</td><td id="pdf-temp" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">最近一次清洗</td><td id="pdf-lastclean" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:2px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">设备类型</td><td id="pdf-eq-name" style="padding:2px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:2px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">主要材质</td><td id="pdf-mat-name" style="padding:2px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:2px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">垢型</td><td id="pdf-scale-name" style="padding:2px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:2px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">垢层厚度</td><td id="pdf-thick-name" style="padding:2px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:2px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">设备表现</td><td id="pdf-symptom-name" style="padding:2px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:2px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">水质硬度</td><td id="pdf-water" style="padding:2px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:2px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">运行温度</td><td id="pdf-temp" style="padding:2px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:2px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">最近一次清洗</td><td id="pdf-lastclean" style="padding:2px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
               </table>
             </div>
 
             <!-- 二、诊断结论 -->
-            <div style="margin-top:8px;">
+            <div style="margin-top:2px;">
               <div style="font-size:11px;font-weight:800;color:#172554;border-left:4px solid #1e3a8a;padding-left:8px;margin-bottom:6px;">二、诊断结论</div>
               <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:8px 12px;">
                 <div style="font-size:12px;font-weight:800;color:#d97706;" id="pdf-conclusion-title">综合判断：请完成工况信息后开始诊断。</div>
@@ -522,28 +533,28 @@
             </div>
 
             <!-- 三、推荐清洗方案 -->
-            <div style="margin-top:8px;">
+            <div style="margin-top:2px;">
               <div style="font-size:11px;font-weight:800;color:#172554;border-left:4px solid #1e3a8a;padding-left:8px;margin-bottom:6px;">三、推荐清洗方案</div>
               <table style="width:100%;border-collapse:collapse;">
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">建议工艺</td><td id="pdf-method" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">主药剂</td><td id="pdf-chem" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">缓蚀剂</td><td id="pdf-inhibitor" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">参考工期</td><td id="pdf-days" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#fef2f2;color:#b91c1c;vertical-align:top;">⚠️ 安全警示</td><td id="pdf-warning" style="padding:4px 10px;border:1px solid #e2e8f0;color:#b91c1c;font-weight:600;">—</td></tr>
+                <tr><td style="padding:2px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">建议工艺</td><td id="pdf-method" style="padding:2px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:2px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">主药剂</td><td id="pdf-chem" style="padding:2px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:2px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">缓蚀剂</td><td id="pdf-inhibitor" style="padding:2px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:2px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">参考工期</td><td id="pdf-days" style="padding:2px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:2px 10px;border:1px solid #e2e8f0;background:#fef2f2;color:#b91c1c;vertical-align:top;">⚠️ 安全警示</td><td id="pdf-warning" style="padding:2px 10px;border:1px solid #e2e8f0;color:#b91c1c;font-weight:600;">—</td></tr>
               </table>
             </div>
 
             <!-- 四、建议检测与维护 -->
-            <div style="margin-top:8px;">
+            <div style="margin-top:2px;">
               <div style="font-size:11px;font-weight:800;color:#172554;border-left:4px solid #1e3a8a;padding-left:8px;margin-bottom:6px;">四、建议检测项目与维护周期</div>
               <table style="width:100%;border-collapse:collapse;">
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">建议检测项目</td><td id="pdf-tests" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
-                <tr><td style="padding:4px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">维护周期建议</td><td id="pdf-cycle" style="padding:4px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:2px 10px;border:1px solid #e2e8f0;background:#f8fafc;width:24%;color:#64748b;">建议检测项目</td><td id="pdf-tests" style="padding:2px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
+                <tr><td style="padding:2px 10px;border:1px solid #e2e8f0;background:#f8fafc;color:#64748b;">维护周期建议</td><td id="pdf-cycle" style="padding:2px 10px;border:1px solid #e2e8f0;font-weight:600;">—</td></tr>
               </table>
             </div>
 
             <!-- 五、注意事项 -->
-            <div style="margin-top:8px;">
+            <div style="margin-top:2px;">
               <div style="font-size:11px;font-weight:800;color:#172554;border-left:4px solid #1e3a8a;padding-left:8px;margin-bottom:6px;">五、注意事项</div>
               <div style="background:#fffbeb;border:1px solid #fde68a;border-radius:6px;padding:7px 12px;font-size:9.5px;color:#92400e;line-height:1.6;">
                 不同材质对酸种、浓度、温度及缓蚀剂的耐受性不同，正式施工前应进行材质确认、垢样分析及小试验证；本报告为在线初步评估，不替代现场检测、垢样分析和小试验证，非专业人员请勿自行清洗。
@@ -557,6 +568,14 @@
                   <div>联系人：<b id="pdf-contact-name" style="color:#334155;">现场工程负责人</b>&nbsp;&nbsp;联系电话：<b id="pdf-contact-phone" style="color:#334155;">18952832843</b></div>
                   <div style="margin-top:2px;">地址：江苏省丹阳市丹北镇埤城洪家埭98号&nbsp;&nbsp;·&nbsp;&nbsp;www.lanxingqingxi.com</div>
                   <div style="margin-top:6px;font-size:8px;color:#94a3b8;">以上工艺、药剂、工期及效果预测均为初步工程估算，最终方案须以水样、垢样化验分析及现场工况确认为准；本报告仅供清洗时机参考。</div>
+                </td>
+                <td style="padding-top:8px;padding-right:12px;vertical-align:bottom;width:168px;">
+                  <div style="display:flex;align-items:center;gap:8px;">
+                    <img src="/images/kf-qrcode.png" alt="扫码加微信获取清洗报价二维码" width="74" height="74" style="width:74px;height:74px;background:#fff;padding:2px;border:2px solid #07C160;border-radius:6px;flex:0 0 auto;">
+                    <div style="font-size:8.5px;line-height:1.5;color:#334155;text-align:left;">
+                      <b style="font-size:9px;color:#0b3d2c;">📱 微信获取清洗报价</b><br>扫码加工程师微信<br>发送本报告 + 设备照片
+                    </div>
+                  </div>
                 </td>
                 <td style="padding-top:8px;text-align:right;vertical-align:bottom;width:130px;">
                   <div style="width:84px;height:84px;border-radius:50%;border:2.5px solid #b91c1c;color:#b91c1c;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-12deg);font-size:8.5px;line-height:1.55;font-weight:700;text-align:center;margin-left:auto;">
@@ -574,7 +593,30 @@
     </div>
   </div>
 
-  <footer class="border-t border-slate-800 py-6 text-center text-[10px] text-slate-500">
+      <!-- PDF 统一尾页: 工程师进一步评估与精准报价 (隐藏, 仅用于生成 PDF 第 2 页) -->
+    <div id="pdf-cta-holder" style="display:none">
+      <div id="pdf-cta-sheet" style="width:794px;height:1123px;background:#ffffff;position:relative;overflow:hidden;font-family:'Microsoft YaHei','PingFang SC',sans-serif;color:#1e293b;padding:56px 60px;box-sizing:border-box;">
+        <div style="text-align:center;font-size:25px;font-weight:900;color:#0b3d2c;letter-spacing:1px;">工程师进一步评估与精准报价</div>
+        <div style="text-align:center;font-size:13px;color:#64748b;margin-top:10px;">本报告为在线初步评估结果 · 精准报价需工程师确认实际工况后出具</div>
+        <div style="text-align:center;font-size:21px;font-weight:900;color:#07C160;margin-top:34px;">📱 微信获取精准报价</div>
+        <div style="margin-top:22px;font-size:13.5px;line-height:2.1;color:#334155;text-align:center;">
+          请将本 PDF 报告发送给丹阳蓝星清洗工程师微信，工程师将根据<br>
+          <b>设备类型 · 材质 · 垢型 · 垢厚 · 工况 · 规模</b> 与本次评估结果，进一步确认：<br>
+          <b style="color:#0b3d2c;">清洗工艺 → 药剂体系 → 工期 → 精准报价</b>
+        </div>
+        <div style="text-align:center;margin-top:34px;">
+          <img src="/images/kf-qrcode.png" alt="扫码添加丹阳蓝星清洗工程师微信获取精准报价" width="240" height="240" style="width:240px;height:240px;background:#fff;padding:8px;border:3px solid #07C160;border-radius:14px;">
+        </div>
+        <div style="text-align:center;font-size:15px;font-weight:800;color:#0b3d2c;margin-top:14px;">扫码添加工程师微信</div>
+        <div style="position:absolute;left:60px;right:60px;bottom:52px;border-top:1px solid #cbd5e1;padding-top:18px;text-align:center;font-size:13px;color:#334155;line-height:2;">
+          电话：<b style="font-size:15px;color:#0b3d2c;">18952832843</b>（罗经理） · 0511-86343343<br>
+          邮箱：luohuiyong@126.com · 官网：www.lanxingqingxi.com<br>
+          <span style="color:#64748b;">丹阳市蓝星防腐清洗有限公司 · 江苏省丹阳市丹北镇埤城洪家埭98号</span>
+        </div>
+      </div>
+    </div>
+
+<footer class="border-t border-slate-800 py-6 text-center text-[10px] text-slate-500">
     丹阳市蓝星防腐清洗有限公司 © 2026 · 设备结垢风险诊断器 · 免费在线工具
   </footer>
 
@@ -1106,13 +1148,31 @@
 
         html2canvas(sheet, { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 794, windowHeight: 1123 }).then(function(canvas){
           const pdf = new window.jspdf.jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
-          pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 210, 297);
+          pdf.addImage(canvas.toDataURL('image/jpeg', 0.92), 'JPEG', 0, 0, 210, 297);
+          // ===== 第 2 页：统一尾页「工程师进一步评估与精准报价」 =====
+          const ctaSrc = document.getElementById('pdf-cta-sheet');
+          let chain = Promise.resolve();
+          if (ctaSrc) {
+            const host2 = document.createElement('div');
+            host2.style.cssText = 'position:fixed;left:-10000px;top:0;z-index:-1;';
+            host2.appendChild(ctaSrc.cloneNode(true));
+            document.body.appendChild(host2);
+            const sheet2 = host2.firstElementChild;
+            sheet2.style.width = '794px'; sheet2.style.maxWidth = '794px';
+            sheet2.style.height = '1123px'; sheet2.style.minHeight = '1123px';
+            chain = html2canvas(sheet2, { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 794, windowHeight: 1123 })
+              .then(function (c2) { pdf.addPage(); pdf.addImage(c2.toDataURL('image/jpeg', 0.92), 'JPEG', 0, 0, 210, 297); host2.remove(); })
+              .catch(function () { host2.remove(); });
+          }
+          chain.then(function () {
+
           const dlNow = new Date();
           const dlPad = (n) => String(n).padStart(2, '0');
           pdf.save('结垢诊断评估报告-' + dlNow.getFullYear() + '-' + dlPad(dlNow.getMonth() + 1) + '-' + dlPad(dlNow.getDate()) + '.pdf');
           btn.innerText = '⬇ 直接下载 PDF';
           btn.disabled = false;
           host.remove();
+          });
         }).catch(function(err){
           console.error('PDF render failed:', err);
           btn.innerText = '⬇ 直接下载 PDF';
