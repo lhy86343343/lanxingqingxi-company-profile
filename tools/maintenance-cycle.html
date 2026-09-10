@@ -257,7 +257,16 @@
           <a href="tel:18952832843" class="bg-white text-blue-900 font-bold text-sm px-4 py-2.5 rounded-lg hover:opacity-90">📞 18952832843</a>
           <button onclick="openPdfModal()" class="bg-slate-950 text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-slate-800 cursor-pointer">📄 生成维护计划表</button>
         </div>
-        <button onclick="copyShareLink()" id="btn-share-link" class="mt-3 w-full bg-slate-950/60 border border-slate-700 text-slate-200 text-xs font-semibold px-4 py-2.5 rounded-lg hover:bg-slate-800 cursor-pointer">🔗 复制当前评估结果链接</button>
+        <div style="margin:14px 0 0;padding:14px;background:#f0fdf4;border:1px solid #07C160;border-radius:12px;display:flex;gap:14px;align-items:center;flex-wrap:wrap">
+<img src="/images/kf-qrcode.png" alt="丹阳蓝星清洗工程师微信报价二维码：扫码加微信，发送设备照片、设备型号与结垢情况，免费获取工业设备清洗报价（换热器/锅炉/管道/冷却塔）" width="118" height="118" loading="lazy" decoding="async" style="width:118px;height:118px;padding:5px;background:#fff;border-radius:10px;flex:0 0 auto">
+<div style="flex:1 1 220px;min-width:200px;text-align:left">
+<h3 style="margin:0 0 6px;font-size:14px;font-weight:700;color:#0b3d2c;line-height:1.6">📱 微信获取报价：把维护计划发给工程师</h3>
+<div style="font-size:12.5px;color:#374151;line-height:1.8;margin-bottom:10px">发送设备照片与评估结论，工程师免费初步评估并给出清洗报价。</div>
+<a href="https://work.weixin.qq.com/kfid/kfcbd2c895281e8910e" target="_blank" rel="noopener" style="display:inline-block;padding:9px 20px;background:#07C160;color:#fff;font-size:13px;font-weight:700;border-radius:22px;text-decoration:none">立即添加微信 →</a>
+<div style="margin-top:7px;font-size:11.5px;color:#6b7280;line-height:1.6">手机点按钮直达微信客服会话 · 电脑扫码 · 微信客服在线，发送资料后工程师尽快回复</div>
+</div>
+</div>
+<button onclick="copyShareLink()" id="btn-share-link" class="mt-3 w-full bg-slate-950/60 border border-slate-700 text-slate-200 text-xs font-semibold px-4 py-2.5 rounded-lg hover:bg-slate-800 cursor-pointer">🔗 复制当前评估结果链接</button>
       </div>
 
       <!-- 互推：诊断评估器 -->
@@ -396,6 +405,16 @@
               </table>
             </div>
 
+            <!-- 微信获取报价 CTA (PDF 内, 承接'工具→PDF→微信'链路) -->
+            <div style="margin-top:12px;padding:9px 12px;background:#f0fdf4;border:2px solid #07C160;border-radius:8px;display:flex;align-items:center;gap:14px;">
+              <img src="/images/kf-qrcode.png" alt="扫码加微信获取清洗报价二维码" width="84" height="84" style="width:84px;height:84px;background:#fff;padding:3px;border-radius:6px;flex:0 0 auto;">
+              <div style="line-height:1.55;">
+                <div style="font-size:12px;font-weight:800;color:#0b3d2c;">📱 微信获取清洗报价</div>
+                <div style="font-size:10px;color:#334155;">扫码加工程师微信，把本维护计划表与设备照片发过去，即可获取<b>正式报价单</b>（本页为初步评估）。</div>
+                <div style="font-size:9.5px;color:#64748b;">微信：扫左侧二维码 · 电话：18952832843（罗经理）· www.lanxingqingxi.com</div>
+              </div>
+            </div>
+
             <!-- 页脚 + 印章 -->
             <table style="width:100%;border-collapse:collapse;border-top:1px solid #cbd5e1;margin-top:16px;position:absolute;bottom:38px;left:50px;width:694px;">
               <tr>
@@ -420,7 +439,30 @@
     </div>
   </div>
 
-  <footer class="border-t border-slate-800 py-6 text-center text-[10px] text-slate-500">
+      <!-- PDF 统一尾页: 工程师进一步评估与精准报价 (隐藏, 仅用于生成 PDF 第 2 页) -->
+    <div id="pdf-cta-holder" style="display:none">
+      <div id="pdf-cta-sheet" style="width:794px;height:1123px;background:#ffffff;position:relative;overflow:hidden;font-family:'Microsoft YaHei','PingFang SC',sans-serif;color:#1e293b;padding:56px 60px;box-sizing:border-box;">
+        <div style="text-align:center;font-size:25px;font-weight:900;color:#0b3d2c;letter-spacing:1px;">工程师进一步评估与精准报价</div>
+        <div style="text-align:center;font-size:13px;color:#64748b;margin-top:10px;">本报告为在线初步评估结果 · 精准报价需工程师确认实际工况后出具</div>
+        <div style="text-align:center;font-size:21px;font-weight:900;color:#07C160;margin-top:34px;">📱 微信获取精准报价</div>
+        <div style="margin-top:22px;font-size:13.5px;line-height:2.1;color:#334155;text-align:center;">
+          请将本 PDF 报告发送给丹阳蓝星清洗工程师微信，工程师将根据<br>
+          <b>设备类型 · 材质 · 垢型 · 垢厚 · 工况 · 规模</b> 与本次评估结果，进一步确认：<br>
+          <b style="color:#0b3d2c;">清洗工艺 → 药剂体系 → 工期 → 精准报价</b>
+        </div>
+        <div style="text-align:center;margin-top:34px;">
+          <img src="/images/kf-qrcode.png" alt="扫码添加丹阳蓝星清洗工程师微信获取精准报价" width="240" height="240" style="width:240px;height:240px;background:#fff;padding:8px;border:3px solid #07C160;border-radius:14px;">
+        </div>
+        <div style="text-align:center;font-size:15px;font-weight:800;color:#0b3d2c;margin-top:14px;">扫码添加工程师微信</div>
+        <div style="position:absolute;left:60px;right:60px;bottom:52px;border-top:1px solid #cbd5e1;padding-top:18px;text-align:center;font-size:13px;color:#334155;line-height:2;">
+          电话：<b style="font-size:15px;color:#0b3d2c;">18952832843</b>（罗经理） · 0511-86343343<br>
+          邮箱：luohuiyong@126.com · 官网：www.lanxingqingxi.com<br>
+          <span style="color:#64748b;">丹阳市蓝星防腐清洗有限公司 · 江苏省丹阳市丹北镇埤城洪家埭98号</span>
+        </div>
+      </div>
+    </div>
+
+<footer class="border-t border-slate-800 py-6 text-center text-[10px] text-slate-500">
     丹阳市蓝星防腐清洗有限公司 © 2026 · 设备清洗周期智能评估器 · 免费在线工具
   </footer>
 
@@ -809,13 +851,31 @@
 
         html2canvas(sheet, { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 794, windowHeight: 1123 }).then(function(canvas){
           const pdf = new window.jspdf.jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
-          pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 210, 297);
+          pdf.addImage(canvas.toDataURL('image/jpeg', 0.92), 'JPEG', 0, 0, 210, 297);
+          // ===== 第 2 页：统一尾页「工程师进一步评估与精准报价」 =====
+          const ctaSrc = document.getElementById('pdf-cta-sheet');
+          let chain = Promise.resolve();
+          if (ctaSrc) {
+            const host2 = document.createElement('div');
+            host2.style.cssText = 'position:fixed;left:-10000px;top:0;z-index:-1;';
+            host2.appendChild(ctaSrc.cloneNode(true));
+            document.body.appendChild(host2);
+            const sheet2 = host2.firstElementChild;
+            sheet2.style.width = '794px'; sheet2.style.maxWidth = '794px';
+            sheet2.style.height = '1123px'; sheet2.style.minHeight = '1123px';
+            chain = html2canvas(sheet2, { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 794, windowHeight: 1123 })
+              .then(function (c2) { pdf.addPage(); pdf.addImage(c2.toDataURL('image/jpeg', 0.92), 'JPEG', 0, 0, 210, 297); host2.remove(); })
+              .catch(function () { host2.remove(); });
+          }
+          chain.then(function () {
+
           const dlNow = new Date();
           const dlPad = (n) => String(n).padStart(2, '0');
           pdf.save('设备维护计划表-' + dlNow.getFullYear() + '-' + dlPad(dlNow.getMonth() + 1) + '-' + dlPad(dlNow.getDate()) + '.pdf');
           btn.innerText = '⬇ 直接下载 PDF';
           btn.disabled = false;
           host.remove();
+          });
         }).catch(function(err){
           console.error('PDF render failed:', err);
           btn.innerText = '⬇ 直接下载 PDF';

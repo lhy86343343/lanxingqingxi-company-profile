@@ -212,7 +212,7 @@
 
 
 </nav>
-<div style="text-align:center;padding:12px 0;background:linear-gradient(90deg,#f0f4f8,#e8f0f8,#f0f4f8);border-bottom:1px solid #d0dae5;overflow:hidden"><div style="display:inline-block;animation:scroll-std 22s linear infinite;color:#555;font-size:0.9rem;white-space:nowrap">🔖 Standards: <a href="https://openstd.samr.gov.cn/bzgk/gb/std?name=GB/T%2025146-2010" target="_blank" rel="noopener" style="color:#0066CC">GB/T 25146-2010</a> · <a href="https://openstd.samr.gov.cn/bzgk/gb/std?name=HG/T%202387" target="_blank" rel="noopener" style="color:#0066CC">HG/T 2387</a> · <a href="https://openstd.samr.gov.cn/bzgk/gb/std?name=DL/T%20957" target="_blank" rel="noopener" style="color:#0066CC">DL/T 957-2017</a> · CICA Member · 20+ Years · 📞 18952832843</div></div>
+<div style="text-align:center;padding:12px 0;background:linear-gradient(90deg,#f0f4f8,#e8f0f8,#f0f4f8);border-bottom:1px solid #d0dae5;overflow:hidden"><div style="display:inline-block;animation:scroll-std 22s linear infinite;color:#555;font-size:0.9rem;white-space:nowrap">🔖 Standards: <a href="https://openstd.samr.gov.cn/bzgk/gb/std?name=GB/T%2025146-2010" target="_blank" rel="noopener" style="color:#0066CC">GB/T 25146-2010</a> · <a href="https://openstd.samr.gov.cn/bzgk/gb/std?name=HG/T%202387" target="_blank" rel="noopener" style="color:#0066CC">HG/T 2387</a> · <a href="https://openstd.samr.gov.cn/bzgk/gb/std?name=DL/T%20957" target="_blank" rel="noopener" style="color:#0066CC">DL/T 957-2017</a> · CICA Member · 25+ Years · 📞 18952832843</div></div>
 
 
 
@@ -222,7 +222,7 @@
 <section class="hero"><div class="hero-content">
 
 
-<div class="hero-badge"><span class="dot"></span>China Industrial Cleaning Association Member · 20+ Years</div>
+<div class="hero-badge"><span class="dot"></span>China Industrial Cleaning Association Member · 25+ Years</div>
 
 
 <h1>Industrial Cleaning China — Chemical Cleaning Contractor &amp; Heat Exchanger Cleaning Service | Blue Star | 25+ Years</h1>
@@ -580,7 +580,7 @@
 <h2>Need Professional Cleaning?</h2>
 
 
-<p>20+ Years · 500+ Clients · 1000+ Projects · 24/7 Response</p>
+<p>25+ Years · 500+ Clients · 1000+ Projects · 24/7 Response</p>
 
 
 <a href="contact.html" class="btn btn-primary" style="background:#fff;color:var(--primary)">📞 Inquire: +86 18952832843</a>
@@ -629,7 +629,27 @@
 
 
 
-<script>(function(){var b=document.createElement("div");b.className="nav-backdrop";b.setAttribute("aria-hidden""true");document.body.appendChild(b);b.addEventListener("click",function(){var h=document.getElementById("hamburgerBtn")||document.querySelector(".hamburger");var m=document.getElementById("mobileNav")||document.querySelector(".mobile-nav");if(h)h.classList.remove("active");if(m)m.classList.remove("open");document.body.classList.remove("nav-open")})})();</script>
+<script>
+(function(){
+  var hamburger = document.getElementById('hamburgerBtn') || document.querySelector('.hamburger');
+  var mobileNav = document.getElementById('mobileNav') || document.querySelector('.mobile-nav');
+  if (!hamburger || !mobileNav) return;
+  hamburger.addEventListener('click', function(){
+    hamburger.classList.toggle('active');
+    mobileNav.classList.toggle('open');
+    document.body.classList.toggle('nav-open');
+  });
+  var links = mobileNav.querySelectorAll('a');
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener('click', function(){
+      hamburger.classList.remove('active');
+      mobileNav.classList.remove('open');
+      document.body.classList.remove('nav-open');
+    });
+  }
+})();
+</script>
+<div class="nav-backdrop" onclick="document.querySelector('.mobile-nav').classList.remove('open');document.querySelector('.hamburger').classList.remove('active');document.body.classList.remove('nav-open')"></div>
 
 
 
