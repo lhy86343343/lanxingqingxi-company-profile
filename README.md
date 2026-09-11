@@ -151,11 +151,13 @@
 ---
 
 ## 清洗资讯 | Industry Insights
+- [船舶管路系统投用前化学清洗与钝化工艺详解](https://www.lanxingqingxi.com/blog/ship-piping-system-cleaning-passivation.html) 🆕 — 新造船舶管系投用前脱脂、酸洗、漂洗、钝化四步化学清洗工艺，覆盖海水冷却、燃油滑油、液压与压载管系，碳钢/不锈钢/铜镍管差异化药剂体系，含油污残留四法检验、红点/蓝点钝化膜检验、Cl⁻≤25mg/L 控制与船东交验资料要求，依据 GB/T 25146-2010（2026-09-12）
+- [高炉水冷壁管化学清洗工艺与炼铁厂检修实践](https://www.lanxingqingxi.com/blog/blast-furnace-cooling-stave-cleaning.html) — 炼铁厂高炉冷却壁水管结垢成因与垢型诊断、碱洗—酸洗—漂洗—钝化循环工艺、铸铁与铜冷却壁差异化药剂体系及 GB/T 25146-2010 验收指标（2026-09-07）
 - [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
 - [高压水射流分级清洗实战：从镜面反应釜到换热器列管疏通](https://www.lanxingqingxi.com/blog/jetting-graded-cleaning-cases.html) — 高压水射流分级清洗技术专题：50-70MPa三维旋转喷头清洗不锈钢镜面反应釜内壁、200-250MPa超高压水射流疏通换热器聚合物与硫酸锂硬垢列管，含马鞍山某新材料企业、江苏某化学企业、宣城某制药企业（2026-09-02）
 - [宿迁工业设备清洗服务](https://www.lanxingqingxi.com/blog/suqian-industrial-equipment-cleaning.html) — 宿迁工业设备清洗专业服务：服务中国酒都白酒酿造、纺织、食品与化工企业的换热器、冷凝器、锅炉、发酵冷却系统与管道清洗，化学清洗+高压水射流组合工艺，食品级安全控制与废液达标排放，丹阳蓝星清洗，中国工业清（2026-09-02）
 - [盐城工业设备清洗服务](https://www.lanxingqingxi.com/blog/yancheng-industrial-equipment-cleaning.html) — 盐城工业设备清洗专业服务：覆盖汽车制造、风电装备、钢铁化工等企业的换热器、锅炉、导热油炉、管道与中央空调清洗，化学清洗+高压水射流组合工艺，沿海环境专项钝化防腐蚀，丹阳蓝星清洗，中国工业清洗协会成员单（2026-09-02）
-- [304/316L不锈钢储罐、反应釜表面翻新与焊缝钝化工艺详解](https://www.lanxingqingxi.com/blog/stainless-steel-surface-passivation.html) 🆕 — 打磨抛光、脱脂、酸洗钝化一体、焊缝钝化膏专项工艺与蓝点试验验收标准，304与316L材质对比，依据GB/T 25146-2010（2026-08-31）
+- [304/316L不锈钢储罐、反应釜表面翻新与焊缝钝化工艺详解](https://www.lanxingqingxi.com/blog/stainless-steel-surface-passivation.html) — 打磨抛光、脱脂、酸洗钝化一体、焊缝钝化膏专项工艺与蓝点试验验收标准，304与316L材质对比，依据GB/T 25146-2010（2026-08-31）
 - [宣城制药厂列管式换热器超高压清洗服务](https://www.lanxingqingxi.com/blog/xuancheng-pharmaceutical-heat-exchanger-cleaning.html) — 宣城制药厂列管式换热器结硫酸锂硬垢、40%列管堵塞，采用200-250MPa超高压水射流配合抛光旋转喷头与旋转气枪疏通，逐根清除坚硬垢层恢复换热效率。（2026-08-29）
 - [铜管凝汽器专用清洗与缓蚀保护](https://www.lanxingqingxi.com/blog/copper-tube-condenser-cleaning-corrosion-protection.html) — Sulfamic Acid+BTA缓蚀体系,铁置换镀铜预防,凝汽器除垢技术方案
 - [反应釜内壁聚合物三维无死角高压水清洗](https://www.lanxingqingxi.com/blog/reactor-inner-wall-polymer-cleaning.html) — 反应釜内壁聚合物三维无死角高压水清洗专题：详解三维旋转喷头全覆盖原理、压力分级与搪玻璃釜保护工艺、技术路线对比与典型效果，解决交联聚合物挂壁结焦难题。（2026-08-27）
@@ -261,7 +263,9 @@
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
 ### English Articles
-- [304/316L Stainless Steel Tank & Reactor Surface Renovation and Weld Passivation](https://www.lanxingqingxi.com/en/blog/stainless-steel-surface-passivation.html) 🆕 — Grinding, polishing, degreasing, integrated pickling-passivation, weld passivation paste treatment & blue-dot acceptance testing per GB/T 25146-2010 (2026-08-31)
+- [Pre-Commissioning Chemical Cleaning and Passivation of Ship Piping Systems](https://www.lanxingqingxi.com/en/blog/ship-piping-system-cleaning-passivation.html) 🆕 — Four-step degreasing, acid cleaning, rinsing and passivation for new-build sea water, fuel, lube oil and hydraulic ship piping, with chloride control to 25 mg/L, oil-residue and red-spot/blue-spot passivation tests and corrosion-rate acceptance to GB/T 25146-2010 (2026-09-12)
+- [Chemical Cleaning of Blast Furnace Cooling Stave Pipes: Process and Blast-Furnace Plant Practice](https://www.lanxingqingxi.com/en/blog/blast-furnace-cooling-stave-cleaning.html) — Stave-pipe deposit causes and diagnosis, the alkali–acid–rinse–passivation circulation process, cast-iron vs copper stave chemical systems and GB/T 25146-2010 acceptance (2026-09-07)
+- [304/316L Stainless Steel Tank & Reactor Surface Renovation and Weld Passivation](https://www.lanxingqingxi.com/en/blog/stainless-steel-surface-passivation.html) — Grinding, polishing, degreasing, integrated pickling-passivation, weld passivation paste treatment & blue-dot acceptance testing per GB/T 25146-2010 (2026-08-31)
 - [Wuhu Industrial Equipment Cleaning Services](https://www.lanxingqingxi.com/en/blog/wuhu-industrial-equipment-cleaning.html) — Equipment cleaning for automotive, appliance and cement industries: heat exchangers, paint-shop systems, compressor units, pipelines and boilers — serving Chery, Midea and Conch plants (2026-08-24)
 - [Ma'anshan Industrial Equipment Cleaning Services](https://www.lanxingqingxi.com/en/blog/maanshan-industrial-equipment-cleaning.html) — Steel mill equipment, heat exchangers, condensers, reactors, piping & central AC cleaning, chemical cleaning & HP water jetting with corrosion protection (2026-08-24)
 - [Hangzhou Central AC Cleaning & Duct Disinfection Services](https://www.lanxingqingxi.com/en/blog/hangzhou-central-ac-duct-cleaning.html) — Chemical cleaning, cooling tower descaling & duct disinfection for commercial buildings, offices, hotels, data centers & pharmaceutical clean AC systems (2026-08-23)
