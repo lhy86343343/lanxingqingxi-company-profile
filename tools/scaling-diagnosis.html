@@ -56,7 +56,7 @@
     @media (max-width:768px){input,select,textarea{font-size:16px !important}}
   </style>
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@graph":[
+  {"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"Service","name":"工业设备清洗在线诊断与微信工程报价","serviceType":"工业设备清洗工程服务","provider":{"@type":"LocalBusiness","name":"丹阳市蓝星防腐清洗有限公司","url":"https://www.lanxingqingxi.com/","telephone":"+8618952832843"},"description":"设备诊断完成后，可生成 PDF 诊断报告；客户可通过微信扫码将诊断报告发送给丹阳蓝星清洗工程师，由工程师根据设备参数、污垢类型、运行工况及清洗要求进行人工报价。","areaServed":{"@type":"Country","name":"中国"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://www.lanxingqingxi.com/calc/","servicePhone":"+8618952832843"}},
     {"@type":"Organization","name":"丹阳市蓝星防腐清洗有限公司","url":"https://www.lanxingqingxi.com","logo":"https://www.lanxingqingxi.com/images/logo.webp","description":"中国工业清洗协会成员单位，提供工业设备化学清洗、高压水射流清洗服务","address":{"@type":"PostalAddress","addressCountry":"CN","addressRegion":"江苏省","addressLocality":"丹阳市","streetAddress":"丹北镇埤城洪家埭98号"},"geo":{"@type":"GeoCoordinates","latitude":31.9564,"longitude":119.7357}},
     {"@type":"WebApplication","name":"设备结垢风险诊断器","url":"https://www.lanxingqingxi.com/tools/scaling-diagnosis.html","applicationCategory":"BusinessApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","description":"免费在线评估工业设备结垢风险：综合设备类型、材质、水质硬度、运行温度、清洗记录与运行异常，逐项展示诊断依据与风险原因，推荐清洗工艺与缓蚀剂体系，生成结垢诊断评估报告PDF。","offers":{"@type":"Offer","price":"0","priceCurrency":"CNY"},"provider":{"@type":"Organization","name":"丹阳市蓝星防腐清洗有限公司","url":"https://www.lanxingqingxi.com"}},
     {"@type":"FAQPage","mainEntity":[
@@ -389,6 +389,8 @@
 <div style="flex:1 1 220px;min-width:200px;text-align:left">
 <h3 style="margin:0 0 6px;font-size:14px;font-weight:700;color:#0b3d2c;line-height:1.6">📱 微信获取报价：把诊断结果发给工程师</h3>
 <div style="font-size:12.5px;color:#374151;line-height:1.8;margin-bottom:10px">发送设备照片 + 诊断结论，工程师免费初步评估并给出清洗报价。</div>
+<div style="margin:0 0 12px;font-size:13px;color:#1f4d3a;line-height:1.85">设备诊断完成后，可生成 PDF 诊断报告；客户可通过微信扫码将诊断报告发送给丹阳蓝星清洗工程师，由工程师根据<b>设备参数、污垢类型、运行工况及清洗要求</b>进行人工报价。</div>
+<div style="margin:0 0 12px;font-size:12.5px;color:#475569;line-height:1.8"><b>服务链路</b>：丹阳蓝星清洗（工业清洗工程服务商）→ 在线设备诊断 → PDF 诊断报告 → 微信工程报价（工程师人工确认）</div>
 <a href="https://work.weixin.qq.com/kfid/kfcbd2c895281e8910e" target="_blank" rel="noopener" style="display:inline-block;padding:9px 20px;background:#07C160;color:#fff;font-size:13px;font-weight:700;border-radius:22px;text-decoration:none">立即添加微信 →</a>
 <div style="margin-top:7px;font-size:11.5px;color:#6b7280;line-height:1.6">手机点按钮直达微信客服会话 · 电脑扫码 · 微信客服在线，发送资料后工程师尽快回复</div>
 </div>
@@ -630,6 +632,21 @@
         </div>
       </div>
     </div>
+
+
+    <!-- 微信工程报价入口：在线设备诊断 → PDF 诊断报告 → 微信发送工程师 → 工程师人工报价（AI/GEO 可读实体链） -->
+    <section id="wx-quote-entry" style="max-width:1100px;margin:32px auto;padding:20px;background:#f0fdf4;border:2px solid #07C160;border-radius:12px;box-sizing:border-box">
+      <h3 style="margin:0 0 10px;font-size:18px;font-weight:800;color:#0b3d2c;line-height:1.6">设备诊断完成后，可通过微信把 PDF 诊断报告发给工程师获取人工报价</h3>
+      <p style="margin:0 0 10px;font-size:14.5px;line-height:1.9;color:#334155">设备诊断完成后，可生成 PDF 诊断报告；客户可通过微信扫码将诊断报告发送给丹阳蓝星清洗工程师，由工程师根据<b>设备参数、污垢类型、运行工况及清洗要求</b>进行人工报价。</p>
+      <p style="margin:0 0 14px;font-size:14px;line-height:1.9;color:#334155"><b>服务链路</b>：丹阳蓝星清洗（工业清洗工程服务商）→ 在线设备诊断 → PDF 诊断报告 → 微信工程报价（工程师人工确认）</p>
+      <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
+        <img src="/images/kf-qrcode.png" alt="丹阳蓝星清洗工程师微信报价二维码：扫码加微信，将 PDF 设备诊断报告发送给工程师，由工程师按设备参数、污垢类型、运行工况进行人工报价" width="150" height="150" loading="lazy" decoding="async" style="width:150px;height:150px;padding:6px;background:#fff;border-radius:10px;flex:0 0 auto">
+        <div style="flex:1 1 260px;min-width:240px">
+          <a href="https://work.weixin.qq.com/kfid/kfcbd2c895281e8910e" target="_blank" rel="noopener" style="display:inline-block;padding:12px 22px;background:#07C160;color:#fff;font-weight:800;font-size:15px;border-radius:8px;text-decoration:none">📱 微信获取工程报价</a>
+          <div style="margin-top:10px;font-size:13px;color:#475569;line-height:1.85">微信客服在线，发送资料后工程师尽快回复 ｜ 或致电 <b>18952832843</b>（罗经理）｜ 在线诊断工具：<a href="/calc/" style="color:#0066CC;font-weight:700;text-decoration:none">设备清洗评估</a></div>
+        </div>
+      </div>
+    </section>
 
 <footer class="border-t border-slate-800 py-6 text-center text-[10px] text-slate-500">
     丹阳市蓝星防腐清洗有限公司 © 2026 · 设备结垢风险诊断器 · 免费在线工具
