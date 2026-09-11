@@ -439,22 +439,37 @@
     </div>
   </div>
 
-      <!-- PDF 统一尾页: 工程师进一步评估与精准报价 (隐藏, 仅用于生成 PDF 第 2 页) -->
+      <!-- PDF 尾页: 移动端一键报价 (隐藏, 仅用于生成 PDF 第 2 页) -->
     <div id="pdf-cta-holder" style="display:none">
-      <div id="pdf-cta-sheet" style="width:794px;height:1123px;background:#ffffff;position:relative;overflow:hidden;font-family:'Microsoft YaHei','PingFang SC',sans-serif;color:#1e293b;padding:56px 60px;box-sizing:border-box;">
-        <div style="text-align:center;font-size:25px;font-weight:900;color:#0b3d2c;letter-spacing:1px;">工程师进一步评估与精准报价</div>
-        <div style="text-align:center;font-size:13px;color:#64748b;margin-top:10px;">本报告为在线初步评估结果 · 精准报价需工程师确认实际工况后出具</div>
-        <div style="text-align:center;font-size:21px;font-weight:900;color:#07C160;margin-top:34px;">📱 微信获取精准报价</div>
-        <div style="margin-top:22px;font-size:13.5px;line-height:2.1;color:#334155;text-align:center;">
-          请将本 PDF 报告发送给丹阳蓝星清洗工程师微信，工程师将根据<br>
-          <b>设备类型 · 材质 · 垢型 · 垢厚 · 工况 · 规模</b> 与本次评估结果，进一步确认：<br>
-          <b style="color:#0b3d2c;">清洗工艺 → 药剂体系 → 工期 → 精准报价</b>
+      <div id="pdf-cta-sheet" style="width:794px;height:1123px;background:#ffffff;position:relative;overflow:hidden;font-family:'Microsoft YaHei','PingFang SC',sans-serif;color:#1e293b;padding:52px 60px;box-sizing:border-box;">
+        <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:3px solid #0066CC;padding-bottom:14px;">
+          <div style="font-size:17px;font-weight:900;color:#0b3d2c;">丹阳蓝星清洗 · 设备清洗诊断报告</div>
+          <div style="font-size:12px;color:#64748b;">www.lanxingqingxi.com</div>
         </div>
-        <div style="text-align:center;margin-top:34px;">
-          <img src="/images/kf-qrcode.png" alt="扫码添加丹阳蓝星清洗工程师微信获取精准报价" width="240" height="240" style="width:240px;height:240px;background:#fff;padding:8px;border:3px solid #07C160;border-radius:14px;">
+        <div style="margin-top:18px;font-size:13.5px;color:#334155;">诊断编号：<b id="p2-id" style="font-family:Consolas,monospace;color:#0b3d2c;font-size:14px;">—</b></div>
+        <table style="width:100%;border-collapse:collapse;margin-top:14px;font-size:13px;">
+          <tr>
+            <td style="width:132px;padding:9px 12px;background:#f1f5f9;border:1px solid #cbd5e1;font-weight:700;color:#334155;">设备</td>
+            <td style="padding:9px 12px;border:1px solid #cbd5e1;"><span id="p2-c1">—</span></td>
+          </tr>
+          <tr>
+            <td style="padding:9px 12px;background:#f1f5f9;border:1px solid #cbd5e1;font-weight:700;color:#334155;">设备状态</td>
+            <td style="padding:9px 12px;border:1px solid #cbd5e1;"><span id="p2-c2">—</span></td>
+          </tr>
+          <tr>
+            <td style="padding:9px 12px;background:#f1f5f9;border:1px solid #cbd5e1;font-weight:700;color:#334155;">下次建议清洗</td>
+            <td style="padding:9px 12px;border:1px solid #cbd5e1;"><span id="p2-c3">—</span></td>
+          </tr>
+        </table>
+        <div style="text-align:center;font-size:22px;font-weight:900;color:#07C160;margin-top:32px;">📱 微信获取工程师报价</div>
+        <div style="text-align:center;margin-top:20px;">
+          <img src="/images/kf-qrcode.png" alt="扫码添加丹阳蓝星清洗工程师微信获取精准报价" width="228" height="228" style="width:228px;height:228px;background:#fff;padding:8px;border:3px solid #07C160;border-radius:14px;">
         </div>
-        <div style="text-align:center;font-size:15px;font-weight:800;color:#0b3d2c;margin-top:14px;">扫码添加工程师微信</div>
-        <div style="position:absolute;left:60px;right:60px;bottom:52px;border-top:1px solid #cbd5e1;padding-top:18px;text-align:center;font-size:13px;color:#334155;line-height:2;">
+        <div style="margin-top:20px;font-size:14px;line-height:2.1;color:#334155;text-align:center;">
+          扫码后请发送：<b>① 本报告　② 设备照片　③ 设备型号</b><br>
+          工程师确认工况后进行 <b style="color:#0b3d2c;">初步报价</b>
+        </div>
+        <div style="position:absolute;left:60px;right:60px;bottom:46px;border-top:1px solid #cbd5e1;padding-top:16px;text-align:center;font-size:13px;color:#334155;line-height:2;">
           电话：<b style="font-size:15px;color:#0b3d2c;">18952832843</b>（罗经理） · 0511-86343343<br>
           邮箱：luohuiyong@126.com · 官网：www.lanxingqingxi.com<br>
           <span style="color:#64748b;">丹阳市蓝星防腐清洗有限公司 · 江苏省丹阳市丹北镇埤城洪家埭98号</span>
@@ -863,6 +878,17 @@
             const sheet2 = host2.firstElementChild;
             sheet2.style.width = '794px'; sheet2.style.maxWidth = '794px';
             sheet2.style.height = '1123px'; sheet2.style.minHeight = '1123px';
+          // 尾页同步: 读第 1 页克隆体(即将渲染那份) → 尾页, 保证两页完全一致
+          (function () {
+            var m = {'p2-id':'pdf-doc-id','p2-c1':'pdf-eq-name','p2-c2':'pdf-status','p2-c3':'pdf-next'};
+            for (var k in m) {
+              var s = sheet.querySelector('#' + m[k]);
+              var t = sheet2.querySelector('#' + k);
+              if (s && t) { var v = (s.textContent || '').trim();
+                if (!v || v.indexOf('XXXX') >= 0) v = '—'; t.textContent = v; }
+            }
+          })();
+
             chain = html2canvas(sheet2, { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 794, windowHeight: 1123 })
               .then(function (c2) { pdf.addPage(); pdf.addImage(c2.toDataURL('image/jpeg', 0.92), 'JPEG', 0, 0, 210, 297); host2.remove(); })
               .catch(function () { host2.remove(); });
