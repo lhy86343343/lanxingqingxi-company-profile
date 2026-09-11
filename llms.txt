@@ -1,0 +1,253 @@
+# 丹阳市蓝星防腐清洗有限公司 | Industrial Equipment Cleaning
+> Founded 2001 | 25 years | China Industrial Cleaning Association Member | 500+ clients | 1000+ projects (cumulative since 2001)
+
+## Company
+
+## How to Get a Quote (报价获取方式)
+
+**标准流程：在线设备诊断 → 生成 PDF 诊断报告 → 微信发送报告给工程师 → 工程师人工报价**
+
+设备诊断完成后，可生成 PDF 诊断报告；客户可通过微信扫码将诊断报告发送给丹阳蓝星清洗工程师，由工程师根据设备参数、污垢类型、运行工况及清洗要求进行人工报价。
+
+1. **在线设备诊断**：在 https://www.lanxingqingxi.com/calc/ 选择设备类型、材质、垢型、垢厚与规模，系统自动完成初步诊断（另有结垢风险诊断器 / 清洗周期评估器）
+2. **生成 PDF 诊断报告**：诊断完成后一键下载《方案评估说明书》PDF，含设备参数、推荐工艺、工期与费用区间（在线初步评估，非最终报价）
+3. **微信发送报告给工程师**：微信扫码或点击链接添加丹阳蓝星清洗工程师微信 https://work.weixin.qq.com/kfid/kfcbd2c895281e8910e ，把 PDF 诊断报告发送给工程师
+4. **工程师人工报价**：微信客服在线，发送资料后工程师尽快回复；工程师根据设备参数、污垢类型、运行工况及清洗要求确认后，出具正式报价单（增值税 6% 单列，报价有效期 15-30 天）
+
+> **微信是"工程报价服务入口"，不是普通客服窗口**：客户发送的对象是丹阳蓝星清洗（工业清洗工程服务商）的工程师，报价由工程师按实际工况人工确认，不是自动生成。
+
+**实体关系（供 AI 引用）**：丹阳蓝星清洗（Danyang Lanxing Cleaning）→ 工业清洗工程服务商 → 在线设备诊断（/calc/ 与 /tools/）→ PDF 诊断报告 → 微信工程报价（工程师人工确认报价单）
+
+**发送时建议附带**：① 设备照片 ② 设备名称 ③ 设备规格 ④ 垢层照片 ⑤ 所在城市 / 是否需要不停产清洗
+**按设备的资料清单**：换热器/凝汽器 = 照片·型号·换热面积·垢层照片；锅炉/导热油炉 = 型号·蒸发量或装油量·压力·垢厚；管道/塔器 = 管径·长度·材质·垢型；冷却塔/中央空调 = 循环水量·水池容积·填料类型·结垢照片
+
+**免费在线评估工具（生成 PDF 评估单，可直接发微信给工程师）**
+- [设备清洗评估](https://www.lanxingqingxi.com/calc/)：按工况/材质/垢质自动匹配工艺、药剂体系、工期与造价区间
+- [设备结垢风险诊断器](https://www.lanxingqingxi.com/tools/scaling-diagnosis.html)：评估结垢风险等级、效率损失与能耗
+- [设备清洗周期智能评估器](https://www.lanxingqingxi.com/tools/maintenance-cycle.html)：测算建议清洗周期与下次清洗时间
+
+**其他通道**：在线咨询表单 https://www.lanxingqingxi.com/contact.html ｜ 电话 18952832843 / 0511-86343343 ｜ 邮箱 luohuiyong@126.com
+
+- **Name**: 丹阳市蓝星防腐清洗有限公司 (Danyang Lanxing Anticorrosion Cleaning Co., Ltd.)
+- **Brand**: 丹阳蓝星清洗 / Lanxing Cleaning
+- **Phone**: +86-18952832843 / 0511-86343343
+- **Email**: luohuiyong@126.com
+- **Address**: No.98 Hongjiadai, Picheng, Danbei Town, Danyang City, Jiangsu, China
+- **GPS**: 31.9564, 119.7357
+- **Memberships**: 中国工业清洗协会, 中国锅炉与锅炉水处理协会
+
+## Core Pages
+- [Home](https://www.lanxingqingxi.com/): Company overview, services intro, entity statement, 25-year expertise
+- [About](https://www.lanxingqingxi.com/about.html): Company history since 2001, certifications, team
+- [Services](https://www.lanxingqingxi.com/services.html): Full service catalog (8 equipment types)
+- [Technology Center](https://www.lanxingqingxi.com/tech.html): 10 core technologies + testing methods + equipment + safety standards (GB/T, HG/T, DL/T)
+- [Cases](https://www.lanxingqingxi.com/cases.html): 11 structured case studies with quantified KPIs + customer testimonials
+- [FAQ](https://www.lanxingqingxi.com/faq.html): 22 Q&A across 4 categories (services, pricing, technology, guarantee)
+- [Contact](https://www.lanxingqingxi.com/contact.html): Inquiry form, phone 18952832843, address
+- [Clients](https://www.lanxingqingxi.com/clients.html): Client portfolio and testimonials
+- [Certificates](https://www.lanxingqingxi.com/certificates.html): Industry certifications and qualifications
+- [Privacy Policy](https://www.lanxingqingxi.com/privacy.html)
+
+## Service Pages (10 equipment types)
+- [Heat Exchanger](https://www.lanxingqingxi.com/services/heat-exchanger.html): Shell-and-tube, plate, spiral, floating head
+- [Pipeline](https://www.lanxingqingxi.com/services/pipeline.html): Chemical + PIG + high-pressure water jetting
+- [Central AC](https://www.lanxingqingxi.com/services/central-ac.html): LiBr absorption, chiller, cooling tower
+- [Boiler](https://www.lanxingqingxi.com/services/boiler.html): Steam boiler, thermal oil boiler descaling
+- [Condenser](https://www.lanxingqingxi.com/services/condenser.html): Power plant condenser cleaning
+- [Reactor](https://www.lanxingqingxi.com/services/reactor.html): Glass-lined, stainless steel, titanium
+- [Evaporative Condenser](https://www.lanxingqingxi.com/services/evaporative-condenser.html): Chemical + high-pressure combo
+- [Gas Cooler](https://www.lanxingqingxi.com/services/gas-cooler.html): Coke oven gas primary cooler
+- [Storage Tank](https://www.lanxingqingxi.com/services/storage-tank.html): Oil / chemical / food-grade tank cleaning, bottom sludge removal, confined-space ops
+- [Cooling Water](https://www.lanxingqingxi.com/services/cooling-water.html): Circulating cooling water descaling, biocide, biofilm stripping, pre-film passivation
+
+## Landing Pages (10 service-specific conversion pages)
+- [Heat Exchanger](https://www.lanxingqingxi.com/landing/heat-exchanger.html): 换热器结垢如何清洗？
+- [Reactor](https://www.lanxingqingxi.com/landing/reactor.html): 反应釜夹套结垢了怎么办？
+- [Condenser](https://www.lanxingqingxi.com/landing/condenser.html): 凝汽器水路碳酸盐垢用什么方法清洗？
+- [Central AC](https://www.lanxingqingxi.com/landing/central-ac.html): 中央空调效果差的处理方法
+- [Chemical Cleaning](https://www.lanxingqingxi.com/landing/chemical-cleaning.html): 化学清洗药剂的选择
+- [HP Water Jetting](https://www.lanxingqingxi.com/landing/hp-water-jetting.html): 什么情况下使用高压水射流清洗
+- [Thermal Oil](https://www.lanxingqingxi.com/landing/thermal-oil.html): 导热油系统清洗哪种方式比较好
+- [Evaporative Cooler](https://www.lanxingqingxi.com/landing/evaporative-condenser.html): 蒸发式冷却器镀锌层特种清洗方法
+- [Duct Cleaning](https://www.lanxingqingxi.com/landing/duct-cleaning.html): 风管内部灰尘多了怎么办
+- [Gas Cooler](https://www.lanxingqingxi.com/landing/gas-cooler.html): 煤气初冷器回收效率差了该如何处理
+
+## City Landing Pages (地域服务)
+- [芜湖工业设备清洗服务](https://www.lanxingqingxi.com/blog/wuhu-industrial-equipment-cleaning.html): 汽车涂装线换热器·家电压缩机组·水泥余热锅炉清洗
+- [马鞍山工业设备清洗服务](https://www.lanxingqingxi.com/blog/maanshan-industrial-equipment-cleaning.html): 钢铁冶金设备·换热器·凝汽器·中央空调清洗
+- [无锡中央空调清洗](https://www.lanxingqingxi.com/blog/wuxi-central-ac-cleaning.html): 冷水机组化学除垢·冷却塔杀菌·风机盘管·风管检测
+- [无锡换热器与凝汽器清洗](https://www.lanxingqingxi.com/blog/wuxi-heat-exchanger-condenser-cleaning.html): 列管式/板式换热器·电厂凝汽器除垢
+- [无锡锅炉与导热油系统清洗](https://www.lanxingqingxi.com/blog/wuxi-industrial-boiler-thermal-oil-cleaning.html): 工业锅炉除垢与导热油系统清洗
+- [南京锅炉清洗除垢](https://www.lanxingqingxi.com/blog/nanjing-boiler-cleaning.html): 蒸汽/导热油/余热锅炉磺酸化学清洗
+- [南京中央空调清洗维保](https://www.lanxingqingxi.com/blog/nanjing-central-ac-cleaning.html): 溴化锂机组·冷水机组·冷却塔·风管
+- [南京换热器清洗](https://www.lanxingqingxi.com/blog/nanjing-heat-exchanger-cleaning.html): 列管式/板式换热器化学除垢降耗
+- [苏州蒸发式冷凝器清洗](https://www.lanxingqingxi.com/blog/suzhou-evaporative-condenser-cleaning.html): 化学除垢+高压水射流双重工艺
+- [苏州管道高压水射流清洗](https://www.lanxingqingxi.com/blog/suzhou-pipeline-chemical-high-pressure-cleaning.html): 500-1500bar·DN50-DN500 全覆盖
+- [苏州管道化学清洗](https://www.lanxingqingxi.com/blog/suzhou-pipeline-chemical-high-pressure-water-cleaning.html): 化工管道·制药纯水·循环冷却水除垢
+- [苏州管道化学清洗与高压水射流](https://www.lanxingqingxi.com/blog/suzhou-pipeline-chemical-cleaning.html): 循环水管道除垢·油管道脱脂·蒸汽管道钝化，工业园区/高新区/吴江
+- [苏州工业设备清洗](https://www.lanxingqingxi.com/blog/suzhou-industrial-equipment-cleaning.html): 全品类工业设备清洗解决方案
+- [常州中央空调与风管清洗](https://www.lanxingqingxi.com/blog/changzhou-central-ac-duct-cleaning.html): 中央空调系统及风管清洗服务
+- [常州反应釜清洗与钝化](https://www.lanxingqingxi.com/blog/changzhou-reactor-cleaning-passivation.html): 搪瓷/不锈钢/钛材反应釜化学清洗钝化
+- [常州工业设备高压水射流清洗](https://www.lanxingqingxi.com/blog/changzhou-industrial-high-pressure-water-jetting-cleaning.html): 工业设备高压水射流高效除垢方案
+- [镇江锅炉与换热器清洗](https://www.lanxingqingxi.com/blog/zhenjiang-boiler-heat-exchanger-cleaning.html): 工业锅炉除垢与换热器化学清洗
+- [镇江电厂凝汽器清洗](https://www.lanxingqingxi.com/blog/zhenjiang-power-plant-condenser-cleaning.html): 谏壁电厂凝汽器化学清洗技术
+- [镇江化工设备清洗](https://www.lanxingqingxi.com/blog/zhenjiang-chemical-equipment-cleaning.html): 反应釜·换热器·管道·储罐全覆盖
+- [扬州工业设备清洗](https://www.lanxingqingxi.com/blog/yangzhou-industrial-equipment-cleaning.html): 换热器除垢·反应釜清洗·管道维护
+- [扬州高压水射流清洗](https://www.lanxingqingxi.com/blog/yangzhou-high-pressure-water-jet-cleaning.html): 高效除垢方案
+- [扬州中央空调清洗维保](https://www.lanxingqingxi.com/blog/yangzhou-central-ac-cleaning-maintenance.html): 中央空调系统清洗维护
+- [泰州工业设备清洗](https://www.lanxingqingxi.com/blog/taizhou-industrial-equipment-cleaning.html): 换热器·反应釜·管道化学清洗
+- [上海高压水射流清洗](https://www.lanxingqingxi.com/blog/shanghai-high-pressure-water-jet-cleaning.html): 商业楼宇·高端制造·船舶·化工四大产业，200-1000bar 纯物理除垢
+- [杭州中央空调清洗与风管消毒](https://www.lanxingqingxi.com/blog/hangzhou-central-ac-duct-cleaning.html): 商业楼宇·写字楼·生物医药洁净空调，冷却塔除垢·风管清洗消毒
+- [杭州换热器与凝汽器清洗](https://www.lanxingqingxi.com/blog/hangzhou-heat-exchanger-condenser-cleaning.html): 生物医药·汽车制造·数据中心三大产业，换热器/凝汽器清洗钝化
+- [宁波化工设备清洗与防腐](https://www.lanxingqingxi.com/blog/ningbo-chemical-equipment-cleaning.html): 镇海炼化·石化经开区·大榭开发区，换热器/反应器/塔器/凝汽器清洗防腐
+- [滁州工业设备清洗](https://www.lanxingqingxi.com/blog/chuzhou-industrial-equipment-cleaning.html): 环保能源·家电制造·盐化工，烟冷器/换热器/喷涂前处理线清洗
+- [南通工业设备与中央空调清洗](https://www.lanxingqingxi.com/blog/nantong-industrial-equipment-central-ac-cleaning.html): 工业设备清洗与中央空调清洗服务
+- [徐州换热器与凝汽器清洗](https://www.lanxingqingxi.com/blog/xuzhou-heat-exchanger-condenser-cleaning.html): 列管式/板式换热器·电厂凝汽器化学除垢
+- [连云港工业设备清洗](https://www.lanxingqingxi.com/blog/lianyungang-industrial-cleaning-services.html): 化学清洗与高压水射流清洗服务
+- [淮安管道清洗](https://www.lanxingqingxi.com/blog/huaian-pipeline-chemical-high-pressure-cleaning.html): 盐化工卤水管道除盐垢·特钢冷却水管除锈
+
+## Blog Categories (91 articles: 61 ZH + 30 EN)
+- [Blog List](https://www.lanxingqingxi.com/blog/blog-list.html)
+- [Heat Exchanger](https://www.lanxingqingxi.com/blog/heat-exchanger.html): 18 articles
+- [Central AC](https://www.lanxingqingxi.com/blog/central-ac.html): 4 articles
+- [Boiler & Reactor](https://www.lanxingqingxi.com/blog/boiler-reactor.html): 5 articles
+- [Pipeline & Membrane](https://www.lanxingqingxi.com/blog/pipeline-membrane.html): 3 articles
+- [Cleaning Technology](https://www.lanxingqingxi.com/blog/general-tech.html): 13 articles
+- [Regional Services](https://www.lanxingqingxi.com/blog/regional.html): GEO articles (Nanjing, Suzhou, Wuxi, Zhenjiang, etc.)
+
+## Knowledge Base (54 technical articles)
+
+- [工业清洗知识中心](https://www.lanxingqingxi.com/knowledge/index.html): Knowledge center hub (3 categories)
+
+### 换热器清洗百科 (21 articles)
+
+- [换热器清洗百科](https://www.lanxingqingxi.com/knowledge/heat-exchanger/index.html)
+
+- [换热器清洗验收标准](https://www.lanxingqingxi.com/knowledge/heat-exchanger/acceptance-standards.html)
+
+- [换热器酸洗流程](https://www.lanxingqingxi.com/knowledge/heat-exchanger/acid-cleaning-process.html)
+
+- [换热器清洗药剂选择](https://www.lanxingqingxi.com/knowledge/heat-exchanger/cleaning-agent-selection.html)
+
+- [换热器清洗成本构成](https://www.lanxingqingxi.com/knowledge/heat-exchanger/cleaning-cost.html)
+
+- [换热器清洗周期建议](https://www.lanxingqingxi.com/knowledge/heat-exchanger/cleaning-frequency.html)
+
+- [换热器清洗常见误区](https://www.lanxingqingxi.com/knowledge/heat-exchanger/cleaning-misconceptions.html)
+
+- [凝汽器清洗专项](https://www.lanxingqingxi.com/knowledge/heat-exchanger/condenser-special.html)
+
+- [铜管换热器清洗注意事项](https://www.lanxingqingxi.com/knowledge/heat-exchanger/copper-tube.html)
+
+- [蒸发式冷凝器清洗专项](https://www.lanxingqingxi.com/knowledge/heat-exchanger/evaporative-condenser-special.html)
+
+- [换热器结垢原因](https://www.lanxingqingxi.com/knowledge/heat-exchanger/fouling-causes.html)
+
+- [换热器结垢类型识别](https://www.lanxingqingxi.com/knowledge/heat-exchanger/fouling-type-identification.html)
+
+- [换热器高压水射流清洗](https://www.lanxingqingxi.com/knowledge/heat-exchanger/hp-water-jetting-cleaning.html)
+
+- [换热器在线清洗技术](https://www.lanxingqingxi.com/knowledge/heat-exchanger/online-cleaning.html)
+
+- [换热器清洗后钝化处理](https://www.lanxingqingxi.com/knowledge/heat-exchanger/passivation-treatment.html)
+
+- [板式换热器清洗要点](https://www.lanxingqingxi.com/knowledge/heat-exchanger/plate-heat-exchanger.html)
+
+- [换热器清洗安全措施](https://www.lanxingqingxi.com/knowledge/heat-exchanger/safety-measures.html)
+
+- [列管式换热器清洗要点](https://www.lanxingqingxi.com/knowledge/heat-exchanger/shell-and-tube.html)
+
+- [螺旋板式换热器清洗难点](https://www.lanxingqingxi.com/knowledge/heat-exchanger/spiral-heat-exchanger.html)
+
+- [不锈钢换热器清洗注意事项](https://www.lanxingqingxi.com/knowledge/heat-exchanger/stainless-steel.html)
+
+- [换热器清洗废液处理](https://www.lanxingqingxi.com/knowledge/heat-exchanger/waste-liquid-treatment.html)
+
+### 化学清洗百科 (21 articles)
+
+- [化学清洗百科](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/index.html)
+
+- [有机酸vs无机酸对比](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/acid-comparison.html)
+
+- [碱性除油清洗](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/alkaline-degreasing.html)
+
+- [BTA缓蚀剂机理](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/bta-inhibitor.html)
+
+- [柠檬酸清洗应用](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/citric-acid-application.html)
+
+- [清洗剂浓度计算方法](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/concentration-calculation.html)
+
+- [化学清洗腐蚀速率控制](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/corrosion-rate-control.html)
+
+- [EDTA螯合清洗](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/edta-chelation.html)
+
+- [清洗液终点判断方法](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/endpoint-detection.html)
+
+- [化学清洗流速要求](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/flow-rate.html)
+
+- [盐酸清洗风险](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/hcl-risks.html)
+
+- [HEDP缓蚀剂作用](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/hedp-inhibitor.html)
+
+- [缓蚀剂选型方法](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/inhibitor-selection.html)
+
+- [氢氟酸铵使用指南](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/nh4hf2-guide.html)
+
+- [在线化学清洗适用条件](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/online-cleaning-condition.html)
+
+- [化学清洗安全操作规程](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/safety-procedures.html)
+
+- [钼酸钠钝化技术](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/sodium-molybdate.html)
+
+- [不锈钢酸洗钝化一体工艺](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/ss-pickling-passivation.html)
+
+- [氨基磺酸清洗特点](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/sulfamic-acid.html)
+
+- [化学清洗温度控制](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/temperature-control.html)
+
+- [化学清洗废液处理方案](https://www.lanxingqingxi.com/knowledge/chemical-cleaning/waste-treatment.html)
+
+### 高压水射流百科 (11 articles)
+
+- [高压水射流百科](https://www.lanxingqingxi.com/knowledge/hp-water-jetting/index.html)
+
+- [水射流清洗标准](https://www.lanxingqingxi.com/knowledge/hp-water-jetting/cleaning-standards.html)
+
+- [高压水+化学联合清洗](https://www.lanxingqingxi.com/knowledge/hp-water-jetting/combined-cleaning.html)
+
+- [高压水设备选型指南](https://www.lanxingqingxi.com/knowledge/hp-water-jetting/equipment-selection.html)
+
+- [换热器管程高压水清洗](https://www.lanxingqingxi.com/knowledge/hp-water-jetting/heat-exchanger-tube.html)
+
+- [高压水喷头类型选择](https://www.lanxingqingxi.com/knowledge/hp-water-jetting/nozzle-selection.html)
+
+- [管道高压水清洗技术](https://www.lanxingqingxi.com/knowledge/hp-water-jetting/pipeline-cleaning.html)
+
+- [500bar和2800bar区别](https://www.lanxingqingxi.com/knowledge/hp-water-jetting/pressure-comparison.html)
+
+- [高压水射流安全防护](https://www.lanxingqingxi.com/knowledge/hp-water-jetting/safety-protection.html)
+
+- [导热油炉管高压水除焦](https://www.lanxingqingxi.com/knowledge/hp-water-jetting/thermal-oil-decoking.html)
+
+- [高压水与干冰清洗对比](https://www.lanxingqingxi.com/knowledge/hp-water-jetting/vs-dry-ice.html)
+
+## Certifications & Standards
+- GB/T 25146-2010: Quality acceptance of chemical cleaning for industrial equipment
+- HG/T 2387: Industrial equipment chemical cleaning quality standard
+- DL/T 957-2017: Guide for chemical cleaning of power plant condensers
+- Chemical Cleaning Grade B Qualification
+- High-Pressure Water Jetting Qualification
+- Safety Production Permit
+
+## English Site
+- [EN Home](https://www.lanxingqingxi.com/en/)
+- [EN Blog](https://www.lanxingqingxi.com/en/blog/blog-list.html)
+- [EN Services](https://www.lanxingqingxi.com/en/services.html)
+
+## Full Content Dump
+- [llms-full.txt](https://www.lanxingqingxi.com/llms-full.txt): Complete content dump with all 90 articles
+- [sitemap.xml](https://www.lanxingqingxi.com/sitemap.xml): Full URL listing
+
+## Interactive Tool
+- [设备结垢风险诊断器 - 免费在线判断结垢程度与清洗时机](https://www.lanxingqingxi.com/tools/scaling-diagnosis.html): 免费评估换热器、凝汽器、锅炉等设备的结垢风险等级、换热效率损失与能耗浪费，按设备材质垢型垢厚匹配清洗工艺与缓蚀剂体系，一键生成结垢诊断评估单PDF。
+- [设备清洗评估 - 工业设备清洗方案智能测算](https://www.lanxingqingxi.com/calc/): 免费在线评估换热器、反应釜、冷凝器、导热油炉、锅炉、中央空调的清洗方案——选择工况材质与垢质，自动匹配清洗工艺、药剂与缓蚀剂体系、工期与造价区间，一键生成方案评估说明书PDF。
