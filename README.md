@@ -151,7 +151,8 @@
 ---
 
 ## 清洗资讯 | Industry Insights
-- [船舶管路系统投用前化学清洗与钝化工艺详解](https://www.lanxingqingxi.com/blog/ship-piping-system-cleaning-passivation.html) 🆕 — 新造船舶管系投用前脱脂、酸洗、漂洗、钝化四步化学清洗工艺，覆盖海水冷却、燃油滑油、液压与压载管系，碳钢/不锈钢/铜镍管差异化药剂体系，含油污残留四法检验、红点/蓝点钝化膜检验、Cl⁻≤25mg/L 控制与船东交验资料要求，依据 GB/T 25146-2010（2026-09-12）
+- [食品饮料厂设备清洗与CIP系统维护方案](https://www.lanxingqingxi.com/blog/food-beverage-plant-equipment-cleaning.html) 🆕 — 食品饮料行业板式换热器、发酵罐、调配罐与多效蒸发器的乳垢、糖垢、啤酒石与水垢清除，CIP就近清洗与拆机离线清洗的选择依据、碱洗—水洗—酸洗—水洗—消毒五步工艺与药剂选择原则，含清洗残留、腐蚀速率与钝化膜验证方法及 GB/T 25146-2010 验收指标（2026-09-13）
+- [船舶管路系统投用前化学清洗与钝化工艺详解](https://www.lanxingqingxi.com/blog/ship-piping-system-cleaning-passivation.html) — 新造船舶管系投用前脱脂、酸洗、漂洗、钝化四步化学清洗工艺，覆盖海水冷却、燃油滑油、液压与压载管系，碳钢/不锈钢/铜镍管差异化药剂体系，含油污残留四法检验、红点/蓝点钝化膜检验、Cl⁻≤25mg/L 控制与船东交验资料要求，依据 GB/T 25146-2010（2026-09-12）
 - [高炉水冷壁管化学清洗工艺与炼铁厂检修实践](https://www.lanxingqingxi.com/blog/blast-furnace-cooling-stave-cleaning.html) — 炼铁厂高炉冷却壁水管结垢成因与垢型诊断、碱洗—酸洗—漂洗—钝化循环工艺、铸铁与铜冷却壁差异化药剂体系及 GB/T 25146-2010 验收指标（2026-09-07）
 - [钢铁行业冷却系统清洗与防腐](https://www.lanxingqingxi.com/blog/steel-industry-cooling-system-cleaning.html) — 钢铁行业连铸/热轧/转炉/高炉四大冷却系统清洗与防腐方案
 - [高压水射流分级清洗实战：从镜面反应釜到换热器列管疏通](https://www.lanxingqingxi.com/blog/jetting-graded-cleaning-cases.html) — 高压水射流分级清洗技术专题：50-70MPa三维旋转喷头清洗不锈钢镜面反应釜内壁、200-250MPa超高压水射流疏通换热器聚合物与硫酸锂硬垢列管，含马鞍山某新材料企业、江苏某化学企业、宣城某制药企业（2026-09-02）
@@ -248,10 +249,10 @@
 - [溴化锂中央空调清洗维护保养](https://www.lanxingqingxi.com/blog/lithium-bromide-central-ac-maintenance.html) — 丹阳蓝星清洗专业溴化锂吸收式中央空调机组清洗维护保养全流程服务，涵盖真空度恢复检测、溴化锂溶液调整再生处理、机组内腔化学清洗及换热管除垢等核心技术，延长机组使用寿命提升制冷效率降低能耗，确保设备长期稳（2026-06-21）
 - [螺旋板式换热器清洗：不可拆卸结构的挑战与解决方案](https://www.lanxingqingxi.com/blog/spiral-plate-cleaning.html) — 深入解析螺旋板式换热器清洗的不可拆卸结构挑战与解决方案——紧凑结构和狭窄通道导致清洗难度远超管壳式换热器。（2026-06-21）
 - [不锈钢酸洗与钝化](https://www.lanxingqingxi.com/blog/stainless-steel.html) — 不锈钢酸洗钝化完整指南：304与316L氧化皮去除工艺、柠檬酸环保钝化与硝酸传统钝化对比、蓝点检测质量标准、焊缝热影响区处理要点，附常见问题与验收标准，丹阳蓝星清洗25年工业清洗经验，咨询热线1895（2026-06-21）
-- [各种类型换热器化学清洗方法对比：列管式、板式、螺旋板式与浮头式清洗方案](https://www.lanxingqingxi.com/blog/various-heat-exchanger-cleaning.html) — 各种类型换热器化学清洗方法对比：列管式、板式、螺旋板式与浮头式清洗方案，不同结构的垢层去除方法、清洗剂选型与工艺参数优化，有效恢复换热效率降低能耗。咨询热线18952832843（2026-06-21）
+- [各种类型换热器化学清洗方法对比：列管式、板式、螺旋板式与浮头式清洗方案](https://www.lanxingqingxi.com/blog/various-heat-exchanger-cleaning.html) — 各种类型换热器化学清洗方法对比：列管式、板式、螺旋板式与浮头式清洗方案，不同结构的垢层去除方法、清洗剂选型与工艺参数优化，有效恢复换热效率降低能耗。（2026-06-21）
 - [中央空调溴化锂吸收式机组与冷水机组冷凝器蒸发器化学清洗及循环冷却水水质稳定处理全方案](https://www.lanxingqingxi.com/blog/central-air-conditioning-cleaning.html) — 中央空调化学清洗与水质稳定处理技术详解，溴化锂吸收式机组与冷水机组冷凝器蒸发器化学清洗方案，冷却水冷冻水系统水质稳定处理，清洗剂与缓蚀剂科学选型指南。（2026-06-20）
 - [电厂凝汽器化学清洗与高压水射流清洗技术](https://www.lanxingqingxi.com/blog/power-plant-condenser-cleaning.html) — 电厂凝汽器化学清洗与高压水射流组合清洗技术详解——钛管、不锈钢管、铜管不同材质专用清洗方案对比、管材适配缓蚀剂科学选型、500-1000bar高压水逐管清洗工艺参数及真空度恢复验收标准，附清洗前后端差（2026-06-20）
-- [蒸发式冷凝器化学清洗与高压水清洗技术](https://www.lanxingqingxi.com/blog/evaporative-condenser-cleaning.html) — 蒸发式冷凝器化学清洗与高压水清洗除垢技术详解——镀锌层保护、氨基磺酸系低浓度清洗配方、高压水逐管冲洗工艺及验收标准，恢复冷凝器换热效率降低系统能耗。咨询：18952832843（2026-06-19）
+- [蒸发式冷凝器化学清洗与高压水清洗技术](https://www.lanxingqingxi.com/blog/evaporative-condenser-cleaning.html) — 蒸发式冷凝器化学清洗与高压水清洗除垢技术详解——镀锌层保护、氨基磺酸系低浓度清洗配方、高压水逐管冲洗工艺及验收标准，恢复冷凝器换热效率降低系统能耗。（2026-06-19）
 - [导热油锅炉及管道清洗 | 有机热载体炉除焦](https://www.lanxingqingxi.com/blog/thermal-oil-boiler.html) — 导热油锅炉及有机热载体炉管道系统除焦清洗技术详解——积碳结焦危害机理与安全事故预防、专用化学除焦剂配方设计与选型依据、热循环清洗工艺流程参数及清洗前后热效率恢复实测对比数据，覆盖导热油炉、反应釜夹套、（2026-06-18）
 - [套管式换热器在线化学清洗技术](https://www.lanxingqingxi.com/blog/double-pipe-heat-exchanger-online-cleaning.html) — 套管式换热器不停车在线化学清洗技术详解，工艺原理、氨基磺酸系与柠檬酸系复合配方设计、专用缓蚀剂保护机制、清洗参数控制策略及典型工程应用案例。（2026-06-01）
 - [新装置新设备投产开车前全面化学清洗操作规程与施工方案设计脱脂除锈酸洗钝化一站式服务](https://www.lanxingqingxi.com/blog/pre-startup-cleaning.html) — 新装置开车前化学清洗与钝化处理完整操作规程——碱洗脱脂去油污、酸洗除锈去氧化皮、钝化预膜防腐蚀三步工艺详解，附各阶段化学药剂配方比例与HG/T2387验收标准，涵盖碳钢、不锈钢、铜合金多材质针对性处理（2025-02-20）
@@ -263,7 +264,8 @@
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
 ### English Articles
-- [Pre-Commissioning Chemical Cleaning and Passivation of Ship Piping Systems](https://www.lanxingqingxi.com/en/blog/ship-piping-system-cleaning-passivation.html) 🆕 — Four-step degreasing, acid cleaning, rinsing and passivation for new-build sea water, fuel, lube oil and hydraulic ship piping, with chloride control to 25 mg/L, oil-residue and red-spot/blue-spot passivation tests and corrosion-rate acceptance to GB/T 25146-2010 (2026-09-12)
+- [Food & Beverage Plant Equipment Cleaning & CIP Systems](https://www.lanxingqingxi.com/en/blog/food-beverage-plant-equipment-cleaning.html) 🆕 — Milk stone, sugar scale, beer stone and biofilm removal from plate heat exchangers, fermenters and multi-effect evaporators in food and beverage plants: when CIP is enough versus dismantled cleaning, the five-step alkali-rinse-acid-rinse-sanitise route, and residue, passivation and corrosion-rate verification to GB/T 25146-2010 (2026-09-13)
+- [Pre-Commissioning Chemical Cleaning and Passivation of Ship Piping Systems](https://www.lanxingqingxi.com/en/blog/ship-piping-system-cleaning-passivation.html) — Four-step degreasing, acid cleaning, rinsing and passivation for new-build sea water, fuel, lube oil and hydraulic ship piping, with chloride control to 25 mg/L, oil-residue and red-spot/blue-spot passivation tests and corrosion-rate acceptance to GB/T 25146-2010 (2026-09-12)
 - [Chemical Cleaning of Blast Furnace Cooling Stave Pipes: Process and Blast-Furnace Plant Practice](https://www.lanxingqingxi.com/en/blog/blast-furnace-cooling-stave-cleaning.html) — Stave-pipe deposit causes and diagnosis, the alkali–acid–rinse–passivation circulation process, cast-iron vs copper stave chemical systems and GB/T 25146-2010 acceptance (2026-09-07)
 - [304/316L Stainless Steel Tank & Reactor Surface Renovation and Weld Passivation](https://www.lanxingqingxi.com/en/blog/stainless-steel-surface-passivation.html) — Grinding, polishing, degreasing, integrated pickling-passivation, weld passivation paste treatment & blue-dot acceptance testing per GB/T 25146-2010 (2026-08-31)
 - [Wuhu Industrial Equipment Cleaning Services](https://www.lanxingqingxi.com/en/blog/wuhu-industrial-equipment-cleaning.html) — Equipment cleaning for automotive, appliance and cement industries: heat exchangers, paint-shop systems, compressor units, pipelines and boilers — serving Chery, Midea and Conch plants (2026-08-24)
