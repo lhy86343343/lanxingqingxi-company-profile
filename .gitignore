@@ -37,3 +37,6 @@ backup-grade-20260831-*
 backup-*/
 backup-*.html
 _live回灌备份-*/
+backups/
+unify_wx_*.py
+audit_robots.py
