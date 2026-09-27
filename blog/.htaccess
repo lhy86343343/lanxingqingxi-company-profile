@@ -1,0 +1,24 @@
+RewriteEngine On
+# non-www → www (inherit root redirect)
+RewriteCond %{HTTP_HOST} ^lanxingqingxi\.com$ [NC]
+RewriteRule ^ https://www.lanxingqingxi.com%{REQUEST_URI} [R=301,L]
+
+
+# /blog/ → /blog/blog-list.html
+RewriteRule ^$ /blog/blog-list.html [R=301,L]
+RewriteRule ^index\.html$ /blog/blog-list.html [R=301,L]
+
+# WordPress blog pagination → blog list
+RewriteRule ^page/[0-9]+/?$ /blog/blog-list.html [R=301,L]
+
+# WordPress category archives → blog list
+RewriteRule ^category/ /blog/blog-list.html [R=301,L]
+
+# WordPress date archives → blog list
+RewriteRule ^202[0-9]/ /blog/blog-list.html [R=301,L]
+
+# Old elementor slug redirect
+RewriteRule ^elementor-1259\.html$ /blog/lithium-bromide-central-ac-maintenance.html [R=301,L]
+
+# WP residuals → 410
+RewriteRule ^(feed|comments|author|tag|projects)/ - [R=410,L]

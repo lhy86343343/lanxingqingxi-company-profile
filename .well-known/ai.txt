@@ -1,0 +1,19 @@
+# lanxingqingxi.com — AI Discovery
+# Spec: https://well-known.ai
+
+# Site identity
+name: 丹阳蓝星清洗
+org: 丹阳市蓝星防腐清洗有限公司
+type: LocalBusiness
+industry: Industrial Cleaning
+founded: 2001
+
+# AI endpoints
+llms: https://www.lanxingqingxi.com/llms.txt
+llms_full: https://www.lanxingqingxi.com/llms-full.txt
+api: https://www.lanxingqingxi.com/ai/summary.json
+faq: https://www.lanxingqingxi.com/ai/faq.json
+
+# Crawling policy
+allow_ai_search: true
+allow_ai_training: false

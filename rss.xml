@@ -12,7 +12,7 @@
 
   <language>zh-CN</language>
 
-  <lastBuildDate>Mon, 07 Sep 2026 10:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Mon, 28 Sep 2026 10:00:00 +0800</lastBuildDate>
 
   <atom:link href="https://www.lanxingqingxi.com/rss.xml" rel="self" type="application/rss+xml"/>
 
@@ -26,7 +26,91 @@
 
   </image>
 
-                                <item>
+                                    <item>
+      <title>凝汽器清洗最容易踩的 5 个坑：从垢样判断到验收返工</title>
+      <link>https://www.lanxingqingxi.com/blog/condenser-cleaning-pitfalls.html</link>
+      <guid>https://www.lanxingqingxi.com/blog/condenser-cleaning-pitfalls.html</guid>
+      <pubDate>Mon, 28 Sep 2026 10:00:00 +0800</pubDate>
+      <description>凝汽器清洗的效果往往丢在判断与验收两步：把真空度下降一律归因于结垢、钛管系统照搬碳钢药剂、半侧清洗隔离不严、只冲管束不清水室死角、验收只看管子发亮。本文给出端差与清洁系数的判断口径、氯离子与压力红线、半侧清洗的隔离要点，以及除垢率、腐蚀速率与运行效果的复核方法，附一台 150 MW 机组半侧清洗案例。</description>
+    </item>
+  <item>
+      <title>Condenser Cleaning Pitfalls: Five Mistakes from Scale Diagnosis to Acceptance</title>
+      <link>https://www.lanxingqingxi.com/en/blog/condenser-cleaning-pitfalls.html</link>
+      <guid>https://www.lanxingqingxi.com/en/blog/condenser-cleaning-pitfalls.html</guid>
+      <pubDate>Mon, 28 Sep 2026 10:00:00 +0800</pubDate>
+      <description>Most condenser cleaning rework begins in two places: the diagnosis and the acceptance check. A vacuum drop is blamed on scaling without ruling out the</description>
+    </item>
+                                    <item>
+      <title>换热器清洗施工方案编制要点：垢样判定、工序组织与验收交付</title>
+      <link>https://www.lanxingqingxi.com/blog/heat-exchanger-cleaning-construction-plan.html</link>
+      <guid>https://www.lanxingqingxi.com/blog/heat-exchanger-cleaning-construction-plan.html</guid>
+      <pubDate>Mon, 21 Sep 2026 10:00:00 +0800</pubDate>
+      <description>换热器清洗施工方案落不了地，多是没绑定本台设备的垢样、材质与停机窗口。本文给出编制要点：四项前置条件、六道工序与工期倒排、隔离与挂片等控制点、受限空间与废液分流要求，以及按 GB/T 25146-2010 验收的项目与交付资料清单，附四台管壳式换热器清洗案例。</description>
+    </item>
+  <item>
+      <title>Heat Exchanger Cleaning Method Statement: Scope, Sequence and Handover</title>
+      <link>https://www.lanxingqingxi.com/en/blog/heat-exchanger-cleaning-construction-plan.html</link>
+      <guid>https://www.lanxingqingxi.com/en/blog/heat-exchanger-cleaning-construction-plan.html</guid>
+      <pubDate>Mon, 21 Sep 2026 10:00:00 +0800</pubDate>
+      <description>A heat exchanger cleaning method statement usually fails on four unconfirmed items: deposit sample, tube and shell material, outage window and waste r</description>
+    </item>
+                                    <item>
+      <title>凝汽器清洗方法有几种：6 种工艺的适用工况与选型对照</title>
+      <link>https://www.lanxingqingxi.com/blog/condenser-cleaning-methods.html</link>
+      <guid>https://www.lanxingqingxi.com/blog/condenser-cleaning-methods.html</guid>
+      <pubDate>Mon, 14 Sep 2026 10:00:00 +0800</pubDate>
+      <description>凝汽器结垢会让真空度下降、端差升高、煤耗上升。本文对照停机化学清洗、在线化学清洗、高压水射流、胶球在线清洗、机械疏通与两段式碱洗酸洗 6 种方法的适用工况与材质限制，给出三步选型路径，并按 GB/T 25146-2010 与 DL/T 957-2017 列出验收指标。</description>
+    </item>
+  <item>
+      <title>Condenser Cleaning Methods: Six Routes Compared</title>
+      <link>https://www.lanxingqingxi.com/en/blog/condenser-cleaning-methods.html</link>
+      <guid>https://www.lanxingqingxi.com/en/blog/condenser-cleaning-methods.html</guid>
+      <pubDate>Mon, 14 Sep 2026 10:00:00 +0800</pubDate>
+      <description>Fouling on a condenser surface lowers vacuum, widens the terminal temperature difference and raises coal rate. This guide compares six cleaning routes</description>
+    </item>
+                                    <item>
+      <title>工业冷却塔清洗与循环水系统除垢杀菌方案：填料·布水器·集水盘清洗工艺</title>
+      <link>https://www.lanxingqingxi.com/blog/cooling-tower-cleaning-water-treatment.html</link>
+      <guid>https://www.lanxingqingxi.com/blog/cooling-tower-cleaning-water-treatment.html</guid>
+      <pubDate>Mon, 14 Sep 2026 10:00:00 +0800</pubDate>
+      <description>冷却塔填料结垢、藻类与生物粘泥会让冷却水温差变小、主机冷凝温度升高、电耗与补水率上升。本文梳理冷却塔典型污垢与判别方法，说明在线清洗与停车清洗的适用条件，给出粘泥剥离—杀菌灭藻—除垢—钝化预膜的工艺路线、验收指标与安全环保要求，附某精细化工企业工程案例。</description>
+    </item>
+  <item>
+      <title>Cooling Tower Cleaning &amp; Circulating Water Treatment</title>
+      <link>https://www.lanxingqingxi.com/en/blog/cooling-tower-cleaning-water-treatment.html</link>
+      <guid>https://www.lanxingqingxi.com/en/blog/cooling-tower-cleaning-water-treatment.html</guid>
+      <pubDate>Mon, 14 Sep 2026 10:00:00 +0800</pubDate>
+      <description>Scale on cooling tower fill, algae and biological slime narrow the cooling water temperature difference, raise condenser temperature and lift power and make-up water consumption. Covers deposit identification, when on-line cleaning is enough and when a shutdown clean is needed, and the slime dispersion, biocide, descaling and passivation route with acceptance to GB/T 25146-2010.</description>
+    </item>
+                                    <item>
+      <title>食品饮料厂设备清洗与CIP系统维护方案</title>
+      <link>https://www.lanxingqingxi.com/blog/food-beverage-plant-equipment-cleaning.html</link>
+      <guid>https://www.lanxingqingxi.com/blog/food-beverage-plant-equipment-cleaning.html</guid>
+      <pubDate>Sun, 13 Sep 2026 10:00:00 +0800</pubDate>
+      <description>食品饮料厂的板式换热器、发酵罐与多效蒸发器长期接触乳品、糖液与麦汁，内壁易形成乳垢、糖垢、啤酒石、水垢与生物膜，直接拉低杀菌温度与换热效率。本文梳理典型设备污垢特征、CIP就近清洗与拆机清洗的选择依据、五步清洗工艺与药剂原则、清洗残留与腐蚀速率验证方法，验收按GB/T 25146-2010执行。</description>
+    </item>
+  <item>
+      <title>Food &amp; Beverage Plant Equipment Cleaning &amp; CIP Systems</title>
+      <link>https://www.lanxingqingxi.com/en/blog/food-beverage-plant-equipment-cleaning.html</link>
+      <guid>https://www.lanxingqingxi.com/en/blog/food-beverage-plant-equipment-cleaning.html</guid>
+      <pubDate>Sun, 13 Sep 2026 10:00:00 +0800</pubDate>
+      <description>Plate heat exchangers, fermenters and multi-effect evaporators in food and beverage plants collect denatured protein, fat, sugar scale, beer stone and biofilm, cutting pasteurisation temperature and heat-transfer efficiency. Fouling signatures, CIP versus dismantled cleaning, the five-step process route, and residue and corrosion-rate verification to GB/T 25146-2010.</description>
+    </item>
+<item>
+      <title>船舶管路系统投用前化学清洗与钝化工艺详解</title>
+      <link>https://www.lanxingqingxi.com/blog/ship-piping-system-cleaning-passivation.html</link>
+      <guid>https://www.lanxingqingxi.com/blog/ship-piping-system-cleaning-passivation.html</guid>
+      <pubDate>Sat, 12 Sep 2026 10:00:00 +0800</pubDate>
+      <description>新造船舶管系在建造与存放中会残留防锈油脂、焊渣与氧化皮，影响海水冷却、燃油与液压系统清洁度。本文详解投用前脱脂、酸洗、漂洗、钝化四步工艺，碳钢、不锈钢与铜镍管差异化药剂体系，清洁度与钝化膜检验方法，验收按GB/T 25146-2010执行，附匿名工程案例。</description>
+    </item>
+  <item>
+      <title>Pre-Commissioning Chemical Cleaning and Passivation of Ship Piping Systems</title>
+      <link>https://www.lanxingqingxi.com/en/blog/ship-piping-system-cleaning-passivation.html</link>
+      <guid>https://www.lanxingqingxi.com/en/blog/ship-piping-system-cleaning-passivation.html</guid>
+      <pubDate>Sat, 12 Sep 2026 10:00:00 +0800</pubDate>
+      <description>Four-step pre-commissioning cleaning of new-build ship piping: degreasing, acid cleaning, rinsing and passivation for sea water, fuel, lube oil and hydraulic lines, with cleanliness, passivation-film and corrosion-rate acceptance to GB/T 25146-2010.</description>
+    </item>
+<item>
       <title>高炉水冷壁管化学清洗工艺与炼铁厂检修实践</title>
       <link>https://www.lanxingqingxi.com/blog/blast-furnace-cooling-stave-cleaning.html</link>
       <guid>https://www.lanxingqingxi.com/blog/blast-furnace-cooling-stave-cleaning.html</guid>
@@ -212,7 +296,7 @@
 
     <link>https://www.lanxingqingxi.com/blog/wuxi-central-ac-cleaning.html</link>
 
-    <description>无锡中央空调系统清洗维护服务，覆盖冷水机组、冷却塔、风机盘管、风管系统全链条清洗。20年行业经验，电话18952832843。</description>
+    <description>无锡中央空调系统清洗维护服务，覆盖冷水机组、冷却塔、风机盘管、风管系统全链条清洗。25年行业经验，电话18952832843。</description>
 
     <pubDate>Fri, 04 Jul 2026 10:00:00 +0800</pubDate>
 
@@ -302,7 +386,7 @@
 
     <link>https://www.lanxingqingxi.com/blog/power-plant-cleaning.html</link>
 
-    <description>电力行业凝汽器与锅炉化学清洗全方案：真空度恢复、热效率提升、结垢机理分析、清洗配方设计、在线与停机清洗工艺对比。20年电厂清洗经验，覆盖300MW~1000MW机组。</description>
+    <description>电力行业凝汽器与锅炉化学清洗全方案：真空度恢复、热效率提升、结垢机理分析、清洗配方设计、在线与停机清洗工艺对比。25年电厂清洗经验，覆盖300MW~1000MW机组。</description>
 
     <pubDate>Wed, 01 Jul 2026 10:00:00 +0800</pubDate>
 
@@ -430,7 +514,7 @@
 
     <link>https://www.lanxingqingxi.com/blog/nanjing-central-ac-cleaning.html</link>
 
-    <description>丹阳蓝星清洗为南京地区提供专业中央空调清洗维保服务，覆盖溴化锂机组、冷水机组、冷却塔、风管系统。20年工业清洗经验，化学清洗+高压水射流清洗双技术路线。</description>
+    <description>丹阳蓝星清洗为南京地区提供专业中央空调清洗维保服务，覆盖溴化锂机组、冷水机组、冷却塔、风管系统。25年工业清洗经验，化学清洗+高压水射流清洗双技术路线。</description>
 
     <pubDate>Sat, 27 Jun 2026 10:00:00 +0800</pubDate>
 

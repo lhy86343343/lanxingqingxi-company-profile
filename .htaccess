@@ -1,0 +1,167 @@
+# lanxingqingxi.com — .htaccess
+# Last updated: 2026-07-19
+
+# GZIP compression for sitemap and text files
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/xml application/xml+rss
+  # Force gzip for sitemap
+  <FilesMatch "sitemap\.xml$">
+    ForceType application/xml
+  </FilesMatch>
+</IfModule>
+
+RewriteEngine On
+# ─── Crawler Access Log ───
+SetEnvIfNoCase User-Agent "bot|crawler|spider|scraper|slurp|scan|agent|fetch|extract|download" is_crawler
+SetEnvIfNoCase User-Agent "google|bing|baidu|yandex|duckduck|sogou|360|yisou|shenma|toutiao" is_crawler
+SetEnvIfNoCase User-Agent "GPTBot|CCBot|Bytespider|DeepSeek|KimiBot|Yuanbao|Perplexity|anthropic|Claude|Applebot|Meta-External|Aliyun|Firecrawl|TwinAgent|ChatGPT|Doubao|Omgili|cohere|Amazonbot|NovaAct|openai|crawl4ai" is_crawler
+SetEnvIfNoCase User-Agent "Ahrefs|Semrush|MJ12|DotBot|Majestic" is_crawler
+
+CustomLog /home/u527534732/.logs/crawler.log combined env=is_crawler
+
+
+# ─── Security headers ───
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Content-Security-Policy "upgrade-insecure-requests; script-src 'self' 'unsafe-inline' https://hm.baidu.com https://zz.bdstatic.com https://www.googletagmanager.com https://*.google-analytics.com https://www.googletagmanager.com/gtag/js; object-src 'none'"
+  Header always set X-XSS-Protection "1; mode=block"
+  Header always set Cross-Origin-Opener-Policy "same-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "public, max-age=86400, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "\.(webp|jpg|jpeg|png|gif|svg|ico|css|js|woff2?)$">
+    Header set Cache-Control "public, max-age=2592000, immutable"
+  </FilesMatch>
+
+</IfModule>
+
+# ─── index.html → / (canonical root, prevent duplicate content) ───
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^index\.php$ / [R=301,L]
+RewriteRule ^en/index\.html$ /en/ [R=301,L]
+
+# ─── non-www → www ───
+RewriteCond %{HTTP_HOST} ^lanxingqingxi\.com$ [NC]
+RewriteRule ^(.*)$ https://www.lanxingqingxi.com/$1 [R=301,L]
+
+# ─── HTTP → HTTPS ───
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# --- /.well-known/llms.txt -> /llms.txt (2026-09-07, standard route) ---
+RewriteRule ^\.well-known/llms\.txt$ /llms.txt [R=301,L]
+
+
+# ─── Old WP slugs → correct .html pages (2026-07-30 CC fix) ───
+RewriteRule ^boiler/?$ /services/boiler.html [R=301,L]
+RewriteRule ^central-air-conditioning-cleaning/?$ /services/central-ac.html [R=301,L]
+RewriteRule ^chemical-cleaning/?$ /blog/chemical-cleaning.html [R=301,L]
+RewriteRule ^condenser/?$ /services/condenser.html [R=301,L]
+RewriteRule ^dirt/?$ - [R=410,L]
+RewriteRule ^equipment/?$ /services.html [R=301,L]
+RewriteRule ^equipment-cleaning-technology/?$ /blog/equipment-cleaning-technology.html [R=301,L]
+RewriteRule ^gas-primary-cooler/?$ /services/gas-cooler.html [R=301,L]
+RewriteRule ^heat-exchanger/?$ /services/heat-exchanger.html [R=301,L]
+RewriteRule ^high-pressure-water/?$ /blog/chemical-vs-water-jet-cleaning.html [R=301,L]
+RewriteRule ^pipeline/?$ /services/pipeline.html [R=301,L]
+RewriteRule ^reactor/?$ /services/reactor.html [R=301,L]
+RewriteRule ^stainless-steel/?$ /blog/stainless-steel.html [R=301,L]
+RewriteRule ^thermal-oil-boiler-and-pipe-cleaning/?$ /blog/thermal-oil-boiler-and-pipe-cleaning.html [R=301,L]
+RewriteRule ^various-heat-exchanger-cleaning/?$ /blog/various-heat-exchanger-cleaning.html [R=301,L]
+
+# ─── Additional 301s for remaining old WP paths (2026-08-07) ───
+RewriteRule ^chemical/?$ /services.html [R=301,L]
+RewriteRule ^air-conditioner/?$ /services/central-ac.html [R=301,L]
+RewriteRule ^reactor-cleaning/?$ /services/reactor.html [R=301,L]
+RewriteRule ^primary-cooler/?$ /blog/general-tech.html [R=301,L]
+RewriteRule ^cleaning-before-driving-a-new-device/?$ /blog/blog-list.html [R=301,L]
+
+# ─── Updated safety → latest safety article (2026-08-07) ───
+RewriteRule ^safety/?$ /blog/chemical-cleaning-safety-ppe-emergency-response.html [R=301,L]
+
+# ─── Specific 410 Gone (WordPress/Elementor trash, 2026-08-07) ───
+RewriteRule ^elementor-1259/?$ - [R=410,L]
+RewriteRule ^hydraulic-press/?$ - [R=410,L]
+RewriteRule ^product-2/?$ - [R=410,L]
+
+# ─── Old WP directory slugs → correct .html pages ───
+RewriteRule ^about/?$ /about.html [R=301,L]
+RewriteRule ^landing/?$ / [R=301,L]
+RewriteRule ^services/?$ /services.html [R=301,L]
+RewriteRule ^tech/?$ /tech.html [R=301,L]
+RewriteRule ^cases/?$ /cases.html [R=301,L]
+RewriteRule ^certificates/?$ /certificates.html [R=301,L]
+RewriteRule ^contact/?$ /contact.html [R=301,L]
+RewriteRule ^blog/?$ /blog/blog-list.html [R=301,L]
+RewriteRule ^blog/page/[0-9]+/?$ /blog/blog-list.html [R=301,L]
+
+# ─── Old EN paths ───
+RewriteRule ^en/services/gas-cooler\.html$ /en/index.html [R=301,L]
+RewriteRule ^en/services/evaporative-condenser\.html$ /en/blog/suzhou-evaporative-condenser-cleaning.html [R=301,L]
+RewriteRule ^en/tech/lithium-bromide-unit-maintenance\.html$ /en/blog/lithium-bromide-central-ac-maintenance.html [R=301,L]
+RewriteRule ^en/tech/lithium-bromide-cavity-cleaning\.html$ /en/blog/fluoride-lithium-bromide.html [R=301,L]
+RewriteRule ^en/tech/high-pressure-water-jetting\.html$ /en/blog/chemical-vs-water-jet-cleaning.html [R=301,L]
+RewriteRule ^en/tech/thermal-oil-decoking\.html$ /en/blog/thermal-oil-boiler-and-pipe-cleaning.html [R=301,L]
+RewriteRule ^tech/evaporative-condenser-cleaning\.html$ /blog/suzhou-evaporative-condenser-cleaning.html [R=301,L]
+RewriteRule ^blog/chemical-cleaning-safety\.html$ /blog/safety.html [R=301,L]
+
+# ─── 2026-09-26 补全：EN /en/services/*.html 层（该层文件从未存在，仅 2 个跳转桩）───
+RewriteRule ^en/services/boiler\.html$ /en/blog/thermal-oil-boiler-and-pipe-cleaning.html [R=301,L]
+RewriteRule ^en/services/central-ac\.html$ /en/blog/central-air-conditioning-cleaning.html [R=301,L]
+RewriteRule ^en/services/condenser\.html$ /en/blog/condenser-cleaning-methods.html [R=301,L]
+RewriteRule ^en/services/heat-exchanger\.html$ /en/blog/various-heat-exchanger-cleaning.html [R=301,L]
+RewriteRule ^en/services/pipeline\.html$ /en/blog/industrial-process-pipeline-chemical-cleaning.html [R=301,L]
+RewriteRule ^en/services/reactor\.html$ /en/blog/chemical-industry-reactor-heat-exchanger-cleaning.html [R=301,L]
+RewriteRule ^en/services/[A-Za-z0-9_-]+\.html$ /en/services.html [R=301,L]
+RewriteRule ^en/blog/power-plant-condenser-cleaning\.html$ /en/blog/power-plant-condenser-online-cleaning-case.html [R=301,L]
+
+# ─── 2026-09-26 补回：Landing 10 页 → Services（第 142 行注释仍在、规则曾在编辑中整段丢失）───
+RewriteRule ^landing/heat-exchanger\.html$ /services/heat-exchanger.html [R=301,L]
+RewriteRule ^landing/evaporative-condenser\.html$ /services/evaporative-condenser.html [R=301,L]
+RewriteRule ^landing/central-ac\.html$ /services/central-ac.html [R=301,L]
+RewriteRule ^landing/condenser\.html$ /services/condenser.html [R=301,L]
+RewriteRule ^landing/gas-cooler\.html$ /services/gas-cooler.html [R=301,L]
+RewriteRule ^landing/reactor\.html$ /services/reactor.html [R=301,L]
+RewriteRule ^landing/chemical-cleaning\.html$ /services.html [R=301,L]
+RewriteRule ^landing/duct-cleaning\.html$ /services/central-ac.html [R=301,L]
+RewriteRule ^landing/hp-water-jetting\.html$ /tech/high-pressure-water-jetting.html [R=301,L]
+RewriteRule ^landing/thermal-oil\.html$ /services/boiler.html [R=301,L]
+
+# ─── Old WP slug patterns → blog articles (CC was crawling these) ───
+RewriteRule ^reactor-cleaning/feed/?$ - [R=410,L]
+RewriteRule ^application-of-fluoride-in-cleaning-the-cavity-of-lithium-bromide-absorpti /blog/fluoride-lithium-bromide.html [R=301,L]
+
+# ─── Old WP category archives → relevant pages (2026-08-13) ───
+RewriteRule ^category/chemical-cleaning(?:/page/[0-9]+)?/?$ /blog/chemical-cleaning.html [R=301,L]
+RewriteRule ^category/heat-exchanger(?:/page/[0-9]+)?/?$ /services/heat-exchanger.html [R=301,L]
+RewriteRule ^category/physical-cleaning(?:/page/[0-9]+)?/?$ /blog/chemical-vs-water-jet-cleaning.html [R=301,L]
+RewriteRule ^category/uncategorized(?:/page/[0-9]+)?/?$ /blog/blog-list.html [R=301,L]
+RewriteRule ^category(?:/.*)?$ /blog/blog-list.html [R=301,L]
+
+# ─── WordPress residuals → 410 Gone ───
+RewriteRule ^wp- - [R=410,L]
+RewriteRule ^wp($|/) - [R=410,L]
+RewriteRule ^wordpress($|/) - [R=410,L]
+RewriteRule ^xmlrpc\.php$ - [R=410,L]
+RewriteRule ^feed/?$ - [R=410,L]
+RewriteRule ^comments/ - [R=410,L]
+RewriteRule ^readme\.html$ - [R=410,L]
+RewriteRule ^license\.txt$ - [R=410,L]
+RewriteRule ^install\.php$ - [R=410,L]
+RewriteRule ^(author|tag|projects|page|favorites|sites|product)/ - [R=410,L]
+RewriteRule ^\d{4}/ - [R=410,L]
+RewriteRule ^\d{4}/\d{2}/ - [R=410,L]
+
+# --- Block public access to leads.json (customer PII, 2026-08-19) ---
+<Files "leads.json">
+  Require all denied
+</Files>
+
+# ─── Landing → Services 301 (2026-08-29, 去重 P0: 落地页并入服务页) ───
+
+# ===== Branded 404 page (2026-09-02) =====
+ErrorDocument 404 /404.html

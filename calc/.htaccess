@@ -1,0 +1,15 @@
+# 静态资源 gzip 压缩（传输减 ~70%）+ 长缓存（配合 Cloudflare 边缘缓存）
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml application/javascript application/x-javascript application/json image/svg+xml
+</IfModule>
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/x-icon "access plus 30 days"
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set Cache-Control "public, max-age=300, s-maxage=300"
+</IfModule>
