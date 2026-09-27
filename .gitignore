@@ -33,3 +33,7 @@ upload_*.log
 fix_*.py
 dl957_online_fix/
 backup-grade-20260831-*
+# 备份目录/回灌副本（一律不入库，2026-09-28）
+backup-*/
+backup-*.html
+_live回灌备份-*/
