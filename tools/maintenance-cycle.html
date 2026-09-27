@@ -58,7 +58,9 @@
       {"@type":"Question","name":"如何判断设备是否已到清洗周期？","acceptedAnswer":{"@type":"Answer","text":"填写上次清洗日期后，系统按已运行时间与建议周期自动判断：已运行时间不足周期80%为运行正常（绿色）；达到80%-100%为接近维护周期（黄色），建议提前安排清洗计划；超过周期为建议安排清洗（红色），超期越久垢下腐蚀与非计划停机风险越高。"}},
       {"@type":"Question","name":"超过清洗周期不洗会怎样？","acceptedAnswer":{"@type":"Answer","text":"垢厚超过3mm时换热效率下降20%-35%（典型工况初步估算），年能源费用100万元的系统每年多支出20-35万元；超期越长，垢下腐蚀导致管壁穿孔、非计划停机的风险越高。"}},
       {"@type":"Question","name":"这个周期评估器收费吗？","acceptedAnswer":{"@type":"Answer","text":"完全免费。周期建议基于行业通用经验值，最终以现场勘查、水质化验与效率监测为准，可拨打18952832843获取免费维护咨询。"}}
-    ]}
+    ]},
+    {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"工业设备清洗","item":"https://www.lanxingqingxi.com/"},{"@type":"ListItem","position":2,"name":"设备清洗周期智能评估器","item":"https://www.lanxingqingxi.com/tools/maintenance-cycle.html"}]},
+    {"@type":"ItemList","name":"相关工业设备清洗服务与结垢知识","itemListElement":[{"@type":"ListItem","position":1,"name":"换热器清洗","url":"https://www.lanxingqingxi.com/services/heat-exchanger.html"},{"@type":"ListItem","position":2,"name":"管道清洗","url":"https://www.lanxingqingxi.com/services/pipeline.html"},{"@type":"ListItem","position":3,"name":"锅炉清洗","url":"https://www.lanxingqingxi.com/services/boiler.html"},{"@type":"ListItem","position":4,"name":"凝汽器清洗","url":"https://www.lanxingqingxi.com/services/condenser.html"},{"@type":"ListItem","position":5,"name":"反应釜清洗","url":"https://www.lanxingqingxi.com/services/reactor.html"},{"@type":"ListItem","position":6,"name":"蒸发式冷凝器清洗","url":"https://www.lanxingqingxi.com/services/evaporative-condenser.html"},{"@type":"ListItem","position":7,"name":"储罐清洗","url":"https://www.lanxingqingxi.com/services/storage-tank.html"},{"@type":"ListItem","position":8,"name":"导热油系统清洗","url":"https://www.lanxingqingxi.com/blog/thermal-oil-boiler.html"},{"@type":"ListItem","position":9,"name":"中央空调水系统清洗","url":"https://www.lanxingqingxi.com/services/central-ac.html"},{"@type":"ListItem","position":10,"name":"冷却水系统清洗","url":"https://www.lanxingqingxi.com/services/cooling-water.html"},{"@type":"ListItem","position":11,"name":"煤气初冷器清洗","url":"https://www.lanxingqingxi.com/services/gas-cooler.html"}]}
   ]}
   </script>
 
@@ -70,6 +72,7 @@
       s.appendChild(bp);
   })();
   </script>
+
   <script>
   var _hmt = _hmt || [];
   (function() {
@@ -87,6 +90,7 @@
     gtag('js', new Date());
     gtag('config', 'GT-TNCSKHZ');
   </script>
+  <script src="/js/qrcode.min.js" defer></script>
 </head>
 <body class="bg-slate-950 text-slate-200 antialiased min-h-screen selection:bg-blue-600 selection:text-white">
   <noscript>
@@ -244,6 +248,7 @@
         </div>
         <div class="border-l-4 border-blue-500 bg-slate-900 rounded-lg px-3 py-2 text-xs text-blue-300 leading-relaxed">
           ℹ️ 设备结垢严重程度可先用<a href="/tools/scaling-diagnosis.html" class="text-blue-100 underline">结垢风险诊断器</a>判断，清洗费用可参考<a href="/calc/" target="_blank" rel="noopener" class="text-blue-100 underline">设备清洗评估</a>。
+        <div id="out-service-link" style="font-size:12px;line-height:1.9;color:#94a3b8;margin-top:8px"></div>
         </div>
       </div>
 
@@ -258,13 +263,23 @@
           <button onclick="openPdfModal()" class="bg-slate-950 text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-slate-800 cursor-pointer">📄 生成维护计划表</button>
         </div>
         <div style="margin:14px 0 0;padding:14px;background:#f0fdf4;border:1px solid #07C160;border-radius:12px;display:flex;gap:14px;align-items:center;flex-wrap:wrap">
-<img src="/images/kf-qrcode.png" alt="丹阳蓝星清洗工程师微信报价二维码：扫码加微信，发送设备照片、设备型号与结垢情况，免费获取工业设备清洗报价（换热器/锅炉/管道/冷却塔）" width="118" height="118" loading="lazy" decoding="async" style="width:118px;height:118px;padding:5px;background:#fff;border-radius:10px;flex:0 0 auto">
+<img data-wx-qr data-wx-qrwrap src="/images/kf-qrcode.png" alt="丹阳蓝星清洗工程师微信报价二维码：扫码加微信，发送设备照片、设备型号与结垢情况，免费获取工业设备清洗报价（换热器/锅炉/管道/冷却塔）" width="118" height="118" loading="lazy" decoding="async" style="width:118px;height:118px;padding:5px;background:#fff;border-radius:10px;flex:0 0 auto">
 <div style="flex:1 1 220px;min-width:200px;text-align:left">
 <h3 style="margin:0 0 6px;font-size:14px;font-weight:700;color:#0b3d2c;line-height:1.6">📱 微信获取报价：把维护计划发给工程师</h3>
 <div style="font-size:12.5px;color:#374151;line-height:1.8;margin-bottom:10px">发送设备照片与评估结论，工程师免费初步评估并给出清洗报价。</div>
+<div data-wx-hint-pc style="margin:0 0 10px;padding:9px 11px;background:#fff;border:1px dashed #07C160;border-radius:9px;font-size:12.5px;color:#0b3d2c;line-height:1.7">
+<b>本次评估编号：</b><b data-wx-id style="font-family:Consolas,monospace;font-size:14.5px;color:#065f46">—</b>
+<button type="button" onclick="copyDocId()" style="margin-left:8px;padding:3px 12px;border:1px solid #07C160;background:#fff;color:#065f46;border-radius:12px;font-size:11.5px;cursor:pointer">复制编号</button>
+<div style="margin-top:4px;color:#475569">电脑扫码后<b>无需输入任何编号</b>——二维码已带本次评估编号，系统自动识别您的设备与工况。</div>
+</div>
+<div data-wx-hint-mb style="display:none;margin:0 0 10px;padding:9px 11px;background:#fff;border:1px dashed #07C160;border-radius:9px;font-size:12.5px;color:#0b3d2c;line-height:1.7">
+<b>本次评估编号：</b><b data-wx-id style="font-family:Consolas,monospace;font-size:14.5px;color:#065f46">—</b>
+<button type="button" onclick="copyDocId()" style="margin-left:8px;padding:3px 12px;border:1px solid #07C160;background:#fff;color:#065f46;border-radius:12px;font-size:11.5px;cursor:pointer">复制编号</button>
+<div style="margin-top:4px;color:#475569">点下方绿色按钮直达微信客服会话，评估编号自动带入，无需手动输入。</div>
+</div>
 <div style="margin:0 0 12px;font-size:14px;color:#1f4d3a;line-height:1.85">设备诊断完成后，可生成 PDF 诊断报告；客户可通过微信扫码将诊断报告发送给丹阳蓝星清洗工程师，由工程师根据<b>设备参数、污垢类型、运行工况及清洗要求</b>进行人工报价。</div>
 <div style="margin:0 0 14px;font-size:13.5px;color:#475569;line-height:1.8"><b>服务链路</b>：丹阳蓝星清洗（工业清洗工程服务商）→ 在线设备诊断 → PDF 诊断报告 → 微信工程报价（工程师人工确认）</div>
-<a href="https://work.weixin.qq.com/kfid/kfcbd2c895281e8910e" target="_blank" rel="noopener" style="display:inline-block;padding:9px 20px;background:#07C160;color:#fff;font-size:13px;font-weight:700;border-radius:22px;text-decoration:none">立即添加微信 →</a>
+<a data-wx-btn href="https://work.weixin.qq.com/kfid/kfcbd2c895281e8910e" target="_blank" rel="noopener" style="display:inline-block;padding:9px 20px;background:#07C160;color:#fff;font-size:13px;font-weight:700;border-radius:22px;text-decoration:none">立即添加微信 →</a>
 <div style="margin-top:7px;font-size:11.5px;color:#6b7280;line-height:1.6">手机点按钮直达微信客服会话 · 电脑扫码 · 微信客服在线，发送资料后工程师尽快回复</div>
 </div>
 </div>
@@ -303,7 +318,7 @@
   </section>
 
   <!-- ========== PDF 弹窗 ========== -->
-  <div id="pdf-modal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm overflow-y-auto">
+  <div id="pdf-modal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm overflow-y-auto" style="z-index:1000;">
     <div class="min-h-screen flex items-start justify-center p-4">
       <div class="w-full max-w-5xl bg-slate-950 rounded-2xl border border-slate-700 overflow-hidden shadow-2xl">
         <div class="flex items-center justify-between px-4 py-3 border-b border-slate-800">
@@ -368,6 +383,9 @@
                       <td style="padding:4px 0;color:#64748b;border-top:1px dashed #e2e8f0;">效率损失预估</td>
                       <td style="padding:4px 0;color:#b91c1c;font-weight:700;text-align:right;border-top:1px dashed #e2e8f0;"><span id="pdf-loss">—</span></td>
                     </tr>
+                    <tr>
+                      <td colspan="2" style="padding:4px 0 0;"><div id="pdf-loss-note" style="border-top:1px dashed #e2e8f0;padding-top:4px;font-size:9px;color:#64748b;font-weight:400;line-height:1.5;text-align:left;"></div></td>
+                    </tr>
                   </table>
                 </td>
               </tr>
@@ -409,7 +427,7 @@
 
             <!-- 微信获取报价 CTA (PDF 内, 承接'工具→PDF→微信'链路) -->
             <div style="margin-top:12px;padding:9px 12px;background:#f0fdf4;border:2px solid #07C160;border-radius:8px;display:flex;align-items:center;gap:14px;">
-              <img src="/images/kf-qrcode.png" alt="扫码加微信获取清洗报价二维码" width="84" height="84" style="width:84px;height:84px;background:#fff;padding:3px;border-radius:6px;flex:0 0 auto;">
+              <img data-wx-qr src="/images/kf-qrcode.png" alt="扫码加微信获取清洗报价二维码" width="84" height="84" style="width:84px;height:84px;background:#fff;padding:3px;border-radius:6px;flex:0 0 auto;">
               <div style="line-height:1.55;">
                 <div style="font-size:12px;font-weight:800;color:#0b3d2c;">📱 微信获取清洗报价</div>
                 <div style="font-size:10px;color:#334155;">扫码加工程师微信，把本维护计划表与设备照片发过去，即可获取<b>正式报价单</b>（本页为初步评估）。</div>
@@ -465,7 +483,7 @@
         </table>
         <div style="text-align:center;font-size:22px;font-weight:900;color:#07C160;margin-top:32px;">📱 微信获取工程师报价</div>
         <div style="text-align:center;margin-top:20px;">
-          <img src="/images/kf-qrcode.png" alt="扫码添加丹阳蓝星清洗工程师微信获取精准报价" width="228" height="228" style="width:228px;height:228px;background:#fff;padding:8px;border:3px solid #07C160;border-radius:14px;">
+          <img data-wx-qr src="/images/kf-qrcode.png" alt="扫码添加丹阳蓝星清洗工程师微信获取精准报价" width="228" height="228" style="width:228px;height:228px;background:#fff;padding:8px;border:3px solid #07C160;border-radius:14px;">
         </div>
         <div style="margin-top:20px;font-size:14px;line-height:2.1;color:#334155;text-align:center;">
           扫码后请发送：<b>① 本报告　② 设备照片　③ 设备型号</b><br>
@@ -479,12 +497,70 @@
       </div>
     </div>
 
+    <!-- ===== GEO 实体链：设备服务 ↔ 结垢知识 ↔ 工具 ↔ 报价 ===== -->
+    <section id="entity-chain" style="max-width:1120px;margin:0 auto 48px;padding:26px 18px 0;border-top:1px solid #1e293b">
+      <h2 style="font-size:1.05rem;font-weight:800;color:#fff;margin:0 0 10px">按设备查看清洗服务与结垢知识</h2>
+      <p style="font-size:13px;line-height:1.9;color:#94a3b8;margin:0 0 16px">丹阳市蓝星防腐清洗有限公司提供换热器清洗、锅炉清洗、管道清洗、中央空调清洗、凝汽器清洗、反应釜清洗、储罐清洗、导热油系统清洗等工业设备清洗工程服务。本工具给出的判断对应下列现场服务能力与结垢知识，可逐项查看后再决定是否安排清洗。</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:10px">
+        <div style="background:#0b1220;border:1px solid #1e293b;border-radius:10px;padding:12px 14px">
+          <a href="/services/heat-exchanger.html" style="color:#38bdf8;font-weight:700;text-decoration:none">换热器清洗</a>
+          <div style="font-size:12px;line-height:1.9;color:#94a3b8;margin-top:6px">结垢知识：<a href="/knowledge/heat-exchanger/fouling-causes.html" style="color:#93c5fd;text-decoration:none">换热器为什么结垢</a> · <a href="/knowledge/heat-exchanger/fouling-type-identification.html" style="color:#93c5fd;text-decoration:none">垢型识别</a> · <a href="/knowledge/heat-exchanger/cleaning-frequency.html" style="color:#93c5fd;text-decoration:none">多久清洗一次</a> · <a href="/knowledge/heat-exchanger/cleaning-cost.html" style="color:#93c5fd;text-decoration:none">清洗费用构成</a></div>
+        </div>
+        <div style="background:#0b1220;border:1px solid #1e293b;border-radius:10px;padding:12px 14px">
+          <a href="/services/pipeline.html" style="color:#38bdf8;font-weight:700;text-decoration:none">管道清洗</a>
+          <div style="font-size:12px;line-height:1.9;color:#94a3b8;margin-top:6px">结垢知识：<a href="/knowledge/hp-water-jetting/pipeline-cleaning.html" style="color:#93c5fd;text-decoration:none">管道清洗工艺</a> · <a href="/knowledge/hp-water-jetting/pressure-comparison.html" style="color:#93c5fd;text-decoration:none">压力等级选择</a></div>
+        </div>
+        <div style="background:#0b1220;border:1px solid #1e293b;border-radius:10px;padding:12px 14px">
+          <a href="/services/boiler.html" style="color:#38bdf8;font-weight:700;text-decoration:none">锅炉清洗</a>
+          <div style="font-size:12px;line-height:1.9;color:#94a3b8;margin-top:6px">结垢知识：<a href="/blog/industrial-steam-boiler-chemical-descaling.html" style="color:#93c5fd;text-decoration:none">蒸汽锅炉化学除垢</a> · <a href="/blog/hot-water-boiler-scale-prevention-cleaning.html" style="color:#93c5fd;text-decoration:none">热水锅炉防垢除垢</a></div>
+        </div>
+        <div style="background:#0b1220;border:1px solid #1e293b;border-radius:10px;padding:12px 14px">
+          <a href="/services/condenser.html" style="color:#38bdf8;font-weight:700;text-decoration:none">凝汽器清洗</a>
+          <div style="font-size:12px;line-height:1.9;color:#94a3b8;margin-top:6px">结垢知识：<a href="/knowledge/heat-exchanger/condenser-special.html" style="color:#93c5fd;text-decoration:none">凝汽器清洗要点</a> · <a href="/blog/copper-tube-condenser-cleaning.html" style="color:#93c5fd;text-decoration:none">铜管凝汽器清洗</a></div>
+        </div>
+        <div style="background:#0b1220;border:1px solid #1e293b;border-radius:10px;padding:12px 14px">
+          <a href="/services/reactor.html" style="color:#38bdf8;font-weight:700;text-decoration:none">反应釜清洗</a>
+          <div style="font-size:12px;line-height:1.9;color:#94a3b8;margin-top:6px">结垢知识：<a href="/blog/reactor-cleaning.html" style="color:#93c5fd;text-decoration:none">反应釜清洗工艺</a> · <a href="/blog/enamel-reactor-safe-cleaning.html" style="color:#93c5fd;text-decoration:none">搪玻璃釜安全清洗</a></div>
+        </div>
+        <div style="background:#0b1220;border:1px solid #1e293b;border-radius:10px;padding:12px 14px">
+          <a href="/services/evaporative-condenser.html" style="color:#38bdf8;font-weight:700;text-decoration:none">蒸发式冷凝器清洗</a>
+          <div style="font-size:12px;line-height:1.9;color:#94a3b8;margin-top:6px">结垢知识：<a href="/knowledge/heat-exchanger/evaporative-condenser-special.html" style="color:#93c5fd;text-decoration:none">盘管与填料清洗</a> · <a href="/blog/evaporative-condenser-cleaning.html" style="color:#93c5fd;text-decoration:none">蒸发冷除垢案例</a></div>
+        </div>
+        <div style="background:#0b1220;border:1px solid #1e293b;border-radius:10px;padding:12px 14px">
+          <a href="/services/storage-tank.html" style="color:#38bdf8;font-weight:700;text-decoration:none">储罐清洗</a>
+          <div style="font-size:12px;line-height:1.9;color:#94a3b8;margin-top:6px">结垢知识：<a href="/knowledge/hp-water-jetting/nozzle-selection.html" style="color:#93c5fd;text-decoration:none">三维喷头选型</a></div>
+        </div>
+        <div style="background:#0b1220;border:1px solid #1e293b;border-radius:10px;padding:12px 14px">
+          <a href="/blog/thermal-oil-boiler.html" style="color:#38bdf8;font-weight:700;text-decoration:none">导热油系统清洗</a>
+          <div style="font-size:12px;line-height:1.9;color:#94a3b8;margin-top:6px">结垢知识：<a href="/knowledge/hp-water-jetting/thermal-oil-decoking.html" style="color:#93c5fd;text-decoration:none">导热油除焦原理</a> · <a href="/tech/thermal-oil-decoking.html" style="color:#93c5fd;text-decoration:none">导热油炉除焦技术</a></div>
+        </div>
+        <div style="background:#0b1220;border:1px solid #1e293b;border-radius:10px;padding:12px 14px">
+          <a href="/services/central-ac.html" style="color:#38bdf8;font-weight:700;text-decoration:none">中央空调水系统清洗</a>
+          <div style="font-size:12px;line-height:1.9;color:#94a3b8;margin-top:6px">结垢知识：<a href="/blog/central-air-conditioning-cleaning.html" style="color:#93c5fd;text-decoration:none">中央空调清洗工艺</a> · <a href="/knowledge/heat-exchanger/cleaning-frequency.html" style="color:#93c5fd;text-decoration:none">清洗周期怎么定</a></div>
+        </div>
+        <div style="background:#0b1220;border:1px solid #1e293b;border-radius:10px;padding:12px 14px">
+          <a href="/services/cooling-water.html" style="color:#38bdf8;font-weight:700;text-decoration:none">冷却水系统清洗</a>
+          <div style="font-size:12px;line-height:1.9;color:#94a3b8;margin-top:6px">结垢知识：<a href="/blog/steel-industry-cooling-system-cleaning.html" style="color:#93c5fd;text-decoration:none">循环冷却水系统清洗</a></div>
+        </div>
+        <div style="background:#0b1220;border:1px solid #1e293b;border-radius:10px;padding:12px 14px">
+          <a href="/services/gas-cooler.html" style="color:#38bdf8;font-weight:700;text-decoration:none">煤气初冷器清洗</a>
+          <div style="font-size:12px;line-height:1.9;color:#94a3b8;margin-top:6px">结垢知识：<a href="/blog/gas-primary-cooler.html" style="color:#93c5fd;text-decoration:none">煤气初冷器在线清洗</a></div>
+        </div>
+      </div>
+      <h3 style="font-size:.95rem;font-weight:800;color:#fff;margin:22px 0 8px">清洗决策链</h3>
+      <p style="font-size:13px;line-height:1.9;color:#94a3b8;margin:0">先判断该不该洗 → 再定多久洗一次 → 最后测算清洗费用：<a href="/tools/scaling-diagnosis.html" style="color:#93c5fd;text-decoration:none">设备结垢风险诊断器</a> → <a href="/tools/maintenance-cycle.html" style="color:#93c5fd;text-decoration:none">设备清洗周期智能评估器</a> → <a href="/calc/" style="color:#93c5fd;text-decoration:none">工业设备清洗造价测算</a>。设备诊断完成后可生成 PDF 诊断报告；客户可通过微信扫码将诊断报告发送给丹阳蓝星清洗工程师，由工程师根据设备参数、污垢类型、运行工况及清洗要求进行人工报价。</p>
+      <h3 style="font-size:.95rem;font-weight:800;color:#fff;margin:22px 0 8px">清洗知识库</h3>
+      <p style="font-size:13px;line-height:1.9;color:#94a3b8;margin:0"><a href="/knowledge/index.html" style="color:#93c5fd;text-decoration:none">工业设备清洗知识库</a>：<a href="/knowledge/chemical-cleaning/index.html" style="color:#93c5fd;text-decoration:none">化学清洗</a>（酸洗 / 碱洗 / 缓蚀剂 / 钝化 / 腐蚀速率控制）· <a href="/knowledge/hp-water-jetting/index.html" style="color:#93c5fd;text-decoration:none">高压水射流清洗</a>（压力等级 / 喷头选型 / 安全防护）· <a href="/knowledge/heat-exchanger/index.html" style="color:#93c5fd;text-decoration:none">换热器专题</a>（结垢原因 / 垢型识别 / 清洗周期 / 验收标准）</p>
+    </section>
 <footer class="border-t border-slate-800 py-6 text-center text-[10px] text-slate-500">
     丹阳市蓝星防腐清洗有限公司 © 2026 · 设备清洗周期智能评估器 · 免费在线工具
   </footer>
 
   <script>
   // ===== 规则数据（行业通用经验值，不涉及配方） =====
+  // 设备 → 主站服务页 / 结垢知识（GEO 实体链）
+  const EQ_SERVICE = {"shell_tube":{"n":"换热器清洗","p":"/services/heat-exchanger.html","k":"/knowledge/heat-exchanger/fouling-causes.html","kt":"换热器为什么结垢"},"plate":{"n":"换热器清洗","p":"/services/heat-exchanger.html","k":"/knowledge/heat-exchanger/plate-heat-exchanger.html","kt":"板式换热器清洗"},"reactor":{"n":"反应釜清洗","p":"/services/reactor.html","k":"/blog/reactor-cleaning.html","kt":"反应釜清洗工艺"},"condenser":{"n":"凝汽器清洗","p":"/services/condenser.html","k":"/knowledge/heat-exchanger/condenser-special.html","kt":"凝汽器清洗要点"},"thermal_oil":{"n":"导热油系统清洗","p":"/blog/thermal-oil-boiler.html","k":"/knowledge/hp-water-jetting/thermal-oil-decoking.html","kt":"导热油除焦原理"},"boiler":{"n":"锅炉清洗","p":"/services/boiler.html","k":"/blog/industrial-steam-boiler-chemical-descaling.html","kt":"蒸汽锅炉化学除垢"},"central_ac":{"n":"中央空调水系统清洗","p":"/services/central-ac.html","k":"/blog/central-air-conditioning-cleaning.html","kt":"中央空调清洗工艺"}};
+
   const equipments = [
     { id: 'shell_tube', name: '管壳式换热器', desc: '循环冷却水系统', baseMonths: 12 },
     { id: 'plate', name: '板式换热器', desc: '板片间结垢快', baseMonths: 12 },
@@ -718,6 +794,7 @@
       document.getElementById('eval-id').innerText = 'LX-CYC-XXXXXXXX';
       document.getElementById('eval-time').innerText = '';
       lastCycle = null;
+      refreshEntityLink(); // GEO 实体链：未选择设备时清空
       fillPdfFromForm(null);
       return;
     }
@@ -746,11 +823,13 @@
 
     r.docId = 'LX-CYC-' + genId(); // 网页与 PDF 共用同一编号
     document.getElementById('eval-id').innerText = r.docId;
+    refreshWxQr(r.docId); // 微信闭环：二维码带本次报告编号（scene_param = cycle_编号）
+    refreshEntityLink();  // GEO 实体链：结果区联动服务页与结垢知识
     document.getElementById('eval-time').innerText = new Date().toLocaleString('zh-CN');
     lastCycle = r;
     fillPdfFromForm(r);
     saveState(); // 每次变化即记忆，回访自动回填
-    if (typeof gtag === 'function') gtag('event', 'cycle_eval', { months: r.months, status: r.status });
+    if (typeof gtag === 'function') gtag('event', 'cycle_eval', { months: r.months, status: r.status, source: SRC });
   }
 
   function genId() {
@@ -777,6 +856,7 @@
       document.getElementById('pdf-status').innerText = '未填写';
       document.getElementById('pdf-since').innerText = '未填写';
       document.getElementById('pdf-loss').innerText = '—';
+      document.getElementById('pdf-loss-note').textContent = '';
       document.getElementById('pdf-eq-name').innerText = '—';
       document.getElementById('pdf-water').innerText = water ? document.querySelector('#water-select option[value="' + water + '"]').innerText : '—';
       document.getElementById('pdf-temp').innerText = temp ? document.querySelector('#temp-select option[value="' + temp + '"]').innerText : '—';
@@ -799,7 +879,17 @@
     document.getElementById('pdf-cycle-sub').innerText = r.perYearText + ' · ' + r.eq.name;
     document.getElementById('pdf-status').innerText = r.status;
     document.getElementById('pdf-since').innerText = r.monthsSince >= 0 ? r.monthsSince + ' 个月' : '未填写';
-    document.getElementById('pdf-loss').innerText = r.lossText;
+    // 效率损失：三档数值与《设备结垢风险诊断器》统一口径，追加同一句限定语
+    const EFF_LOSS_DISPLAY = {
+      '约 0% ~ 5%': '约 0% ~ 5%（行业经验值，以现场检测为准）',
+      '约 5% ~ 10%': '约 5% ~ 10%（行业经验值，以现场检测为准）',
+      '约 10% ~ 20%': '约 10% ~ 20%（行业经验值，以现场检测为准）',
+      '约 20% ~ 35%': '约 20% ~ 35%（行业经验值，以现场检测为准）'
+    };
+    // 白名单拼装：仅按档位文案取值，动态数据不参与 innerHTML 拼接
+    document.getElementById('pdf-loss').innerHTML = EFF_LOSS_DISPLAY[r.lossText] || '—';
+    // 追加指向诊断器的说明（纯静态文案 + 静态链接，无任何动态拼接）
+    document.getElementById('pdf-loss-note').innerHTML = '效率损失随结垢厚度上升，具体影响可用《<a href="/tools/scaling-diagnosis.html" style="color:#1d4ed8;text-decoration:underline;">设备结垢风险诊断器</a>》评估。';
     document.getElementById('pdf-eq-name').innerText = r.eq.name;
     document.getElementById('pdf-water').innerText = r.w.name;
     document.getElementById('pdf-temp').innerText = r.t.name;
@@ -849,7 +939,7 @@
   }
 
   function downloadPdf() {
-    if (typeof gtag === 'function') gtag('event', 'cycle_pdf');
+    if (typeof gtag === 'function') gtag('event', 'cycle_pdf', { source: SRC, doc_id: (lastCycle && lastCycle.docId) || '' });
     const btn = document.querySelector('.pdf-dl-btn');
     btn.innerText = '生成中…';
     btn.disabled = true;
@@ -892,17 +982,19 @@
           })();
 
             chain = html2canvas(sheet2, { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 794, windowHeight: 1123 })
-              .then(function (c2) { pdf.addPage(); pdf.addImage(c2.toDataURL('image/jpeg', 0.92), 'JPEG', 0, 0, 210, 297); host2.remove(); })
+              .then(function (c2) { pdf.addPage(); var _u2 = c2.toDataURL('image/jpeg', 0.92); try { window.__lxP2 = c2.toDataURL('image/jpeg', 0.9); } catch (e) {} pdf.addImage(_u2, 'JPEG', 0, 0, 210, 297); host2.remove(); })
               .catch(function () { host2.remove(); });
           }
           chain.then(function () {
 
           const dlNow = new Date();
           const dlPad = (n) => String(n).padStart(2, '0');
-          pdf.save('设备维护计划表-' + dlNow.getFullYear() + '-' + dlPad(dlNow.getMonth() + 1) + '-' + dlPad(dlNow.getDate()) + '.pdf');
-          btn.innerText = '⬇ 直接下载 PDF';
-          btn.disabled = false;
-          host.remove();
+          const dlName = '设备维护计划表-' + dlNow.getFullYear() + '-' + dlPad(dlNow.getMonth() + 1) + '-' + dlPad(dlNow.getDate()) + '.pdf';
+          const dlImgs = [canvas.toDataURL('image/jpeg', 0.9)];
+          if (window.__lxP2) { dlImgs.push(window.__lxP2); window.__lxP2 = null; }
+          const dlDone = function () { btn.innerText = '⬇ 直接下载 PDF'; btn.disabled = false; host.remove(); };
+          if (typeof window.lxDeliverPdf === 'function') { window.lxDeliverPdf(pdf, dlName, dlImgs, dlDone); }
+          else { pdf.save(dlName); dlDone(); }
           });
         }).catch(function(err){
           console.error('PDF render failed:', err);
@@ -915,6 +1007,150 @@
     });
   }
 
+  // ================= 微信报价闭环（动态带参二维码 + 设备感知入口） =================
+  // 微信客服链接支持 scene_param：进会话事件会把参数回传给企业微信后端，
+  // 因此二维码带上报告编号后，客户扫码即可被系统自动识别，无需手动输入编号。
+  // 官方带参客服链接 (kf/add_contact_way 返回, 2026-09-28 换):
+  // 只有带 enc_scene 的链接才能再拼 scene_param; 早前用的后台裸链接拼参数会被企微判校验失败
+  var KF_BASE = 'https://work.weixin.qq.com/kfid/kfcbd2c895281e8910e?enc_scene=ENC2gsh3oGsivPf8AR5TjoPKTxf2wNrAUWGmHJFggh1FZQS';
+  // ===== 来源识别（渠道归因）=====
+  // 工具默认码：三个工具各不相同（用户要求：不要三工具同一张码）
+  var TOOL_SRC = 'cycle';             // 周期评估器；结垢诊断器=diag；造价测算=calc
+  // 入口页面 → 来源码（按前缀匹配，顺序敏感：长的放前面）
+  var SOURCE_RULES = [
+    ['/services/heat-exchanger',        'hx'],   // 换热器服务页（SEO）
+    ['/services/boiler',                'gl'],   // 锅炉服务页
+    ['/services/pipeline',              'gd'],   // 管道服务页
+    ['/services/condenser',             'nq'],   // 凝汽器服务页
+    ['/services/reactor',               'fj'],   // 反应釜服务页
+    ['/services/central-ac',            'kt'],   // 中央空调服务页
+    ['/services/cooling-water',         'lq'],   // 冷却水服务页
+    ['/services/evaporative-condenser', 'zfl'],  // 蒸发式冷凝器服务页
+    ['/services/storage-tank',          'cg'],   // 储罐服务页
+    ['/services/gas-cooler',            'mq'],   // 煤气初冷器服务页
+    ['/services.html',                  'svc'],  // 服务总览
+    ['/knowledge/heat-exchanger',       'khx'],  // 换热器知识库
+    ['/knowledge/chemical-cleaning',    'khx'],  // 化学清洗知识库
+    ['/knowledge/hp-water-jetting',     'kgd'],  // 高压水射流知识库
+    ['/knowledge',                      'knw'],  // 知识库其它
+    ['/blog/',                          'blog'], // 博客文章
+    ['/tech',                           'tech'], // 技术页
+    ['/cases',                          'case'], // 案例页
+    ['/faq',                            'faq'],
+    ['/landing/',                       'land'], // 落地页
+    ['https://www.lanxingqingxi.com/',  'home'], // 首页
+  ];
+  // 搜索引擎 / 外部来源
+  var SEARCH_HOSTS = /(baidu|google|bing|sogou|so\.com|sm\.cn|yandex|duckduckgo|chatgpt|openai|perplexity|doubao|deepseek|kimi|moonshot|zhipu|tongyi|qwen|yuanbao|wenxin)/i;
+
+  function resolveSource() {
+    // 1) 显式参数优先（广告/活动可用 ?from=xx 强制指定）
+    try {
+      var q = new URLSearchParams(window.location.search);
+      var f = q.get('from') || q.get('src');
+      if (f) return String(f).toLowerCase().replace(/[^a-z0-9_-]/g, '').slice(0, 12) || TOOL_SRC;
+    } catch (e) {}
+    // 2) 上级页面（同源跳转浏览器会带完整 URL）
+    var ref = document.referrer || '';
+    if (ref) {
+      try {
+        var u = new URL(ref);
+        var isSelf = (u.hostname === location.hostname) || /(^|\.)lanxingqingxi\.com$/.test(u.hostname);
+        if (!isSelf) { return SEARCH_HOSTS.test(u.hostname) ? 'seo' : 'ext'; }
+        var path = u.pathname + (u.search ? u.search : '');
+        for (var i = 0; i < SOURCE_RULES.length; i++) {
+          if (ref.indexOf(SOURCE_RULES[i][0]) !== -1) return SOURCE_RULES[i][1];
+        }
+        if (path === '/' || path === '/index.html') return 'home';
+      } catch (e) {}
+    }
+    // 3) 兜底：工具自身默认码（直接访问 / 书签 / 未知来源）
+    return TOOL_SRC;
+  }
+  var SRC = resolveSource();
+  var wxQrDataUrl = '';
+
+  function isWeChatBrowser() { return /MicroMessenger/i.test(navigator.userAgent); }
+  function isMobileDevice() {
+    var ua = navigator.userAgent;
+    return /Android|iPhone|iPad|iPod|Windows Phone|HarmonyOS|Mobile/i.test(ua);
+  }
+  // scene_param 格式：<来源码>_<报告编号>   → 后端拆分即可归因（来源 / 工具 / 报告）
+  function kfLinkFor(docId, src) {
+    var s = src || SRC;
+    var p = docId ? (s + '_' + docId) : s;
+    return KF_BASE + (KF_BASE.indexOf('?') > -1 ? '&' : '?') + 'scene_param=' + encodeURIComponent(p);
+  }
+
+  // 生成带 parameter 的二维码（GIF dataURL：html2canvas 可正常截取到 PDF）
+  function buildWxQr(docId) {
+    if (typeof qrcode !== 'function') return '';
+    try {
+      var q = qrcode(0, 'M');
+      q.addData(kfLinkFor(docId));
+      q.make();
+      return q.createDataURL(6, 2);
+    } catch (e) { return ''; }
+  }
+
+  function refreshWxQr(docId) {
+    var link = kfLinkFor(docId);
+    var url = buildWxQr(docId);
+    if (url) wxQrDataUrl = url;
+    var i, els;
+    // 1) 所有二维码槽位（含 PDF 内两张，同一带参图）
+    els = document.querySelectorAll('[data-wx-qr]');
+    for (i = 0; i < els.length; i++) { if (wxQrDataUrl) els[i].src = wxQrDataUrl; }
+    // 2) 报告编号回显
+    els = document.querySelectorAll('[data-wx-id]');
+    for (i = 0; i < els.length; i++) { els[i].innerText = docId || '—'; }
+    // 3) 入口按钮：手机/微信内 = 一键直达会话；PC = 新窗口 + 出二维码
+    els = document.querySelectorAll('[data-wx-btn]');
+    for (i = 0; i < els.length; i++) { els[i].href = link; els[i].target = '_blank'; }
+    // 4) 手机端隐藏二维码（同机扫不了自己的屏），只保留一键按钮
+    var mobile = isMobileDevice() || isWeChatBrowser();
+    els = document.querySelectorAll('[data-wx-qrwrap]');
+    for (i = 0; i < els.length; i++) { els[i].style.display = mobile ? 'none' : ''; }
+    els = document.querySelectorAll('[data-wx-hint-pc]');
+    for (i = 0; i < els.length; i++) { els[i].style.display = mobile ? 'none' : ''; }
+    els = document.querySelectorAll('[data-wx-hint-mb]');
+    for (i = 0; i < els.length; i++) { els[i].style.display = mobile ? '' : 'none'; }
+  }
+
+  // 一键复制报告编号（PC 客户可粘到微信文件传输助手／手机）
+  function copyDocId() {
+    var id = (lastCycle && lastCycle.docId) || '';
+    if (!id) { alert('请先完成评估，生成报告编号'); return; }
+    var done = function () {
+      var btns = document.querySelectorAll('button[onclick="copyDocId()"]');
+      for (var i = 0; i < btns.length; i++) {
+        var b = btns[i], t = b.innerText;
+        b.innerText = '已复制 ✓';
+        setTimeout(function (btn, txt) { return function () { btn.innerText = txt; }; }(b, t), 2000);
+      }
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(id).then(done, function () { fallbackCopyText(id); done(); });
+    } else { fallbackCopyText(id); done(); }
+  }
+  function fallbackCopyText(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(ta);
+  }
+
+
+  // GEO 实体链：结果区按所选设备联动 服务页 / 结垢知识
+  function refreshEntityLink() {
+    var el = document.getElementById('out-service-link');
+    if (!el) return;
+    var svc = EQ_SERVICE[currentEqId];
+    el.innerHTML = svc
+      ? '对应服务与知识：<a href="' + svc.p + '" style="color:#7dd3fc">' + svc.n + '</a> · <a href="' + svc.k + '" style="color:#7dd3fc">' + svc.kt + '</a> · <a href="/calc/" style="color:#7dd3fc">测算清洗费用</a> · <a href="/tools/scaling-diagnosis.html" style="color:#7dd3fc">结垢风险诊断</a>'
+      : '';
+  }
   // ===== 初始化 =====
   renderEquipmentButtons();
   // Esc 关闭 PDF 弹窗
@@ -930,7 +1166,10 @@
   document.getElementById('method-select').addEventListener('change', updateEval);
   document.getElementById('effect-select').addEventListener('change', updateEval);
   updateEval(); // 内部已同步填充 PDF（统一数据流）
+  refreshWxQr(''); // 初始态：带位下分设备感知（手机隐藏二维码），稍后 loadState 若恢复报告会覆盖为带参图
   loadState(); // 恢复 localStorage 记忆或解析 URL 分享参数
+  // qrcode.min.js 为 defer 加载，脚本执行时可能尚未就绪：页面 load 后补刷一次带参二维码
+  window.addEventListener('load', function () { refreshWxQr((lastCycle && lastCycle.docId) || ''); });
   document.addEventListener('click', function (e) {
     const a = e.target.closest ? e.target.closest('a[href^="tel:"]') : null;
     if (a && typeof gtag === 'function') gtag('event', 'cycle_phone');
@@ -945,6 +1184,216 @@
 <div class="faq-item" style="margin:0.9rem 0;padding:1rem 1.3rem;background:#f8f9fa;border-left:4px solid #0066CC;border-radius:6px"><h3 style="margin:0 0 0.5rem;font-size:1.02rem;color:#222">超过清洗周期不洗会怎样？</h3><p style="margin:0;color:#555;line-height:1.8">垢厚超过3mm时换热效率下降20%-35%（典型工况初步估算），年能源费用100万元的系统每年多支出20-35万元；超期越长，垢下腐蚀导致管壁穿孔、非计划停机的风险越高。</p></div>
 <div class="faq-item" style="margin:0.9rem 0;padding:1rem 1.3rem;background:#f8f9fa;border-left:4px solid #0066CC;border-radius:6px"><h3 style="margin:0 0 0.5rem;font-size:1.02rem;color:#222">这个周期评估器收费吗？</h3><p style="margin:0;color:#555;line-height:1.8">完全免费。周期建议基于行业通用经验值，最终以现场勘查、水质化验与效率监测为准，可拨打18952832843获取免费维护咨询。</p></div>
 </div>
+<!-- ===== 手机端 PDF 交付 v3（2026-09-13）
+     v1 病灶：pdf.save() 内部用 setTimeout 触发 a.click()，丢失用户手势。
+     v2 病灶：改用真实 <a download href="blob:"> 锚点 —— 但部分国产内核 / WebView
+              （小米、华为、夸克、UC、QQ、微信等）根本不认 download 属性，
+              于是把 blob: URL 当普通链接，对整个页面做顶层导航 →
+              手机看到「网页无法打开 / net::ERR_HTTP_RESPONSE_CODE_FAILURE」，
+              而 blob: 是本会话对象，一旦交给外部浏览器或下载管理器必然取不到 → 打不开。
+     v3 三重防御（不依赖任何 UA 猜测）：
+       ① 绿色按钮点击立刻 preventDefault()，从根上禁止顶层导航 —— 当前页面永远不会被换掉；
+       ② 在同一次手势任务里同步 a.click()（绝不 setTimeout），手势不丢，支持的内核照常下载；
+       ③ 所有下载锚点 target 指向 1px 隐形 iframe（#lx-dl-sink）：
+          即使内核仍不认 download，异常也只发生在隐形 iframe 里，主页面毫发无损、不再跳浏览器。
+     保底通道（全平台可用）：系统分享 navigator.share(files) + 报告图片点击放大后长按保存。
+     桌面端行为不变（仍是 pdf.save()）。 ===== -->
+<script>
+(function () {
+  var ua = navigator.userAgent || '';
+  var isWx = /MicroMessenger/i.test(ua);
+  var isInApp = isWx || /QQ\/|MQQBrowser|QQBrowser|UCBrowser|Quark|QuarkPC|AlipayClient|DingTalk|Weibo|BaiduApp/i.test(ua);
+  var isMobile = /Android|iPhone|iPad|iPod|HarmonyOS|Mobile|Quark/i.test(ua);
+  var curName = '', curImgs = [], curBlobUrl = '', curFile = null;
+
+  function el(id) { return document.getElementById(id); }
+  function docId() {
+    var n = document.querySelector('[data-wx-id]') || el('pdf-doc-id') || el('out-doc-id');
+    var v = n ? (n.textContent || '').trim() : '';
+    if (!v || v === '—' || v.indexOf('XXXX') >= 0) return '—';
+    return v;
+  }
+
+  // 隐形下载沙箱：下载锚点一律以它为 target。内核不认 download 时，
+  // 那一次「错误导航」只会发生在 1px 不可见 iframe 内部，主页面不受影响。
+  function sink() {
+    var f = el('lx-dl-sink');
+    if (!f) {
+      f = document.createElement('iframe');
+      f.id = 'lx-dl-sink';
+      f.name = 'lx-dl-sink';
+      f.setAttribute('aria-hidden', 'true');
+      f.setAttribute('tabindex', '-1');
+      f.style.cssText = 'position:fixed;left:-10000px;top:0;width:1px;height:1px;opacity:0;border:0;pointer-events:none;';
+      (document.body || document.documentElement).appendChild(f);
+    }
+    return f;
+  }
+
+  // 同步锚点下载：必须放在用户手势的同一次事件里调用（禁 setTimeout，否则手势丢失）
+  function realDownload(url, filename) {
+    if (!url) return false;
+    sink();
+    var a = document.createElement('a');
+    a.href = url;
+    a.setAttribute('download', filename || 'report.pdf');
+    a.target = 'lx-dl-sink';
+    a.style.cssText = 'display:none';
+    (document.body || document.documentElement).appendChild(a);
+    var ok = false;
+    try { a.click(); ok = true; } catch (e) {}
+    if (!ok) {
+      try {
+        var ev = document.createEvent('MouseEvents');
+        ev.initMouseEvent('click', true, true, window, 0, 0, 0, 80, 20, false, false, false, false, 0, null);
+        a.dispatchEvent(ev);
+        ok = true;
+      } catch (e2) {}
+    }
+    setTimeout(function () { if (a.parentNode) a.parentNode.removeChild(a); }, 2000);
+    return ok;
+  }
+  window.lxRealDownload = realDownload;
+
+  // 全屏看图：手机浏览器里长按保存图片是唯一 100% 可靠的通道，先看大图再长按最顺手
+  function zoom(src) {
+    var z = el('lx-pdf-zoom');
+    if (!z) {
+      z = document.createElement('div');
+      z.id = 'lx-pdf-zoom';
+      z.style.cssText = 'display:none;position:fixed;left:0;top:0;right:0;bottom:0;z-index:2147483600;' +
+        'background:rgba(0,0,0,.94);overflow-y:auto;-webkit-overflow-scrolling:touch;padding:10px;';
+      z.innerHTML = '<div style="max-width:794px;margin:0 auto;">' +
+        '<div style="color:#e2e8f0;font-size:13px;line-height:1.6;text-align:center;padding:4px 0 10px;">' +
+        '长按图片 → <b>保存图片</b> / 发送给朋友</div>' +
+        '<img id="lx-pdf-zoom-img" alt="丹阳蓝星清洗设备清洗评估报告（长按可保存图片）" ' +
+        'style="width:100%;display:block;background:#fff;border-radius:6px;">' +
+        '<button id="lx-pdf-zoom-close" type="button" style="display:block;width:100%;margin:14px 0 6px;padding:13px;' +
+        'border:0;border-radius:10px;background:#0f766e;color:#fff;font-size:15px;font-weight:800;">关闭大图</button>' +
+        '</div>';
+      (document.body || document.documentElement).appendChild(z);
+      z.addEventListener('click', function (e) { if (e.target === z) z.style.display = 'none'; });
+      el('lx-pdf-zoom-close').addEventListener('click', function () { z.style.display = 'none'; });
+    }
+    el('lx-pdf-zoom-img').src = src;
+    z.style.display = 'block';
+    z.scrollTop = 0;
+  }
+
+  function build() {
+    if (el('lx-pdf-modal')) return;
+    sink();
+    var d = document.createElement('div');
+    d.id = 'lx-pdf-modal';
+    d.style.cssText = 'display:none;position:fixed;left:0;top:0;right:0;bottom:0;z-index:2147483000;' +
+      'background:rgba(2,6,23,.9);overflow-y:auto;-webkit-overflow-scrolling:touch;padding:16px 12px 30px;';
+    d.innerHTML = '' +
+      '<div style="max-width:560px;margin:0 auto;background:#fff;border-radius:16px;padding:18px 16px 20px;' +
+      'font-family:\'Microsoft YaHei\',\'PingFang SC\',sans-serif;color:#1e293b;">' +
+        '<div style="font-size:16px;font-weight:800;margin:0 0 6px;">📄 报告已生成</div>' +
+        '<div id="lx-pdf-lead" style="font-size:13px;line-height:1.75;color:#334155;margin:0 0 12px;"></div>' +
+        '<a id="lx-pdf-save" href="#" role="button" target="lx-dl-sink" style="display:block;width:100%;' +
+        'box-sizing:border-box;text-align:center;padding:14px 10px;border-radius:10px;background:#059669;color:#fff;' +
+        'font-size:15.5px;font-weight:800;text-decoration:none;">⬇ 下载 PDF 文件</a>' +
+        '<button id="lx-pdf-share" type="button" style="display:none;width:100%;margin:10px 0 0;padding:12px;' +
+        'border:1px solid #07C160;border-radius:10px;background:#fff;color:#065f46;font-size:14px;font-weight:700;">' +
+        '📤 发送到微信 / 保存到文件</button>' +
+        '<div id="lx-pdf-alt" style="margin:12px 0 0;font-size:12.5px;line-height:1.75;color:#475569;background:#f8fafc;' +
+        'border:1px dashed #94a3b8;border-radius:10px;padding:10px;"></div>' +
+        '<div id="lx-pdf-imgs"></div>' +
+        '<div style="margin:12px 0 0;font-size:12.5px;color:#334155;">报告编号：<b id="lx-pdf-id" ' +
+        'style="font-family:Consolas,monospace;color:#065f46;">—</b></div>' +
+        '<div style="margin:14px 0 0;display:flex;gap:10px;">' +
+          '<a id="lx-pdf-wx" href="#" target="_blank" rel="noopener" style="flex:1;text-align:center;padding:12px;' +
+          'border-radius:10px;background:#07C160;color:#fff;font-size:14px;font-weight:700;text-decoration:none;">💬 微信发工程师报价</a>' +
+          '<button id="lx-pdf-close" type="button" style="flex:0 0 92px;padding:12px;border:1px solid #cbd5e1;' +
+          'border-radius:10px;background:#fff;color:#475569;font-size:14px;font-weight:700;">关闭</button>' +
+        '</div>' +
+      '</div>';
+    (document.body || document.documentElement).appendChild(d);
+    d.addEventListener('click', function (e) { if (e.target === d) hide(); });
+    el('lx-pdf-close').addEventListener('click', hide);
+    // 关键：先 preventDefault 掐断顶层导航，再在同一个手势里同步触发下载锚点。
+    el('lx-pdf-save').addEventListener('click', function (e) {
+      if (e && e.preventDefault) { e.preventDefault(); e.stopPropagation(); }
+      var me = this;
+      if (!curBlobUrl) { alert('报告还在生成，请 1 秒后重试'); return false; }
+      realDownload(curBlobUrl, curName);          // 同步调用，保留用户手势
+      setTimeout(function () {
+        me.innerHTML = '⬇ 已发起下载 · 若手机没保存成功，请长按下方报告图片保存';
+        me.style.background = '#0f766e';
+      }, 1500);
+      return false;
+    });
+    el('lx-pdf-share').addEventListener('click', function () {
+      if (!curFile) return;
+      try { navigator.share({ files: [curFile], title: curName }).catch(function () {}); } catch (e) {}
+    });
+  }
+  function hide() { var m = el('lx-pdf-modal'); if (m) m.style.display = 'none'; }
+
+  function show() {
+    build();
+    var lead;
+    if (isWx) {
+      lead = '长按下面的报告图片 → <b>保存图片</b>，发给工程师即可报价（微信内置浏览器不允许直接存 PDF）。' +
+             '若一定要 PDF 文件：点右上角 <b>⋯ → 在浏览器打开</b>，参数已自动记住，再点一次生成即可。';
+    } else if (isInApp) {
+      lead = '点绿色按钮<b>下载 PDF 文件</b>。部分手机浏览器限制网页直接存 PDF，' +
+             '若没有反应，请<b>长按下方报告图片</b>保存（两页图片就是完整报告）。';
+    } else {
+      lead = '点绿色按钮<b>下载 PDF 文件</b>。若没反应，请<b>长按下方报告图片</b>保存，' +
+             '两页图片就是完整报告。';
+    }
+    el('lx-pdf-lead').innerHTML = lead;
+    el('lx-pdf-alt').innerHTML = '📌 报告图片通道（所有手机都可用）：点图片可看大图 → 长按 → 保存图片 / 发送给朋友。' +
+      '工程师凭这两页图片即可按设备参数、污垢类型与运行工况人工报价。';
+    // 绿色按钮不带任何 blob: 地址 —— 绝不把 blob URL 交给浏览器的默认导航。
+    var box = el('lx-pdf-imgs');
+    box.innerHTML = '';
+    for (var i = 0; i < curImgs.length; i++) {
+      if (!curImgs[i]) continue;
+      (function (src, idx) {
+        var im = document.createElement('img');
+        im.src = src;
+        im.alt = '丹阳蓝星清洗设备清洗评估报告第' + (idx + 1) + '页（长按可保存后发给工程师报价）';
+        im.style.cssText = 'width:100%;display:block;margin:10px 0 0;border:1px solid #cbd5e1;border-radius:8px;' +
+          'background:#fff;cursor:zoom-in;';
+        im.addEventListener('click', function () { zoom(src); });
+        box.appendChild(im);
+        var cap = document.createElement('div');
+        cap.style.cssText = 'font-size:12px;color:#64748b;text-align:center;margin:4px 0 2px;';
+        cap.innerHTML = '第 ' + (idx + 1) + ' 页 / 共 ' + curImgs.length + ' 页 · ' +
+          '<span style="color:#0f766e;font-weight:700;">点一下看大图 → 长按即可保存</span>';
+        box.appendChild(cap);
+      })(curImgs[i], i);
+    }
+    el('lx-pdf-id').textContent = docId();
+    var wx = document.querySelector('[data-wx-btn]') || document.querySelector('a[href*="work.weixin.qq.com/kfid"]');
+    if (wx) el('lx-pdf-wx').setAttribute('href', wx.getAttribute('href'));
+    el('lx-pdf-modal').style.display = 'block';
+  }
+
+  // 交付入口：桌面 → 原样 pdf.save()；手机 → 面板 + 沙箱锚点下载 + 图片/分享保底
+  window.lxDeliverPdf = function (pdf, filename, imgs, onDone) {
+    curName = filename; curImgs = imgs || [];
+    if (typeof onDone === 'function') onDone();
+    if (!isMobile) { try { pdf.save(filename); } catch (e) {} return; }
+    try {
+      var blob = pdf.output('blob');
+      if (curBlobUrl) { try { URL.revokeObjectURL(curBlobUrl); } catch (e) {} }
+      curBlobUrl = URL.createObjectURL(blob);
+      try { curFile = new File([blob], filename, { type: 'application/pdf' }); } catch (e) { curFile = null; }
+    } catch (e) { curBlobUrl = ''; }
+    show();
+    if (curFile && navigator.canShare) {
+      try {
+        if (navigator.canShare({ files: [curFile] })) el('lx-pdf-share').style.display = 'block';
+      } catch (e2) {}
+    }
+  };
+})();
+</script>
 <!-- AI 智能客服 -->
 <script src="/js/ai-chat.js?v=5" defer></script>
 </body>

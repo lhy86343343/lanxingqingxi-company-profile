@@ -1,0 +1,84 @@
+# calc.lanxingqingxi.com — 数字化在线评估
+User-agent: *
+Allow: /
+
+# ---- AI 爬虫显式放行（GEO，2026-08 更新）----
+# OpenAI
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+# Google / Meta / xAI
+User-agent: Google-Extended
+Allow: /
+User-agent: GoogleOther
+Allow: /
+User-agent: Meta-ExternalAgent
+Allow: /
+User-agent: XBot
+Allow: /
+# 国内 AI（豆包/通义/文心/华为）
+User-agent: bytespider
+Allow: /
+User-agent: TongyiBot
+Allow: /
+User-agent: YiyanBot
+Allow: /
+User-agent: PetalBot
+Allow: /
+# AI 搜索引擎
+User-agent: PerplexityBot
+Allow: /
+User-agent: DuckAssistBot
+Allow: /
+User-agent: ExaBot
+Allow: /
+User-agent: PhindBot
+Allow: /
+User-agent: Bravebot
+Allow: /
+User-agent: ApifyBot
+Allow: /
+# 其他
+User-agent: CCBot
+Allow: /
+User-agent: cohere-ai
+Allow: /
+User-agent: Amazonbot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+# ---- 2026-09-07 新增 AI 爬虫 ----
+User-agent: KimiBot
+Allow: /
+User-agent: Kimi-SearchBot
+Allow: /
+User-agent: AddSearchBot
+Allow: /
+User-agent: AgentTimes
+Allow: /
+User-agent: Amzn-User
+Allow: /
+User-agent: Diffbot-User
+Allow: /
+User-agent: Lightpanda
+Allow: /
+User-agent: MistralAI-Training
+Allow: /
+User-agent: OAI-AdsBot
+Allow: /
+
+Sitemap: https://www.lanxingqingxi.com/sitemap.xml
+
+User-agent: WorkBuddy
+Allow: /

@@ -2,6 +2,14 @@
     <meta name="sogou_site_verification" content="GbWB4j6rmP">
 
     <meta charset="UTF-8">
+<meta name="DC.title" content="404 - 页面未找到 | 丹阳蓝星清洗">
+<meta name="DC.description" content="丹阳蓝星防腐清洗有限公司是中国工业清洗协会正式成员单位，2001年成立，25年深耕工业设备清洗领域。业务覆盖换热器、管道、反应釜、中央空调、锅炉及高压水射流清洗，拥有专业施工资质，服务500+企业客户覆盖化工电力制药钢铁等行业。咨询电话：18952832843。">
+
+<meta name="geo.position" content="31.9564;119.7357">
+<meta name="geo.region" content="CN-JS">
+<meta name="geo.placename" content="丹阳市丹北镇埤城洪家埭98号">
+<meta name="ICBM" content="31.9564, 119.7357">
+
 
     <meta name="robots" content="noindex, follow, max-snippet:-1, max-image-preview:large">
 
@@ -80,7 +88,7 @@
 
             <li><a href="index.html">首页</a></li>
 
-            <li><a href="https://www.lanxingqingxi.com/calc/" target="_blank" rel="noopener" style="color:#0066cc;font-weight:700">数字化在线评估</a></li>
+            <li><a href="https://www.lanxingqingxi.com/calc/" target="_blank" rel="noopener" style="color:#0066cc;font-weight:700">设备清洗评估</a></li>
 
             <li><a href="services.html">服务项目</a></li>
 
@@ -116,7 +124,7 @@
 
     <a href="index.html">首页</a>
 
-    <a href="https://www.lanxingqingxi.com/calc/" target="_blank" rel="noopener" style="color:#0066cc;font-weight:700">数字化在线评估</a>
+    <a href="https://www.lanxingqingxi.com/calc/" target="_blank" rel="noopener" style="color:#0066cc;font-weight:700">设备清洗评估</a>
 
     <a href="services.html">服务项目</a>
 
@@ -158,6 +166,28 @@
 
 
 
+
+<script>
+(function(){
+  var hamburger = document.getElementById('hamburgerBtn') || document.querySelector('.hamburger');
+  var mobileNav = document.getElementById('mobileNav') || document.querySelector('.mobile-nav');
+  if (!hamburger || !mobileNav) return;
+  hamburger.addEventListener('click', function(){
+    hamburger.classList.toggle('active');
+    mobileNav.classList.toggle('open');
+    document.body.classList.toggle('nav-open');
+  });
+  var links = mobileNav.querySelectorAll('a');
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener('click', function(){
+      hamburger.classList.remove('active');
+      mobileNav.classList.remove('open');
+      document.body.classList.remove('nav-open');
+    });
+  }
+})();
+</script>
+<div class="nav-backdrop" onclick="document.querySelector('.mobile-nav').classList.remove('open');document.querySelector('.hamburger').classList.remove('active');document.body.classList.remove('nav-open')"></div>
 
 <!-- AI 智能客服 -->
 <script src="/js/ai-chat.js?v=5" defer></script>

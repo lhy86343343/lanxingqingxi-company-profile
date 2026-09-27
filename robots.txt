@@ -981,6 +981,62 @@ Allow: /
 User-agent: OAI-AdsBot
 Allow: /
 
+
+# ── Auto-synced 2026-09-13 ──
+User-agent: Aranet-SearchBot
+Allow: /
+User-agent: Awario
+Allow: /
+User-agent: Brightbot 1.0
+Allow: /
+User-agent: DoubaoBot
+Allow: /
+User-agent: ERNIEBot
+Allow: /
+User-agent: Factset_spyderbot
+Allow: /
+User-agent: MistralAI-Index
+Allow: /
+User-agent: MistralAI-User/1.0
+Allow: /
+User-agent: Mozilla-Tabstack
+Allow: /
+User-agent: Terra Cotta
+Allow: /
+User-agent: YandexAdditional
+Allow: /
+User-agent: YandexAdditionalBot
+Allow: /
+User-agent: atlassian-bot
+Allow: /
+User-agent: facebookexternalhit
+Allow: /
+User-agent: iaskspider/2.0
+Allow: /
+User-agent: meta-externalagent
+Allow: /
+User-agent: meta-externalfetcher
+Allow: /
+User-agent: omgili
+Allow: /
+User-agent: omgilibot
+Allow: /
+User-agent: webzio-extended
+Allow: /
+
+
+# ── Auto-synced 2026-09-27 ──
+User-agent: AgentDataBot
+Allow: /
+User-agent: BixelBot
+Allow: /
+User-agent: CloudflareBrowserRenderingCrawler
+Allow: /
+User-agent: Kimi-Agent
+Allow: /
+User-agent: qodercli
+Allow: /
+
 Sitemap: https://www.lanxingqingxi.com/sitemap.xml
 Sitemap: https://www.lanxingqingxi.com/geo-sitemap.xml
 
@@ -988,8 +1044,6 @@ Sitemap: https://www.lanxingqingxi.com/geo-sitemap.xml
 # 腾讯 AI 办公工作台
 User-agent: WorkBuddy
 Allow: /
-Sitemap: https://www.lanxingqingxi.com/llms.txt
-Sitemap: https://www.lanxingqingxi.com/llms-full.txt
 Sitemap: https://www.lanxingqingxi.com/rss.xml
 
 # === 新增 AI 爬虫（2026-08-28 补充） ===

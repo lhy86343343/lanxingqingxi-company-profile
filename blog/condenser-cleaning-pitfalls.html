@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="DC.title" content="凝汽器清洗最容易踩的 5 个坑：从垢样判断到验收返工 | 丹阳蓝星清洗">
+<meta name="DC.description" content="凝汽器清洗的效果往往丢在判断与验收两步：把真空度下降一律归因于结垢、钛管系统照搬碳钢药剂、半侧清洗隔离不严、只冲管束不清水室死角、验收只看管子发亮。本文给出端差与清洁系数的判断口径、氯离子与压力红线、半侧清洗的隔离要点，以及除垢率、腐蚀速率与运行效果的复核方法，附一台 150 MW 机组半侧清洗案例。">
+
+<meta name="geo.position" content="31.9564;119.7357">
+<meta name="geo.region" content="CN-JS">
+<meta name="geo.placename" content="丹阳市丹北镇埤城洪家埭98号">
+<meta name="ICBM" content="31.9564, 119.7357">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="sogou_site_verification" content="GbWB4j6rmP" />
+  <meta name="baidu-site-verification" content="codeva-e6B4jtlsytrAuz4K">
+  <meta name="360-site-verification" content="d1d9353bd128b2c81a6f1b82efa3b03a">
+  <title>凝汽器清洗最容易踩的 5 个坑：从垢样判断到验收返工 | 丹阳蓝星清洗</title>
+  <meta name="description" content="凝汽器清洗的效果往往丢在判断与验收两步：把真空度下降一律归因于结垢、钛管系统照搬碳钢药剂、半侧清洗隔离不严、只冲管束不清水室死角、验收只看管子发亮。本文给出端差与清洁系数的判断口径、氯离子与压力红线、半侧清洗的隔离要点，以及除垢率、腐蚀速率与运行效果的复核方法，附一台 150 MW 机组半侧清洗案例。">
+  <meta name="keywords" content="凝汽器清洗,凝汽器清洗注意事项,凝汽器结垢判断,端差,清洁系数,钛管凝汽器化学清洗,半侧清洗,胶球在线清洗,水室死角清洗,高压水射流清洗管束,DL/T 957-2017,GB/T 25146-2010">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <link rel="stylesheet" href="../css/style.css?v=15">
+  <link rel="canonical" href="https://www.lanxingqingxi.com/blog/condenser-cleaning-pitfalls.html">
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.lanxingqingxi.com/blog/condenser-cleaning-pitfalls.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.lanxingqingxi.com/blog/condenser-cleaning-pitfalls.html">
+  <link rel="alternate" hreflang="en" href="https://www.lanxingqingxi.com/en/blog/condenser-cleaning-pitfalls.html">
+  <meta property="og:title" content="凝汽器清洗最容易踩的 5 个坑：从垢样判断到验收返工 | 丹阳蓝星清洗">
+  <meta property="og:description" content="凝汽器清洗的效果往往丢在判断与验收两步：把真空度下降一律归因于结垢、钛管系统照搬碳钢药剂、半侧清洗隔离不严、只冲管束不清水室死角、验收只看管子发亮。本文给出端差与清洁系数的判断口径、氯离子与压力红线、半侧清洗的隔离要点，以及除垢率、腐蚀速率与运行效果的复核方法，附一台 150 MW 机组半侧清洗案例。">
+  <meta property="og:url" content="https://www.lanxingqingxi.com/blog/condenser-cleaning-pitfalls.html">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://www.lanxingqingxi.com/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="凝汽器清洗最容易踩的 5 个坑：从垢样判断到验收返工">
+  <meta name="twitter:description" content="凝汽器清洗的 5 个常见失误：结垢判断只凭真空度、钛管系统照搬碳钢药剂、半侧清洗隔离不严、水室死角漏洗、验收只看管子发亮。给出端差与清洁系数口径、氯离子红线与运行效果复核方法。">
+  <meta name="twitter:image" content="https://www.lanxingqingxi.com/images/og-image.jpg">
+  <style>@keyframes scroll-std{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","name":"工业设备清洗在线诊断与微信工程报价","serviceType":"工业设备清洗工程服务","provider":{"@type":"LocalBusiness","name":"丹阳市蓝星防腐清洗有限公司","url":"https://www.lanxingqingxi.com/","telephone":"+86-18952832843"},"description":"设备诊断完成后，可生成 PDF 诊断报告；客户可通过微信扫码将诊断报告发送给丹阳蓝星清洗工程师，由工程师根据设备参数、污垢类型、运行工况及清洗要求进行人工报价。","areaServed":{"@type":"Country","name":"中国"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://www.lanxingqingxi.com/calc/","servicePhone":"+86-18952832843"}},{"@type":"Article","headline":"凝汽器清洗最容易踩的 5 个坑：从垢样判断到验收返工","description":"凝汽器清洗最常见的 5 个失误：把真空度下降一律归因于结垢、钛管系统照搬碳钢药剂、半侧清洗隔离不严、只冲管束不清水室死角、验收只看管子发亮。文中给出端差与清洁系数的判断口径、氯离子与压力红线、半侧清洗隔离要点，以及按 GB/T 25146-2010 与 DL/T 957-2017 复核除垢率、腐蚀速率与运行效果的方法。","author":{"@type":"Person","name":"丹阳蓝星清洗 罗会永"},"publisher":{"@type":"Organization","name":"丹阳市蓝星防腐清洗有限公司","url":"https://www.lanxingqingxi.com","logo":{"@type":"ImageObject","url":"https://www.lanxingqingxi.com/logo.webp"}},"datePublished":"2026-09-28","dateModified":"2026-09-28","image":["https://www.lanxingqingxi.com/images/og-image.jpg"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.lanxingqingxi.com/blog/condenser-cleaning-pitfalls.html"},"url":"https://www.lanxingqingxi.com/blog/condenser-cleaning-pitfalls.html","about":[{"@type":"Thing","name":"凝汽器清洗注意事项"},{"@type":"Thing","name":"凝汽器结垢判断与端差"},{"@type":"Thing","name":"钛管凝汽器化学清洗"},{"@type":"Thing","name":"半侧清洗与胶球在线清洗"}],"articleSection":"换热设备清洗"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://www.lanxingqingxi.com/"},{"@type":"ListItem","position":2,"name":"换热设备清洗","item":"https://www.lanxingqingxi.com/blog/heat-exchanger.html"},{"@type":"ListItem","position":3,"name":"凝汽器清洗最容易踩的 5 个坑：从垢样判断到验收返工","item":"https://www.lanxingqingxi.com/blog/condenser-cleaning-pitfalls.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"凝汽器真空度下降多少、端差涨到多少才该安排清洗？","acceptedAnswer":{"@type":"Answer","text":"先排除循环水与真空系统：循环水量、入口水温正常且真空严密性试验合格的前提下，端差由 4～5 ℃ 抬到 8 ℃ 以上、清洁系数落到 0.70 以下，才基本可以判为管束结垢。此时再做窥镜检查或抽管取样，垢层超过 0.3 mm 再定药剂与工艺，比只凭真空度一个读数就排药剂稳妥得多。"}},{"@type":"Question","name":"钛管凝汽器可以用含氟清洗剂吗？","acceptedAnswer":{"@type":"Answer","text":"不可以。钛在含氟介质中会吸氢并产生氢脆，含氟组分对钛管是一票否决项。钛管系统常规走氨基磺酸或柠檬酸体系，40～50 ℃ 循环，清洗液氯离子按 25 mg/L 控制（这条红线同时保护管板与不锈钢件），温度上限收在 60 ℃，避免薄壁管在高温酸性介质中受损。"}},{"@type":"Question","name":"半侧清洗时，运行侧的真空靠什么维持？","acceptedAnswer":{"@type":"Answer","text":"靠水室隔绝与窗口控制。清洗侧循环水进出口门关闭挂牌，有条件再加装堵板，防止阀门内漏把循环水漏进清洗回路稀释药剂；水室人孔打开后加临时挡板、缩短敞开时间，避免空气从水室漏入汽侧。运行侧真空按机组规程维持在 -95 kPa 以上，排汽温度不超限，单侧作业含排水、清洗与冲洗压在 1 天以内。"}},{"@type":"Question","name":"刚洗完两三个月端差又涨回来，问题出在哪？","acceptedAnswer":{"@type":"Answer","text":"多半是死角与日常维持两项没跟上。水室四角、管板与隔板背面、二次滤网和收球网的粘泥没清到位，运行几周就被重新带进管束；化学清洗后胶球在线系统没有及时投运，收球率低于 90% 或球径与管径不匹配，管束得不到持续擦洗。两项补齐后，同类机组的清洗间隔一般能从 8 个月拉回到 12～18 个月。"}},{"@type":"Question","name":"凝汽器清洗的效果用哪些指标验收？","acceptedAnswer":{"@type":"Answer","text":"分质量与运行两条线。质量看除垢率（碳酸盐垢不低于 95%）和同材质试片的腐蚀速率，试片按 GB/T 25146-2010 用失重法判定；运行看端差、清洁系数与真空度，且要在满负荷稳定 72 h 后取数。以一台 150 MW 机组为例，清洗后端差由 8.8 ℃ 回到 4.5 ℃、清洁系数由 0.68 升到 0.84，真空回升 1.2 kPa，这三项比「管束发亮」更能说明问题。"}}]},{"@type":"LocalBusiness","@id":"https://www.lanxingqingxi.com/#organization","name":"丹阳市蓝星防腐清洗有限公司","url":"https://www.lanxingqingxi.com/","telephone":"+86-18952832843","email":"luohuiyong@126.com","address":{"@type":"PostalAddress","streetAddress":"丹阳市丹北镇埤城洪家埭98号","addressRegion":"江苏省","addressCountry":"CN"}}]}</script>
+</head>
+<body>
+<header class="topbar"><div class="topbar-inner">
+<a href="/index.html" class="logo"><img src="/images/logo.webp" alt="丹阳蓝星清洗" style="height:40px"></a>
+<nav><ul class="main-nav">
+<li><a href="/index.html">首页</a></li>
+<li><a href="https://www.lanxingqingxi.com/calc/" target="_blank" rel="noopener" style="color:#0066cc;font-weight:700">设备清洗评估</a></li>
+<li><a href="/services.html">服务项目</a></li>
+<li><a href="/tech.html">核心技术</a></li>
+<li><a href="/cases.html">成功案例</a></li>
+<li><a href="/faq.html">常见问题</a></li>
+<li><a href="/blog/blog-list.html" class="active">清洗资讯</a></li>
+<li><a href="/contact.html">联系我们</a></li>
+</ul></nav>
+<button class="hamburger" onclick="this.classList.toggle('active');document.querySelector('.mobile-nav').classList.toggle('open');document.body.classList.toggle('nav-open')" aria-label="菜单"><span></span><span></span><span></span></button>
+<div class="lang-switch"><a href="/index.html" class="active">🇨🇳 中文</a><a href="/en/index.html">🇬🇧 EN</a></div>
+</div></header>
+
+<nav class="mobile-nav">
+<a href="/index.html">首页</a><a href="https://www.lanxingqingxi.com/calc/" target="_blank" rel="noopener" style="color:#0066cc;font-weight:700">设备清洗评估</a>
+<a href="/services.html">服务项目</a>
+<a href="/tech.html">核心技术</a>
+<a href="/cases.html">成功案例</a>
+<a href="/faq.html">常见问题</a>
+<a href="/blog/blog-list.html">清洗资讯</a>
+<a href="/contact.html">联系我们</a>
+<a href="/contact.html" class="nav-cta">📞 18952832843</a>
+</nav>
+
+<div style="text-align:center;padding:12px 0;background:linear-gradient(90deg,#f0f4f8,#e8f0f8,#f0f4f8);border-bottom:1px solid #d0dae5;overflow:hidden"><div style="display:inline-block;animation:scroll-std 22s linear infinite;color:#555;font-size:0.9rem;white-space:nowrap">🔖 执行标准：<a href="https://openstd.samr.gov.cn/bzgk/gb/std?name=GB/T%2025146-2010" target="_blank" rel="noopener" style="color:#0066CC">GB/T 25146-2010《工业设备化学清洗质量验收规范》</a> · <a href="https://openstd.samr.gov.cn/bzgk/gb/std?name=HG/T%202387" target="_blank" rel="noopener" style="color:#0066CC">HG/T 2387《工业设备化学清洗质量标准》</a> · <a href="https://openstd.samr.gov.cn/bzgk/gb/std?name=DL/T%20957" target="_blank" rel="noopener" style="color:#0066CC">DL/T 957-2017《火力发电厂凝汽器化学清洗及成膜导则》</a> · 中国工业清洗协会成员单位 · 中国锅炉与锅炉水处理协会会员 · 25年专业经验 · 📞 18952832843</div></div>
+
+<section class="section" style="padding-top:100px"><div class="section-inner">
+<div style="text-align:center"><span class="section-label">清洗资讯</span></div>
+<h1>凝汽器清洗最容易踩的 5 个坑：从垢样判断到验收返工</h1>
+<p class="subtitle">换热设备清洗 · 凝汽器 · 化学清洗与高压水射流</p>
+
+<div style="display:flex;align-items:center;gap:12px;background:#f8f9fa;border:1px solid #e5e7eb;border-radius:8px;padding:12px 16px;margin:0 auto 1.5rem;max-width:720px;text-align:left">
+<div style="width:44px;height:44px;border-radius:50%;background:#0066CC;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700;flex-shrink:0">罗</div>
+<div>
+<div style="font-size:0.9rem;color:#333"><strong>罗会永</strong> · 工业设备清洗工程师</div>
+<div style="font-size:0.8rem;color:#666;margin-top:2px;line-height:1.6">25年工业设备清洗从业经验，中国工业清洗协会会员单位技术负责人，专注换热器、锅炉、初冷器、反应釜等设备的化学清洗与高压水射流清洗技术。</div>
+</div>
+</div>
+
+<article class="article-body"><p><strong>摘要：</strong>凝汽器清洗返工，多数不是药剂选错，而是判断与验收这两头被省掉了——真空度一下降就着急排药剂，洗完全靠手电照一遍收工。本文按现场最容易踩的 5 个坑展开：怎么用端差、循环水量与真空度三个量判断是不是真结垢；钛管与不锈钢管的含氟药剂、氯离子两条红线怎么守；半侧清洗的隔离与真空维持要点；水室、管板与隔板背面为什么必修；胶球在线清洗与化学清洗的时序怎么排开；以及验收阶段端差与清洁系数怎么复核。工艺口径参照 DL/T 957-2017 与 GB/T 25146-2010，末尾附一台 150 MW 机组凝汽器半侧清洗的匿名案例。</p>
+<div style="max-width:720px;margin:1.5em auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px">
+<div style="background:linear-gradient(135deg,#0f172a,#1e3a8a);border-radius:10px;padding:20px 16px;text-align:center;border:1px solid #3b82f6">
+<div style="color:#93c5fd;font-size:0.8rem;font-weight:600;letter-spacing:2px">免费在线工具 · 诊断</div>
+<div style="color:#fff;font-size:1.02rem;font-weight:700;margin:6px 0 2px">🛠 设备结垢风险诊断器</div>
+<div style="color:#cbd5e1;font-size:0.82rem;margin-bottom:10px">换热器、凝汽器、锅炉结垢有多严重？综合设备、材质、水质硬度、运行温度与设备表现，评估结垢风险等级、换热性能影响与能耗浪费，逐项解释诊断依据，匹配清洗工艺与缓蚀剂体系，生成 PDF 诊断报告</div>
+<a href="/tools/scaling-diagnosis.html" style="display:inline-block;background:#0066CC;color:#fff;padding:9px 26px;border-radius:6px;font-weight:600;text-decoration:none">立即免费诊断 →</a>
+<div style="color:#93c5fd;font-size:0.75rem;margin-top:8px">免费 · 约1分钟出结果</div>
+</div>
+<div style="background:linear-gradient(135deg,#0f172a,#1e3a8a);border-radius:10px;padding:20px 16px;text-align:center;border:1px solid #3b82f6">
+<div style="color:#93c5fd;font-size:0.8rem;font-weight:600;letter-spacing:2px">免费在线工具 · 维护</div>
+<div style="color:#fff;font-size:1.02rem;font-weight:700;margin:6px 0 2px">📅 设备清洗周期智能评估器</div>
+<div style="color:#cbd5e1;font-size:0.82rem;margin-bottom:10px">设备多久该洗一次？根据设备类型、水质、运行温度与历史清洗记录，评估建议清洗周期、当前维护状态（正常 / 接近周期 / 建议清洗）与下一次清洗时间，生成维护计划表 PDF</div>
+<a href="/tools/maintenance-cycle.html" style="display:inline-block;background:#0066CC;color:#fff;padding:9px 26px;border-radius:6px;font-weight:600;text-decoration:none">计算清洗周期 →</a>
+<div style="color:#93c5fd;font-size:0.75rem;margin-top:8px">免费 · 10秒出结果</div>
+</div>
+</div>
+
+<h2>一、先纠一个判断：真空度下降不等于管束结垢</h2>
+<p>凝汽器清洗的第一个坑出在判断上。真空度下降、端差上升，现场最常见的反应就是「该洗了」，但在同样条件下能造成换热变差的原因有三类：管束结垢、真空系统漏入空气或抽气器效率下降、循环水量与循环水温偏离设计。三类现象相似，处理方向完全不同，判断的顺序应该是先易后难。</p>
+<p>先看循环水侧：循环水泵运行方式、冷却塔出水温度、循环倍率是否落在设计区间，这些在盘面上一眼可见；再看真空系统：做一次真空严密性试验，查漏入空气率与抽气器工作真空。两项都正常，才轮到怀疑管束。此时用端差（排汽饱和温度减循环水出口温度）与清洁系数判断：维护正常的机组满负荷端差通常在 4～5 ℃、清洁系数在 0.80～0.90，端差抬到 8 ℃ 以上、清洁系数落到 0.70 以下，结垢的可能性才足够大。</p>
+<p>判断的最后一环是取垢样。打开水室人孔，记录垢层厚度与颜色，做酸溶试验判定垢型——碳酸盐垢叠加粘泥是循环水侧最常见的组合，垢层超过 0.3 mm 就该安排清洗。跳过这一步凭经验排药剂，是后面所有返工的源头。</p>
+<table>
+<caption>凝汽器换热变差的三类原因与区分方法</caption>
+<thead><tr><th scope="col">现象</th><th scope="col">区分方法</th><th scope="col">处理方向</th></tr></thead>
+<tbody>
+<tr><td>端差升高、清洁系数下降，循环水量与入口水温正常</td><td>计算端差与清洁系数，配合水室窥镜检查、抽管取样</td><td>按垢型安排化学清洗或高压水射流，先做药剂与材质匹配试验</td></tr>
+<tr><td>端差变化不大，真空度波动大、抽气器工作异常</td><td>真空严密性试验，查漏入空气率与抽气器工作水温度</td><td>先处理真空系统，清洗解决不了这类真空下降</td></tr>
+<tr><td>端差与循环水出口温度同时偏高</td><td>核对循环水量、循环水温与冷却塔运行工况</td><td>调整循环水侧运行方式，不急于安排清洗</td></tr>
+</tbody>
+</table>
+
+<h2>二、坑一：没做垢样分析，照着碳钢方案洗钛管</h2>
+<p>凝汽器管束多为钛管，也有不锈钢管与铜合金管，三者对清洗液的耐受能力完全不同。钛在含氟介质中会吸氢并产生氢脆，含氟组分对钛管是一票否决项；不锈钢管对氯离子敏感，清洗液氯离子要按 25 mg/L 控制；铜合金管则要求缓蚀剂体系里配铜缓蚀组分。把碳钢管束的药剂配方直接套到凝汽器上，轻则清洗后管口出现点蚀，重则整批管束报废。</p>
+<p>温度与浓度同样要收着走。钛管壁厚常见 0.5～0.7 mm，换热面本身就薄，清洗液温度上限按 60 ℃ 控制，浓度按垢层厚度反算；循环过程中每 30 min 记录温度、pH 与铁离子浓度，铁离子突然抬高说明局部过洗，处置办法是稀释清洗液或补加缓蚀剂，而不是继续跑时间。药剂体系优先选氨基磺酸或柠檬酸这类温和体系，配同材质试片在场，按 GB/T 25146-2010 的失重法判定腐蚀速率。</p>
+
+<h2>三、坑二：半侧清洗的隔离与真空维持没做到位</h2>
+<p>半侧清洗的价值在于不停机：一侧水室隔离出来清洗，另一侧继续运行维持机组负荷。出问题的地方集中在隔离——只关循环水进出口门不加堵板，阀门内漏把循环水漏进清洗回路，药剂被稀释后清洗时间与效果一起失控；反向泄漏则会把清洗液带进循环水系统，影响整套循环水的水质指标。</p>
+<p>隔离要做到三层：阀门关闭挂牌，有条件时加装堵板，清洗回路单独接临时泵与配液槽，与循环水系统物理断开。水室人孔打开后加临时挡板、缩短敞开时间，防止空气从水室漏入汽侧拖低真空，这一条在真空严密性本身偏紧的机组上尤其明显。运行侧真空按机组规程维持在 -95 kPa 以上，排汽温度不超限；单侧作业含放水、清洗、冲洗与人孔复原控制在 1 天以内，两侧错开窗口，总工期约 2 天。</p>
+
+<h2>四、坑三：只冲刷管束，水室与管板死角没洗</h2>
+<p>高压水射流逐根通过管束是凝汽器清洗最直观的一道工序，压力按管材定：钛管与不锈钢管收在 20～30 MPa，碳钢管束可以用到 30～50 MPa，喷头对中后再推进，避免管口偏磨。问题在于不少人把这道工序做成了全部——水室四角、管板背面、隔板与导流板、二次滤网和收球网上的粘泥不清理，运行几周就被重新带进管束，端差很快回升。</p>
+<p>死角的清理方式与管束不同：低压水冲洗配合人工清理，用软质工具，不用钢丝刷直接刷管板孔口；管板孔口 3～5 mm 的倒角处最容易残留硬垢，需要逐孔检查。清完做一次通水检查，确认水室内无残留堆积再回装人孔，照片与点位编号一并留进验收资料。</p>
+
+<h2>五、坑四：胶球在线清洗与化学清洗的时序没排开</h2>
+<p>胶球在线清洗是维持手段而不是替代手段，这一点在选型阶段已经明确；执行层面还常出另一种错——化学清洗和胶球系统撞在一起。清洗期间胶球必须取出、收球网清空，否则胶球吸附清洗液、卡在管口，既扰乱清洗液的流速分布，也损伤胶球本身；清洗后则应尽快恢复胶球系统，让管束表面保持擦洗状态。</p>
+<p>胶球系统的运行参数要一并核查：湿态球径一般比管径大 1～2 mm，收球率不低于 90%。收球率长期偏低，说明球径不匹配或收球网堵塞，这时即使管束刚洗过，结垢速度也会偏快。建议化学清洗后 3 天内投运胶球系统，每周记录一次收球率，数据并入机组水汽监督台账。</p>
+
+<h2>六、坑五：验收只看管子发亮，没复核端差与清洁系数</h2>
+<p>凝汽器清洗的验收要分两条线：清洗质量看除垢率、腐蚀速率与钝化状态，运行效果看端差、清洁系数与真空度。只用手电照一眼管子说「很干净」，既没有量化证据，也解释不了为什么洗完了真空度没回升——后者往往指向真空系统本身的问题，而不是清洗没做到位。</p>
+<p>运行效果的数据要在满负荷稳定运行 72 h 后取，刚投运时偏高偏低的读数都不作数。端差回到修前基准 ±0.5 ℃ 以内、清洁系数回到 0.83 以上、真空度回升 1 kPa 以上，才算这次清洗产生了可测量的收益。按煤耗折算，一台 150 MW 机组真空回升 1 kPa 大致对应 1 g/(kW·h) 量级的供电煤耗收益，这也是把凝汽器清洗排进年度检修计划的理由。</p>
+<table>
+<caption>凝汽器清洗的检验项目与判定口径</caption>
+<thead><tr><th scope="col">检验项目</th><th scope="col">检验方法</th><th scope="col">判定口径</th></tr></thead>
+<tbody>
+<tr><td>除垢率</td><td>目视与称重结合，抽 3～5 根代表性管子对比</td><td>碳酸盐垢、粘泥不小于 95%，其他垢型不小于 85%（GB/T 25146-2010）</td></tr>
+<tr><td>腐蚀速率</td><td>同材质试片在场，失重法判定</td><td>不锈钢与钛实验室不大于 1 g/(m²·h)、现场不大于 1.5 g/(m²·h)</td></tr>
+<tr><td>管束通畅</td><td>逐根通过检查，必要时抽管复查</td><td>无残余堵塞，管口无偏磨与损伤</td></tr>
+<tr><td>端差</td><td>满负荷稳定 72 h 后取数，与修前基准对比</td><td>回到修前基准 ±0.5 ℃ 以内</td></tr>
+<tr><td>清洁系数</td><td>按运行参数计算</td><td>由 0.70 以下回到 0.83 以上</td></tr>
+<tr><td>真空系统</td><td>真空严密性试验</td><td>合格，排除漏入空气对真空度的干扰</td></tr>
+</tbody>
+</table>
+
+<h2>七、工程案例：某热电厂 150 MW 机组凝汽器半侧清洗</h2>
+<p>2026 年 5 月，丹阳蓝星清洗承接华东某热电厂 1 台 150 MW 机组凝汽器的半侧清洗，机组不停机，分两个窗口完成两侧。设备为双流程表面式凝汽器，冷却面积约 9,000 m²，钛管 φ25×0.5 mm，共约 12,600 根，循环水为开式循环。修前真空度较设计值低约 1.5 kPa，端差由 4.2 ℃ 升到 8.8 ℃，清洁系数 0.68。</p>
+<p>判断阶段先排除了循环水与真空系统：循环水量与入口水温都在设计区间，真空严密性试验合格；随后打开水室人孔取样，垢层 0.3～0.6 mm，灰白色硬垢叠加粘泥，酸溶判定以碳酸盐垢为主。据此定工艺：水室加装堵板隔离，清洗回路接临时泵，采用氨基磺酸体系 40～50 ℃ 循环 4 h，清洗液氯离子全程不超过 25 mg/L，全程禁用含氟组分；管束用 20～30 MPa 高压水逐根通过，水室四角与管板背面人工清理。</p>
+<p>单侧作业 1 天：放水与隔离 3 h、循环清洗 4 h、冲洗置换 2 h、水室清理与人孔复原 2 h，两侧错开窗口完成，机组负荷未受明显影响。验收结果：除垢率 96%，同材质试片腐蚀速率 0.15 g/(m²·h)，逐根通过检查无堵塞与管口损伤；投运满负荷 72 h 后端差回到 4.5 ℃、清洁系数 0.84、真空度回升 1.2 kPa。客户随后把胶球系统投运要求与水室死角清理写进了机组检修作业指导书。相关工艺选型与不停车清洗的口径，可参考<a href="condenser-cleaning-methods.html">凝汽器清洗方法有几种：6 种工艺的适用工况与选型对照</a>与<a href="online-non-stop-chemical-cleaning.html">在线不停车化学清洗技术</a>。</p>
+
+<h2>八、常见问题解答</h2>
+<h3>Q1：凝汽器真空度下降多少、端差涨到多少才该安排清洗？</h3>
+<p>先排除循环水与真空系统：循环水量、入口水温正常且真空严密性试验合格的前提下，端差由 4～5 ℃ 抬到 8 ℃ 以上、清洁系数落到 0.70 以下，才基本可以判为管束结垢。此时再做窥镜检查或抽管取样，垢层超过 0.3 mm 再定药剂与工艺，比只凭真空度一个读数就排药剂稳妥得多。</p>
+<h3>Q2：钛管凝汽器可以用含氟清洗剂吗？</h3>
+<p>不可以。钛在含氟介质中会吸氢并产生氢脆，含氟组分对钛管是一票否决项。钛管系统常规走氨基磺酸或柠檬酸体系，40～50 ℃ 循环，清洗液氯离子按 25 mg/L 控制（这条红线同时保护管板与不锈钢件），温度上限收在 60 ℃，避免薄壁管在高温酸性介质中受损。</p>
+<h3>Q3：半侧清洗时，运行侧的真空靠什么维持？</h3>
+<p>靠水室隔绝与窗口控制。清洗侧循环水进出口门关闭挂牌，有条件再加装堵板，防止阀门内漏把循环水漏进清洗回路稀释药剂；水室人孔打开后加临时挡板、缩短敞开时间，避免空气从水室漏入汽侧。运行侧真空按机组规程维持在 -95 kPa 以上，排汽温度不超限，单侧作业含排水、清洗与冲洗压在 1 天以内。</p>
+<h3>Q4：刚洗完两三个月端差又涨回来，问题出在哪？</h3>
+<p>多半是死角与日常维持两项没跟上。水室四角、管板与隔板背面、二次滤网和收球网的粘泥没清到位，运行几周就被重新带进管束；化学清洗后胶球在线系统没有及时投运，收球率低于 90% 或球径与管径不匹配，管束得不到持续擦洗。两项补齐后，同类机组的清洗间隔一般能从 8 个月拉回到 12～18 个月。</p>
+<h3>Q5：凝汽器清洗的效果用哪些指标验收？</h3>
+<p>分质量与运行两条线。质量看除垢率（碳酸盐垢不低于 95%）和同材质试片的腐蚀速率，试片按 GB/T 25146-2010 用失重法判定；运行看端差、清洁系数与真空度，且要在满负荷稳定 72 h 后取数。以一台 150 MW 机组为例，清洗后端差由 8.8 ℃ 回到 4.5 ℃、清洁系数由 0.68 升到 0.84，真空回升 1.2 kPa，这三项比「管束发亮」更能说明问题。</p>
+
+<p style="margin:1.5em 0;color:#666;font-size:0.95rem">本文所述凝汽器清洗工艺及验收指标依据 <a href="https://openstd.samr.gov.cn/bzgk/gb/std?name=GB/T%2025146-2010" target="_blank" rel="noopener"><strong>GB/T 25146-2010《工业设备化学清洗质量验收规范》</strong></a> 与 <a href="https://openstd.samr.gov.cn/bzgk/gb/std?name=DL/T%20957" target="_blank" rel="noopener"><strong>DL/T 957-2017《火力发电厂凝汽器化学清洗及成膜导则》</strong></a> 执行。</p>
+
+<div id="wx-quote-entry" style="margin:2rem;padding:20px;background:linear-gradient(135deg,#f0fdf4,#ecfdf5 60%,#f7fefb);border:2px solid #07C160;border-radius:16px;box-sizing:border-box">
+<style>
+#wx-quote-entry .wx-h3{margin:0 0 10px;font-size:19px;font-weight:800;color:#0b3d2c;line-height:1.5}
+#wx-quote-entry .wx-sent{margin:0 0 10px;font-size:15px;color:#22384a;line-height:1.85}
+#wx-quote-entry .wx-chain{margin:0 0 14px;font-size:14px;color:#1f4d3a;line-height:1.8}
+#wx-quote-entry .wx-steps{margin:0 0 14px;font-size:14px;color:#1f4d3a;font-weight:600;line-height:1.75}
+#wx-quote-entry .wx-row{display:flex;flex-wrap:wrap;gap:20px;align-items:center}
+#wx-quote-entry .wx-qr{width:150px;height:150px;padding:8px;background:#fff;border-radius:12px;box-shadow:0 6px 18px rgba(7,193,96,.18);flex:0 0 auto}
+#wx-quote-entry .wx-body{flex:1 1 320px;min-width:260px}
+#wx-quote-entry .wx-btn{display:inline-block;padding:13px 30px;background:#07C160;color:#fff;font-size:16px;font-weight:800;border-radius:28px;text-decoration:none;box-shadow:0 6px 18px rgba(7,193,96,.32)}
+#wx-quote-entry .wx-ln{margin-top:10px;font-size:13px;color:#475569;line-height:1.85}
+#wx-quote-entry .wx-tool{margin-top:8px;font-size:13px;color:#475569;line-height:1.85}
+#wx-quote-entry .wx-send{background:#fff;border:1px solid #d7f0e2;border-radius:10px;padding:10px 12px;margin-top:10px;font-size:13px;color:#22384a;line-height:1.85}
+@media (max-width:480px){
+  #wx-quote-entry{padding:14px!important;margin:1.4rem!important;border-radius:14px}
+  #wx-quote-entry .wx-h3{font-size:17px;margin-bottom:8px}
+  #wx-quote-entry .wx-sent{font-size:14px;line-height:1.75;margin-bottom:8px}
+  #wx-quote-entry .wx-chain{font-size:12.5px;line-height:1.7;margin-bottom:10px}
+  #wx-quote-entry .wx-steps{font-size:12.5px;line-height:1.7;margin-bottom:10px}
+  #wx-quote-entry .wx-row{gap:12px}
+  #wx-quote-entry .wx-qr{width:112px;height:112px;padding:6px}
+  #wx-quote-entry .wx-body{flex:1 1 150px;min-width:140px}
+  #wx-quote-entry .wx-btn{display:block;padding:12px 8px;font-size:15px;border-radius:24px;text-align:center}
+  #wx-quote-entry .wx-ln,#wx-quote-entry .wx-tool{font-size:12.5px;line-height:1.7;margin-top:8px}
+  #wx-quote-entry .wx-send{display:none}
+}
+</style>
+<h3 class="wx-h3">📱 微信获取清洗报价</h3>
+<p class="wx-sent">设备诊断完成后，可生成 PDF 诊断报告；客户可通过微信扫码将诊断报告发送给丹阳蓝星清洗工程师，由工程师根据<b>设备参数、污垢类型、运行工况及清洗要求</b>进行人工报价。</p>
+<p class="wx-chain"><b>服务链路</b>：丹阳蓝星清洗（工业清洗工程服务商）→ 在线设备诊断 → PDF 诊断报告 → 微信工程报价（工程师人工确认）</p>
+<p class="wx-steps"><b>获取报价四步</b>：① 扫码加微信 → ② 发送设备照片、型号与垢层情况 → ③ 工程师判断垢型、匹配清洗工艺 → ④ 获取人工报价（PDF 诊断报告同步发送）</p>
+<div class="wx-row">
+<img class="wx-qr" src="/images/kf-qrcode.png" alt="丹阳蓝星清洗工程师微信报价二维码：扫码加微信，发送设备照片、设备型号与垢层情况，按设备参数与工况人工报价（工业设备清洗报价）" width="150" height="150" loading="lazy" decoding="async">
+<div class="wx-body">
+<a class="wx-btn" href="https://work.weixin.qq.com/kfid/kfcbd2c895281e8910e" target="_blank" rel="noopener">立即添加微信 · 免费报价</a>
+<div class="wx-ln">微信客服在线，发送资料后工程师尽快回复 ｜ 或致电 <b>18952832843</b>（罗经理）</div>
+<div class="wx-tool">也可以先在线诊断：<a href="/calc/" style="color:#0066CC;font-weight:700;text-decoration:none">设备清洗评估</a> → 生成 PDF 诊断报告 → 再发微信给工程师</div>
+<div class="wx-send"><strong>建议发送：</strong>① 设备照片 ② 设备名称 ③ 设备规格 ④ 垢层照片 ⑤ 是否需要不停产清洗</div>
+</div>
+</div>
+</div>
+
+
+<div style="background:#fff8e1;border:1px solid #f9a825;border-radius:8px;padding:25px;text-align:center;margin:2em 0">
+<h2 style="margin:0 0 10px;color:#e65100;font-size:1.3em">凝汽器清洗方案与验收 · 免费技术咨询</h2>
+<p style="margin:0 0 12px;color:#666;font-size:0.95em">凝汽器半侧清洗（不停机）| 钛管与不锈钢管化学清洗 | 管束高压水射流清洗 | 水室死角清理与端差、清洁系数复核</p>
+<p style="margin:0 0 10px;font-size:1.5em;font-weight:bold;color:#0066CC">📞 18952832843</p>
+<p style="margin:0;font-size:0.9em;color:#666">丹阳市蓝星防腐清洗有限公司 · <a href="https://www.icac.org.cn/" target="_blank" rel="noopener" style="color:#666">中国工业清洗协会</a>成员单位<br>地址：丹阳市丹北镇埤城洪家埭98号 · 邮箱：luohuiyong@126.com</p>
+</div>
+<p style="text-align:center;font-size:0.95rem;color:#666">服务覆盖：江苏（南京、苏州、无锡、常州、镇江、扬州、泰州、盐城、宿迁、南通、淮安、连云港、徐州）· 浙江（杭州、宁波、嘉兴）· 上海 · 安徽（合肥、马鞍山、芜湖、宣城）</p>
+<p style="text-align:center;font-size:0.9rem;color:#999">© 2026 丹阳市蓝星防腐清洗有限公司 版权所有 | 本文来源：www.lanxingqingxi.com</p>
+</article>
+
+<aside class="blog-sidebar">
+<div style="background:#f5f5f5;padding:1.5rem;border-radius:8px;margin-bottom:1.5rem">
+<h3 style="margin-top:0">相关服务</h3>
+<ul style="padding-left:1.2rem;line-height:2">
+<li><a href="/services/heat-exchanger.html">换热器清洗</a></li><li><a href="/services/pipeline.html">管道清洗</a></li><li><a href="/services/boiler.html">锅炉清洗</a></li><li><a href="/services/reactor.html">反应釜清洗</a></li><li><a href="/services/condenser.html">凝汽器清洗</a></li>
+</ul></div>
+<div style="background:#f5f5f5;padding:1.5rem;border-radius:8px">
+<h3 style="margin-top:0">更多文章</h3>
+<ul style="padding-left:1.2rem;line-height:2"><li><a href="plate-heat-exchanger-cleaning.html">板式换热器拆片清洗与回装要点</a></li><li><a href="chemical-plant-heat-exchanger-cleaning-case.html">化工企业列管式换热器壳程结焦在线化学清洗案例</a></li><li><a href="online-non-stop-chemical-cleaning.html">在线不停车化学清洗技术</a></li><li><a href="condenser-cleaning-methods.html">凝汽器清洗方法有几种：6 种工艺的适用工况与选型对照</a></li><li><a href="cleaning-cost-guide.html">工业设备清洗费用构成指南</a></li></ul></div>
+</aside>
+
+</div></section>
+<footer class="footer"><div class="footer-grid">
+<div><h4>丹阳蓝星清洗</h4><p>中国工业清洗协会成员单位<br>25年专注工业设备清洗<br>化学清洗 · 高压水射流清洗<a href="https://www.facebook.com/lanxingqingxi/" target="_blank" rel="noopener"><svg width="14" height="14" viewBox="0 0 24 24" fill="#1877F2" style="vertical-align:middle;margin-right:4px"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>Facebook</a> <a href="https://x.com/luhuyng7" target="_blank" rel="noopener"><svg width="14" height="14" viewBox="0 0 24 24" fill="#000" style="vertical-align:middle;margin-right:4px"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>X</a> <a href="https://www.linkedin.com/in/%E4%BC%9A%E6%B0%B8-%E7%BD%97-a785a415b/" target="_blank" rel="noopener"><svg width="14" height="14" viewBox="0 0 24 24" fill="#0A66C2" style="vertical-align:middle;margin-right:4px"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>LinkedIn</a></div>
+<div><h4>快速导航</h4><a href="/index.html">首页</a><a href="/services.html">服务项目</a><a href="/tech.html">核心技术</a><a href="/cases.html">成功案例</a><a href="/contact.html">联系我们</a></div>
+<div><h4>核心服务</h4><a href="/services.html">换热器清洗</a><a href="/services.html">管道清洗</a><a href="/services.html">中央空调清洗</a><a href="/services.html">锅炉清洗</a><a href="/services.html">反应釜清洗</a></div>
+<div><h4>语言 / Language</h4><a href="/index.html">🇨🇳 简体中文</a><a href="/en/index.html">🇬🇧 English</a></div>
+</div>
+<div class="footer-bottom"><span>&copy; 2026 丹阳市蓝星防腐清洗有限公司</span><span>电话：18952832843 | 0511-86343343</span><span> | </span><span>苏ICP备14029881号</span><span> | </span><span>苏公网安备32118102000022号</span></div></footer>
+
+<div class="nav-backdrop" onclick="document.querySelector('.mobile-nav').classList.remove('open');document.querySelector('.hamburger').classList.remove('active');document.body.classList.remove('nav-open')"></div>
+
+<!-- AI 智能客服 -->
+<script src="/js/ai-chat.js?v=5" defer></script>
+
+
+</body>
+</html>
