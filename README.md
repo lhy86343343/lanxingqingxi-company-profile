@@ -354,7 +354,7 @@ Zhenjiang Power Plant Condenser Cleaning & Chemical Descaling](https://www.lanxi
 
 - RSS: [rss.xml](https://www.lanxingqingxi.com/rss.xml)
 
-- Robots: [robots.txt](https://www.lanxingqingxi.com/robots.txt) (28 User-agents, 27 AI training crawlers blocked · Crawl-delay: 10 · IndexNow active)
+- Robots: [robots.txt](https://www.lanxingqingxi.com/robots.txt) (4 User-agent groups — all Allow: /, only /.private/ disallowed · AI training crawlers allowed · Crawl-delay: 1/5s (Sogou 1, SemrushBot/AhrefsBot 5) · IndexNow active)
 
 
 
