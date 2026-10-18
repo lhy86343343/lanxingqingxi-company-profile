@@ -41,6 +41,7 @@ backups/
 unify_wx_*.py
 audit_robots.py
 
-# 客户询盘与访客记录（含姓名/电话/邮箱/IP，仅保留在本地与服务器，不入库）
+# 本地客户询盘与内部代理配置：永不入库
 .private/
-leads.json
+.claude/
+*.tar.gz
