@@ -151,7 +151,8 @@
 ---
 
 ## 清洗资讯 | Industry Insights
-- [板式换热器压差升高是什么原因：六个常见成因与排查顺序](https://www.lanxingqingxi.com/blog/plate-heat-exchanger-pressure-drop-causes.html) 🆕 — 板式换热器压差升高、流量下降怎么查：六个常见成因按排查成本排序，给出同流量折算压差、分侧对比与压降—流量曲线三条可测判据及阈值。（2026-11-06）
+- [清洗后很快又结垢：五个原因与对应处理](https://www.lanxingqingxi.com/blog/re-cleaning-soon-after-cleaning.html) 🆕 — 清洗后很快又结垢，先分清残留与新垢：给出垢层增厚、垢样分层、水侧浓缩三条可测判据与测法口径，列出五个常见原因及对应处理，并说明什么情况该返洗、什么情况该调水改工艺。（2026-11-07）
+- [板式换热器压差升高是什么原因：六个常见成因与排查顺序](https://www.lanxingqingxi.com/blog/plate-heat-exchanger-pressure-drop-causes.html) — 板式换热器压差升高、流量下降怎么查：六个常见成因按排查成本排序，给出同流量折算压差、分侧对比与压降—流量曲线三条可测判据及阈值。（2026-11-06）
 - [换热器结垢怎么判断：温差、压差与传热系数三判据](https://www.lanxingqingxi.com/blog/heat-exchanger-fouling-diagnosis.html) — 从温差、压差与传热系数三条可测信号判断换热器是否结垢，附判据表与现场自查步骤（2026-11-05）
 - [工业清洗需求看至2035年，低价竞争同步抬头](https://www.lanxingqingxi.com/blog/intel-brief-20261105.html) — 本期主线是工业清洗需求继续扩张：工业清洗化学品市场被看好至2035年，驱动力来自食品安全与制造卫生要求提升；同期光伏运维出现「一分五包清洗」式低价竞争。对清洗工程业务而言，需求扩张期更要靠可验证的工艺与验收标准说话，而不是拼价格。（2026-11-05）
 - [换热器清洗验收标准怎么判定：除垢率与洗净率分垢型、腐蚀率与腐蚀量分材质、钝化膜试验与验收资料](https://www.lanxingqingxi.com/blog/heat-exchanger-cleaning-acceptance-standard.html) — 换热器清洗验收标准怎么判定：除垢率与洗净率按垢型分档，碳酸盐垢、锈垢、油垢不低于 95%，硫酸盐与硅酸盐垢不低于 85%；腐蚀率与腐蚀量按材质分档，碳钢现场实测 5 g/(m²·h)、不锈钢与铜材 1.5 g/(m²·h)，并挂同材质试片；钝化膜看红点法与蓝点法，另附验收资料六项清单与八条常见误判，便于甲方逐条核对。（2026-11-02）
