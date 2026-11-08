@@ -151,7 +151,10 @@
 ---
 
 ## 清洗资讯 | Industry Insights
-- [清洗后很快又结垢：五个原因与对应处理](https://www.lanxingqingxi.com/blog/re-cleaning-soon-after-cleaning.html) 🆕 — 清洗后很快又结垢，先分清残留与新垢：给出垢层增厚、垢样分层、水侧浓缩三条可测判据与测法口径，列出五个常见原因及对应处理，并说明什么情况该返洗、什么情况该调水改工艺。（2026-11-07）
+- [山东换热器空冷清洗：沿海翅片侧积灰与管内水侧结垢的分侧判定、清洗工艺边界与验收要点](https://www.lanxingqingxi.com/blog/shandong-air-cooled-heat-exchanger-cleaning.html) 🆕 — 山东换热器空冷清洗要分两侧判定：翅片侧是风沙、杨絮与盐雾沉积，管内是循环水硬度结垢。本文说明炼化空冷器与电厂直接空冷岛的取样位置、翅片清洗压力边界、管内化学清洗的材质限制，以及验收三项，口径依据 GB/T 25146-2010 与 GB/T 26148-2025，单台设备参数一律标注待补，并给出可现场核对的判据。（2026-11-09）
+- [管壳式换热器循环水侧碳酸盐垢化学清洗全流程：垢样化验分层、闭路循环监测与三项验收要点](https://www.lanxingqingxi.com/blog/heat-exchanger-carbonate-scale-cleaning.html) — 管壳式换热器循环水侧碳酸盐垢化学清洗全流程：先取垢样分层化验定垢型，再确认管程清洗与壳程隔离，闭路循环按酸度与铁离子监测，主洗后中和冲洗并衔接钝化，验收看管口检查、前后端差与成套记录。适用于管壳式换热器循环水侧。丹阳蓝星清洗，中国工业清洗协会成员单位，25年专注工业设备化学清洗与高压水射流清洗，咨询热线18952832843。（2026-11-08）
+- [凝汽器真空度下降的原因与处理：从水侧到抽气系统逐项排查](https://www.lanxingqingxi.com/blog/condenser-vacuum-drop-causes.html) — 凝汽器真空变差先别急着洗：先排除水温、负荷、表计三种误判，再用端差、真空严密性、循环水温升三个可测判据分清水侧结垢还是漏空气。（2026-11-08）
+- [清洗后很快又结垢：五个原因与对应处理](https://www.lanxingqingxi.com/blog/re-cleaning-soon-after-cleaning.html) — 清洗后很快又结垢，先分清残留与新垢：给出垢层增厚、垢样分层、水侧浓缩三条可测判据与测法口径，列出五个常见原因及对应处理，并说明什么情况该返洗、什么情况该调水改工艺。（2026-11-07）
 - [板式换热器压差升高是什么原因：六个常见成因与排查顺序](https://www.lanxingqingxi.com/blog/plate-heat-exchanger-pressure-drop-causes.html) — 板式换热器压差升高、流量下降怎么查：六个常见成因按排查成本排序，给出同流量折算压差、分侧对比与压降—流量曲线三条可测判据及阈值。（2026-11-06）
 - [换热器结垢怎么判断：温差、压差与传热系数三判据](https://www.lanxingqingxi.com/blog/heat-exchanger-fouling-diagnosis.html) — 从温差、压差与传热系数三条可测信号判断换热器是否结垢，附判据表与现场自查步骤（2026-11-05）
 - [工业清洗需求看至2035年，低价竞争同步抬头](https://www.lanxingqingxi.com/blog/intel-brief-20261105.html) — 本期主线是工业清洗需求继续扩张：工业清洗化学品市场被看好至2035年，驱动力来自食品安全与制造卫生要求提升；同期光伏运维出现「一分五包清洗」式低价竞争。对清洗工程业务而言，需求扩张期更要靠可验证的工艺与验收标准说话，而不是拼价格。（2026-11-05）
@@ -291,7 +294,9 @@
 📰 **[全部清洗资讯](https://www.lanxingqingxi.com/blog/blog-list.html)** | **[RSS 订阅](https://www.lanxingqingxi.com/rss.xml)**
 
 ### English Articles
-- [Heat Exchanger Cleaning Acceptance Criteria](https://www.lanxingqingxi.com/en/blog/heat-exchanger-cleaning-acceptance-standard.html) 🆕 — Heat exchanger cleaning acceptance: removal and cleaning rates by deposit type, corrosion limits by material, passivation tests and the acceptance report evidence.(2026-11-02)
+- [Air Cooler and ACC Cleaning in Shandong: Judging the Fin Side and the Tube Side Separately](https://www.lanxingqingxi.com/en/blog/shandong-air-cooled-heat-exchanger-cleaning.html) 🆕 — Air cooler cleaning in Shandong is judged on two sides: dust and salt spray on the fins, scale inside the tubes. Sampling points and acceptance checks below.(2026-11-09)
+- [Carbonate Scale Cleaning on the Circulating-Water Side of Shell-and-Tube Heat Exchangers](https://www.lanxingqingxi.com/en/blog/heat-exchanger-carbonate-scale-cleaning.html) — How a shell-and-tube exchanger is chemically cleaned on the circulating-water side: sampling the deposit in layers, isolating the tube side, closed-loop circulation monitored by acidity and iron, neutralisation, rinsing and passivation, and acceptance by tube-sheet inspection, terminal difference and records.(2026-11-08)
+- [Heat Exchanger Cleaning Acceptance Criteria](https://www.lanxingqingxi.com/en/blog/heat-exchanger-cleaning-acceptance-standard.html) — Heat exchanger cleaning acceptance: removal and cleaning rates by deposit type, corrosion limits by material, passivation tests and the acceptance report evidence.(2026-11-02)
 - [Condenser Cleaning Safety: Isolation and Jet Checklist](https://www.lanxingqingxi.com/en/blog/condenser-pre-cleaning-safety-isolation.html) — Condenser cleaning safety starts with isolation: locking out circulating water and steam-side vacuum, confirming entry conditions and tube exclusions before jetting.(2026-10-26)
 - [UF and MBR Membrane Fouling: Diagnosis and Cleaning](https://www.lanxingqingxi.com/en/blog/ultrafiltration-mbr-membrane-cleaning.html) — Diagnose UF and MBR membrane fouling, route four types to alkali, acid, oxidant or chelant cleaning, then set pH, temperature, pressure and flux acceptance.(2026-10-21)
 - [Carbon Steel Passivation Route Selection: Nitrite, Molybdate, Phosphate-Polymer and Physical Isolation](https://www.lanxingqingxi.com/en/blog/carbon-steel-passivation-route-selection.html) — How to choose a carbon steel passivation route: nitrite, molybdate, phosphate-polymer or dry nitrogen blanketing, compared on effluent, film speed, cost and stainless compatibility, with acceptance.(2026-10-19)
