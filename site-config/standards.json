@@ -27,7 +27,25 @@
     "HG/T 2387": {
       "full_name": "工业设备化学清洗质量标准",
       "usage": "化学清洗质量（行业标准）",
+      "status": "abolished",
+      "note": "2022-01-10 已废止（工信部2021年第44号公告），全站禁引"
+    },
+    "GB/T 25150-2010": {
+      "full_name": "工业设备化学清洗中奥氏体不锈钢钝化膜质量的测试方法 蓝点法",
+      "usage": "奥氏体不锈钢钝化膜 蓝点法（试验方法；判定值在 25146 5.3.4.2：10 min 内蓝点≤8 个）",
+      "status": "current",
+      "note": "蓝点液=98%硫酸1mL+36%盐酸5mL+铁氰化钾5g 稀释至100mL；3~5点、每点0.1mL；食品/医药部件用同材质试片"
+    },
+    "GB/T 25149-2010": {
+      "full_name": "工业设备化学清洗中碳钢钝化膜质量的测试方法 红点法",
+      "usage": "碳钢钝化膜 红点法（试验方法；判定 25146 5.3.4.1：红点显色≥5 s）",
       "status": "current"
+    },
+    "GB/T 31188-2014": {
+      "full_name": "化学清洗废液处理技术规范",
+      "usage": "化学清洗废液收集、处理与排放（2015-05-01 实施，现行；openstd 2026-11-16 复核）",
+      "status": "current",
+      "note": "仅用于废液/环保章节（环保合规、危废处置、排放口）；导热油类方案引用栏按用户 2026-09 定不列本条。勿与 25146 验收口径混用"
     }
   },
   "banned": [
@@ -35,13 +53,17 @@
     "DL/T 957-2005",
     "GB/T 26135-2010",
     "GB/T 26148-2010",
-    "高压水射流安全作业规范"
+    "高压水射流安全作业规范",
+    "HG/T 2387"
   ],
   "openstd_links": {
     "GB/T 25146-2010": "https://openstd.samr.gov.cn/bzgk/gb/std?name=GB/T%2025146-2010",
     "GB/T 26148-2025": "https://openstd.samr.gov.cn/bzgk/gb/std?name=GB/T%2026148-2025",
     "GB/T 26135-2020": "https://openstd.samr.gov.cn/bzgk/gb/std?name=GB/T%2026135-2020",
     "DL/T 957-2017": "https://openstd.samr.gov.cn/bzgk/gb/std?name=DL/T%20957",
-    "HG/T 2387": "https://openstd.samr.gov.cn/bzgk/gb/std?name=HG/T%202387"
+    "HG/T 2387": "https://openstd.samr.gov.cn/bzgk/gb/std?name=HG/T%202387",
+    "GB/T 25150-2010": "https://openstd.samr.gov.cn/bzgk/std/std?name=GB/T%2025150-2010",
+    "GB/T 25149-2010": "https://openstd.samr.gov.cn/bzgk/std/std?name=GB/T%2025149-2010",
+    "GB/T 31188-2014": "https://openstd.samr.gov.cn/bzgk/gb/std?name=GB/T%2031188-2014"
   }
 }
